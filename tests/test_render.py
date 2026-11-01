@@ -20,10 +20,17 @@ def _photos_for(story):
     return {i: [_photo(pool[(i + j) % len(pool)]) for j in range(len(s.photos))] for i, s in enumerate(story.slides)}
 
 
-def _png_size(path):
-    with open(path, "rb") as f:
-        header = f.read(24)
-    return struct.unpack(">II", header[16:24])
+def _jpeg_size(path):
+    data = Path(path).read_bytes()
+    assert data[:2] == b"\xff\xd8", "non è un JPEG"
+    i = 2
+    while i < len(data):
+        marker, length = data[i + 1], struct.unpack(">H", data[i + 2:i + 4])[0]
+        if marker in (0xC0, 0xC1, 0xC2):
+            height, width = struct.unpack(">HH", data[i + 5:i + 9])
+            return width, height
+        i += 2 + length
+    raise AssertionError("dimensioni JPEG non trovate")
 
 
 def test_renders_expected_count_and_size(tmp_path, story_dict):
@@ -31,7 +38,8 @@ def test_renders_expected_count_and_size(tmp_path, story_dict):
     paths = render_story(story, _photos_for(story), issue=1, out_dir=tmp_path)
     assert len(paths) == len(story.slides)
     for p in paths:
-        assert _png_size(p) == (1080, 1350)
+        assert p.suffix == ".jpg"
+        assert _jpeg_size(p) == (1080, 1350)
 
 
 def test_footer_issue_number(tmp_path, story_dict):

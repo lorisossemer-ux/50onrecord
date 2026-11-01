@@ -15,6 +15,7 @@ TEMPLATES = Path(__file__).resolve().parent.parent / "templates"
 WIDTH, HEIGHT = 1080, 1350
 FRAME_TOLERANCE = 10
 MAX_CREDIT_AUTHORS = 2
+JPEG_QUALITY = 92
 
 # Ogni elemento .fit deve stare nel suo riquadro e dentro la slide. 12px di tolleranza
 # assorbono le metriche dei caratteri (ascendenti del pennarello); una riga in più è ≥ 30px.
@@ -93,9 +94,10 @@ def render_story(story: Story, photos: Dict[int, List[Photo]], issue: int, out_d
                 bad = tab.evaluate(_OVERFLOW_JS, FRAME_TOLERANCE)
                 if bad:
                     raise SlideOverflowError(i, bad)
-                png = out_dir / f"{i + 1:02d}.png"
-                tab.screenshot(path=str(png))
-                outputs.append(png)
+                # Instagram accetta solo JPEG per la pubblicazione via API.
+                jpg = out_dir / f"{i + 1:02d}.jpg"
+                tab.screenshot(path=str(jpg), type="jpeg", quality=JPEG_QUALITY)
+                outputs.append(jpg)
         finally:
             browser.close()
     return outputs

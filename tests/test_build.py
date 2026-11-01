@@ -68,7 +68,7 @@ def test_build_happy_path(repo, story_dict):
     manifest = json.loads((item / "manifest.json").read_text())
     assert manifest["status"] == "ready"
     assert manifest["issue"] == 1
-    assert len(list((item / "slides").glob("*.png"))) == len(story_dict["slides"])
+    assert len(list((item / "slides").glob("*.jpg"))) == len(story_dict["slides"])
     assert "Acroterion" in (item / "caption.txt").read_text()
     assert not d.exists()
 
@@ -89,6 +89,6 @@ def test_build_no_render_validates_only(repo, story_dict):
     d = _incoming(repo, story_dict)
     assert cli.main(["build", str(d), "--root", str(repo), "--no-render"]) == 0
     assert d.exists()
-    assert not list(d.rglob("*.png"))
+    assert not list(d.rglob("*.jpg"))
     assert not (d / "photos").exists()
     assert not (repo / "queue").exists()
