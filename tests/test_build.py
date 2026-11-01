@@ -112,3 +112,35 @@ def test_build_rejects_dead_source(repo, story_dict, capsys):
     d = _incoming(repo, story_dict)
     assert cli.main(["build", str(d), "--root", str(repo)]) == 1
     assert "fonte non raggiungibile" in capsys.readouterr().out
+
+
+@responses.activate
+def test_build_infrastructure_error_returns_2_and_keeps_story(repo, story_dict, capsys):
+    _mock_sources(story_dict)
+    responses.add(responses.GET, API_URL, status=503, body="<html>busy</html>")
+    d = _incoming(repo, story_dict)
+    assert cli.main(["build", str(d), "--root", str(repo)]) == 2
+    assert d.exists()
+    assert "errore tecnico" in capsys.readouterr().out
+
+
+def test_build_rejects_existing_folder_name(repo, story_dict, capsys):
+    other = repo / "archive" / story_dict["id"]
+    other.mkdir(parents=True)
+    (other / "published.json").write_text(json.dumps({
+        "id": story_dict["id"], "artist": "Queen", "song": "y", "decade": "80", "strand": "palco",
+        "italian": False, "key": "queen|y|palco", "published_at": "2026-12-01T19:30:00+00:00"}))
+    d = _incoming(repo, story_dict)
+    assert cli.main(["build", str(d), "--root", str(repo)]) == 1
+    assert "esiste già" in capsys.readouterr().out
+
+
+@responses.activate
+def test_queue_item_is_lightweight(repo, story_dict):
+    _mock_commons()
+    _mock_sources(story_dict)
+    d = _incoming(repo, story_dict)
+    assert cli.main(["build", str(d), "--root", str(repo)]) == 0
+    item = repo / "queue" / story_dict["id"]
+    assert not (item / "photos").exists()
+    assert not (item / "slides" / "html").exists()

@@ -87,3 +87,14 @@ def test_nophoto_variant(tmp_path, story_dict):
     paths = render_story(story, no_photos, issue=1, out_dir=tmp_path)
     assert len(paths) == len(story.slides)
     assert "<img" not in (tmp_path / "html" / "01.html").read_text(encoding="utf-8")
+
+
+def test_credits_with_many_authors_fit(tmp_path, story_dict):
+    story = Story(**story_dict)
+    photos = _photos_for(story)
+    names = ["Acroterion", "Rob Bogaerts for Anefo", "Jean-Luc Ourlin", "Kingkongphoto & www.celebrity-photos.com"]
+    licenses = ["CC BY-SA 4.0", "CC BY-SA 3.0 nl", "CC BY 2.0", "CC BY-SA 2.0"]
+    for i, ps in photos.items():
+        for j, p in enumerate(ps):
+            p.author, p.license = names[(i + j) % 4], licenses[(i + j) % 4]
+    render_story(story, photos, issue=1, out_dir=tmp_path)

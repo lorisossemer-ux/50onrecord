@@ -14,7 +14,7 @@ from .photos import Photo
 TEMPLATES = Path(__file__).resolve().parent.parent / "templates"
 WIDTH, HEIGHT = 1080, 1350
 FRAME_TOLERANCE = 10
-MAX_CREDIT_AUTHORS = 2
+MAX_CREDIT_CHARS = 55
 JPEG_QUALITY = 92
 
 # Ogni elemento .fit deve stare nel suo riquadro e dentro la slide. 12px di tolleranza
@@ -46,18 +46,18 @@ class _PhotoView:
 
 
 def credits_line(photos: Dict[int, List[Photo]]) -> str:
+    """Credito sintetico sulla slide; autori, licenze e link completi stanno in didascalia (spec §7)."""
     authors: List[str] = []
-    licenses: List[str] = []
     for slide_photos in photos.values():
         for p in slide_photos:
             if p.author not in authors:
                 authors.append(p.author)
-            if p.license not in licenses:
-                licenses.append(p.license)
     if not authors:
         return "50ONRECORD"
-    shown = ", ".join(authors[:MAX_CREDIT_AUTHORS]) + (" e altri" if len(authors) > MAX_CREDIT_AUTHORS else "")
-    return f"foto: {shown} · {', '.join(licenses)}"
+    line = f"foto: {authors[0]}" + (" e altri" if len(authors) > 1 else "") + " · licenze in didascalia"
+    if len(line) > MAX_CREDIT_CHARS:
+        line = "foto: Wikimedia Commons · crediti in didascalia"
+    return line
 
 
 def _env() -> Environment:

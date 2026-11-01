@@ -4,6 +4,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import shutil
 import sys
 import tempfile
 from datetime import datetime, timezone
@@ -45,9 +46,20 @@ def _resolve_photos(story: Story, dest: Path) -> Dict[int, List[Photo]]:
 
 
 def build(story_dir: Path, root: Path, render: bool = True) -> int:
-    story_dir, root = Path(story_dir), Path(root)
+    """0 = in coda, 1 = storia scartata (regole), 2 = errore tecnico (la storia va conservata)."""
+    try:
+        return _build(Path(story_dir), Path(root), render)
+    except Exception as exc:  # rete, Commons, browser: non sono violazioni delle regole
+        print(f"Carosello non elaborato per un errore tecnico: {type(exc).__name__}: {exc}")
+        return 2
+
+
+def _build(story_dir: Path, root: Path, render: bool) -> int:
     story = load_story(story_dir / "story.json")
     errors = validate_story(story)
+    for folder in ("queue", "archive"):
+        if (root / folder / story_dir.name).exists():
+            errors.append(f"la cartella {folder}/{story_dir.name} esiste già: usa un id diverso")
     if archive.is_duplicate(story, root):
         errors.append("storia già pubblicata o già in coda")
     errors += _consecutive_errors(story, root)
@@ -63,17 +75,20 @@ def build(story_dir: Path, root: Path, render: bool = True) -> int:
             _resolve_photos(story, Path(tmp))
         print(f"Storia valida: {story.id}")
         return 0
-    photos = _resolve_photos(story, story_dir / "photos")
-
     cfg = load_config(root)
     issue = archive.next_issue_number(root) + cfg.first_issue - 1
-    flat_photos = [p for ps in photos.values() for p in ps]
-    try:
-        caption = build_caption(story, flat_photos, handle=cfg.handle)
-        render_story(story, photos, issue=issue, out_dir=story_dir / "slides", handle=cfg.handle)
-    except (CaptionTooLongError, SlideOverflowError) as exc:
-        print(f"Carosello scartato:\n- {exc}")
-        return 1
+    # Foto originali e HTML intermedio restano fuori dal repository: in coda vanno solo i JPEG finali.
+    with tempfile.TemporaryDirectory() as tmp:
+        photos = _resolve_photos(story, Path(tmp))
+        flat_photos = [p for ps in photos.values() for p in ps]
+        try:
+            caption = build_caption(story, flat_photos, handle=cfg.handle)
+            render_story(story, photos, issue=issue, out_dir=story_dir / "slides", handle=cfg.handle)
+        except (CaptionTooLongError, SlideOverflowError) as exc:
+            print(f"Carosello scartato:\n- {exc}")
+            return 1
+        finally:
+            shutil.rmtree(story_dir / "slides" / "html", ignore_errors=True)
 
     (story_dir / "story.json").write_text(story.model_dump_json(indent=2), encoding="utf-8")
     (story_dir / "caption.txt").write_text(caption, encoding="utf-8")
