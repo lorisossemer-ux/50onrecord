@@ -14,6 +14,7 @@ from typing import Dict, List, Optional
 from . import archive, instagram
 from .caption import CaptionTooLongError, build_caption
 from .config import load_config
+from .gate import branch_violations
 from .models import Story, load_story
 from .photos import Photo, resolve_photo
 from .render import SlideOverflowError, render_story
@@ -229,8 +230,15 @@ def main(argv: Optional[List[str]] = None) -> int:
     p_pub.add_argument("--dry-run", action="store_true")
     p_ref = sub.add_parser("refresh-token")
     p_ref.add_argument("--out-dir", required=True)
+    sub.add_parser("gate-check", help="legge da stdin i file modificati dal branch della routine")
     args = parser.parse_args(argv)
 
+    if args.command == "gate-check":
+        violations = branch_violations(sys.stdin.read().splitlines())
+        if violations:
+            print("Il branch modifica file non consentiti:\n- " + "\n- ".join(violations))
+            return 1
+        return 0
     if args.command == "publish":
         return publish(Path(args.root), dry_run=args.dry_run)
     if args.command == "refresh-token":
