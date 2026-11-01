@@ -98,3 +98,21 @@ def test_credits_with_many_authors_fit(tmp_path, story_dict):
         for j, p in enumerate(ps):
             p.author, p.license = names[(i + j) % 4], licenses[(i + j) % 4]
     render_story(story, photos, issue=1, out_dir=tmp_path)
+
+
+def test_slides_without_photos_use_text_layout(tmp_path, story_dict):
+    story = Story(**story_dict)
+    no_photos = {i: [] for i in range(len(story.slides))}
+    story.slides[0].kind = "nophoto_cover"
+    render_story(story, no_photos, issue=1, out_dir=tmp_path)
+    assert "max-height:760px" in (tmp_path / "html" / "02.html").read_text(encoding="utf-8")
+    assert "top:160px" in (tmp_path / "html" / "05.html").read_text(encoding="utf-8")
+
+
+def test_long_marker_fits_without_photo(tmp_path, story_dict):
+    story_dict["slides"][1]["marker"] = "quelle note diventeranno il riff più famoso"
+    story_dict["slides"][1]["photos"] = []
+    story = Story(**story_dict)
+    photos = _photos_for(story)
+    photos[1] = []
+    render_story(story, photos, issue=1, out_dir=tmp_path)

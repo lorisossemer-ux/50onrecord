@@ -75,7 +75,7 @@ def render_story(story: Story, photos: Dict[int, List[Photo]], issue: int, out_d
     for i, slide in enumerate(story.slides):
         html = env.get_template(f"{slide.kind}.html").render(
             story=story, slide=slide, index=i, total=len(story.slides), issue=issue, handle=handle,
-            photos=[_PhotoView(p) for p in photos.get(i, [])] + [None, None, None],
+            photos=[_PhotoView(p) for p in photos.get(i, [])],  # indici mancanti = Undefined nei modelli
             credits=credits, assets=TEMPLATES.as_uri(),
         )
         page = html_dir / f"{i + 1:02d}.html"
