@@ -32,6 +32,11 @@ def _mock_commons(fixture="commons_sting.json"):
                   content_type="image/jpeg")
 
 
+def _mock_sources(story):
+    for url in {s["url"] for f in story["facts"] for s in f["sources"]}:
+        responses.add(responses.GET, url, status=200)
+
+
 def _published(repo, artist, decade):
     d = repo / "archive" / "old"
     d.mkdir(parents=True)
@@ -62,6 +67,7 @@ def test_build_rejects_consecutive_artist_or_decade(repo, story_dict, capsys, ar
 @responses.activate
 def test_build_happy_path(repo, story_dict):
     _mock_commons()
+    _mock_sources(story_dict)
     d = _incoming(repo, story_dict)
     assert cli.main(["build", str(d), "--root", str(repo)]) == 0
     item = repo / "queue" / story_dict["id"]
@@ -75,6 +81,7 @@ def test_build_happy_path(repo, story_dict):
 
 @responses.activate
 def test_build_without_photos_uses_nophoto_cover(repo, story_dict):
+    _mock_sources(story_dict)
     responses.add(responses.GET, API_URL, body=(FIXTURES / "commons_empty.json").read_text(),
                   content_type="application/json")
     d = _incoming(repo, story_dict)
@@ -86,9 +93,22 @@ def test_build_without_photos_uses_nophoto_cover(repo, story_dict):
 @responses.activate
 def test_build_no_render_validates_only(repo, story_dict):
     _mock_commons()
+    _mock_sources(story_dict)
     d = _incoming(repo, story_dict)
     assert cli.main(["build", str(d), "--root", str(repo), "--no-render"]) == 0
     assert d.exists()
     assert not list(d.rglob("*.jpg"))
     assert not (d / "photos").exists()
     assert not (repo / "queue").exists()
+
+
+@responses.activate
+def test_build_rejects_dead_source(repo, story_dict, capsys):
+    _mock_commons()
+    urls = sorted({s["url"] for f in story_dict["facts"] for s in f["sources"]})
+    for url in urls[1:]:
+        responses.add(responses.GET, url, status=200)
+    responses.add(responses.GET, urls[0], status=404)
+    d = _incoming(repo, story_dict)
+    assert cli.main(["build", str(d), "--root", str(repo)]) == 1
+    assert "fonte non raggiungibile" in capsys.readouterr().out

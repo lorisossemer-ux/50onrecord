@@ -17,6 +17,7 @@ from .models import Story, load_story
 from .photos import Photo, resolve_photo
 from .render import SlideOverflowError, render_story
 from .schedule import alerts, due_slot
+from .sources import unreachable_sources
 from .validate import validate_story
 
 
@@ -50,6 +51,8 @@ def build(story_dir: Path, root: Path, render: bool = True) -> int:
     if archive.is_duplicate(story, root):
         errors.append("storia già pubblicata o già in coda")
     errors += _consecutive_errors(story, root)
+    if not errors:
+        errors += unreachable_sources(story)
     if errors:
         print("Carosello scartato:\n- " + "\n- ".join(errors))
         return 1

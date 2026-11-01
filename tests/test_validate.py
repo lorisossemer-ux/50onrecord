@@ -67,3 +67,54 @@ def test_every_slide_number_traceable(story_dict):
     story_dict["slides"][4]["body"] = "Ci resta tre settimane e vende 2000000 copie."
     errors = validate_story(Story(**story_dict))
     assert any("numero non coperto da un fatto" in e for e in errors)
+
+
+# --- correzioni dalla revisione finale --------------------------------------------
+
+def test_minimum_three_facts(story_dict):
+    story_dict["facts"] = story_dict["facts"][:2]
+    assert any("almeno 3 fatti" in e for e in validate_story(Story(**story_dict)))
+
+
+def test_numbers_in_caption_and_question_must_be_covered(story_dict):
+    story_dict["caption_body"] += " Vendette 7 milioni di copie nel 1983."
+    errors = validate_story(Story(**story_dict))
+    assert any("7" in e and "numero non coperto" in e for e in errors)
+    assert any("1983" in e for e in errors)
+
+
+@pytest.mark.parametrize("text", [
+    "Si diceva che Sting fosse stanco.",
+    "Pare abbia scritto tutto in una notte.",
+    "Sembrerebbe una leggenda.",
+    "Sembrava che fosse finita.",
+    "pare che fosse vero.",
+    "si\ndice che fosse vero.",
+    "Probabilmente era il 1979.",
+    "Si racconta che fosse notte.",
+])
+def test_hedging_variants_rejected(story_dict, text):
+    story_dict["slides"][1]["body"] = text
+    assert any("espressione vietata" in e for e in validate_story(Story(**story_dict)))
+
+
+@pytest.mark.parametrize("url", [
+    "https://wikimili.com/en/Message_in_a_Bottle",
+    "https://wiki2.org/en/Message_in_a_Bottle",
+    "https://dbpedia.org/page/Message_in_a_Bottle",
+    "https://infogalactic.com/info/Message_in_a_Bottle",
+    "https://alchetron.com/Message-in-a-Bottle",
+    "https://everybodywiki.com/Message_in_a_Bottle",
+    "https://www.wikidata.org/wiki/Q1",
+])
+def test_more_wikipedia_mirrors(url):
+    assert canonical_domain(url) == "wikipedia"
+
+
+@pytest.mark.parametrize("url,expected", [
+    ("https://web.archive.org/web/20200101000000/https://www.songfacts.com/facts/x", "songfacts.com"),
+    ("https://archive.ph/2020.01.01/https://www.songfacts.com/facts/x", "songfacts.com"),
+    ("https://www-songfacts-com.translate.goog/facts/x?_x_tr_sl=en", "songfacts.com"),
+])
+def test_archive_wrappers_unwrapped(url, expected):
+    assert canonical_domain(url) == expected
