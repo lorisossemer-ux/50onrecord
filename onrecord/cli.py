@@ -1,4 +1,4 @@
-"""Comandi: constraints, build (più avanti: publish, refresh-token)."""
+"""Comandi: constraints, build, publish, check-instagram, gate-check."""
 from __future__ import annotations
 
 import argparse
@@ -191,7 +191,9 @@ def publish(root: Path, now: Optional[datetime] = None, dry_run: bool = False) -
         print("Nessuna pubblicazione prevista in questo momento.")
         return 0
 
-    token_expires = datetime.fromisoformat(os.environ["IG_TOKEN_EXPIRES"])
+    # Il token dell'utente di sistema non scade: senza IG_TOKEN_EXPIRES non c'è nulla da avvisare.
+    expires = os.environ.get("IG_TOKEN_EXPIRES")
+    token_expires = datetime.fromisoformat(expires) if expires else datetime.max.replace(tzinfo=timezone.utc)
     if state.get("pending") and not dry_run:
         resolved = _resolve_pending(root, state, now)
         if resolved is not None:
@@ -232,13 +234,13 @@ def publish(root: Path, now: Optional[datetime] = None, dry_run: bool = False) -
     return _fail_with_alerts(remaining) if remaining else 0
 
 
-def refresh(out_dir: Path) -> int:
-    token, expires = instagram.refresh_token(os.environ["IG_TOKEN"])
-    out_dir.mkdir(parents=True, exist_ok=True)
-    # Mai stampare il token nei log: lo legge il workflow da file.
-    (out_dir / "token.txt").write_text(token, encoding="utf-8")
-    (out_dir / "expires.txt").write_text(expires.isoformat(), encoding="utf-8")
-    print(f"Token rinnovato, scade il {expires.date().isoformat()}")
+def check_instagram() -> int:
+    try:
+        info = instagram.check_connection(os.environ["IG_USER_ID"], os.environ["IG_TOKEN"])
+    except instagram.PublishError as exc:
+        print(f"Collegamento a Instagram non riuscito: {exc}")
+        return 1
+    print(f"Collegamento riuscito: @{info['username']}, quota di pubblicazione {info['quota_usage']}/{info['quota_total']}")
     return 0
 
 
@@ -254,8 +256,7 @@ def main(argv: Optional[List[str]] = None) -> int:
     p_pub = sub.add_parser("publish")
     p_pub.add_argument("--root", default=".")
     p_pub.add_argument("--dry-run", action="store_true")
-    p_ref = sub.add_parser("refresh-token")
-    p_ref.add_argument("--out-dir", required=True)
+    sub.add_parser("check-instagram", help="prova di sola lettura del collegamento a Instagram")
     sub.add_parser("gate-check", help="legge da stdin i file modificati dal branch della routine")
     args = parser.parse_args(argv)
 
@@ -267,8 +268,8 @@ def main(argv: Optional[List[str]] = None) -> int:
         return 0
     if args.command == "publish":
         return publish(Path(args.root), dry_run=args.dry_run)
-    if args.command == "refresh-token":
-        return refresh(Path(args.out_dir))
+    if args.command == "check-instagram":
+        return check_instagram()
 
     if args.command == "build":
         return build(Path(args.story_dir), Path(args.root), render=not args.no_render)

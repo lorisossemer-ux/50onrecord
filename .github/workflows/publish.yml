@@ -29,7 +29,6 @@ jobs:
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
-          IG_TOKEN_EXPIRES: ${{ secrets.IG_TOKEN_EXPIRES }}
           ONRECORD_RAW_BASE: https://raw.githubusercontent.com/${{ github.repository }}/main
           # Variabile del repository: "true" finché l'utente non dà il via libera alla messa in onda.
           DRY_RUN: ${{ vars.ONRECORD_DRY_RUN }}

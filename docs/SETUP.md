@@ -25,14 +25,16 @@ Tempo stimato: circa 45 minuti.
 
 ## 3. App Meta per la pubblicazione
 
-1. Vai su <https://developers.facebook.com/> e accedi con il tuo account Facebook (o creane uno).
-2. **Le mie app → Crea app**, tipo **Business**, nome `50onrecord publisher`.
-3. Nell'app aggiungi il prodotto **Instagram** e scegli **API setup with Instagram login**.
-4. In **Generate access tokens** aggiungi l'account @50onrecord e accedi con Instagram.
-   Concedi i permessi `instagram_business_basic` e `instagram_business_content_publish`.
-5. Copia due valori e tienili da parte:
-   - l'**ID dell'account Instagram** (un numero lungo);
-   - il **token di accesso** (una stringa lunga). Vale 60 giorni, poi il sistema lo rinnova da solo ogni settimana.
+Già fatto per 50onrecord (app "50onrecord publisher", gestita dal portfolio business "50onrecord", separato da
+qualsiasi altra attività). Per rifarlo da zero:
+
+1. <https://developers.facebook.com/> → **Crea app**, caso d'uso **"Gestisci i messaggi e i contenuti su Instagram"**,
+   **senza collegare portfolio esistenti**; poi collega un portfolio nuovo dedicato.
+2. **Ruoli dell'app** → aggiungi l'account Instagram come **Tester di Instagram** e accetta l'invito da
+   Instagram (Impostazioni → Autorizzazioni app e siti web → Inviti tester).
+3. Nel caso d'uso, **"API setup with Unified login"** → passaggio 1 **Crea nuova configurazione** e selezionala.
+4. Passaggio 2 **Genera token** accanto all'account. Il token è un token di "utente di sistema" e **non scade**:
+   non serve nessun rinnovo. Copialo senza incollarlo in chat.
 
 > Non condividere il token in chat o per email: va inserito solo nei segreti di GitHub (passaggio 4).
 
@@ -44,14 +46,8 @@ Nel repository: **Settings → Secrets and variables → Actions**.
 
 | Nome | Valore |
 |---|---|
-| `IG_USER_ID` | l'ID dell'account Instagram (passaggio 3.5) |
-| `IG_TOKEN` | il token di accesso (passaggio 3.5) |
-| `IG_TOKEN_EXPIRES` | la data di scadenza del token, cioè oggi + 60 giorni, nel formato `2027-01-30T00:00:00+00:00` |
-| `GH_PAT` | un token GitHub "fine-grained" (vedi sotto) |
-
-Per `GH_PAT`: **GitHub → Settings → Developer settings → Fine-grained tokens → Generate new token**.
-Repository: solo `50onrecord`. Permesso: **Secrets: Read and write**. Durata: 1 anno.
-Serve solo a rinnovare il token Instagram in automatico.
+| `IG_USER_ID` | l'ID dell'account Instagram (per @50onrecord: `17841411633576523`) |
+| `IG_TOKEN` | il token generato al passaggio 3.4 |
 
 **Variables** (scheda "Variables" → "New repository variable"):
 
@@ -60,6 +56,9 @@ Serve solo a rinnovare il token Instagram in automatico.
 | `ONRECORD_DRY_RUN` | `true` |
 
 Con `true` il sistema fa tutto **tranne** pubblicare: è la modalità di prova.
+
+Per controllare che il collegamento funzioni: **Actions → verifica-collegamento → Run workflow**. Deve scrivere
+"Collegamento riuscito: @50onrecord" e la quota di pubblicazione. Non pubblica niente e non mostra il token.
 
 ## 5. Routine Claude
 

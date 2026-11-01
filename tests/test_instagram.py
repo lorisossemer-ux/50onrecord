@@ -5,7 +5,7 @@ import pytest
 import responses
 
 from onrecord import cli, instagram
-from onrecord.instagram import GRAPH, PublishError, publish_carousel, refresh_token
+from onrecord.instagram import GRAPH, PublishError, check_connection, publish_carousel
 
 IG = "17841400000000000"
 URLS = [f"https://raw.githubusercontent.com/o/50onrecord/main/queue/x/slides/{i:02d}.jpg" for i in range(1, 7)]
@@ -69,16 +69,6 @@ def test_meta_error_message_carried():
 def test_too_many_images_rejected_before_http():
     with pytest.raises(ValueError):
         publish_carousel(URLS * 2, "x", IG, "TOKEN")
-
-
-@responses.activate
-def test_refresh_token():
-    responses.add(responses.GET, "https://graph.instagram.com/refresh_access_token",
-                  json={"access_token": "NEW", "token_type": "bearer", "expires_in": 5184000})
-    token, expires = refresh_token("OLD", now=datetime(2026, 12, 1, tzinfo=timezone.utc))
-    assert token == "NEW"
-    assert expires == datetime(2027, 1, 30, tzinfo=timezone.utc)
-    assert "grant_type=ig_refresh_token" in responses.calls[0].request.url
 
 
 # --- comando publish -------------------------------------------------------------
@@ -261,3 +251,51 @@ def test_item_failing_in_two_slots_is_set_aside(repo, monkeypatch):
                         lambda urls, caption, ig, token, on_container=None: published.append(caption) or "M2")
     assert cli.publish(repo, now=EVENING + timedelta(days=2)) == 0
     assert published == ["seconda"]
+
+
+# --- login unificato: token di sistema senza scadenza ----------------------------------
+
+def test_graph_host_is_facebook():
+    assert GRAPH.startswith("https://graph.facebook.com/v")
+
+
+@responses.activate
+def test_check_connection_is_read_only_and_hides_token():
+    responses.add(responses.GET, f"{GRAPH}/{IG}", json={"username": "50onrecord", "id": IG})
+    responses.add(responses.GET, f"{GRAPH}/{IG}/content_publishing_limit",
+                  json={"data": [{"quota_usage": 2, "config": {"quota_total": 50}}]})
+    info = check_connection(IG, "TOKEN")
+    assert info == {"username": "50onrecord", "quota_usage": 2, "quota_total": 50}
+    assert all(c.request.method == "GET" for c in responses.calls)
+    assert "TOKEN" not in str(info)
+
+
+@responses.activate
+def test_check_connection_wrong_account_fails():
+    responses.add(responses.GET, f"{GRAPH}/{IG}", status=400, json={"error": {"message": "Invalid OAuth access token"}})
+    with pytest.raises(PublishError, match="Invalid OAuth access token"):
+        check_connection(IG, "BAD")
+
+
+def test_publish_without_token_expiry_env(repo, monkeypatch):
+    monkeypatch.delenv("IG_TOKEN_EXPIRES")
+    monkeypatch.setattr(instagram, "publish_carousel", lambda *a, **k: "MEDIA123")
+    assert cli.publish(repo, now=EVENING) == 0
+    assert (repo / "archive" / "item-1").exists()
+
+
+def test_check_instagram_command(repo, monkeypatch, capsys):
+    monkeypatch.setattr(instagram, "check_connection",
+                        lambda ig, token: {"username": "50onrecord", "quota_usage": 0, "quota_total": 50})
+    assert cli.main(["check-instagram"]) == 0
+    out = capsys.readouterr().out
+    assert "50onrecord" in out and "TOKEN" not in out
+
+
+def test_check_instagram_failure_is_clean(repo, monkeypatch, capsys):
+    def boom(ig, token):
+        raise PublishError("Invalid OAuth access token")
+    monkeypatch.setattr(instagram, "check_connection", boom)
+    assert cli.main(["check-instagram"]) == 1
+    out = capsys.readouterr().out
+    assert "Invalid OAuth access token" in out and "Traceback" not in out and "TOKEN" not in out
