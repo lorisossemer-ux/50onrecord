@@ -106,6 +106,11 @@ def _build(story_dir: Path, root: Path, render: bool) -> int:
     return 0
 
 
+def _secret(name: str) -> str:
+    """Valore di un segreto senza spazi o "a capo" copiati per sbaglio insieme al codice."""
+    return os.environ[name].strip()
+
+
 def _load_state(root: Path) -> Dict:
     path = root / "state.json"
     return json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
@@ -157,13 +162,13 @@ def _resolve_pending(root: Path, state: Dict, now: datetime) -> Optional[int]:
     """Un tentativo precedente si è interrotto dopo aver preparato il carosello: mai ripubblicare alla cieca."""
     pending = state["pending"]
     item = root / "queue" / pending["item"]
-    token = os.environ["IG_TOKEN"]
+    token = _secret("IG_TOKEN")
     try:
         status = instagram.container_status(pending["container"], token)
         if status == "PUBLISHED":
             media_id = pending["container"]
         elif status == "FINISHED" and item.exists():
-            media_id = instagram.publish_container(os.environ["IG_USER_ID"], pending["container"], token)
+            media_id = instagram.publish_container(_secret("IG_USER_ID"), pending["container"], token)
         else:
             state.pop("pending")
             _save_state(root, state)
@@ -217,7 +222,7 @@ def publish(root: Path, now: Optional[datetime] = None, dry_run: bool = False) -
         _save_state(root, state)
 
     try:
-        media_id = instagram.publish_carousel(urls, caption, os.environ["IG_USER_ID"], os.environ["IG_TOKEN"],
+        media_id = instagram.publish_carousel(urls, caption, _secret("IG_USER_ID"), _secret("IG_TOKEN"),
                                               on_container=remember_container)
     except instagram.PublishError as exc:
         _count_skip(state, slot)
@@ -236,7 +241,7 @@ def publish(root: Path, now: Optional[datetime] = None, dry_run: bool = False) -
 
 def check_instagram() -> int:
     try:
-        info = instagram.check_connection(os.environ["IG_USER_ID"], os.environ["IG_TOKEN"])
+        info = instagram.check_connection(_secret("IG_USER_ID"), _secret("IG_TOKEN"))
     except instagram.PublishError as exc:
         print(f"Collegamento a Instagram non riuscito: {exc}")
         return 1
