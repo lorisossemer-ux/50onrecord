@@ -1,14 +1,13 @@
-"""Pubblicazione di caroselli con l'API di Instagram (Instagram Login, graph.instagram.com)."""
+"""Pubblicazione di caroselli con l'API di Instagram (login unificato, token dell'utente di sistema)."""
 from __future__ import annotations
 
 import time
-from datetime import datetime, timedelta, timezone
-from typing import Callable, List, Optional, Tuple
+from typing import Callable, List, Optional
 
 import requests
 
-GRAPH = "https://graph.instagram.com/v26.0"
-REFRESH_URL = "https://graph.instagram.com/refresh_access_token"
+# Le app Meta recenti usano il login unificato: stessi percorsi, host graph.facebook.com.
+GRAPH = "https://graph.facebook.com/v26.0"
 MAX_CAROUSEL_ITEMS = 10  # limite dichiarato nella spec; l'API ne accetta fino a 20
 TIMEOUT = 60
 
@@ -73,11 +72,12 @@ def publish_carousel(image_urls: List[str], caption: str, ig_user_id: str, token
     return publish_container(ig_user_id, carousel, token)
 
 
-def refresh_token(token: str, now: Optional[datetime] = None) -> Tuple[str, datetime]:
-    response = requests.get(REFRESH_URL, params={"grant_type": "ig_refresh_token", "access_token": token},
-                            timeout=TIMEOUT)
-    payload = response.json()
-    if response.status_code >= 400 or "access_token" not in payload:
-        raise PublishError(f"rinnovo del token non riuscito: {payload.get('error', payload)}")
-    now = now or datetime.now(timezone.utc)
-    return payload["access_token"], now + timedelta(seconds=int(payload["expires_in"]))
+def check_connection(ig_user_id: str, token: str) -> dict:
+    """Prova di sola lettura: nome dell'account e quota di pubblicazione. Non pubblica nulla."""
+    profile = _call("GET", f"{GRAPH}/{ig_user_id}?fields=username", token)
+    limit = _call("GET", f"{GRAPH}/{ig_user_id}/content_publishing_limit", token).get("data", [{}])[0]
+    return {
+        "username": profile.get("username", ""),
+        "quota_usage": limit.get("quota_usage", 0),
+        "quota_total": limit.get("config", {}).get("quota_total", 0),
+    }
