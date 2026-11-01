@@ -17,7 +17,8 @@ STRAND_WINDOW = 8
 
 def story_key(artist: str, song: Optional[str], strand: str) -> str:
     def norm(s: Optional[str]) -> str:
-        return re.sub(r"[^a-z0-9]+", " ", (s or "").lower()).strip()
+        text = re.sub(r"[^a-z0-9]+", " ", (s or "").lower()).strip()
+        return re.sub(r"^(the|i|gli|le|la|il|lo) ", "", text)
     return f"{norm(artist)}|{norm(song)}|{strand}"
 
 

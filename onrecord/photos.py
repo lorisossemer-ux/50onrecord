@@ -88,6 +88,9 @@ def resolve_photo(req: PhotoRequest, dest: Path, subject: str) -> Optional[Photo
             continue
         if _is_excluded(page) or not _shows_subject(page, subject):
             continue
+        author = _strip_html(meta.get("Artist", {}).get("value", ""))
+        if not author:  # le licenze CC BY richiedono l'attribuzione
+            continue
         dest = Path(dest)
         dest.mkdir(parents=True, exist_ok=True)
         target = dest / url.rsplit("/", 1)[-1]
@@ -96,7 +99,7 @@ def resolve_photo(req: PhotoRequest, dest: Path, subject: str) -> Optional[Photo
         target.write_bytes(response.content)
         return Photo(
             path=target,
-            author=_strip_html(meta.get("Artist", {}).get("value", "")) or "autore sconosciuto",
+            author=author,
             license=license_name,
             source_url=info.get("descriptionurl", ""),
             sharealike="SA" in license_name.upper(),

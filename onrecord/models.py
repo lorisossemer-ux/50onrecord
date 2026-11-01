@@ -5,11 +5,18 @@ import json
 from pathlib import Path
 from typing import List, Literal, Optional
 
-from pydantic import BaseModel, Field, HttpUrl, model_validator
+from pydantic import BaseModel as _PydanticBase, ConfigDict, Field, HttpUrl, model_validator
 
 SlideKind = Literal["cover", "note", "trio", "emotion", "result", "final", "nophoto_cover"]
 Decade = Literal["60", "70", "80", "90", "00"]
 Strand = Literal["palco", "studio", "privata", "emozione"]
+
+
+
+class BaseModel(_PydanticBase):
+    # Un campo scritto male (es. "source_notes") deve far scartare la storia, non sparire in silenzio.
+    model_config = ConfigDict(extra="forbid")
+
 
 MIN_SLIDES = 6
 MAX_SLIDES = 10

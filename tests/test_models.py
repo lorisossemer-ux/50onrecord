@@ -45,3 +45,9 @@ def test_first_and_last_slide_kinds(story_dict):
     story_dict["slides"][0]["kind"] = "note"
     with pytest.raises(ValidationError):
         Story(**story_dict)
+
+
+def test_unknown_fields_rejected(story_dict):
+    story_dict["slides"][1]["source_notes"] = "refuso"
+    with pytest.raises(ValidationError):
+        Story(**story_dict)

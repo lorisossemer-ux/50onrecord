@@ -25,7 +25,7 @@ FORBIDDEN_PATTERNS = {
     "leggenda vuole": r"\bleggenda\s+vuole\b",
 }
 
-_QUOTE_RE = re.compile(r"[“\"«]([^”\"»]+)[”\"»]")
+_QUOTE_RE = re.compile(r"[“\"«]([^”\"»]+)[”\"»]|‘([^’]+)’")
 _NUMBER_RE = re.compile(r"\d+")
 
 
@@ -71,7 +71,8 @@ def validate_story(story: Story) -> List[str]:
             errors.append(f"espressione vietata: \"{label}\"")
 
     for text in texts:
-        for quoted in _QUOTE_RE.findall(text):
+        for groups in _QUOTE_RE.findall(text):
+            quoted = groups[0] or groups[1]
             if len(quoted.split()) > MAX_QUOTED_WORDS:
                 errors.append(f"citazione troppo lunga (max {MAX_QUOTED_WORDS} parole): \"{quoted}\"")
 
