@@ -7,7 +7,7 @@ from zoneinfo import ZoneInfo
 
 from .config import Config
 
-SLOT_WINDOW = timedelta(minutes=30)  # il workflow gira ogni 30 minuti
+SLOT_WINDOW = timedelta(minutes=60)  # il workflow gira ogni 15 minuti; il cron di GitHub può ritardare
 MIN_QUEUE_FOR_ALL_SLOTS = 2
 MAX_CONSECUTIVE_SKIPS = 2
 TOKEN_WARNING = timedelta(days=7)

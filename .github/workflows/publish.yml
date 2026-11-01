@@ -1,0 +1,52 @@
+# Pubblicazione: ogni 15 minuti controlla se c'è uno slot (12:30 / 20:30 ora di Roma) da coprire.
+# Se fallisce, GitHub manda un'email al proprietario del repository (spec §9, avvisi).
+name: pubblica
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: scrittura-repo
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -e .
+      - name: Pubblica se è il momento
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_TOKEN_EXPIRES: ${{ secrets.IG_TOKEN_EXPIRES }}
+          ONRECORD_RAW_BASE: https://raw.githubusercontent.com/${{ github.repository }}/main
+          # Variabile del repository: "true" finché l'utente non dà il via libera alla messa in onda.
+          DRY_RUN: ${{ vars.ONRECORD_DRY_RUN }}
+        run: |
+          if [ "$DRY_RUN" = "true" ]; then
+            python -m onrecord publish --dry-run
+          else
+            python -m onrecord publish
+          fi
+      - name: Salva archivio e stato
+        if: always()
+        run: |
+          git config user.name "50onrecord-bot"
+          git config user.email "50onrecord-bot@users.noreply.github.com"
+          git add -A archive queue state.json 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "pubblicazione: aggiorna archivio e stato"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi

@@ -17,9 +17,9 @@ def _utc(s):
 
 @pytest.mark.parametrize("now,expected", [
     ("2026-07-02T10:35", "2026-07-02T12:30"),   # 12:35 ora legale (CEST)
-    ("2026-07-02T11:35", None),                 # 13:35: fuori finestra
-    ("2026-07-02T18:59", "2026-07-02T20:30"),   # 20:59 ultimo minuto della finestra
-    ("2026-07-02T19:00", None),                 # 21:00: finestra chiusa
+    ("2026-07-02T11:35", None),                 # 13:35: fuori finestra (oltre 60 minuti)
+    ("2026-07-02T19:29", "2026-07-02T20:30"),   # 21:29 ultimo minuto della finestra (cron in ritardo)
+    ("2026-07-02T19:30", None),                 # 21:30: finestra chiusa
 ])
 def test_phase1_slots_in_summer_time(now, expected):
     assert due_slot(_utc(now), _cfg(), queue_ready=5, last_published_utc=None) == expected
