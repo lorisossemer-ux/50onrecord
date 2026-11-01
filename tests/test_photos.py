@@ -25,7 +25,7 @@ def _mock_api(fixture):
 def test_resolve_uses_original_resolution(tmp_path):
     _mock_api("commons_sting.json")
     responses.add(responses.GET, IMG_URL, body=b"\xff\xd8jpegdata", content_type="image/jpeg")
-    photo = resolve_photo(PhotoRequest(query="Sting Police 1979", role="main"), tmp_path)
+    photo = resolve_photo(PhotoRequest(query="Sting Police 1979", role="main"), tmp_path, subject="Sting")
     assert photo is not None
     assert photo.path.read_bytes() == b"\xff\xd8jpegdata"
     assert responses.calls[1].request.url.startswith(IMG_URL)
@@ -39,32 +39,60 @@ def test_resolve_uses_original_resolution(tmp_path):
 def test_author_html_stripped(tmp_path):
     _mock_api("commons_sting.json")
     responses.add(responses.GET, IMG_URL, body=b"x")
-    assert resolve_photo(PhotoRequest(query="Sting", role="main"), tmp_path).author == "Acroterion"
+    assert resolve_photo(PhotoRequest(query="Sting", role="main"), tmp_path, subject="Sting").author == "Acroterion"
 
 
 @responses.activate
 def test_resolve_rejects_nc(tmp_path):
     _mock_api("commons_nc.json")
-    assert resolve_photo(PhotoRequest(query="Sting", role="main"), tmp_path) is None
+    assert resolve_photo(PhotoRequest(query="Sting", role="main"), tmp_path, subject="Sting") is None
     assert len(responses.calls) == 1
 
 
 @responses.activate
 def test_resolve_none_when_no_results(tmp_path):
     _mock_api("commons_empty.json")
-    assert resolve_photo(PhotoRequest(query="Nobody", role="main"), tmp_path) is None
+    assert resolve_photo(PhotoRequest(query="Nobody", role="main"), tmp_path, subject="Nobody") is None
 
 
 @responses.activate
 def test_resolve_by_commons_file_uses_titles(tmp_path):
     _mock_api("commons_sting.json")
     responses.add(responses.GET, IMG_URL, body=b"x")
-    resolve_photo(PhotoRequest(query="", commons_file="Sting Atlanta 3.jpg", role="main"), tmp_path)
+    resolve_photo(PhotoRequest(query="", commons_file="Sting Atlanta 3.jpg", role="main"), tmp_path, subject="Sting")
     assert "titles=File%3ASting+Atlanta+3.jpg" in responses.calls[0].request.url
 
 
 @responses.activate
 def test_user_agent_is_descriptive(tmp_path):
     _mock_api("commons_empty.json")
-    resolve_photo(PhotoRequest(query="x", role="main"), tmp_path)
+    resolve_photo(PhotoRequest(query="x", role="main"), tmp_path, subject="x")
     assert "50onrecord" in responses.calls[0].request.headers["User-Agent"]
+
+
+@responses.activate
+def test_ai_generated_category_rejected(tmp_path):
+    _mock_api("commons_ai.json")
+    assert resolve_photo(PhotoRequest(query="Sting", role="main"), tmp_path, subject="Sting") is None
+    assert len(responses.calls) == 1
+
+
+@responses.activate
+def test_wrong_subject_rejected(tmp_path):
+    _mock_api("commons_sting.json")
+    assert resolve_photo(PhotoRequest(query="Madonna 1985", role="main"), tmp_path, subject="Madonna") is None
+
+
+@responses.activate
+def test_subject_matched_in_categories(tmp_path):
+    _mock_api("commons_sting.json")
+    responses.add(responses.GET, IMG_URL, body=b"x")
+    photo = resolve_photo(PhotoRequest(query="Police live", role="main"), tmp_path, subject="The Police")
+    assert photo is not None
+
+
+def test_categories_requested(tmp_path):
+    with responses.RequestsMock() as rsps:
+        rsps.add(responses.GET, API_URL, body=(FIXTURES / "commons_empty.json").read_text())
+        resolve_photo(PhotoRequest(query="x", role="main"), tmp_path, subject="x")
+        assert "categories" in rsps.calls[0].request.url

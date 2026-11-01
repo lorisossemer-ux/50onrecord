@@ -30,6 +30,8 @@ class PhotoRequest(BaseModel):
     query: str
     commons_file: Optional[str] = None
     role: Literal["main", "side", "trio"]
+    # Chi deve comparire nella foto (es. "Andy Summers"); se assente, l'artista della storia.
+    subject: Optional[str] = None
 
 
 class Slide(BaseModel):

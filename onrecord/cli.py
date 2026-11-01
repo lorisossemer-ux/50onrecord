@@ -37,7 +37,7 @@ def _consecutive_errors(story: Story, root: Path) -> List[str]:
 def _resolve_photos(story: Story, dest: Path) -> Dict[int, List[Photo]]:
     photos: Dict[int, List[Photo]] = {}
     for i, slide in enumerate(story.slides):
-        found = [resolve_photo(req, dest) for req in slide.photos]
+        found = [resolve_photo(req, dest, subject=req.subject or story.artist) for req in slide.photos]
         photos[i] = [p for p in found if p is not None]
     if not photos.get(0) and story.slides[0].kind == "cover":
         story.slides[0].kind = "nophoto_cover"

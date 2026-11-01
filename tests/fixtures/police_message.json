@@ -7,42 +7,206 @@
   "strand": "studio",
   "italian": false,
   "facts": [
-    {"claim": "Sting scrisse il riff di Message in a Bottle su una Fender Stratocaster nera, in un furgone sull'autostrada tra Düsseldorf e Norimberga, all'inizio del 1979.",
-     "sources": [
-       {"url": "https://en.wikipedia.org/wiki/Message_in_a_Bottle_(The_Police_song)", "title": "Message in a Bottle (The Police song)", "publisher": "Wikipedia"},
-       {"url": "https://www.thepolicewiki.org/Police_wiki/index.php?title=Message_In_A_Bottle_%28song%29", "title": "Message In A Bottle (song)", "publisher": "PoliceWiki"}
-     ]},
-    {"claim": "Andy Summers aggiunse gli arpeggi prima della terza strofa.",
-     "sources": [
-       {"url": "https://en.wikipedia.org/wiki/Message_in_a_Bottle_(The_Police_song)", "title": "Message in a Bottle (The Police song)", "publisher": "Wikipedia"},
-       {"url": "https://classicrock.fandom.com/wiki/Message_in_a_Bottle_(song)", "title": "Message in a Bottle (song)", "publisher": "Classic Rock Wiki"}
-     ]},
-    {"claim": "Message in a Bottle fu il primo singolo dei Police al numero 1 nel Regno Unito, nel settembre 1979, dove rimase per tre settimane.",
-     "sources": [
-       {"url": "https://www.songfacts.com/facts/the-police/message-in-a-bottle", "title": "Message in a Bottle", "publisher": "Songfacts"},
-       {"url": "https://everyuknumber1.com/2022/02/11/443-the-police-message-in-a-bottle-1979/", "title": "443. The Police - Message in a Bottle (1979)", "publisher": "Every UK Number 1"}
-     ]},
-    {"claim": "Nel testo un naufrago affida un messaggio a una bottiglia e un anno dopo trova cento miliardi di bottiglie sulla spiaggia.",
-     "sources": [
-       {"url": "https://en.wikipedia.org/wiki/Message_in_a_Bottle_(The_Police_song)", "title": "Message in a Bottle (The Police song)", "publisher": "Wikipedia"},
-       {"url": "https://www.songfacts.com/facts/the-police/message-in-a-bottle", "title": "Message in a Bottle", "publisher": "Songfacts"}
-     ]}
+    {
+      "claim": "Sting scrisse il riff di Message in a Bottle su una Fender Stratocaster nera, in un furgone sull'autostrada tra Düsseldorf e Norimberga, all'inizio del 1979.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Message_in_a_Bottle_(The_Police_song)",
+          "title": "Message in a Bottle (The Police song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.thepolicewiki.org/Police_wiki/index.php?title=Message_In_A_Bottle_%28song%29",
+          "title": "Message In A Bottle (song)",
+          "publisher": "PoliceWiki"
+        }
+      ]
+    },
+    {
+      "claim": "Andy Summers aggiunse gli arpeggi prima della terza strofa.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Message_in_a_Bottle_(The_Police_song)",
+          "title": "Message in a Bottle (The Police song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://classicrock.fandom.com/wiki/Message_in_a_Bottle_(song)",
+          "title": "Message in a Bottle (song)",
+          "publisher": "Classic Rock Wiki"
+        }
+      ]
+    },
+    {
+      "claim": "Message in a Bottle fu il primo singolo dei Police al numero 1 nel Regno Unito, nel settembre 1979, dove rimase per tre settimane.",
+      "sources": [
+        {
+          "url": "https://www.songfacts.com/facts/the-police/message-in-a-bottle",
+          "title": "Message in a Bottle",
+          "publisher": "Songfacts"
+        },
+        {
+          "url": "https://everyuknumber1.com/2022/02/11/443-the-police-message-in-a-bottle-1979/",
+          "title": "443. The Police - Message in a Bottle (1979)",
+          "publisher": "Every UK Number 1"
+        }
+      ]
+    },
+    {
+      "claim": "Nel testo un naufrago affida un messaggio a una bottiglia e un anno dopo trova cento miliardi di bottiglie sulla spiaggia.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Message_in_a_Bottle_(The_Police_song)",
+          "title": "Message in a Bottle (The Police song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/the-police/message-in-a-bottle",
+          "title": "Message in a Bottle",
+          "publisher": "Songfacts"
+        }
+      ]
+    }
   ],
   "slides": [
-    {"kind": "cover", "heading_cuts": ["IL RIFF", "nato in un", "FURGONE", "sull'autostrada", "tedesca"], "body": null, "marker": "la storia vera di un n°1 ↓",
-     "photos": [{"query": "Sting The Police 1979 concert", "commons_file": null, "role": "main"}, {"query": "Stewart Copeland 1979", "commons_file": null, "role": "side"}], "source_note": null},
-    {"kind": "note", "heading_cuts": ["GERMANIA", "1979"], "body": "I Police sono in tour. Tre ragazzi, un furgone, chilometri di autostrada tra Düsseldorf e Norimberga. Sul sedile posteriore Sting, il bassista, ha in mano una Stratocaster nera e ripete sempre le stesse note.", "marker": "quelle note? → il riff",
-     "photos": [{"query": "Sting bass 1979", "commons_file": null, "role": "main"}], "source_note": "fonte: Sting, note di My Songs (2019)"},
-    {"kind": "trio", "heading_cuts": ["TRE MUSICISTI", "e", "UN SUONO"], "body": "Sting scrive il riff. Andy Summers aggiunge gli arpeggi prima della terza strofa. Stewart Copeland ci mette il suo ritmo.", "marker": "Sting: il riff | Andy: arpeggi | Stewart: ritmo",
-     "photos": [{"query": "Sting 1979", "commons_file": null, "role": "trio"}, {"query": "Andy Summers 1979", "commons_file": null, "role": "trio"}, {"query": "Stewart Copeland 1979", "commons_file": null, "role": "trio"}], "source_note": null},
-    {"kind": "emotion", "heading_cuts": ["UN NAUFRAGO", "e una bottiglia"], "body": "Un uomo solo su un'isola affida alla corrente un messaggio: qualcuno mi trovi. Un anno dopo, sulla spiaggia, trova cento miliardi di bottiglie.", "marker": "non era l'unico a sentirsi solo.",
-     "photos": [{"query": "Sting The Police live", "commons_file": null, "role": "side"}], "source_note": null},
-    {"kind": "result", "heading_cuts": ["N°1", "in Inghilterra", "SETTEMBRE 1979"], "body": "Il loro primo singolo in vetta alla classifica inglese. Ci resta tre settimane.", "marker": null,
-     "photos": [{"query": "Sting The Police 1979", "commons_file": null, "role": "main"}], "source_note": null},
-    {"kind": "final", "heading_cuts": ["E TU?"], "body": null, "marker": "scrivila nei commenti ↓",
-     "photos": [{"query": "Andy Summers The Police", "commons_file": null, "role": "side"}], "source_note": null}
+    {
+      "kind": "cover",
+      "heading_cuts": [
+        "IL RIFF",
+        "nato in un",
+        "FURGONE",
+        "sull'autostrada",
+        "tedesca"
+      ],
+      "body": null,
+      "marker": "la storia vera di un n°1 ↓",
+      "photos": [
+        {
+          "query": "Sting The Police 1979 concert",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Sting"
+        },
+        {
+          "query": "Stewart Copeland 1979",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Stewart Copeland"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "GERMANIA",
+        "1979"
+      ],
+      "body": "I Police sono in tour. Tre ragazzi, un furgone, chilometri di autostrada tra Düsseldorf e Norimberga. Sul sedile posteriore Sting, il bassista, ha in mano una Stratocaster nera e ripete sempre le stesse note.",
+      "marker": "quelle note? → il riff",
+      "photos": [
+        {
+          "query": "Sting bass 1979",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Sting"
+        }
+      ],
+      "source_note": "fonte: Sting, note di My Songs (2019)"
+    },
+    {
+      "kind": "trio",
+      "heading_cuts": [
+        "TRE MUSICISTI",
+        "e",
+        "UN SUONO"
+      ],
+      "body": "Sting scrive il riff. Andy Summers aggiunge gli arpeggi prima della terza strofa. Stewart Copeland ci mette il suo ritmo.",
+      "marker": "Sting: il riff | Andy: arpeggi | Stewart: ritmo",
+      "photos": [
+        {
+          "query": "Sting 1979",
+          "commons_file": null,
+          "role": "trio",
+          "subject": "Sting"
+        },
+        {
+          "query": "Andy Summers 1979",
+          "commons_file": null,
+          "role": "trio",
+          "subject": "Andy Summers"
+        },
+        {
+          "query": "Stewart Copeland 1979",
+          "commons_file": null,
+          "role": "trio",
+          "subject": "Stewart Copeland"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "emotion",
+      "heading_cuts": [
+        "UN NAUFRAGO",
+        "e una bottiglia"
+      ],
+      "body": "Un uomo solo su un'isola affida alla corrente un messaggio: qualcuno mi trovi. Un anno dopo, sulla spiaggia, trova cento miliardi di bottiglie.",
+      "marker": "non era l'unico a sentirsi solo.",
+      "photos": [
+        {
+          "query": "Sting The Police live",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Sting"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "result",
+      "heading_cuts": [
+        "N°1",
+        "in Inghilterra",
+        "SETTEMBRE 1979"
+      ],
+      "body": "Il loro primo singolo in vetta alla classifica inglese. Ci resta tre settimane.",
+      "marker": null,
+      "photos": [
+        {
+          "query": "Sting The Police 1979",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Sting"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "final",
+      "heading_cuts": [
+        "E TU?"
+      ],
+      "body": null,
+      "marker": "scrivila nei commenti ↓",
+      "photos": [
+        {
+          "query": "Andy Summers The Police",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Andy Summers"
+        }
+      ],
+      "source_note": null
+    }
   ],
   "caption_body": "All'inizio del 1979, in un furgone che attraversa la Germania, Sting trova il riff di Message in a Bottle su una Stratocaster nera. Pochi mesi dopo è il primo numero 1 dei Police nel Regno Unito.",
   "question": "Qual è la canzone dei Police che ti riporta indietro nel tempo?",
-  "hashtags": ["#thepolice", "#sting", "#musica70", "#storiedellamusica", "#50onrecord"]
+  "hashtags": [
+    "#thepolice",
+    "#sting",
+    "#musica70",
+    "#storiedellamusica",
+    "#50onrecord"
+  ]
 }
