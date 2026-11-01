@@ -69,6 +69,11 @@ Segui il modello in `onrecord/models.py` e l'esempio `tests/fixtures/police_mess
   - Se possibile cerca la foto su Commons e indica il nome esatto del file in `commons_file`.
 - `caption_body`: 2–4 frasi da appassionato, solo fatti verificati.
 - `question`: la domanda per i commenti.
+- `listen_track`: il brano da ascoltare, nel formato `"Artista – Titolo"` (es. `"The Police – Message in a Bottle"`).
+  Instagram non permette di aggiungere musica ai caroselli pubblicati in automatico, quindi il brano compare
+  in cima alla didascalia (con la ricerca su Spotify e YouTube) e sull'ultima slide. Deve essere un brano
+  **reale** dell'artista della storia, preferibilmente quello di cui si parla; il nome dell'artista deve
+  comparire nel testo. Al massimo 90 caratteri.
 - `hashtags`: al massimo 5, sempre incluso `#50onrecord`.
 
 ### 4. Controlla

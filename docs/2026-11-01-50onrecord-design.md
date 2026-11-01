@@ -80,6 +80,8 @@ Elementi fissi, presenti in ogni carosello:
 5. **Esito:** cosa è successo dopo (successo, classifica, conseguenze).
 6. **Ultima slide:** una domanda per i commenti ("E tu?"), l'invito a salvare e a mandarlo a qualcuno, l'annuncio "prossima uscita: fanzine n.X+1", i crediti delle foto.
 
+**Musica (decisione dell'utente):** ogni carosello indica il brano da ascoltare (`listen_track`). L'API di Instagram non permette di aggiungere la musica del catalogo ai caroselli pubblicati in automatico: la musica è disponibile solo per i Reels. Il brano compare quindi come prima riga della didascalia, con le ricerche pronte su Spotify e YouTube, e come riga "ascolta: Artista – Titolo" sull'ultima slide. I Reels con musica restano un possibile test futuro.
+
 **Didascalia:**
 - riassunto del racconto in forma di breve articolo, in un tono caldo e da appassionato;
 - invito esplicito a salvare e a mandare il post a una persona precisa;

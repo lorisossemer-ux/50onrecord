@@ -43,3 +43,11 @@ def test_caption_length_limit(story_dict):
     story_dict["caption_body"] = "parola " * 400
     with pytest.raises(CaptionTooLongError):
         build_caption(Story(**story_dict), [_photo()], handle="@x")
+
+
+def test_caption_starts_with_listen_line_and_search_links(story_dict):
+    story = Story(**story_dict)
+    text = build_caption(story, [_photo()], handle="@50onrecord")
+    assert text.splitlines()[0] == "\U0001F3A7 Ascolta: The Police \u2013 Message in a Bottle"
+    assert "https://open.spotify.com/search/The%20Police%20%E2%80%93%20Message%20in%20a%20Bottle" in text
+    assert "https://www.youtube.com/results?search_query=The+Police+%E2%80%93+Message+in+a+Bottle" in text

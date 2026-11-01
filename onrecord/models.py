@@ -69,6 +69,8 @@ class Story(BaseModel):
     slides: List[Slide] = Field(min_length=MIN_SLIDES, max_length=MAX_SLIDES)
     caption_body: str
     question: str
+    # Il brano da ascoltare, "Artista – Titolo": l'API di Instagram non permette la musica sui caroselli.
+    listen_track: str = Field(min_length=3, max_length=90)
     hashtags: List[str] = Field(default_factory=list)
 
     @model_validator(mode="after")

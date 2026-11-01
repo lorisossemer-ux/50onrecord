@@ -134,3 +134,24 @@ def test_trio_without_photos_moves_text_up(tmp_path, story_dict):
     photos[2] = []
     render_story(story, photos, issue=1, out_dir=tmp_path)
     assert "top:300px" in (tmp_path / "html" / "03.html").read_text(encoding="utf-8")
+
+
+def test_final_slide_shows_listen_track(tmp_path, story_dict):
+    story = Story(**story_dict)
+    render_story(story, _photos_for(story), issue=1, out_dir=tmp_path)
+    html = (tmp_path / "html" / f"{len(story.slides):02d}.html").read_text(encoding="utf-8")
+    assert "ascolta: The Police \u2013 Message in a Bottle" in html
+
+
+def test_long_listen_track_detected(tmp_path, story_dict):
+    story_dict["listen_track"] = "The Police \u2013 " + "W" * 70
+    story = Story(**story_dict)
+    with pytest.raises(SlideOverflowError) as exc:
+        render_story(story, _photos_for(story), issue=1, out_dir=tmp_path)
+    assert "ascolta" in exc.value.elements
+
+
+def test_two_line_listen_track_fits(tmp_path, story_dict):
+    story_dict["listen_track"] = "The Rolling Stones \u2013 (I Can't Get No) Satisfaction e le sue molte versioni dal vivo"
+    story = Story(**story_dict)
+    render_story(story, _photos_for(story), issue=1, out_dir=tmp_path)

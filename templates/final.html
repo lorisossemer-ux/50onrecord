@@ -4,8 +4,9 @@
 {{ m.note(story.question, "left:70px; right:70px; top:340px; max-height:280px; font-size:44px; transform: rotate(-1deg);", "domanda") }}
 <div class="tape" style="left:440px; top:318px; transform: rotate(3deg);"></div>
 {{ m.marker(slide.marker, "left:80px; top:660px; width:560px; max-height:160px; font-size:50px; transform: rotate(-3deg);") }}
-{{ m.photo(photos[0], "left:700px; top:630px; width:300px; height:340px;", 5, "left:780px; top:620px; transform: rotate(-6deg); width:140px;") }}
-{{ m.cuts(["SALVA", "e mandalo a chi", "ama " ~ story.artist], "top:1005px; height:175px;", "tiny", "invito") }}
-<div class="typed fit" data-name="prossima uscita" style="left:70px; right:70px; top:1195px; font-size:30px;">prossima uscita: fanzine n.{{ issue + 1 }} → segui {{ handle }}</div>
+{{ m.photo(photos[0], "left:700px; top:630px; width:300px; height:300px;", 5, "left:780px; top:620px; transform: rotate(-6deg); width:140px;") }}
+{{ m.cuts(["SALVA", "e mandalo a chi", "ama " ~ story.artist], "top:950px; height:175px;", "tiny", "invito") }}
+<div class="typed fit" data-name="ascolta" style="left:70px; right:70px; top:1132px; height:76px; font-size:28px; line-height:1.2; white-space:normal;">ascolta: {{ story.listen_track }}</div>
+<div class="typed fit" data-name="prossima uscita" style="left:70px; right:70px; top:1218px; font-size:26px;">prossima uscita: fanzine n.{{ issue + 1 }} → segui {{ handle }}</div>
 {% endblock %}
 {% block foot_left %}{{ credits }}{% endblock %}

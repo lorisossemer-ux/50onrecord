@@ -51,3 +51,9 @@ def test_unknown_fields_rejected(story_dict):
     story_dict["slides"][1]["source_notes"] = "refuso"
     with pytest.raises(ValidationError):
         Story(**story_dict)
+
+
+def test_listen_track_required(story_dict):
+    story_dict.pop("listen_track")
+    with pytest.raises(ValidationError):
+        Story(**story_dict)
