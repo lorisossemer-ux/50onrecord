@@ -123,7 +123,7 @@ def test_publish_nothing_due(repo, capsys):
 
 @responses.activate
 def test_publish_success_archives(repo, monkeypatch):
-    monkeypatch.setattr(instagram, "publish_carousel", lambda urls, caption, ig, token: "MEDIA123")
+    monkeypatch.setattr(instagram, "publish_carousel", lambda urls, caption, ig, token, on_container=None: "MEDIA123")
     assert cli.publish(repo, now=EVENING) == 0
     published = json.loads((repo / "archive" / "item-1" / "published.json").read_text())
     assert published["media_id"] == "MEDIA123"
@@ -149,7 +149,79 @@ def test_publish_empty_queue_alerts(repo):
 
 
 def test_publish_token_expiring_alerts_after_publishing(repo, monkeypatch):
-    monkeypatch.setattr(instagram, "publish_carousel", lambda *a: "MEDIA123")
+    monkeypatch.setattr(instagram, "publish_carousel", lambda *a, **k: "MEDIA123")
     monkeypatch.setenv("IG_TOKEN_EXPIRES", (EVENING + timedelta(days=3)).isoformat())
     assert cli.publish(repo, now=EVENING) == 1
     assert (repo / "archive" / "item-1").exists()
+
+
+# --- niente doppie pubblicazioni -----------------------------------------------------
+
+@responses.activate
+def test_hook_called_with_container_before_publish():
+    _happy_path_mocks()
+    seen = []
+
+    def hook(container_id):
+        seen.append((container_id, any("media_publish" in c.request.url for c in responses.calls)))
+
+    publish_carousel(URLS, "x", IG, "TOKEN", poll_interval=0, on_container=hook)
+    assert seen == [("carousel", False)]
+
+
+@responses.activate
+def test_network_timeout_becomes_publish_error():
+    import requests as rq
+    responses.add(responses.POST, f"{GRAPH}/{IG}/media", body=rq.exceptions.Timeout("lento"))
+    with pytest.raises(PublishError):
+        publish_carousel(URLS[:2], "x", IG, "TOKEN", poll_interval=0)
+
+
+def _pending(repo, status_value, monkeypatch, calls):
+    (repo / "state.json").write_text(json.dumps({
+        "consecutive_skips": 1,
+        "pending": {"item": "item-1", "container": "CONT9", "slot": "2026-12-02T20:30"}}))
+    monkeypatch.setattr(instagram, "container_status", lambda cid, token: status_value)
+    monkeypatch.setattr(instagram, "publish_container", lambda ig, cid, token: calls.append(cid) or "MEDIA9")
+
+    def must_not_publish(*a, **k):
+        raise AssertionError("ripubblicato!")
+    return must_not_publish
+
+
+def test_pending_already_published_is_archived_not_reposted(repo, monkeypatch):
+    calls = []
+    monkeypatch.setattr(instagram, "publish_carousel", _pending(repo, "PUBLISHED", monkeypatch, calls))
+    assert cli.publish(repo, now=EVENING + timedelta(minutes=15)) == 0
+    published = json.loads((repo / "archive" / "item-1" / "published.json").read_text())
+    assert published["media_id"] == "CONT9"
+    state = json.loads((repo / "state.json").read_text())
+    assert "pending" not in state and state["consecutive_skips"] == 0
+    assert calls == []
+
+
+def test_pending_finished_is_published_once(repo, monkeypatch):
+    calls = []
+    monkeypatch.setattr(instagram, "publish_carousel", _pending(repo, "FINISHED", monkeypatch, calls))
+    assert cli.publish(repo, now=EVENING + timedelta(minutes=15)) == 0
+    assert calls == ["CONT9"]
+    assert json.loads((repo / "archive" / "item-1" / "published.json").read_text())["media_id"] == "MEDIA9"
+
+
+def test_pending_expired_is_cleared_and_normal_flow_runs(repo, monkeypatch):
+    calls = []
+    _pending(repo, "EXPIRED", monkeypatch, calls)
+    monkeypatch.setattr(instagram, "publish_carousel", lambda urls, caption, ig, token, on_container=None: "NEW1")
+    assert cli.publish(repo, now=EVENING + timedelta(minutes=15)) == 0
+    assert json.loads((repo / "archive" / "item-1" / "published.json").read_text())["media_id"] == "NEW1"
+
+
+def test_container_saved_before_publish_attempt(repo, monkeypatch):
+    def fails_after_container(urls, caption, ig, token, on_container=None):
+        on_container("CONT7")
+        raise PublishError("timeout su media_publish")
+    monkeypatch.setattr(instagram, "publish_carousel", fails_after_container)
+    assert cli.publish(repo, now=EVENING) == 1
+    state = json.loads((repo / "state.json").read_text())
+    assert state["pending"]["container"] == "CONT7"
+    assert (repo / "queue" / "item-1").exists()

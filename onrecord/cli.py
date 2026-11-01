@@ -120,6 +120,39 @@ def _fail_with_alerts(messages: List[str]) -> int:
     return 1
 
 
+def _mark_published(root: Path, state: Dict, item: Path, media_id: str, slot: str, now: datetime) -> None:
+    archive.archive_item(item, media_id, root, slot=slot)
+    state.pop("pending", None)
+    state.update({"consecutive_skips": 0, "last_published_utc": now.isoformat()})
+    _save_state(root, state)
+    print(f"Pubblicato {item.name} come {media_id} (slot {slot})")
+
+
+def _resolve_pending(root: Path, state: Dict, now: datetime) -> Optional[int]:
+    """Un tentativo precedente si è interrotto dopo aver preparato il carosello: mai ripubblicare alla cieca."""
+    pending = state["pending"]
+    item = root / "queue" / pending["item"]
+    token = os.environ["IG_TOKEN"]
+    try:
+        status = instagram.container_status(pending["container"], token)
+        if status == "PUBLISHED":
+            media_id = pending["container"]
+        elif status == "FINISHED" and item.exists():
+            media_id = instagram.publish_container(os.environ["IG_USER_ID"], pending["container"], token)
+        else:
+            state.pop("pending")
+            _save_state(root, state)
+            return None
+    except instagram.PublishError as exc:
+        return _fail_with_alerts([f"impossibile verificare la pubblicazione precedente: {exc}"])
+    if item.exists():
+        _mark_published(root, state, item, media_id, pending["slot"], now)
+    else:
+        state.pop("pending")
+        _save_state(root, state)
+    return 0
+
+
 def publish(root: Path, now: Optional[datetime] = None, dry_run: bool = False) -> int:
     root = Path(root)
     now = now or datetime.now(timezone.utc)
@@ -134,6 +167,10 @@ def publish(root: Path, now: Optional[datetime] = None, dry_run: bool = False) -
         return 0
 
     token_expires = datetime.fromisoformat(os.environ["IG_TOKEN_EXPIRES"])
+    if state.get("pending") and not dry_run:
+        resolved = _resolve_pending(root, state, now)
+        if resolved is not None:
+            return resolved
     item = archive.dequeue_oldest(root)
     if item is None:
         state["consecutive_skips"] = state.get("consecutive_skips", 0) + 1
@@ -148,18 +185,20 @@ def publish(root: Path, now: Optional[datetime] = None, dry_run: bool = False) -
         print(f"[prova] slot {slot}\n" + "\n".join(urls) + "\n\n" + caption)
         return 0
 
+    def remember_container(container_id: str) -> None:
+        state["pending"] = {"item": item.name, "container": container_id, "slot": slot}
+        _save_state(root, state)
+
     try:
-        media_id = instagram.publish_carousel(urls, caption, os.environ["IG_USER_ID"], os.environ["IG_TOKEN"])
+        media_id = instagram.publish_carousel(urls, caption, os.environ["IG_USER_ID"], os.environ["IG_TOKEN"],
+                                              on_container=remember_container)
     except instagram.PublishError as exc:
         state["consecutive_skips"] = state.get("consecutive_skips", 0) + 1
         _save_state(root, state)
         return _fail_with_alerts([f"pubblicazione rifiutata: {exc}"]
                                  + alerts({**state, "queue_ready": len(ready)}, now, token_expires))
 
-    archive.archive_item(item, media_id, root, slot=slot)
-    state.update({"consecutive_skips": 0, "last_published_utc": now.isoformat()})
-    _save_state(root, state)
-    print(f"Pubblicato {item.name} come {media_id} (slot {slot})")
+    _mark_published(root, state, item, media_id, slot, now)
     remaining = alerts({**state, "queue_ready": len(ready) - 1}, now, token_expires)
     # La coda che si svuota con questo post non è ancora un problema: lo diventa al prossimo slot.
     remaining = [a for a in remaining if not a.startswith("coda vuota")]
