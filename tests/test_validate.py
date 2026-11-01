@@ -118,3 +118,13 @@ def test_more_wikipedia_mirrors(url):
 ])
 def test_archive_wrappers_unwrapped(url, expected):
     assert canonical_domain(url) == expected
+
+
+def test_single_curly_quotes_limited(story_dict):
+    story_dict["slides"][3]["body"] = "Canta ‘uno due tre quattro cinque sei’ sulla spiaggia, l’isola."
+    assert any("citazione" in e for e in validate_story(Story(**story_dict)))
+
+
+def test_italian_apostrophes_are_not_quotes(story_dict):
+    story_dict["slides"][3]["body"] = "Sull’isola, un’idea che diventa un’ossessione per tutta l’estate."
+    assert validate_story(Story(**story_dict)) == []

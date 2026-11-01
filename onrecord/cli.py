@@ -121,6 +121,30 @@ def _fail_with_alerts(messages: List[str]) -> int:
     return 1
 
 
+MAX_ITEM_FAILED_SLOTS = 2
+
+
+def _count_skip(state: Dict, slot: str) -> None:
+    """Uno slot saltato conta una volta sola, anche se nella sua finestra si riprova più volte."""
+    if state.get("last_skipped_slot") != slot:
+        state["consecutive_skips"] = state.get("consecutive_skips", 0) + 1
+        state["last_skipped_slot"] = slot
+
+
+def _record_item_failure(item: Path, slot: str) -> bool:
+    """Un carosello che fallisce in due slot diversi viene messo da parte, così non blocca la coda."""
+    path = item / "manifest.json"
+    manifest = json.loads(path.read_text(encoding="utf-8"))
+    failed = manifest.setdefault("failed_slots", [])
+    if slot not in failed:
+        failed.append(slot)
+    set_aside = len(failed) >= MAX_ITEM_FAILED_SLOTS
+    if set_aside:
+        manifest["status"] = "failed"
+    path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
+    return set_aside
+
+
 def _mark_published(root: Path, state: Dict, item: Path, media_id: str, slot: str, now: datetime) -> None:
     archive.archive_item(item, media_id, root, slot=slot)
     state.pop("pending", None)
@@ -174,7 +198,7 @@ def publish(root: Path, now: Optional[datetime] = None, dry_run: bool = False) -
             return resolved
     item = archive.dequeue_oldest(root)
     if item is None:
-        state["consecutive_skips"] = state.get("consecutive_skips", 0) + 1
+        _count_skip(state, slot)
         _save_state(root, state)
         return _fail_with_alerts(alerts({**state, "queue_ready": 0}, now, token_expires))
 
@@ -194,9 +218,11 @@ def publish(root: Path, now: Optional[datetime] = None, dry_run: bool = False) -
         media_id = instagram.publish_carousel(urls, caption, os.environ["IG_USER_ID"], os.environ["IG_TOKEN"],
                                               on_container=remember_container)
     except instagram.PublishError as exc:
-        state["consecutive_skips"] = state.get("consecutive_skips", 0) + 1
+        _count_skip(state, slot)
         _save_state(root, state)
-        return _fail_with_alerts([f"pubblicazione rifiutata: {exc}"]
+        set_aside = _record_item_failure(item, slot)
+        notes = [f"carosello {item.name} messo da parte dopo {MAX_ITEM_FAILED_SLOTS} slot falliti"] if set_aside else []
+        return _fail_with_alerts([f"pubblicazione rifiutata: {exc}"] + notes
                                  + alerts({**state, "queue_ready": len(ready)}, now, token_expires))
 
     _mark_published(root, state, item, media_id, slot, now)

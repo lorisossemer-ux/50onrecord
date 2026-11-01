@@ -116,3 +116,21 @@ def test_long_marker_fits_without_photo(tmp_path, story_dict):
     photos = _photos_for(story)
     photos[1] = []
     render_story(story, photos, issue=1, out_dir=tmp_path)
+
+
+def test_nophoto_cover_long_artist_detected(tmp_path, story_dict):
+    story_dict["slides"][0]["kind"] = "nophoto_cover"
+    story_dict["artist"] = "The Extraordinarily Long Named Psychedelic Orchestra Of Somewhere Far Away"
+    story = Story(**story_dict)
+    with pytest.raises(SlideOverflowError) as exc:
+        render_story(story, {i: [] for i in range(len(story.slides))}, issue=1, out_dir=tmp_path)
+    assert exc.value.slide_index == 0
+    assert "artista" in exc.value.elements
+
+
+def test_trio_without_photos_moves_text_up(tmp_path, story_dict):
+    story = Story(**story_dict)
+    photos = _photos_for(story)
+    photos[2] = []
+    render_story(story, photos, issue=1, out_dir=tmp_path)
+    assert "top:300px" in (tmp_path / "html" / "03.html").read_text(encoding="utf-8")

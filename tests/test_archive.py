@@ -94,3 +94,7 @@ def test_archive_item_moves_and_records(tmp_path):
     assert published["media_id"] == "1789"
     assert published["slot"] == "2026-12-01T20:30"
     assert archive.published_index(tmp_path)[-1]["artist"] == "The Police"
+
+
+def test_story_key_ignores_leading_article():
+    assert archive.story_key("The Police", "Roxanne", "studio") == archive.story_key("Police", "Roxanne", "studio")

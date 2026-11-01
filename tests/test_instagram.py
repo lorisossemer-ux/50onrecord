@@ -225,3 +225,39 @@ def test_container_saved_before_publish_attempt(repo, monkeypatch):
     state = json.loads((repo / "state.json").read_text())
     assert state["pending"]["container"] == "CONT7"
     assert (repo / "queue" / "item-1").exists()
+
+
+# --- errori contati per slot e coda mai bloccata -------------------------------------
+
+def _fail(monkeypatch):
+    def boom(*a, **k):
+        raise PublishError("rifiutato")
+    monkeypatch.setattr(instagram, "publish_carousel", boom)
+
+
+def test_same_slot_failure_counted_once(repo, monkeypatch):
+    _fail(monkeypatch)
+    cli.publish(repo, now=EVENING)
+    cli.publish(repo, now=EVENING + timedelta(minutes=15))
+    assert json.loads((repo / "state.json").read_text())["consecutive_skips"] == 1
+
+
+def test_item_failing_in_two_slots_is_set_aside(repo, monkeypatch):
+    second = repo / "queue" / "item-2"
+    (second / "slides").mkdir(parents=True)
+    for i in range(1, 7):
+        (second / "slides" / f"{i:02d}.jpg").write_bytes(b"\xff\xd8")
+    (second / "caption.txt").write_text("seconda")
+    (second / "manifest.json").write_text(json.dumps({
+        "id": "item-2", "artist": "Queen", "song": "y", "decade": "80", "strand": "palco", "italian": False,
+        "key": "k2", "status": "ready", "created_at": "2026-11-30T04:00:00+00:00", "issue": 2}))
+    _fail(monkeypatch)
+    cli.publish(repo, now=EVENING)
+    cli.publish(repo, now=EVENING + timedelta(days=1))
+    manifest = json.loads((repo / "queue" / "item-1" / "manifest.json").read_text())
+    assert manifest["status"] == "failed"
+    published = []
+    monkeypatch.setattr(instagram, "publish_carousel",
+                        lambda urls, caption, ig, token, on_container=None: published.append(caption) or "M2")
+    assert cli.publish(repo, now=EVENING + timedelta(days=2)) == 0
+    assert published == ["seconda"]

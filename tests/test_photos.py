@@ -96,3 +96,13 @@ def test_categories_requested(tmp_path):
         rsps.add(responses.GET, API_URL, body=(FIXTURES / "commons_empty.json").read_text())
         resolve_photo(PhotoRequest(query="x", role="main"), tmp_path, subject="x")
         assert "categories" in rsps.calls[0].request.url
+
+
+@responses.activate
+def test_photo_without_author_rejected(tmp_path):
+    import json as _json
+    data = _json.loads((FIXTURES / "commons_sting.json").read_text())
+    for page in data["query"]["pages"].values():
+        page["imageinfo"][0]["extmetadata"].pop("Artist", None)
+    responses.add(responses.GET, API_URL, json=data)
+    assert resolve_photo(PhotoRequest(query="Sting", role="main"), tmp_path, subject="Sting") is None
