@@ -10,6 +10,11 @@ La descrizione completa è in `docs/2026-11-01-50onrecord-design.md`: leggila la
 Il cancello automatico (`.github/workflows/gate.yml`) rifiuta tutto ciò che viola le regole: scrivere bene
 qui evita scarti, ma il cancello resta l'arbitro.
 
+## Preparazione
+
+- `git checkout main && git pull` per partire dalla coda e dall'archivio aggiornati.
+- `pip install -e .` (una volta per esecuzione) prima di usare i comandi `python -m onrecord`.
+
 ## Quanti
 
 - Esegui `python -m onrecord constraints` e conta i caroselli pronti in `queue/` (`manifest.json` con `"status": "ready"`).
@@ -57,7 +62,11 @@ Segui il modello in `onrecord/models.py` e l'esempio `tests/fixtures/police_mess
   4. `emotion` — il significato o il momento umano; `marker` = la frase da mandare a qualcuno.
   5. `result` — cosa è successo dopo.
   6. `final` — `heading_cuts: ["E TU?"]`, `marker` es. `"scrivila nei commenti ↓"`, 1 foto `side`.
-- `photos`: `{query, commons_file, role}`; se conosci il nome esatto del file su Commons mettilo in `commons_file`.
+- `photos`: `{query, commons_file, role, subject}`.
+  - `subject` = chi deve comparire nella foto (es. `"Andy Summers"`); se manca vale l'artista della storia.
+    Il cancello scarta le foto il cui titolo o le cui categorie su Commons non contengono quel nome,
+    e quelle nelle categorie di immagini generate con IA.
+  - Se possibile cerca la foto su Commons e indica il nome esatto del file in `commons_file`.
 - `caption_body`: 2–4 frasi da appassionato, solo fatti verificati.
 - `question`: la domanda per i commenti.
 - `hashtags`: al massimo 5, sempre incluso `#50onrecord`.
@@ -67,5 +76,8 @@ Esegui `python -m onrecord build incoming/<id> --no-render`. Se segnala errori, 
 Dopo **3** tentativi falliti sulla stessa storia, cancella la cartella e scegline un'altra.
 
 ## Consegna
-- Fai commit **solo** di `incoming/` e pusha su un branch `claude/carosello-<AAAA-MM-GG>`.
-- Non toccare `queue/`, `archive/`, `state.json`, i workflow o il codice.
+- Fai commit **solo** dei file `incoming/<id>/story.json` e pusha su un branch nuovo
+  `claude/carosello-<AAAA-MM-GG>-<HHMM>`.
+- Non modificare nient'altro (codice, regole, configurazione, workflow, coda, archivio): il cancello
+  rifiuta per intero un branch che tocca qualsiasi altro file.
+- `<id>` deve essere nuovo: se esiste già in `queue/` o `archive/`, aggiungi il filone in coda (es. `-palco`).
