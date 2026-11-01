@@ -25,6 +25,7 @@ FORBIDDEN_PATTERNS = {
     "leggenda vuole": r"\bleggenda\s+vuole\b",
 }
 
+_ARTICLES = {"the", "i", "il", "lo", "la", "gli", "le"}
 _QUOTE_RE = re.compile(r"[“\"«]([^”\"»]+)[”\"»]|‘([^’]+)’")
 _NUMBER_RE = re.compile(r"\d+")
 
@@ -37,6 +38,7 @@ def _story_texts(story: Story) -> Iterable[str]:
                 yield text
     yield story.caption_body
     yield story.question
+    yield story.listen_track
 
 
 def _texts_for_numbers(story: Story) -> Iterable[str]:
@@ -75,6 +77,11 @@ def validate_story(story: Story) -> List[str]:
             quoted = groups[0] or groups[1]
             if len(quoted.split()) > MAX_QUOTED_WORDS:
                 errors.append(f"citazione troppo lunga (max {MAX_QUOTED_WORDS} parole): \"{quoted}\"")
+
+    artist_words = [w for w in re.findall(r"\w+", story.artist.lower()) if w not in _ARTICLES]
+    track = story.listen_track.lower()
+    if not any(re.search(r"\b" + re.escape(w) + r"\b", track) for w in artist_words):
+        errors.append(f"il brano da ascoltare deve indicare l'artista: \"{story.listen_track}\"")
 
     if len(story.hashtags) > MAX_HASHTAGS:
         errors.append(f"troppi hashtag: {len(story.hashtags)} (max {MAX_HASHTAGS})")

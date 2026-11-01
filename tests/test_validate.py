@@ -128,3 +128,18 @@ def test_single_curly_quotes_limited(story_dict):
 def test_italian_apostrophes_are_not_quotes(story_dict):
     story_dict["slides"][3]["body"] = "Sull’isola, un’idea che diventa un’ossessione per tutta l’estate."
     assert validate_story(Story(**story_dict)) == []
+
+
+def test_listen_track_must_name_the_artist(story_dict):
+    story_dict["listen_track"] = "Roxanne"
+    assert any("brano da ascoltare" in e for e in validate_story(Story(**story_dict)))
+
+
+def test_listen_track_article_is_ignored(story_dict):
+    story_dict["listen_track"] = "Police - Roxanne"
+    assert validate_story(Story(**story_dict)) == []
+
+
+def test_listen_track_hedging_rejected(story_dict):
+    story_dict["listen_track"] = "The Police - forse Roxanne"
+    assert any("espressione vietata" in e for e in validate_story(Story(**story_dict)))

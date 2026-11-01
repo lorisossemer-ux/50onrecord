@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 from typing import List
+from urllib.parse import quote, quote_plus
 
 from .models import Story
 from .photos import Photo
@@ -15,7 +16,12 @@ class CaptionTooLongError(ValueError):
 
 
 def build_caption(story: Story, photos: List[Photo], handle: str) -> str:
-    parts = [story.caption_body.strip(), story.question.strip(), f"Salvalo e mandalo a chi ama {story.artist}."]
+    track = story.listen_track.strip()
+    listen = (f"\U0001F3A7 Ascolta: {track}\n"
+              f"Spotify: https://open.spotify.com/search/{quote(track)}\n"
+              f"YouTube: https://www.youtube.com/results?search_query={quote_plus(track)}")
+    parts = [listen, story.caption_body.strip(), story.question.strip(),
+             f"Salvalo e mandalo a chi ama {story.artist}."]
 
     seen = []
     for fact in story.facts:
