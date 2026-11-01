@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="tape" style="left:60px; top:110px; transform: rotate(-20deg);"></div>
+<div class="tape" style="right:80px; top:150px; transform: rotate(14deg);"></div>
+<div class="typed" style="left:70px; top:200px; right:70px; font-size:40px;">{{ story.artist }} · {{ story.year }}</div>
+{{ m.cuts(slide.heading_cuts, "top:290px; height:660px;", "huge") }}
+{{ m.marker(slide.marker, "left:70px; right:70px; top:990px; max-height:180px; font-size:56px; transform: rotate(-3deg);") }}
+{% endblock %}
+{% block foot_left %}50ONRECORD · fanzine n.{{ issue }} · {{ story.artist | lower }}, {{ story.year }}{% endblock %}

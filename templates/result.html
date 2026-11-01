@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block content %}
+{{ m.photo(photos[0], "left:60px; top:80px; width:960px; height:540px;", -1.5, "left:30px; top:60px; transform: rotate(-25deg);") }}
+{{ m.cuts(slide.heading_cuts, "top:" ~ ("680px" if photos else "160px") ~ "; height:300px;") }}
+{{ m.note(slide.body, "left:70px; right:70px; top:" ~ ("1000px" if photos else "560px") ~ "; max-height:" ~ ("220px" if photos else "560px") ~ "; font-size:32px; padding:28px 40px; transform: rotate(1deg);") }}
+{{ m.marker(slide.marker, "left:80px; right:80px; top:" ~ ("1240px" if photos else "1160px") ~ "; max-height:60px; font-size:36px;") }}
+{% endblock %}

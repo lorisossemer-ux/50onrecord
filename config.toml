@@ -1,0 +1,9 @@
+# Configurazione di 50onrecord
+handle = "@50onrecord"
+timezone = "Europe/Rome"
+# Primo giorno di pubblicazione (da impostare al go-live)
+start_date = "2026-12-01"
+phase1_days = 56
+phase1_slots = ["12:30", "20:30"]
+phase2_slots = ["20:30"]
+first_issue = 1

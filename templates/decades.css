@@ -1,0 +1,11 @@
+/* Tavolozze dei ritagli per decennio: struttura identica, cambia solo il "ritaglio" (spec §4). */
+.decade-60 { --c1-bg:#e0457b; --c1-fg:#fff6e0; --f1:'Alfa Slab One'; --c2-bg:#f2a93b; --c2-fg:#2b1a3d; --f2:'Playfair Display';
+  --c3-bg:#6b3fa0; --c3-fg:#f6e7ff; --f3:'Anton'; --c4-bg:#fff; --c4-fg:#2b1a3d; --f4:'Archivo Black'; --c5-bg:#fff; --c5-fg:#2b1a3d; }
+.decade-70 { --c1-bg:#111; --c1-fg:#f1eee6; --f1:'Anton'; --c2-bg:#f2c230; --c2-fg:#111; --f2:'Playfair Display';
+  --c3-bg:#fff; --c3-fg:#111; --f3:'Alfa Slab One'; --c4-bg:#d2231b; --c4-fg:#fff; --f4:'Archivo Black'; --c5-bg:#fff; --c5-fg:#111; }
+.decade-80 { --c1-bg:#ff2e88; --c1-fg:#fff; --f1:'Archivo Black'; --c2-bg:#20d3e8; --c2-fg:#111; --f2:'Anton';
+  --c3-bg:#111; --c3-fg:#f8f04a; --f3:'Alfa Slab One'; --c4-bg:#f8f04a; --c4-fg:#111; --f4:'Archivo Black'; --c5-bg:#fff; --c5-fg:#111; }
+.decade-90 { --c1-bg:#2a2a2a; --c1-fg:#d9d4c7; --f1:'Anton'; --c2-bg:#8a9a5b; --c2-fg:#111; --f2:'Special Elite';
+  --c3-bg:#d9d4c7; --c3-fg:#2a2a2a; --f3:'Alfa Slab One'; --c4-bg:#7a1f1f; --c4-fg:#f1eee6; --f4:'Archivo Black'; --c5-bg:#fff; --c5-fg:#111; }
+.decade-00 { --c1-bg:#111; --c1-fg:#fff; --f1:'Archivo Black'; --c2-bg:#fff; --c2-fg:#111; --f2:'Playfair Display';
+  --c3-bg:#2f6fde; --c3-fg:#fff; --f3:'Anton'; --c4-bg:#ececec; --c4-fg:#111; --f4:'Archivo Black'; --c5-bg:#fff; --c5-fg:#111; }
