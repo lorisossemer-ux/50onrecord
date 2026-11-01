@@ -299,3 +299,30 @@ def test_check_instagram_failure_is_clean(repo, monkeypatch, capsys):
     assert cli.main(["check-instagram"]) == 1
     out = capsys.readouterr().out
     assert "Invalid OAuth access token" in out and "Traceback" not in out and "TOKEN" not in out
+
+
+# --- segreti incollati con spazi o "a capo" ------------------------------------------------
+
+@responses.activate
+def test_check_connection_with_pasted_whitespace(monkeypatch, capsys):
+    responses.add(responses.GET, f"{GRAPH}/{IG}", json={"username": "50onrecord", "id": IG})
+    responses.add(responses.GET, f"{GRAPH}/{IG}/content_publishing_limit",
+                  json={"data": [{"quota_usage": 0, "config": {"quota_total": 50}}]})
+    monkeypatch.setenv("IG_USER_ID", f"  {IG}\n")
+    monkeypatch.setenv("IG_TOKEN", "  TOKEN\r\n")
+    assert cli.main(["check-instagram"]) == 0
+    assert responses.calls[0].request.headers["Authorization"] == "Bearer TOKEN"
+    assert f"/{IG}?" in responses.calls[0].request.url
+
+
+def test_publish_uses_clean_secrets(repo, monkeypatch):
+    seen = {}
+    monkeypatch.setenv("IG_USER_ID", f"{IG}\n")
+    monkeypatch.setenv("IG_TOKEN", "TOKEN \n")
+
+    def fake(urls, caption, ig, token, on_container=None):
+        seen.update(ig=ig, token=token)
+        return "M1"
+    monkeypatch.setattr(instagram, "publish_carousel", fake)
+    assert cli.publish(repo, now=EVENING) == 0
+    assert seen == {"ig": IG, "token": "TOKEN"}
