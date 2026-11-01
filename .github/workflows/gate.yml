@@ -1,0 +1,82 @@
+# Cancello: controlla i caroselli scritti dalla routine sui branch claude/... e mette in coda su main
+# solo quelli che rispettano tutte le regole (spec §6–§7).
+# Sicurezza: il workflow parte da main (schedule), usa SOLO il codice di main e prende dai branch
+# esclusivamente i file incoming/<id>/story.json. Un branch che modifica altro viene rifiutato.
+name: cancello
+
+on:
+  schedule:
+    - cron: "10,40 * * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: cancello
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          filter: blob:none
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -e .
+      - run: python -m playwright install --with-deps chromium
+      - name: Controlla i branch della routine
+        run: |
+          git config user.name "50onrecord-bot"
+          git config user.email "50onrecord-bot@users.noreply.github.com"
+          problems=0
+          accepted=0
+          for ref in $(git ls-remote --heads origin 'claude/*' | awk '{print $2}'); do
+            branch="${ref#refs/heads/}"
+            git fetch --no-tags origin "$branch"
+            base=$(git merge-base origin/main FETCH_HEAD)
+            changed=$(git diff --name-only "$base" FETCH_HEAD)
+            if ! printf '%s\n' "$changed" | python -m onrecord gate-check; then
+              echo "::error::Branch $branch rifiutato: modifica file diversi da incoming/<id>/story.json"
+              git push origin --delete "$branch"
+              problems=1
+              continue
+            fi
+            keep_branch=0
+            for story in $changed; do
+              dir=$(dirname "$story")
+              mkdir -p "$dir"
+              git show "FETCH_HEAD:$story" > "$story"
+              python -m onrecord build "$dir" && code=0 || code=$?
+              case $code in
+                0) accepted=$((accepted + 1)) ;;
+                1) echo "::warning::Scartato: $dir"; rm -rf "$dir" ;;
+                *) echo "::error::Errore tecnico su $dir: riprovo al prossimo giro"; rm -rf "$dir"; keep_branch=1; problems=1 ;;
+              esac
+            done
+            if [ "$keep_branch" = "0" ]; then
+              git push origin --delete "$branch"
+            fi
+          done
+          echo "accepted=$accepted" >> "$GITHUB_ENV"
+          echo "problems=$problems" >> "$GITHUB_ENV"
+      - name: Metti in coda su main
+        if: env.accepted != '0'
+        run: |
+          git add -A queue
+          git commit -m "coda: nuovi caroselli"
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            sleep $((attempt * 10))
+          done
+          exit 1
+      - name: Segnala i problemi
+        if: env.problems != '0'
+        run: |
+          echo "Il cancello ha trovato problemi: vedi gli avvisi sopra."
+          exit 1

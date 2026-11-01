@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}
+{{ m.cuts(slide.heading_cuts, "top:90px; height:300px;") }}
+{{ m.note(slide.body, "left:70px; " ~ ("width:600px;" if photos else "right:70px;") ~ " top:430px; max-height:600px; font-size:36px; transform: rotate(-2deg);") }}
+<div class="tape" style="left:300px; top:410px; transform: rotate(3deg);"></div>
+{{ m.photo(photos[0], "left:690px; top:540px; width:330px; height:460px;", 4, "left:770px; top:520px; transform: rotate(-8deg); width:140px;") }}
+{{ m.marker(slide.marker, "left:80px; right:80px; top:1080px; max-height:150px; font-size:52px; transform: rotate(-3deg);") }}
+{% endblock %}

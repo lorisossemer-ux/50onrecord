@@ -1,0 +1,32 @@
+@font-face { font-family: 'Anton'; src: url('fonts/Anton.ttf'); }
+@font-face { font-family: 'Alfa Slab One'; src: url('fonts/AlfaSlabOne.ttf'); }
+@font-face { font-family: 'Archivo Black'; src: url('fonts/ArchivoBlack.ttf'); }
+@font-face { font-family: 'Playfair Display'; src: url('fonts/PlayfairDisplay.ttf'); font-weight: 900; }
+@font-face { font-family: 'Special Elite'; src: url('fonts/SpecialElite.ttf'); }
+@font-face { font-family: 'Permanent Marker'; src: url('fonts/PermanentMarker.ttf'); }
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: 1080px; height: 1350px; overflow: hidden; background: #f1eee6; }
+.s { width: 1080px; height: 1350px; position: relative; overflow: hidden; background: var(--paper, #f1eee6); }
+.grain::before { content: ""; position: absolute; inset: 0; background-image: radial-gradient(rgba(0,0,0,.08) 1px, transparent 1px); background-size: 3px 3px; pointer-events: none; z-index: 5; }
+
+.xerox { position: absolute; overflow: hidden; background: #fff; }
+.xerox img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 25%; filter: grayscale(1) brightness(1.9) contrast(1.7); }
+.tape { position: absolute; width: 170px; height: 52px; background: rgba(235,220,160,.75); z-index: 6; }
+
+.cuts { position: absolute; left: 50px; right: 50px; overflow: hidden; z-index: 7; text-transform: uppercase; }
+.cut { display: inline-block; white-space: nowrap; margin: 6px 4px; padding: 4px 14px 0; line-height: 1; box-shadow: 3px 3px 0 rgba(0,0,0,.25); }
+.cuts .cut:nth-child(5n+1) { background: var(--c1-bg); color: var(--c1-fg); font-family: var(--f1); font-size: var(--s1, 96px); transform: rotate(-1.5deg); }
+.cuts .cut:nth-child(5n+2) { background: var(--c2-bg); color: var(--c2-fg); font-family: var(--f2); font-size: var(--s2, 78px); transform: rotate(2deg); }
+.cuts .cut:nth-child(5n+3) { background: var(--c3-bg); color: var(--c3-fg); font-family: var(--f3); font-size: var(--s3, 90px); transform: rotate(-1deg); }
+.cuts .cut:nth-child(5n+4) { background: var(--c4-bg); color: var(--c4-fg); font-family: var(--f4); font-size: var(--s4, 58px); transform: rotate(1deg); }
+.cuts .cut:nth-child(5n+5) { background: var(--c5-bg); color: var(--c5-fg); font-family: 'Special Elite'; font-size: var(--s5, 58px); transform: rotate(-2deg); }
+.cuts.small { --s1: 70px; --s2: 62px; --s3: 66px; --s4: 50px; --s5: 50px; }
+.cuts.tiny { --s1: 50px; --s2: 44px; --s3: 48px; --s4: 40px; --s5: 40px; }
+.cuts.huge { --s1: 150px; --s2: 110px; --s3: 120px; }
+
+.note { position: absolute; font-family: 'Special Elite'; color: #1a1a1a; background: #fff; padding: 36px 42px; box-shadow: 4px 4px 0 rgba(0,0,0,.2); z-index: 7; line-height: 1.45; overflow: hidden; }
+.marker { position: absolute; font-family: 'Permanent Marker'; color: var(--marker, #d2231b); z-index: 8; line-height: 1.1; overflow: hidden; }
+.typed { position: absolute; font-family: 'Special Elite'; color: #1a1a1a; z-index: 7; overflow: hidden; white-space: nowrap; }
+.foot { position: absolute; left: 56px; right: 56px; bottom: 40px; display: flex; justify-content: space-between; gap: 24px; font-family: 'Special Elite'; font-size: 26px; color: #1a1a1a; z-index: 9; }
+.foot .fit { overflow: hidden; white-space: nowrap; }

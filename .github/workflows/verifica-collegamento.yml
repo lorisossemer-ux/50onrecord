@@ -1,0 +1,21 @@
+# Prova di sola lettura del collegamento a Instagram: mostra il nome dell'account e la quota.
+# Non pubblica nulla e non stampa mai il token. Si avvia a mano da Actions.
+name: verifica-collegamento
+
+on:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -e .
+      - name: Verifica il collegamento
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+        run: python -m onrecord check-instagram

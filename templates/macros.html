@@ -1,0 +1,16 @@
+{% macro photo(p, style, rot=0, tape=None) -%}
+{% if p %}<div class="xerox" style="{{ style }} transform: rotate({{ rot }}deg);"><img src="{{ p.uri }}"></div>
+{% if tape %}<div class="tape" style="{{ tape }}"></div>{% endif %}{% endif %}
+{%- endmacro %}
+
+{% macro cuts(items, style, extra="", name="titolo") -%}
+<div class="cuts fit {{ extra }}" data-name="{{ name }}" style="{{ style }}">{% for c in items %}<span class="cut">{{ c }}</span>{% endfor %}</div>
+{%- endmacro %}
+
+{% macro note(text, style, name="testo") -%}
+{% if text %}<div class="note fit" data-name="{{ name }}" style="{{ style }}">{{ text }}</div>{% endif %}
+{%- endmacro %}
+
+{% macro marker(text, style, name="pennarello") -%}
+{% if text %}<div class="marker fit" data-name="{{ name }}" style="{{ style }}">{{ text }}</div>{% endif %}
+{%- endmacro %}

@@ -1,0 +1,8 @@
+{% import "macros.html" as m %}<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="{{ assets }}/base.css"><link rel="stylesheet" href="{{ assets }}/decades.css">
+</head>
+<body class="decade-{{ story.decade }}"><div class="s grain">
+{% block content %}{% endblock %}
+<div class="foot"><span class="fit" data-name="piè di pagina">{% block foot_left %}{% if slide.source_note %}{{ slide.source_note }}{% else %}50ONRECORD{% endif %}{% endblock %}</span><span>{{ index + 1 }}/{{ total }}{% if index + 1 < total %} →{% endif %}</span></div>
+</div></body></html>
