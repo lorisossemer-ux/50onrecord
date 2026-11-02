@@ -43,6 +43,12 @@ qui evita scarti, ma il cancello resta l'arbitro.
 - **Vita privata**: solo fatti dichiarati dagli interessati o riportati da testate serie. Niente pettegolezzi,
   ipotesi, accuse non provate, dettagli su minori.
 - **Niente abbellimenti**: stati d'animo, motivazioni, giudizi sul carattere solo se le fonti li riportano.
+- **Ogni frase** di `body`, `marker`, `caption_body` e titoli deve ripetere un `fact` della storia, con le stesse
+  parole e lo stesso senso. Niente dettagli, superlativi ("il più famoso"), giudizi ("storto", "non ortodossa")
+  o collegamenti che non stanno in un fatto. Se un fatto dice che *X rifiutò*, la slide non può dire che *X
+  ci provò*: ricontrolla il **verso** di ogni affermazione (chi fa cosa a chi) sulle fonti, soprattutto
+  per vita privata, cause e conseguenze. Le citazioni virgolettate (max 5 parole) devono essere esattamente
+  quelle riportate dalle fonti; se la fonte è in inglese e tu parafrasi, non usare le virgolette.
 - **Mai** scrivere "da verificare", "si dice", "pare che", "sembra che", "forse", "secondo alcuni".
   Se un fatto non è verificato, toglilo o cambia storia.
 - Ogni **numero** che compare sulle slide (anni, posizioni in classifica, settimane…) deve comparire nel testo
