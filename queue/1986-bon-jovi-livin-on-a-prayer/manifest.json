@@ -1,0 +1,39 @@
+{
+  "id": "1986-bon-jovi-livin-on-a-prayer",
+  "artist": "Bon Jovi",
+  "song": "Livin' on a Prayer",
+  "decade": "80",
+  "strand": "studio",
+  "italian": false,
+  "key": "bon jovi|livin on a prayer|studio",
+  "issue": 15,
+  "status": "ready",
+  "created_at": "2026-11-02T20:14:48.927846+00:00",
+  "photos": [
+    {
+      "author": "James Anderson",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Richie_Sambora_Dublin_2006.jpg"
+    },
+    {
+      "author": "Rosenborg BK Fan",
+      "license": "CC0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Jon_Bon_Jovi_with_Bon_Jovi_live_in_Bucharest,_Romania_(2011).jpg"
+    },
+    {
+      "author": "Jonathan King",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Jon_Bon_Jovi_87.jpg"
+    },
+    {
+      "author": "Christian Benseler",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Richie_Sambora_guitar_@_Hard_Rock_Muenchen_(10410932915).jpg"
+    },
+    {
+      "author": "Laurent Fox--HUD",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Jon_Bon_Jovi_at_Health_Datapalooza_Event.jpg"
+    }
+  ]
+}

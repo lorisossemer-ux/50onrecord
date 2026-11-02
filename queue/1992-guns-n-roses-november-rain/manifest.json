@@ -1,0 +1,39 @@
+{
+  "id": "1992-guns-n-roses-november-rain",
+  "artist": "Guns N' Roses",
+  "song": "November Rain",
+  "decade": "90",
+  "strand": "palco",
+  "italian": false,
+  "key": "guns n roses|november rain|palco",
+  "issue": 16,
+  "status": "ready",
+  "created_at": "2026-11-02T20:14:54.101343+00:00",
+  "photos": [
+    {
+      "author": "Raph_PH",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:GunsNRoses160617-61_(35271773841).jpg"
+    },
+    {
+      "author": "Kreepin Deth",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Axl_Rose_live_in_London_2022.jpg"
+    },
+    {
+      "author": "Deidre Woollard",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Slash_Corvette_guitar,_Juliens_Auctions_Preview_2011-03-08.jpg"
+    },
+    {
+      "author": "Elton John AIDS Foundation",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Elton_John_AIDS_Foundation.jpg"
+    },
+    {
+      "author": "Toglenn",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Duff_McKagan_2012.JPG"
+    }
+  ]
+}

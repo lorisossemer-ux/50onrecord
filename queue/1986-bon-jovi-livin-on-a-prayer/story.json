@@ -1,0 +1,283 @@
+{
+  "id": "1986-bon-jovi-livin-on-a-prayer",
+  "artist": "Bon Jovi",
+  "song": "Livin' on a Prayer",
+  "year": 1986,
+  "decade": "80",
+  "strand": "studio",
+  "italian": false,
+  "facts": [
+    {
+      "claim": "Livin' on a Prayer è scritta da Jon Bon Jovi, Richie Sambora e Desmond Child.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Livin%27_on_a_Prayer",
+          "title": "Livin' on a Prayer",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://stereogum.com/2114876/the-number-ones-bon-jovis-livin-on-a-prayer/columns/the-number-ones",
+          "title": "The Number Ones: Bon Jovi's Livin' On A Prayer",
+          "publisher": "Stereogum"
+        }
+      ]
+    },
+    {
+      "claim": "Jon Bon Jovi non era entusiasta della prima registrazione della canzone.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Livin%27_on_a_Prayer",
+          "title": "Livin' on a Prayer",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://stereogum.com/2114876/the-number-ones-bon-jovis-livin-on-a-prayer/columns/the-number-ones",
+          "title": "The Number Ones: Bon Jovi's Livin' On A Prayer",
+          "publisher": "Stereogum"
+        }
+      ]
+    },
+    {
+      "claim": "Jon Bon Jovi voleva lasciare la canzone fuori dall'album Slippery When Wet.",
+      "sources": [
+        {
+          "url": "https://www.songfacts.com/facts/Bon-Jovi/Livin-on-a-prayer",
+          "title": "Livin' On A Prayer",
+          "publisher": "Songfacts"
+        },
+        {
+          "url": "https://stereogum.com/2114876/the-number-ones-bon-jovis-livin-on-a-prayer/columns/the-number-ones",
+          "title": "The Number Ones: Bon Jovi's Livin' On A Prayer",
+          "publisher": "Stereogum"
+        }
+      ]
+    },
+    {
+      "claim": "Richie Sambora gli disse che la canzone era buona.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Livin%27_on_a_Prayer",
+          "title": "Livin' on a Prayer",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://stereogum.com/2114876/the-number-ones-bon-jovis-livin-on-a-prayer/columns/the-number-ones",
+          "title": "The Number Ones: Bon Jovi's Livin' On A Prayer",
+          "publisher": "Stereogum"
+        }
+      ]
+    },
+    {
+      "claim": "Richie Sambora usò un talk box nella canzone.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Livin%27_on_a_Prayer",
+          "title": "Livin' on a Prayer",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/Bon-Jovi/Livin-on-a-prayer",
+          "title": "Livin' On A Prayer",
+          "publisher": "Songfacts"
+        }
+      ]
+    },
+    {
+      "claim": "Il talk box di Richie Sambora dà alla canzone un suono distintivo.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Livin%27_on_a_Prayer",
+          "title": "Livin' on a Prayer",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/Bon-Jovi/Livin-on-a-prayer",
+          "title": "Livin' On A Prayer",
+          "publisher": "Songfacts"
+        }
+      ]
+    },
+    {
+      "claim": "Tommy e Gina non sono due persone precise: rappresentano uno stile di vita.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Livin%27_on_a_Prayer",
+          "title": "Livin' on a Prayer",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "http://www.goldradio.com/news/music/bon-jovi-livin-prayer-song-facts-tommy-gina/",
+          "title": "Livin' on a Prayer by Bon Jovi: the making of the 80s working class anthem",
+          "publisher": "Gold Radio"
+        }
+      ]
+    },
+    {
+      "claim": "Livin' on a Prayer arrivò al numero 1 della Billboard Hot 100 il 14 febbraio 1987 e vi rimase quattro settimane.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Livin%27_on_a_Prayer",
+          "title": "Livin' on a Prayer",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://stereogum.com/2114876/the-number-ones-bon-jovis-livin-on-a-prayer/columns/the-number-ones",
+          "title": "The Number Ones: Bon Jovi's Livin' On A Prayer",
+          "publisher": "Stereogum"
+        }
+      ]
+    },
+    {
+      "claim": "Il ritornello dice \"Livin' on a prayer\".",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Livin%27_on_a_Prayer",
+          "title": "Livin' on a Prayer",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/Bon-Jovi/Livin-on-a-prayer",
+          "title": "Livin' On A Prayer",
+          "publisher": "Songfacts"
+        }
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "heading_cuts": [
+        "JON",
+        "voleva",
+        "TOGLIERLA",
+        "dal disco"
+      ],
+      "body": null,
+      "marker": "poi è arrivata al n°1 ↓",
+      "photos": [
+        {
+          "query": "Richie Sambora",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Richie Sambora"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "TRE AUTORI"
+      ],
+      "body": "Livin' on a Prayer è scritta da Jon Bon Jovi, Richie Sambora e Desmond Child.",
+      "marker": "Jon + Richie + Desmond",
+      "photos": [
+        {
+          "query": "Jon Bon Jovi live",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Jon Bon Jovi"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "IL DUBBIO"
+      ],
+      "body": "Jon Bon Jovi non è entusiasta della prima registrazione. Vuole lasciare la canzone fuori dall'album Slippery When Wet.",
+      "marker": "lasciarla fuori?",
+      "photos": [
+        {
+          "query": "Bon Jovi 1987",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Bon Jovi"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "IL TALK BOX"
+      ],
+      "body": "Richie Sambora gli dice che la canzone è buona. Nella canzone usa un talk box, che le dà un suono distintivo.",
+      "marker": "Richie: è buona",
+      "photos": [
+        {
+          "query": "Richie Sambora guitar",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Richie Sambora"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "emotion",
+      "heading_cuts": [
+        "TOMMY",
+        "e GINA"
+      ],
+      "body": "Tommy e Gina non sono due persone precise: rappresentano uno stile di vita.",
+      "marker": "Tommy e Gina: uno stile di vita",
+      "photos": [
+        {
+          "query": "Bon Jovi concert",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Bon Jovi"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "result",
+      "heading_cuts": [
+        "N°1",
+        "FEBBRAIO 1987"
+      ],
+      "body": "Il 14 febbraio 1987 la canzone arriva al numero 1 della Billboard Hot 100. Ci resta quattro settimane.",
+      "marker": null,
+      "photos": [
+        {
+          "query": "Bon Jovi 1987 concert",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Bon Jovi"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "final",
+      "heading_cuts": [
+        "E TU?"
+      ],
+      "body": null,
+      "marker": "scrivila nei commenti ↓",
+      "photos": [
+        {
+          "query": "Jon Bon Jovi",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Jon Bon Jovi"
+        }
+      ],
+      "source_note": null
+    }
+  ],
+  "caption_body": "Livin' on a Prayer è scritta da Jon Bon Jovi, Richie Sambora e Desmond Child. Jon Bon Jovi non era entusiasta della prima registrazione e voleva lasciarla fuori da Slippery When Wet. Richie Sambora gli disse che la canzone era buona e usò un talk box, che le dà un suono distintivo. Il 14 febbraio 1987 arrivò al numero 1 della Billboard Hot 100, dove restò quattro settimane.",
+  "question": "Qual è il momento in cui hai cantato Livin' on a Prayer a squarciagola?",
+  "listen_track": "Bon Jovi – Livin' on a Prayer",
+  "lyric_quote": "Livin' on a prayer",
+  "hashtags": [
+    "#bonjovi",
+    "#livinonaprayer",
+    "#musica80",
+    "#storiedellamusica",
+    "#50onrecord"
+  ]
+}

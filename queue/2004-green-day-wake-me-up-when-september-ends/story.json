@@ -1,0 +1,228 @@
+{
+  "id": "2004-green-day-wake-me-up-when-september-ends",
+  "artist": "Green Day",
+  "song": "Wake Me Up When September Ends",
+  "year": 2004,
+  "decade": "00",
+  "strand": "emozione",
+  "italian": false,
+  "facts": [
+    {
+      "claim": "Il padre di Billie Joe Armstrong morì nel settembre 1982.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Wake_Me_Up_When_September_Ends",
+          "title": "Wake Me Up When September Ends",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/green-day/wake-me-up-when-september-ends",
+          "title": "Wake Me Up When September Ends",
+          "publisher": "Songfacts"
+        }
+      ]
+    },
+    {
+      "claim": "Dopo il funerale Armstrong si chiuse in camera sua; alla madre che bussava disse di svegliarlo quando settembre fosse finito, e da qui nacque il titolo.",
+      "sources": [
+        {
+          "url": "https://www.songfacts.com/facts/green-day/wake-me-up-when-september-ends",
+          "title": "Wake Me Up When September Ends",
+          "publisher": "Songfacts"
+        },
+        {
+          "url": "https://americansongwriter.com/the-meaning-behind-wake-me-up-when-september-ends-by-green-day",
+          "title": "The Meaning Behind Wake Me Up When September Ends",
+          "publisher": "American Songwriter"
+        }
+      ]
+    },
+    {
+      "claim": "Armstrong ha raccontato di aver evitato per anni di scrivere del padre, fino a quando scrisse questa canzone.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Wake_Me_Up_When_September_Ends",
+          "title": "Wake Me Up When September Ends",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/green-day/wake-me-up-when-september-ends",
+          "title": "Wake Me Up When September Ends",
+          "publisher": "Songfacts"
+        }
+      ]
+    },
+    {
+      "claim": "La canzone fu incisa quasi vent'anni dopo la morte del padre.",
+      "sources": [
+        {
+          "url": "https://www.songfacts.com/facts/green-day/wake-me-up-when-september-ends",
+          "title": "Wake Me Up When September Ends",
+          "publisher": "Songfacts"
+        },
+        {
+          "url": "https://americansongwriter.com/the-meaning-behind-wake-me-up-when-september-ends-by-green-day",
+          "title": "The Meaning Behind Wake Me Up When September Ends",
+          "publisher": "American Songwriter"
+        }
+      ]
+    },
+    {
+      "claim": "La canzone uscì sull'album American Idiot, pubblicato nel 2004.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Wake_Me_Up_When_September_Ends",
+          "title": "Wake Me Up When September Ends",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://americansongwriter.com/the-meaning-behind-wake-me-up-when-september-ends-by-green-day",
+          "title": "The Meaning Behind Wake Me Up When September Ends",
+          "publisher": "American Songwriter"
+        }
+      ]
+    },
+    {
+      "claim": "Nel 2005 il brano arrivò al numero 8 della classifica dei singoli britannica.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Wake_Me_Up_When_September_Ends",
+          "title": "Wake Me Up When September Ends",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.officialcharts.com/songs/green-day-wake-me-up-when-september-ends/",
+          "title": "Green Day - Wake Me Up When September Ends",
+          "publisher": "Official Charts Company"
+        }
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "heading_cuts": [
+        "QUASI",
+        "VENT'ANNI",
+        "DOPO LA MORTE",
+        "DEL PADRE"
+      ],
+      "body": null,
+      "marker": "per un padre ↓",
+      "photos": [
+        {
+          "query": "Billie Joe Armstrong Green Day",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Billie Joe Armstrong"
+        },
+        {
+          "query": "Green Day live",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Green Day"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "SETTEMBRE",
+        "1982"
+      ],
+      "body": "Il padre di Billie Joe Armstrong muore nel settembre 1982.",
+      "marker": "settembre 1982 →",
+      "photos": [
+        {
+          "query": "Billie Joe Armstrong 2004",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Billie Joe Armstrong"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "IL TITOLO"
+      ],
+      "body": "Dopo il funerale Armstrong si chiude in camera sua. Alla madre che bussa dice di svegliarlo quando settembre sarà finito.",
+      "marker": "svegliami quando settembre finisce",
+      "photos": [
+        {
+          "query": "Billie Joe Armstrong live",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Billie Joe Armstrong"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "emotion",
+      "heading_cuts": [
+        "PER ANNI",
+        "NIENTE"
+      ],
+      "body": "Armstrong racconta di aver evitato per anni di scrivere del padre, fino a quando scrisse questa canzone.",
+      "marker": "poi scrive la canzone.",
+      "photos": [
+        {
+          "query": "Green Day concert",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Green Day"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "result",
+      "heading_cuts": [
+        "AMERICAN IDIOT",
+        "2004"
+      ],
+      "body": "Il brano esce su American Idiot, nel 2004. Nel 2005 arriva al numero 8 della classifica britannica.",
+      "marker": null,
+      "photos": [
+        {
+          "query": "Green Day American Idiot tour",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Green Day"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "final",
+      "heading_cuts": [
+        "E TU?"
+      ],
+      "body": null,
+      "marker": "scrivila nei commenti ↓",
+      "photos": [
+        {
+          "query": "Mike Dirnt Green Day",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Mike Dirnt"
+        }
+      ],
+      "source_note": null
+    }
+  ],
+  "caption_body": "Il padre di Billie Joe Armstrong morì nel settembre 1982. Dopo il funerale Armstrong si chiuse in camera sua e disse alla madre di svegliarlo quando settembre fosse finito: da qui il titolo. Per anni evitò di scrivere del padre, poi scrisse questa canzone, incisa quasi vent'anni dopo la sua morte e uscita su American Idiot nel 2004.",
+  "question": "C'è una canzone che ti ricorda una persona che non c'è più?",
+  "listen_track": "Green Day – Wake Me Up When September Ends",
+  "lyric_quote": null,
+  "hashtags": [
+    "#greenday",
+    "#billiejoearmstrong",
+    "#musica2000",
+    "#storiedellamusica",
+    "#50onrecord"
+  ]
+}

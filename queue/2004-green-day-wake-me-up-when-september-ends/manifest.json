@@ -1,0 +1,44 @@
+{
+  "id": "2004-green-day-wake-me-up-when-september-ends",
+  "artist": "Green Day",
+  "song": "Wake Me Up When September Ends",
+  "decade": "00",
+  "strand": "emozione",
+  "italian": false,
+  "key": "green day|wake me up when september ends|emozione",
+  "issue": 14,
+  "status": "ready",
+  "created_at": "2026-11-02T20:14:44.432914+00:00",
+  "photos": [
+    {
+      "author": "Sven-Sebastian Sajak (Sven0705)",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:RiP2013_GreenDay_Billie_Joe_Armstrong_0003.JPG"
+    },
+    {
+      "author": "Alvaranstrong",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Green_Day_Live_Polska.jpg"
+    },
+    {
+      "author": "kimm613",
+      "license": "CC BY-SA 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Billie_Joe_Armstrong_Hartford.jpg"
+    },
+    {
+      "author": "Sophia Metz",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Concert_de_Green_Day_au_Parc_des_Princes.jpg"
+    },
+    {
+      "author": "Lloyd Morgan from Cardiff, UK",
+      "license": "CC BY-SA 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Billie_Joe_Armstrong_of_Green_Day_(199862242).jpg"
+    },
+    {
+      "author": "Sven-Sebastian Sajak (Sven0705)",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:RiP2013_GreenDay_Mike_Dirnt_0002.JPG"
+    }
+  ]
+}
