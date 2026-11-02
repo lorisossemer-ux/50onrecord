@@ -68,6 +68,9 @@ def validate_story(story: Story) -> List[str]:
         if len(domains) < MIN_INDEPENDENT_SOURCES:
             errors.append(f"fatto {i}: servono almeno 2 fonti indipendenti (trovate: {sorted(domains)})")
 
+    if story.italian:
+        errors.append("solo artisti e canzoni straniere: niente artisti italiani")
+
     texts = [_normalize(t) for t in _story_texts(story)]
     for label, regex in FORBIDDEN_PATTERNS.items():
         pattern = re.compile(regex, re.IGNORECASE)

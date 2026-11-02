@@ -39,10 +39,11 @@ def test_queue_counts_after_archive(tmp_path):
     assert "Nirvana" in c["avoid_artists"]
 
 
-def test_need_italian_after_nine_foreign(tmp_path):
+def test_never_asks_for_an_italian_artist(tmp_path):
+    # Decisione dell'utente: solo artisti e canzoni straniere, anche dopo molte storie senza italiani.
     for i in range(1, 10):
         _write(tmp_path, "archive", i, f"Artist {i}")
-    assert archive.next_constraints(tmp_path)["need_italian"] is True
+    assert archive.next_constraints(tmp_path)["need_italian"] is False
 
 
 def test_no_need_italian_when_one_in_last_ten(tmp_path):

@@ -50,7 +50,8 @@ def next_constraints(root: Path) -> Dict:
     recent_strands = [m["strand"] for m in seq[-STRAND_WINDOW:]]
     preferred = min(STRANDS, key=lambda s: (recent_strands.count(s), STRANDS.index(s)))
     window = seq[-ITALIAN_WINDOW:]
-    need_italian = len(window) >= ITALIAN_WINDOW - 1 and not any(m.get("italian") for m in window)
+    # Decisione dell'utente (2 novembre 2026): solo artisti e canzoni straniere, quindi non serve mai un italiano.
+    need_italian = False
     return {
         "avoid_artists": [last["artist"]] if last else [],
         "avoid_decade": last["decade"] if last else None,

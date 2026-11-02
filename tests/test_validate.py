@@ -169,3 +169,9 @@ def test_lyric_quote_must_appear_in_a_fact(story_dict):
     story_dict["lyric_quote"] = "Sending out an SOS"
     errors = validate_story(Story(**story_dict))
     assert any("frase del brano" in e and "fatto" in e for e in errors)
+
+
+def test_italian_story_is_rejected(story_dict):
+    story_dict["italian"] = True
+    errors = validate_story(Story(**story_dict))
+    assert any("solo artisti e canzoni straniere" in e for e in errors)

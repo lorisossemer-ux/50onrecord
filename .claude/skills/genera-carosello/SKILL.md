@@ -24,7 +24,9 @@ qui evita scarti, ma il cancello resta l'arbitro.
 
 ### 1. Scegli la storia
 - Rispetta l'output di `constraints`: niente artisti in `avoid_artists`, decennio diverso da `avoid_decade`,
-  preferisci `preferred_strand`, e se `need_italian` è `true` scegli un artista italiano.
+  preferisci `preferred_strand`.
+- **Solo artisti e canzoni straniere** (decisione dell'utente): mai artisti italiani né canzoni in italiano. Imposta
+  sempre `"italian": false` nello `story.json`: una storia con `italian: true` viene rifiutata dal cancello.
 - Tra un carosello e il successivo che prepari in questa stessa esecuzione: artista e decennio diversi.
 - Mai una storia la cui chiave `artista|canzone|filone` è in `used_keys`.
 - Filoni: `palco` (un brano suonato dal vivo in un momento preciso), `studio` (nascita delle canzoni),

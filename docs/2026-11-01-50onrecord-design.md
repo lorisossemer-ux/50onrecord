@@ -62,7 +62,7 @@ Elementi fissi, presenti in ogni carosello:
 
 **Periodo:** 1960–2010.
 
-**Artisti:** in prevalenza **internazionali** (Beatles, Queen, Michael Jackson, Nirvana, Madonna, U2…). La musica italiana compare, ma meno. **[scelta di Claude]** circa 1 carosello su 10 su artisti italiani.
+**Artisti:** in prevalenza **internazionali** (Beatles, Queen, Michael Jackson, Nirvana, Madonna, U2…). **[decisione dell'utente, 2 novembre 2026]** Solo artisti e canzoni straniere: niente artisti italiani né canzoni in italiano (sostituisce la scelta iniziale di circa 1 carosello su 10 italiano).
 
 **Quattro filoni**, alternati nel calendario:
 1. **Sul palco:** concerti leggendari e momenti iconici dal vivo.
