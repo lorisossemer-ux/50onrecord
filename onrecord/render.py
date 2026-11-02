@@ -54,6 +54,24 @@ _GROW_NOTES_JS = """
 """
 
 
+# Anche i titoli a ritagli crescono (moltiplicatore --k sulle dimensioni di base) finché stanno nel loro spazio.
+CUT_MAX_SCALE = 1.5
+_GROW_CUTS_JS = """
+(cap) => {
+  document.querySelectorAll('.cuts.fit').forEach(el => {
+    const fits = () => el.scrollHeight <= el.clientHeight + 12 && el.scrollWidth <= el.clientWidth + 12;
+    if (!fits()) return;
+    let k = 1;
+    while (k + 0.05 <= cap + 1e-9) {
+      el.style.setProperty('--k', (k + 0.05).toFixed(2));
+      if (!fits()) { el.style.setProperty('--k', k.toFixed(2)); return; }
+      k += 0.05;
+    }
+  });
+}
+"""
+
+
 class SlideOverflowError(Exception):
     def __init__(self, slide_index: int, elements: List[str]):
         self.slide_index = slide_index
@@ -113,6 +131,7 @@ def render_story(story: Story, photos: Dict[int, List[Photo]], issue: int, out_d
                 tab.goto(page.as_uri())
                 tab.evaluate("document.fonts.ready")
                 tab.evaluate(_GROW_NOTES_JS, NOTE_MAX_FONT_PX)
+                tab.evaluate(_GROW_CUTS_JS, CUT_MAX_SCALE)
                 bad = tab.evaluate(_OVERFLOW_JS, FRAME_TOLERANCE)
                 if bad:
                     raise SlideOverflowError(i, bad)

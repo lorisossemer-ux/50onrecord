@@ -229,3 +229,39 @@ def test_final_slide_without_lyric_quote_keeps_the_e_tu_heading(tmp_path, story_
     render_story(story, _photos_for(story), issue=1, out_dir=tmp_path)
     final = (tmp_path / "html" / f"{len(story.slides):02d}.html").read_text(encoding="utf-8")
     assert "E TU?" in final
+
+
+def _cut_scale(html):
+    import os
+    from playwright.sync_api import sync_playwright
+    from onrecord.render import _GROW_CUTS_JS, _OVERFLOW_JS
+    with sync_playwright() as pw:
+        browser = pw.chromium.launch(channel=os.environ.get("ONRECORD_BROWSER_CHANNEL") or None)
+        try:
+            tab = browser.new_page(viewport={"width": 1080, "height": 1350})
+            tab.set_content(html)
+            tab.evaluate(_GROW_CUTS_JS, 1.6)
+            scales = tab.evaluate("[...document.querySelectorAll('.cuts')].map(e => parseFloat(e.style.getPropertyValue('--k') || 1))")
+            return scales, tab.evaluate(_OVERFLOW_JS, 10)
+        finally:
+            browser.close()
+
+
+_CUTS_CSS = ("<style>*{margin:0;box-sizing:border-box}.cuts{position:absolute;left:50px;right:50px;overflow:hidden}"
+             ".cut{display:inline-block;white-space:nowrap;margin:6px 4px;padding:4px 14px 0;line-height:1;"
+             "font-family:sans-serif;font-size:calc(70px * var(--k, 1))}</style>")
+
+
+def test_heading_cuts_grow_to_fill_their_space_without_overflowing():
+    html = _CUTS_CSS + '<div class="cuts fit" style="top:0;height:390px"><span class="cut">DI BIMBO</span></div>'
+    (scale,), bad = _cut_scale(html)
+    assert 1 < scale <= 1.6   # molto spazio: i ritagli crescono, fino al tetto
+    assert bad == []          # e restano dentro il loro riquadro
+
+
+def test_heading_cuts_that_do_not_fit_are_left_alone():
+    html = (_CUTS_CSS + '<div class="cuts fit" style="top:0;height:40px">'
+            '<span class="cut">UNA PAROLA</span><span class="cut">DI BIMBO</span></div>')
+    (scale,), bad = _cut_scale(html)
+    assert scale == 1         # non toccati: l'overflow resta segnalato
+    assert bad
