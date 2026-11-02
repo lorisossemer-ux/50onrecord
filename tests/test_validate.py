@@ -143,3 +143,29 @@ def test_listen_track_article_is_ignored(story_dict):
 def test_listen_track_hedging_rejected(story_dict):
     story_dict["listen_track"] = "The Police - forse Roxanne"
     assert any("espressione vietata" in e for e in validate_story(Story(**story_dict)))
+
+
+def _with_quote(story_dict, quote):
+    story_dict["lyric_quote"] = quote
+    story_dict["facts"][0]["claim"] += f' Il ritornello dice "{quote}".'
+    return Story(**story_dict)
+
+
+def test_lyric_quote_is_optional(story_dict):
+    assert "lyric_quote" not in story_dict
+    assert validate_story(Story(**story_dict)) == []
+
+
+def test_short_lyric_quote_covered_by_a_fact_is_valid(story_dict):
+    assert validate_story(_with_quote(story_dict, "Message in a bottle")) == []
+
+
+def test_lyric_quote_longer_than_five_words_rejected(story_dict):
+    errors = validate_story(_with_quote(story_dict, "Sending out an SOS to the world"))
+    assert any("frase del brano" in e and "max 5" in e for e in errors)
+
+
+def test_lyric_quote_must_appear_in_a_fact(story_dict):
+    story_dict["lyric_quote"] = "Sending out an SOS"
+    errors = validate_story(Story(**story_dict))
+    assert any("frase del brano" in e and "fatto" in e for e in errors)

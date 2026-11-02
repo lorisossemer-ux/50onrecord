@@ -198,3 +198,18 @@ def test_note_that_overflows_at_base_size_is_not_shrunk_or_hidden():
     (size,), bad = _note_font_sizes(html)
     assert size == 40          # non toccato: resta segnalato come overflow
     assert bad
+
+
+def test_final_slide_shows_lyric_quote(tmp_path, story_dict):
+    story_dict["lyric_quote"] = "Message in a bottle"
+    story = Story(**story_dict)
+    render_story(story, _photos_for(story), issue=1, out_dir=tmp_path)
+    final = (tmp_path / "html" / f"{len(story.slides):02d}.html").read_text(encoding="utf-8")
+    assert "Message in a bottle" in final
+
+
+def test_final_slide_without_lyric_quote_has_no_quote_box(tmp_path, story_dict):
+    story = Story(**story_dict)
+    render_story(story, _photos_for(story), issue=1, out_dir=tmp_path)
+    final = (tmp_path / "html" / f"{len(story.slides):02d}.html").read_text(encoding="utf-8")
+    assert 'data-name="frase del brano"' not in final

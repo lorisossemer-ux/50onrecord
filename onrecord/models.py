@@ -71,6 +71,8 @@ class Story(BaseModel):
     question: str
     # Il brano da ascoltare, "Artista – Titolo": l'API di Instagram non permette la musica sui caroselli.
     listen_track: str = Field(min_length=3, max_length=90)
+    # Frammento "epico" del testo del brano, mostrato sull'ultima slide (max 5 parole: vedi validate.py).
+    lyric_quote: Optional[str] = Field(default=None, min_length=3, max_length=60)
     hashtags: List[str] = Field(default_factory=list)
 
     @model_validator(mode="after")

@@ -39,6 +39,8 @@ def _story_texts(story: Story) -> Iterable[str]:
     yield story.caption_body
     yield story.question
     yield story.listen_track
+    if story.lyric_quote:
+        yield story.lyric_quote
 
 
 def _texts_for_numbers(story: Story) -> Iterable[str]:
@@ -77,6 +79,14 @@ def validate_story(story: Story) -> List[str]:
             quoted = groups[0] or groups[1]
             if len(quoted.split()) > MAX_QUOTED_WORDS:
                 errors.append(f"citazione troppo lunga (max {MAX_QUOTED_WORDS} parole): \"{quoted}\"")
+
+    if story.lyric_quote:
+        quote = _normalize(story.lyric_quote).strip()
+        if len(quote.split()) > MAX_QUOTED_WORDS:
+            errors.append(f"frase del brano troppo lunga (max {MAX_QUOTED_WORDS} parole): \"{quote}\"")
+        # La frase deve essere stata verificata: compare in un fatto, quindi ha almeno 2 fonti indipendenti.
+        if not any(quote.lower() in _normalize(f.claim).lower() for f in story.facts):
+            errors.append(f"frase del brano non coperta da un fatto verificato: \"{quote}\"")
 
     artist_words = [w for w in re.findall(r"\w+", story.artist.lower()) if w not in _ARTICLES]
     track = story.listen_track.lower()

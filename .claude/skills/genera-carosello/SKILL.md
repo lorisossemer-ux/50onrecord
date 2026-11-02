@@ -79,6 +79,13 @@ Segui il modello in `onrecord/models.py` e l'esempio `tests/fixtures/police_mess
   in cima alla didascalia (con la ricerca su Spotify e YouTube) e sull'ultima slide. Deve essere un brano
   **reale** dell'artista della storia, preferibilmente quello di cui si parla; il nome dell'artista deve
   comparire nel testo. Al massimo 90 caratteri.
+- `lyric_quote` (consigliato): un frammento **epico** del testo del brano di `listen_track`, mostrato in grande
+  sull'ultima slide accanto a "E TU?". **Al massimo 5 parole**, nella lingua originale, con le parole
+  **esatte** del brano (non parafrasate, non inventate). Scegli il verso più memorabile e più legato alla
+  storia. Deve comparire, tra virgolette doppie, nel testo di almeno uno dei `facts` (es. `Il ritornello
+  dice "Radio, someone still loves you".`), così ha le sue 2 fonti indipendenti (siti di testi o fonti
+  giornalistiche che lo riportano). Se non riesci a verificare le parole esatte, lascia il campo vuoto: non
+  indovinare mai un verso. Il resto del testo del brano resta solo parafrasato.
 - `hashtags`: al massimo 5, sempre incluso `#50onrecord`.
 
 ### 4. Controlla
