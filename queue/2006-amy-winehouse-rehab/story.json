@@ -1,0 +1,226 @@
+{
+  "id": "2006-amy-winehouse-rehab",
+  "artist": "Amy Winehouse",
+  "song": "Rehab",
+  "year": 2006,
+  "decade": "00",
+  "strand": "studio",
+  "italian": false,
+  "facts": [
+    {
+      "claim": "Winehouse raccontò a Mark Ronson, durante una passeggiata a New York, di quando le era stato proposto di entrare in riabilitazione e lei aveva rifiutato.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Rehab_(Amy_Winehouse_song)",
+          "title": "Rehab (Amy Winehouse song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://faroutmagazine.co.uk/amy-winehouse-rehab-song-meaning/",
+          "title": "Amy Winehouse's Rehab: the meaning of the song",
+          "publisher": "Far Out Magazine"
+        }
+      ]
+    },
+    {
+      "claim": "Ronson capì subito che da quel racconto poteva nascere una canzone e la incoraggiò a scriverla.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Rehab_(Amy_Winehouse_song)",
+          "title": "Rehab (Amy Winehouse song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://faroutmagazine.co.uk/amy-winehouse-rehab-song-meaning/",
+          "title": "Amy Winehouse's Rehab: the meaning of the song",
+          "publisher": "Far Out Magazine"
+        },
+        {
+          "url": "https://grammy.com/news/deep-10-amy-winehouses-back-to-black",
+          "title": "Deep 10: Amy Winehouse's Back To Black",
+          "publisher": "Recording Academy (GRAMMY.com)"
+        }
+      ]
+    },
+    {
+      "claim": "Il testo di Rehab è autobiografico: parla del rifiuto di Winehouse di entrare in una clinica di riabilitazione.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Rehab_(Amy_Winehouse_song)",
+          "title": "Rehab (Amy Winehouse song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://grammy.com/news/deep-10-amy-winehouses-back-to-black",
+          "title": "Deep 10: Amy Winehouse's Back To Black",
+          "publisher": "Recording Academy (GRAMMY.com)"
+        }
+      ]
+    },
+    {
+      "claim": "Rehab uscì il 23 ottobre 2006 come primo singolo dell'album Back to Black.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Rehab_(Amy_Winehouse_song)",
+          "title": "Rehab (Amy Winehouse song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://faroutmagazine.co.uk/amy-winehouse-rehab-song-meaning/",
+          "title": "Amy Winehouse's Rehab: the meaning of the song",
+          "publisher": "Far Out Magazine"
+        },
+        {
+          "url": "https://grammy.com/news/deep-10-amy-winehouses-back-to-black",
+          "title": "Deep 10: Amy Winehouse's Back To Black",
+          "publisher": "Recording Academy (GRAMMY.com)"
+        }
+      ]
+    },
+    {
+      "claim": "Ai 50° Grammy Awards, nel 2008, Rehab vinse Record of the Year, Song of the Year e Best Female Pop Vocal Performance.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Rehab_(Amy_Winehouse_song)",
+          "title": "Rehab (Amy Winehouse song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://faroutmagazine.co.uk/amy-winehouse-rehab-song-meaning/",
+          "title": "Amy Winehouse's Rehab: the meaning of the song",
+          "publisher": "Far Out Magazine"
+        },
+        {
+          "url": "https://grammy.com/news/deep-10-amy-winehouses-back-to-black",
+          "title": "Deep 10: Amy Winehouse's Back To Black",
+          "publisher": "Recording Academy (GRAMMY.com)"
+        }
+      ]
+    },
+    {
+      "claim": "Rehab vinse anche l'Ivor Novello come miglior canzone contemporanea.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Rehab_(Amy_Winehouse_song)",
+          "title": "Rehab (Amy Winehouse song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://faroutmagazine.co.uk/amy-winehouse-rehab-song-meaning/",
+          "title": "Amy Winehouse's Rehab: the meaning of the song",
+          "publisher": "Far Out Magazine"
+        }
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "heading_cuts": [
+        "UN NO",
+        "DIVENTA",
+        "UNA CANZONE"
+      ],
+      "body": null,
+      "marker": "la storia di Rehab ↓",
+      "photos": [
+        {
+          "query": "Amy Winehouse",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Amy Winehouse"
+        },
+        {
+          "query": "Amy Winehouse performing 2007",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Amy Winehouse"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "NEW YORK",
+        "PASSEGGIATA"
+      ],
+      "body": "Amy Winehouse cammina per New York con il produttore Mark Ronson. Gli racconta di quando le era stato proposto di entrare in riabilitazione e lei aveva rifiutato.",
+      "marker": "lei disse no →",
+      "photos": [],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "L'IDEA",
+        "DI RONSON"
+      ],
+      "body": "Ronson capisce subito che da quel racconto può nascere una canzone. La incoraggia a scriverla.",
+      "marker": "ci ha visto subito il pezzo.",
+      "photos": [
+        {
+          "query": "Mark Ronson",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Mark Ronson"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "emotion",
+      "heading_cuts": [
+        "UNA STORIA",
+        "vera"
+      ],
+      "body": "Il testo è autobiografico: parla del rifiuto di Amy di entrare in una clinica di riabilitazione.",
+      "marker": "una storia vera.",
+      "photos": [],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "23 OTTOBRE",
+        "2006"
+      ],
+      "body": "Rehab esce il 23 ottobre 2006 come primo singolo dell'album Back to Black.",
+      "marker": null,
+      "photos": [],
+      "source_note": null
+    },
+    {
+      "kind": "result",
+      "heading_cuts": [
+        "I GRAMMY",
+        "2008"
+      ],
+      "body": "Ai 50° Grammy Awards Rehab vince Record of the Year, Song of the Year e Best Female Pop Vocal Performance. Vince anche un Ivor Novello come miglior canzone contemporanea.",
+      "marker": null,
+      "photos": [],
+      "source_note": null
+    },
+    {
+      "kind": "final",
+      "heading_cuts": [
+        "E TU?"
+      ],
+      "body": null,
+      "marker": "scrivila nei commenti ↓",
+      "photos": [],
+      "source_note": null
+    }
+  ],
+  "caption_body": "Amy Winehouse racconta a Mark Ronson, durante una passeggiata a New York, di quando le avevano proposto la riabilitazione e lei aveva detto di no. Ronson capisce subito che c'è una canzone e la incoraggia a scriverla. Rehab esce il 23 ottobre 2006 e ai 50° Grammy Awards vince Record of the Year, Song of the Year e Best Female Pop Vocal Performance.",
+  "question": "Tutti associamo un pezzo a un ricordo... cosa ti fa venire in mente Rehab?",
+  "listen_track": "Amy Winehouse – Rehab",
+  "lyric_quote": null,
+  "hashtags": [
+    "#amywinehouse",
+    "#rehab",
+    "#markronson",
+    "#musica00",
+    "#50onrecord"
+  ]
+}
