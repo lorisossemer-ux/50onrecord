@@ -437,3 +437,31 @@ def test_publish_stops_when_recent_posts_cannot_be_checked(repo, monkeypatch):
                         lambda urls, caption, ig, token, on_container=None: posted.append(caption) or "NEW")
     assert cli.publish(repo, now=EVENING) == 1
     assert posted == [] and (repo / "queue" / "item-1").exists()
+
+
+def test_error_after_meta_published_is_recovered_in_the_same_run(repo, monkeypatch):
+    # Meta pubblica ma risponde "limite di richieste": al secondo controllo il post è online, niente run fallito.
+    calls = {"n": 0}
+
+    def captions(ig_user_id, token, limit=10):
+        calls["n"] += 1
+        return [] if calls["n"] == 1 else ["didascalia"]
+
+    def publish_then_error(urls, caption, ig, token, on_container=None):
+        raise PublishError("Meta ha rifiutato la richiesta: Application request limit reached")
+
+    monkeypatch.setattr(instagram, "recent_captions", captions)
+    monkeypatch.setattr(instagram, "publish_carousel", publish_then_error)
+    assert cli.publish(repo, now=EVENING) == 0
+    assert (repo / "archive" / "item-1").exists() and not (repo / "queue" / "item-1").exists()
+    state = json.loads((repo / "state.json").read_text())
+    assert "pending" not in state and state["consecutive_skips"] == 0
+
+
+def test_error_without_a_published_post_still_fails(repo, monkeypatch):
+    def publish_error(urls, caption, ig, token, on_container=None):
+        raise PublishError("Meta ha rifiutato la richiesta: Application request limit reached")
+
+    monkeypatch.setattr(instagram, "publish_carousel", publish_error)
+    assert cli.publish(repo, now=EVENING) == 1
+    assert (repo / "queue" / "item-1").exists()

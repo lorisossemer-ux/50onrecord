@@ -258,6 +258,15 @@ def publish(root: Path, now: Optional[datetime] = None, dry_run: bool = False,
         media_id = instagram.publish_carousel(urls, caption, _secret("IG_USER_ID"), _secret("IG_TOKEN"),
                                               on_container=remember_container)
     except instagram.PublishError as exc:
+        # Se Meta ha pubblicato prima di rispondere con l'errore, il post è già online: va registrato, non ritentato.
+        try:
+            if " ".join(caption.split()) in {" ".join(c.split()) for c in instagram.recent_captions(
+                    _secret("IG_USER_ID"), _secret("IG_TOKEN"))}:
+                print(f"{item.name} è online nonostante l'errore di Meta ({exc}): lo registro come pubblicato.")
+                _mark_published(root, state, item, "gia-presente-su-instagram", slot, now)
+                return 0
+        except instagram.PublishError:
+            pass
         _count_skip(state, slot)
         _save_state(root, state)
         set_aside = _record_item_failure(item, slot)
