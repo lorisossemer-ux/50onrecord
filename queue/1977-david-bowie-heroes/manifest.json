@@ -1,0 +1,29 @@
+{
+  "id": "1977-david-bowie-heroes",
+  "artist": "David Bowie",
+  "song": "Heroes",
+  "decade": "70",
+  "strand": "studio",
+  "italian": false,
+  "key": "david bowie|heroes|studio",
+  "issue": 12,
+  "status": "ready",
+  "created_at": "2026-11-02T19:25:30.241262+00:00",
+  "photos": [
+    {
+      "author": "Archie Wildes",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%E2%80%9CHeroes%E2%80%9D_by_David_Bowie_(Album-CD)_(UK-1999).jpg"
+    },
+    {
+      "author": "Menage a moi",
+      "license": "CC BY-SA 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tony_Visconti_2007.jpg"
+    },
+    {
+      "author": "RCA Records",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:David_Bowie_Live_1974.jpg"
+    }
+  ]
+}

@@ -1,8 +1,9 @@
 {% extends "base.html" %}
 {% block content %}
-{{ m.photo(photos[0], "left:70px; top:90px; width:640px; height:760px;", -3, "left:40px; top:70px; transform: rotate(-30deg);") }}
-{{ m.photo(photos[1], "right:60px; top:180px; width:300px; height:400px;", 5, "right:120px; top:160px; transform: rotate(8deg); width:150px;") }}
-{{ m.marker(slide.marker, "right:60px; top:610px; width:340px; max-height:200px; font-size:44px; transform: rotate(-6deg);") }}
-{{ m.cuts(slide.heading_cuts, "top:880px; height:390px;") }}
+{{ m.artist(story.artist, "left:50px; top:-8px;") }}
+{{ m.photo(photos[0], "left:70px; top:350px; width:640px; height:520px;", -3, "left:40px; top:330px; transform: rotate(-30deg);") }}
+{{ m.photo(photos[1], "right:60px; top:420px; width:300px; height:370px;", 5, "right:120px; top:400px; transform: rotate(8deg); width:150px;") }}
+{{ m.marker(slide.marker, "right:60px; top:770px; width:340px; max-height:140px; font-size:40px; transform: rotate(-6deg);") }}
+{{ m.cuts(slide.heading_cuts, "top:905px; height:370px;") }}
 {% endblock %}
 {% block foot_left %}50ONRECORD · fanzine n.{{ issue }} · {{ story.artist | lower }}, {{ story.year }}{% endblock %}

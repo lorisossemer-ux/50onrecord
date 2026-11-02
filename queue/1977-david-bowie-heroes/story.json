@@ -1,0 +1,218 @@
+{
+  "id": "1977-david-bowie-heroes",
+  "artist": "David Bowie",
+  "song": "Heroes",
+  "year": 1977,
+  "decade": "70",
+  "strand": "studio",
+  "italian": false,
+  "facts": [
+    {
+      "claim": "Nel 1977 David Bowie registrò Heroes agli Hansa Studio di Berlino Ovest.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/%22Heroes%22_(David_Bowie_song)",
+          "title": "\"Heroes\" (David Bowie song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://daily.redbullmusicacademy.com/2013/02/key-tracks-tony-visconti-on-heroes",
+          "title": "Key Tracks: Tony Visconti on Heroes",
+          "publisher": "Red Bull Music Academy"
+        }
+      ]
+    },
+    {
+      "claim": "Gli Hansa Studio erano vicino al Muro di Berlino.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/%22Heroes%22_(David_Bowie_song)",
+          "title": "\"Heroes\" (David Bowie song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/david-bowie/heroes",
+          "title": "Heroes",
+          "publisher": "Songfacts"
+        }
+      ]
+    },
+    {
+      "claim": "Tony Visconti usò tre microfoni a distanze diverse da Bowie; i due più lontani si aprivano solo quando Bowie cantava forte.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/%22Heroes%22_(David_Bowie_song)",
+          "title": "\"Heroes\" (David Bowie song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://daily.redbullmusicacademy.com/2013/02/key-tracks-tony-visconti-on-heroes",
+          "title": "Key Tracks: Tony Visconti on Heroes",
+          "publisher": "Red Bull Music Academy"
+        }
+      ]
+    },
+    {
+      "claim": "Dalla finestra dello studio Bowie vide Tony Visconti e la cantante Antonia Maass baciarsi vicino al Muro di Berlino, e prese spunto da quella scena per il testo.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/%22Heroes%22_(David_Bowie_song)",
+          "title": "\"Heroes\" (David Bowie song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/david-bowie/heroes",
+          "title": "Heroes",
+          "publisher": "Songfacts"
+        }
+      ]
+    },
+    {
+      "claim": "Nel 2003 Bowie confermò che gli amanti del testo erano Visconti e una ragazza tedesca.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/%22Heroes%22_(David_Bowie_song)",
+          "title": "\"Heroes\" (David Bowie song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/david-bowie/heroes",
+          "title": "Heroes",
+          "publisher": "Songfacts"
+        }
+      ]
+    },
+    {
+      "claim": "Nel 1977 Heroes arrivò al numero 24 della classifica britannica; dopo la morte di Bowie, nel 2016, salì al numero 12.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/%22Heroes%22_(David_Bowie_song)",
+          "title": "\"Heroes\" (David Bowie song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/david-bowie/heroes",
+          "title": "Heroes",
+          "publisher": "Songfacts"
+        }
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "heading_cuts": [
+        "UN BACIO",
+        "vicino al",
+        "MURO"
+      ],
+      "body": null,
+      "marker": "ispirata a un bacio ↓",
+      "photos": [
+        {
+          "query": "David Bowie 1977",
+          "commons_file": null,
+          "role": "main",
+          "subject": "David Bowie"
+        },
+        {
+          "query": "Tony Visconti",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Tony Visconti"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "BERLINO",
+        "1977"
+      ],
+      "body": "Nel 1977 David Bowie registra Heroes agli Hansa Studio di Berlino Ovest, vicino al Muro.",
+      "marker": "vicino al Muro →",
+      "photos": [
+        {
+          "query": "David Bowie 1977 Berlin",
+          "commons_file": null,
+          "role": "main",
+          "subject": "David Bowie"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "TRE",
+        "MICROFONI"
+      ],
+      "body": "Tony Visconti usa tre microfoni a distanze diverse da Bowie. I due più lontani si aprono solo quando Bowie canta forte.",
+      "marker": "tre microfoni",
+      "photos": [],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "DALLA",
+        "FINESTRA"
+      ],
+      "body": "Dalla finestra dello studio Bowie vede Tony Visconti e la cantante Antonia Maass baciarsi vicino al Muro di Berlino. Da quella scena prende spunto il testo.",
+      "marker": "il bacio vicino al Muro",
+      "photos": [],
+      "source_note": null
+    },
+    {
+      "kind": "emotion",
+      "heading_cuts": [
+        "NEL 2003"
+      ],
+      "body": "Nel 2003 Bowie conferma che gli amanti del testo erano Visconti e una ragazza tedesca.",
+      "marker": "gli amanti del testo erano veri.",
+      "photos": [
+        {
+          "query": "David Bowie live",
+          "commons_file": null,
+          "role": "side",
+          "subject": "David Bowie"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "result",
+      "heading_cuts": [
+        "N°24",
+        "poi",
+        "N°12"
+      ],
+      "body": "Nel 1977 arriva al numero 24 della classifica britannica. Dopo la morte di Bowie, nel 2016, sale al numero 12.",
+      "marker": null,
+      "photos": [],
+      "source_note": null
+    },
+    {
+      "kind": "final",
+      "heading_cuts": [
+        "E TU?"
+      ],
+      "body": null,
+      "marker": "scrivila nei commenti ↓",
+      "photos": [],
+      "source_note": null
+    }
+  ],
+  "caption_body": "Nel 1977 David Bowie registra Heroes agli Hansa Studio di Berlino Ovest, vicino al Muro. Dalla finestra vede Tony Visconti e Antonia Maass baciarsi: da quella scena prende spunto il testo, e nel 2003 lo conferma.",
+  "question": "Qual è la canzone di Bowie che per te vale un'epoca?",
+  "listen_track": "David Bowie – Heroes",
+  "lyric_quote": null,
+  "hashtags": [
+    "#davidbowie",
+    "#heroes",
+    "#musica70",
+    "#storiedellamusica",
+    "#50onrecord"
+  ]
+}

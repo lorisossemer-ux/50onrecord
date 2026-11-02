@@ -125,7 +125,8 @@ def test_nophoto_cover_long_artist_detected(tmp_path, story_dict):
     with pytest.raises(SlideOverflowError) as exc:
         render_story(story, {i: [] for i in range(len(story.slides))}, issue=1, out_dir=tmp_path)
     assert exc.value.slide_index == 0
-    assert "artista" in exc.value.elements
+    # anche al corpo minimo il nome non sta nella slide
+    assert any(e.startswith("nome artista") for e in exc.value.elements)
 
 
 def test_trio_without_photos_moves_text_up(tmp_path, story_dict):
@@ -265,3 +266,41 @@ def test_heading_cuts_that_do_not_fit_are_left_alone():
     (scale,), bad = _cut_scale(html)
     assert scale == 1         # non toccati: l'overflow resta segnalato
     assert bad
+
+
+def _artist_tag_width(name, max_width=960):
+    import os
+    from playwright.sync_api import sync_playwright
+    from onrecord.render import _FIT_ARTIST_JS
+    html = ("<style>*{margin:0}.artist{position:absolute;left:50px;top:100px;white-space:nowrap;width:max-content;"
+            "font-family:sans-serif;font-weight:900;text-transform:uppercase;font-size:250px}</style>"
+            f'<div class="artist fit" data-name="nome artista">{name}</div>')
+    with sync_playwright() as pw:
+        browser = pw.chromium.launch(channel=os.environ.get("ONRECORD_BROWSER_CHANNEL") or None)
+        try:
+            tab = browser.new_page(viewport={"width": 1080, "height": 1350})
+            tab.set_content(html)
+            tab.evaluate(_FIT_ARTIST_JS, [max_width, 250, 90])
+            return tab.evaluate("(() => { const e = document.querySelector('.artist');"
+                                " return [e.offsetWidth, parseFloat(e.style.fontSize || getComputedStyle(e).fontSize)]; })()")
+        finally:
+            browser.close()
+
+
+def test_short_artist_name_keeps_the_maximum_size():
+    width, size = _artist_tag_width("Queen")
+    assert size == 250 and width <= 960
+
+
+def test_long_artist_name_shrinks_to_fit_one_line():
+    width, size = _artist_tag_width("Bob Marley")
+    assert 90 <= size < 250
+    assert width <= 960
+
+
+def test_cover_shows_the_artist_name_prominently(tmp_path, story_dict):
+    story = Story(**story_dict)
+    render_story(story, _photos_for(story), issue=1, out_dir=tmp_path)
+    cover = (tmp_path / "html" / "01.html").read_text(encoding="utf-8")
+    assert 'data-name="nome artista"' in cover
+    assert story.artist in cover

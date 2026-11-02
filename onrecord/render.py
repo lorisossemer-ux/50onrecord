@@ -72,6 +72,19 @@ _GROW_CUTS_JS = """
 """
 
 
+# Il nome dell'artista è la testata della copertina: la più grande possibile su una riga sola.
+ARTIST_MAX_WIDTH, ARTIST_MAX_FONT_PX, ARTIST_MIN_FONT_PX = 980, 250, 90
+_FIT_ARTIST_JS = """
+([maxWidth, maxPx, minPx]) => {
+  document.querySelectorAll('.artist').forEach(el => {
+    let size = maxPx;
+    el.style.fontSize = size + 'px';
+    while (el.offsetWidth > maxWidth && size > minPx) { size -= 4; el.style.fontSize = size + 'px'; }
+  });
+}
+"""
+
+
 class SlideOverflowError(Exception):
     def __init__(self, slide_index: int, elements: List[str]):
         self.slide_index = slide_index
@@ -130,6 +143,7 @@ def render_story(story: Story, photos: Dict[int, List[Photo]], issue: int, out_d
             for i, page in enumerate(pages):
                 tab.goto(page.as_uri())
                 tab.evaluate("document.fonts.ready")
+                tab.evaluate(_FIT_ARTIST_JS, [ARTIST_MAX_WIDTH, ARTIST_MAX_FONT_PX, ARTIST_MIN_FONT_PX])
                 tab.evaluate(_GROW_NOTES_JS, NOTE_MAX_FONT_PX)
                 tab.evaluate(_GROW_CUTS_JS, CUT_MAX_SCALE)
                 bad = tab.evaluate(_OVERFLOW_JS, FRAME_TOLERANCE)

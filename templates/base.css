@@ -26,6 +26,7 @@ html, body { width: 1080px; height: 1350px; overflow: hidden; background: #f1eee
 .cuts.huge { --s1: 150px; --s2: 110px; --s3: 120px; }
 
 .note { position: absolute; font-family: 'Special Elite'; color: #1a1a1a; background: #fff; padding: 36px 42px; box-shadow: 4px 4px 0 rgba(0,0,0,.2); z-index: 7; line-height: 1.45; overflow: hidden; }
+.artist { position: absolute; z-index: 9; white-space: nowrap; width: max-content; text-transform: uppercase; font-family: 'Anton'; color: #111; line-height: 1.4; letter-spacing: .01em; border-bottom: 16px solid var(--c1-bg); }
 .marker { position: absolute; font-family: 'Permanent Marker'; color: var(--marker, #d2231b); z-index: 8; line-height: 1.1; overflow: hidden; }
 .typed { position: absolute; font-family: 'Special Elite'; color: #1a1a1a; z-index: 7; overflow: hidden; white-space: nowrap; }
 .foot { position: absolute; left: 56px; right: 56px; bottom: 40px; display: flex; justify-content: space-between; gap: 24px; font-family: 'Special Elite'; font-size: 26px; color: #1a1a1a; z-index: 9; }

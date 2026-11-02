@@ -14,3 +14,7 @@
 {% macro marker(text, style, name="pennarello") -%}
 {% if text %}<div class="marker fit" data-name="{{ name }}" style="{{ style }}">{{ text }}</div>{% endif %}
 {%- endmacro %}
+
+{% macro artist(name, style="") -%}
+<div class="artist fit" data-name="nome artista" style="{{ style }}">{{ name }}</div>
+{%- endmacro %}

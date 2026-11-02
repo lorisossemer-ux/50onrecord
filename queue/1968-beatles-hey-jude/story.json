@@ -1,0 +1,199 @@
+{
+  "id": "1968-beatles-hey-jude",
+  "artist": "The Beatles",
+  "song": "Hey Jude",
+  "year": 1968,
+  "decade": "60",
+  "strand": "emozione",
+  "italian": false,
+  "facts": [
+    {
+      "claim": "Nell'estate del 1968 Paul McCartney scrisse Hey Jude per Julian Lennon, il figlio di John Lennon e Cynthia.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Hey_Jude",
+          "title": "Hey Jude",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://faroutmagazine.co.uk/the-beatles-paul-mccartney-hey-jude-the-story-behind-the-song/",
+          "title": "The Story Behind The Song: The Beatles' masterpiece 'Hey Jude'",
+          "publisher": "Far Out Magazine"
+        }
+      ]
+    },
+    {
+      "claim": "McCartney guidò verso Weybridge per visitare Cynthia e Julian e cominciò a scrivere la canzone in auto.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Hey_Jude",
+          "title": "Hey Jude",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://faroutmagazine.co.uk/the-beatles-paul-mccartney-hey-jude-the-story-behind-the-song/",
+          "title": "The Story Behind The Song: The Beatles' masterpiece 'Hey Jude'",
+          "publisher": "Far Out Magazine"
+        }
+      ]
+    },
+    {
+      "claim": "Il titolo di lavoro era Hey Jules: McCartney cambiò poi Jules in Jude.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Hey_Jude",
+          "title": "Hey Jude",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://faroutmagazine.co.uk/the-beatles-paul-mccartney-hey-jude-the-story-behind-the-song/",
+          "title": "The Story Behind The Song: The Beatles' masterpiece 'Hey Jude'",
+          "publisher": "Far Out Magazine"
+        }
+      ]
+    },
+    {
+      "claim": "John Lennon disse di aver sempre sentito la canzone come una canzone per sé.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Hey_Jude",
+          "title": "Hey Jude",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://faroutmagazine.co.uk/the-beatles-paul-mccartney-hey-jude-the-story-behind-the-song/",
+          "title": "The Story Behind The Song: The Beatles' masterpiece 'Hey Jude'",
+          "publisher": "Far Out Magazine"
+        }
+      ]
+    },
+    {
+      "claim": "Negli Stati Uniti Hey Jude restò nove settimane al primo posto della Billboard Hot 100.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Hey_Jude",
+          "title": "Hey Jude",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://faroutmagazine.co.uk/the-beatles-paul-mccartney-hey-jude-the-story-behind-the-song/",
+          "title": "The Story Behind The Song: The Beatles' masterpiece 'Hey Jude'",
+          "publisher": "Far Out Magazine"
+        }
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "heading_cuts": [
+        "UNA CANZONE",
+        "per il figlio",
+        "DI LENNON"
+      ],
+      "body": null,
+      "marker": "scritta per il figlio di Lennon ↓",
+      "photos": [
+        {
+          "query": "Paul McCartney",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Paul McCartney"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "ESTATE",
+        "1968"
+      ],
+      "body": "Nell'estate del 1968 Paul McCartney scrive una canzone per Julian Lennon, il figlio di John Lennon e Cynthia.",
+      "marker": "per Julian →",
+      "photos": [
+        {
+          "query": "Paul McCartney 1968",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Paul McCartney"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "IN AUTO",
+        "verso",
+        "WEYBRIDGE"
+      ],
+      "body": "McCartney guida verso Weybridge per visitare Cynthia e Julian e comincia a scrivere la canzone in auto.",
+      "marker": "scritta in auto",
+      "photos": [],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "HEY",
+        "JULES"
+      ],
+      "body": "Il titolo di lavoro è Hey Jules. Poi McCartney cambia Jules in Jude.",
+      "marker": "da Jules a Jude",
+      "photos": [],
+      "source_note": null
+    },
+    {
+      "kind": "emotion",
+      "heading_cuts": [
+        "UNA CANZONE",
+        "per due"
+      ],
+      "body": "John Lennon dirà di averla sempre sentita come una canzone per sé.",
+      "marker": "scritta per Julian, sentita da John.",
+      "photos": [
+        {
+          "query": "John Lennon",
+          "commons_file": null,
+          "role": "side",
+          "subject": "John Lennon"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "result",
+      "heading_cuts": [
+        "NOVE",
+        "SETTIMANE",
+        "in vetta"
+      ],
+      "body": "Negli Stati Uniti resta nove settimane al primo posto della Billboard Hot 100.",
+      "marker": null,
+      "photos": [],
+      "source_note": null
+    },
+    {
+      "kind": "final",
+      "heading_cuts": [
+        "E TU?"
+      ],
+      "body": null,
+      "marker": "scrivila nei commenti ↓",
+      "photos": [],
+      "source_note": null
+    }
+  ],
+  "caption_body": "Nell'estate del 1968 Paul McCartney guida verso Weybridge per visitare Cynthia e Julian e comincia a scrivere la canzone in auto. Il titolo di lavoro è Hey Jules, poi diventa Jude. Lennon dirà di averla sempre sentita come una canzone per sé.",
+  "question": "A chi dedicheresti Hey Jude?",
+  "listen_track": "The Beatles – Hey Jude",
+  "lyric_quote": null,
+  "hashtags": [
+    "#thebeatles",
+    "#heyjude",
+    "#musica60",
+    "#storiedellamusica",
+    "#50onrecord"
+  ]
+}
