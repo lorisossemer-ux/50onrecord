@@ -1,0 +1,41 @@
+{
+  "id": "1993-nirvana-where-did-you-sleep-last-night",
+  "artist": "Nirvana",
+  "song": "Where Did You Sleep Last Night",
+  "decade": "90",
+  "strand": "palco",
+  "italian": false,
+  "key": "nirvana|where did you sleep last night|palco",
+  "issue": 2,
+  "created_at": "2026-11-02T05:00:35.834268+00:00",
+  "photos": [
+    {
+      "author": "Karren Ablaze!",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ablaze-Nirvana-comic-detail.jpg"
+    },
+    {
+      "author": "Francisco Antunes from Manchester, United Kingdom",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kurt_Cobain%27s_tool_for_Organized_Confusion_demo_-_Sears_Jazz_Bass,_Suitcase_as_a_drum,_TEAC_A-2340_4-tr_recorder_(1970s)_-_T-shirts_%22Nazi_Punks_Fuck_Off%22_%26_%22HarD.C.ore%22_-_Museum_of_Pop_Culture_(2017-03-04_18.06.39_by_Francisco_Antunes).jpg"
+    },
+    {
+      "author": "Karren Ablaze!",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ablaze-Nirvana-comic-detail.jpg"
+    },
+    {
+      "author": "P.B. Rage from USA",
+      "license": "CC BY-SA 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nirvana_around_1992.jpg"
+    },
+    {
+      "author": "Razvan Orendovici from United States",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kurt_Cobain,_Smells_Like_Teen_Spirit_guitar,_EMP_Museum.jpg"
+    }
+  ],
+  "media_id": "18189662182413660",
+  "slot": "manuale-2026-11-02T18:26",
+  "published_at": "2026-11-02T17:27:23.542891+00:00"
+}
