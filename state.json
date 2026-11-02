@@ -1,4 +1,10 @@
 {
-  "consecutive_skips": 0,
-  "last_published_utc": "2026-11-02T19:27:52.963924+00:00"
+  "consecutive_skips": 1,
+  "last_published_utc": "2026-11-02T19:27:52.963924+00:00",
+  "pending": {
+    "item": "1977-david-bowie-heroes",
+    "container": "18199333282387786",
+    "slot": "manuale-2026-11-02T20:38"
+  },
+  "last_skipped_slot": "manuale-2026-11-02T20:38"
 }
