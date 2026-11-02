@@ -2,7 +2,6 @@
 from __future__ import annotations
 
 from typing import List
-from urllib.parse import quote, quote_plus
 
 from .models import Story
 from .photos import Photo
@@ -15,28 +14,34 @@ class CaptionTooLongError(ValueError):
     pass
 
 
-def build_caption(story: Story, photos: List[Photo], handle: str) -> str:
-    track = story.listen_track.strip()
-    listen = (f"\U0001F3A7 Ascolta: {track}\n"
-              f"Spotify: https://open.spotify.com/search/{quote(track)}\n"
-              f"YouTube: https://www.youtube.com/results?search_query={quote_plus(track)}")
-    parts = [listen, story.caption_body.strip(), story.question.strip(),
-             f"Salvalo e mandalo a chi ama {story.artist}."]
+def _clean_author(author: str) -> str:
+    """Commons a volte restituisce il nome due volte di seguito ("Unknown authorUnknown author")."""
+    author = author.strip()
+    half = len(author) // 2
+    if len(author) % 2 == 0 and author[:half] == author[half:]:
+        return author[:half]
+    return author
 
-    seen = []
+
+def build_caption(story: Story, photos: List[Photo], handle: str) -> str:
+    # Su Instagram i link nelle didascalie non sono cliccabili: niente indirizzi, solo nomi.
+    parts = [f"\U0001F3A7 Ascolta: {story.listen_track.strip()}", story.caption_body.strip(),
+             story.question.strip(), f"Salvalo e mandalo a chi ama {story.artist}."]
+
+    publishers = []
     for fact in story.facts:
         for source in fact.sources:
-            if str(source.url) not in [str(s.url) for s in seen]:
-                seen.append(source)
-    parts.append("Fonti:\n" + "\n".join(f"- {s.title} ({s.publisher}): {s.url}" for s in seen))
+            if source.publisher not in publishers:
+                publishers.append(source.publisher)
+    parts.append("Fonti: " + ", ".join(publishers))
 
     credits = []
     for p in photos:
-        line = f"Foto: {p.author} · {p.license} · {p.source_url}"
-        if line not in credits:
-            credits.append(line)
+        credit = f"{_clean_author(p.author)} ({p.license})"
+        if credit not in credits:
+            credits.append(credit)
     if credits:
-        block = "\n".join(credits)
+        block = "Foto (Wikimedia Commons): " + ", ".join(credits)
         if any(p.sharealike for p in photos):
             block += "\n" + SHAREALIKE_NOTICE
         parts.append(block)

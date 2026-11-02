@@ -19,11 +19,6 @@
           "url": "https://americansongwriter.com/the-morbid-details-of-nirvanas-unplugged-performance-recorded-on-this-day-in-1993",
           "title": "The Morbid Details of Nirvana's Unplugged Performance",
           "publisher": "American Songwriter"
-        },
-        {
-          "url": "https://www.muskokaradio.com/news/music-news/the-last-echo-inside-nirvanas-unplugged-session/",
-          "title": "The Last Echo: Inside Nirvana's Unplugged Session",
-          "publisher": "Muskoka Radio"
         }
       ]
     },
@@ -69,11 +64,6 @@
           "url": "https://loudwire.com/nirvana-mtv-unplugged-in-new-york-album-anniversary/",
           "title": "Nirvana, MTV Unplugged in New York anniversary",
           "publisher": "Loudwire"
-        },
-        {
-          "url": "https://www.muskokaradio.com/news/music-news/the-last-echo-inside-nirvanas-unplugged-session/",
-          "title": "The Last Echo: Inside Nirvana's Unplugged Session",
-          "publisher": "Muskoka Radio"
         }
       ]
     },
@@ -94,6 +84,21 @@
           "url": "https://americansongwriter.com/the-morbid-details-of-nirvanas-unplugged-performance-recorded-on-this-day-in-1993",
           "title": "The Morbid Details of Nirvana's Unplugged Performance",
           "publisher": "American Songwriter"
+        }
+      ]
+    },
+    {
+      "claim": "Il brano è noto anche con il titolo \"In the Pines\".",
+      "sources": [
+        {
+          "url": "https://popmatters.com/112573-verse-chorus-verse-nirvana-where-did-you-sleep-last-night-2496093725.html",
+          "title": "Where Did You Sleep Last Night",
+          "publisher": "PopMatters"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/MTV_Unplugged_in_New_York",
+          "title": "MTV Unplugged in New York",
+          "publisher": "Wikipedia"
         }
       ]
     }
@@ -215,6 +220,7 @@
   "caption_body": "Il 18 novembre 1993, ai Sony Music Studios di New York, Kurt Cobain chiede gigli, candele scure e un lampadario. Quando il produttore gli domanda se vuole un funerale, risponde di sì. Il concerto si chiude con Where Did You Sleep Last Night. L'album esce il 1 novembre 1994 ed è subito primo in classifica.",
   "question": "Qual è la canzone dei Nirvana che ti ha toccato di più?",
   "listen_track": "Nirvana – Where Did You Sleep Last Night",
+  "lyric_quote": "In the Pines",
   "hashtags": [
     "#nirvana",
     "#kurtcobain",
