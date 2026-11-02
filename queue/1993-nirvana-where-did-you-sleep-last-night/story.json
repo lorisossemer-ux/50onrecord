@@ -1,0 +1,225 @@
+{
+  "id": "1993-nirvana-where-did-you-sleep-last-night",
+  "artist": "Nirvana",
+  "song": "Where Did You Sleep Last Night",
+  "year": 1993,
+  "decade": "90",
+  "strand": "palco",
+  "italian": false,
+  "facts": [
+    {
+      "claim": "I Nirvana registrarono MTV Unplugged il 18 novembre 1993 ai Sony Music Studios di New York.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/MTV_Unplugged_in_New_York",
+          "title": "MTV Unplugged in New York",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://americansongwriter.com/the-morbid-details-of-nirvanas-unplugged-performance-recorded-on-this-day-in-1993",
+          "title": "The Morbid Details of Nirvana's Unplugged Performance",
+          "publisher": "American Songwriter"
+        },
+        {
+          "url": "https://www.muskokaradio.com/news/music-news/the-last-echo-inside-nirvanas-unplugged-session/",
+          "title": "The Last Echo: Inside Nirvana's Unplugged Session",
+          "publisher": "Muskoka Radio"
+        }
+      ]
+    },
+    {
+      "claim": "Kurt Cobain chiese al produttore Alex Coletti di riempire il palco di gigli, candele scure e un lampadario.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/MTV_Unplugged_in_New_York",
+          "title": "MTV Unplugged in New York",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://americansongwriter.com/the-morbid-details-of-nirvanas-unplugged-performance-recorded-on-this-day-in-1993",
+          "title": "The Morbid Details of Nirvana's Unplugged Performance",
+          "publisher": "American Songwriter"
+        }
+      ]
+    },
+    {
+      "claim": "Coletti gli chiese se volesse un palco come un funerale e Cobain rispose di sì.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/MTV_Unplugged_in_New_York",
+          "title": "MTV Unplugged in New York",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://americansongwriter.com/the-morbid-details-of-nirvanas-unplugged-performance-recorded-on-this-day-in-1993",
+          "title": "The Morbid Details of Nirvana's Unplugged Performance",
+          "publisher": "American Songwriter"
+        }
+      ]
+    },
+    {
+      "claim": "Il concerto si chiuse con Where Did You Sleep Last Night, un brano legato a Lead Belly.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/MTV_Unplugged_in_New_York",
+          "title": "MTV Unplugged in New York",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://loudwire.com/nirvana-mtv-unplugged-in-new-york-album-anniversary/",
+          "title": "Nirvana, MTV Unplugged in New York anniversary",
+          "publisher": "Loudwire"
+        },
+        {
+          "url": "https://www.muskokaradio.com/news/music-news/the-last-echo-inside-nirvanas-unplugged-session/",
+          "title": "The Last Echo: Inside Nirvana's Unplugged Session",
+          "publisher": "Muskoka Radio"
+        }
+      ]
+    },
+    {
+      "claim": "L'album MTV Unplugged in New York uscì il 1 novembre 1994 e debuttò al primo posto della classifica Billboard 200.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/MTV_Unplugged_in_New_York",
+          "title": "MTV Unplugged in New York",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://loudwire.com/nirvana-mtv-unplugged-in-new-york-album-anniversary/",
+          "title": "Nirvana, MTV Unplugged in New York anniversary",
+          "publisher": "Loudwire"
+        },
+        {
+          "url": "https://americansongwriter.com/the-morbid-details-of-nirvanas-unplugged-performance-recorded-on-this-day-in-1993",
+          "title": "The Morbid Details of Nirvana's Unplugged Performance",
+          "publisher": "American Songwriter"
+        }
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "heading_cuts": [
+        "UN PALCO",
+        "COME UN",
+        "FUNERALE"
+      ],
+      "body": null,
+      "marker": "Unplugged, New York ↓",
+      "photos": [
+        {
+          "query": "Kurt Cobain Nirvana 1993",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Kurt Cobain"
+        },
+        {
+          "query": "Nirvana band 1992",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Nirvana"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "NEW YORK",
+        "18 NOVEMBRE",
+        "1993"
+      ],
+      "body": "I Nirvana registrano MTV Unplugged ai Sony Music Studios di New York, il 18 novembre 1993.",
+      "marker": "il palco? → guarda",
+      "photos": [
+        {
+          "query": "Nirvana 1993",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Kurt Cobain"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "LE RICHIESTE",
+        "di COBAIN"
+      ],
+      "body": "Kurt Cobain chiede al produttore Alex Coletti di riempire il palco di gigli, candele scure e un lampadario.",
+      "marker": null,
+      "photos": [],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "COME UN",
+        "FUNERALE?"
+      ],
+      "body": "Coletti gli chiede se vuole un palco come un funerale. Cobain risponde di sì.",
+      "marker": "risposta: sì.",
+      "photos": [],
+      "source_note": null
+    },
+    {
+      "kind": "emotion",
+      "heading_cuts": [
+        "L'ULTIMA",
+        "CANZONE"
+      ],
+      "body": "Il concerto si chiude con Where Did You Sleep Last Night, un brano legato a Lead Belly.",
+      "marker": "l'ultima canzone della serata.",
+      "photos": [],
+      "source_note": null
+    },
+    {
+      "kind": "result",
+      "heading_cuts": [
+        "1 NOVEMBRE",
+        "1994"
+      ],
+      "body": "L'album MTV Unplugged in New York esce il 1 novembre 1994 e debutta al primo posto della classifica Billboard 200.",
+      "marker": null,
+      "photos": [
+        {
+          "query": "Nirvana band",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Nirvana"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "final",
+      "heading_cuts": [
+        "E TU?"
+      ],
+      "body": null,
+      "marker": "scrivila nei commenti ↓",
+      "photos": [
+        {
+          "query": "Nirvana Kurt Cobain live",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Kurt Cobain"
+        }
+      ],
+      "source_note": null
+    }
+  ],
+  "caption_body": "Il 18 novembre 1993, ai Sony Music Studios di New York, Kurt Cobain chiede gigli, candele scure e un lampadario. Quando il produttore gli domanda se vuole un funerale, risponde di sì. Il concerto si chiude con Where Did You Sleep Last Night. L'album esce il 1 novembre 1994 ed è subito primo in classifica.",
+  "question": "Qual è la canzone dei Nirvana che ti ha toccato di più?",
+  "listen_track": "Nirvana – Where Did You Sleep Last Night",
+  "hashtags": [
+    "#nirvana",
+    "#kurtcobain",
+    "#unplugged",
+    "#musica90",
+    "#50onrecord"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "1985-queen-radio-ga-ga",
+  "artist": "Queen",
+  "song": "Radio Ga Ga",
+  "decade": "80",
+  "strand": "palco",
+  "italian": false,
+  "key": "queen|radio ga ga|palco",
+  "issue": 1,
+  "status": "ready",
+  "created_at": "2026-11-02T05:00:27.153687+00:00",
+  "photos": [
+    {
+      "author": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Freddie_Mercury_at_Live_Aid_(1985).jpg"
+    },
+    {
+      "author": "David Bailey, distributed by Capitol Records",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Queen_(1985_Live_Aid_publicity_photo).png"
+    },
+    {
+      "author": "Benky",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Luis_Cobos_con_Elton_John.jpg"
+    }
+  ]
+}
