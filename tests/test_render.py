@@ -163,3 +163,38 @@ def test_relative_output_dir_renders(tmp_path, story_dict, monkeypatch):
     paths = render_story(story, _photos_for(story), issue=1, out_dir=Path("incoming/x/slides"))
     assert len(paths) == len(story.slides)
     assert all(p.exists() for p in paths)
+
+
+def _note_font_sizes(html):
+    import os
+    from playwright.sync_api import sync_playwright
+    from onrecord.render import _GROW_NOTES_JS, _OVERFLOW_JS
+    with sync_playwright() as pw:
+        browser = pw.chromium.launch(channel=os.environ.get("ONRECORD_BROWSER_CHANNEL") or None)
+        try:
+            tab = browser.new_page(viewport={"width": 1080, "height": 1350})
+            tab.set_content(html)
+            tab.evaluate(_GROW_NOTES_JS, 60)
+            sizes = tab.evaluate("[...document.querySelectorAll('.note')].map(e => parseFloat(e.style.fontSize))")
+            bad = tab.evaluate(_OVERFLOW_JS, 10)
+            return sizes, bad
+        finally:
+            browser.close()
+
+
+def test_notes_grow_to_fill_their_box_without_overflowing():
+    html = ("<style>.note{position:absolute;width:900px;font-family:serif;line-height:1.45;overflow:hidden}</style>"
+            '<div class="note fit" style="top:0;max-height:500px;font-size:40px">Testo breve.</div>'
+            '<div class="note fit" style="top:600px;max-height:330px;font-size:40px">' + "parola " * 30 + "</div>")
+    (short, long_), bad = _note_font_sizes(html)
+    assert 40 < short <= 60    # il testo corto si ingrandisce, ma non oltre il tetto
+    assert 40 <= long_ < short  # il testo lungo cresce meno (o per nulla)
+    assert bad == []           # nulla esce dal proprio riquadro
+
+
+def test_note_that_overflows_at_base_size_is_not_shrunk_or_hidden():
+    html = ("<style>.note{position:absolute;width:900px;font-family:serif;line-height:1.45;overflow:hidden}</style>"
+            '<div class="note fit" style="top:0;max-height:100px;font-size:40px">' + "parola " * 60 + "</div>")
+    (size,), bad = _note_font_sizes(html)
+    assert size == 40          # non toccato: resta segnalato come overflow
+    assert bad

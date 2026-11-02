@@ -27,8 +27,13 @@ qui evita scarti, ma il cancello resta l'arbitro.
   preferisci `preferred_strand`, e se `need_italian` è `true` scegli un artista italiano.
 - Tra un carosello e il successivo che prepari in questa stessa esecuzione: artista e decennio diversi.
 - Mai una storia la cui chiave `artista|canzone|filone` è in `used_keys`.
-- Filoni: `palco` (concerti, momenti dal vivo), `studio` (nascita delle canzoni), `privata` (vita privata
-  **documentata**), `emozione` (significato, parole degli artisti).
+- Filoni: `palco` (un brano suonato dal vivo in un momento preciso), `studio` (nascita delle canzoni),
+  `privata` (vita privata **documentata**), `emozione` (significato, parole degli artisti).
+- **Ogni storia ruota attorno a UN brano singolo** (quello di `listen_track`), non a un concerto o a un evento
+  intero: un intero concerto offre poco materiale verificabile da raccontare bene in 6-8 slide, un brano ne
+  offre molto di più (come è nato, chi c'era, cosa è successo dopo, cosa significa). Nel filone `palco` racconta
+  l'esecuzione di quel brano in quel concerto, non la serata nel suo insieme (es. non "il Live Aid dei Queen",
+  ma "Radio Ga Ga al Live Aid").
 - Preferisci storie per cui esistono foto libere su Wikimedia Commons (cerca il nome dell'artista su Commons).
 
 ### 2. Ricerca e verifica (regola non negoziabile)

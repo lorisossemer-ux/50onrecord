@@ -33,6 +33,27 @@ _OVERFLOW_JS = """
 """
 
 
+# I testi nei riquadri bianchi si ingrandiscono finché stanno nel riquadro (tetto: NOTE_MAX_FONT_PX),
+# per essere leggibili anche sul telefono. Un testo che già non sta alla misura di base non viene toccato
+# e resta segnalato dal controllo di overflow.
+NOTE_MAX_FONT_PX = 60
+_GROW_NOTES_JS = """
+(cap) => {
+  document.querySelectorAll('.note.fit').forEach(el => {
+    const fits = () => el.scrollHeight <= el.clientHeight + 12 && el.scrollWidth <= el.clientWidth + 12;
+    let size = parseFloat(getComputedStyle(el).fontSize);
+    if (!fits()) return;
+    while (size + 2 <= cap) {
+      el.style.fontSize = (size + 2) + 'px';
+      if (!fits()) { el.style.fontSize = size + 'px'; return; }
+      size += 2;
+    }
+    el.style.fontSize = size + 'px';
+  });
+}
+"""
+
+
 class SlideOverflowError(Exception):
     def __init__(self, slide_index: int, elements: List[str]):
         self.slide_index = slide_index
@@ -91,6 +112,7 @@ def render_story(story: Story, photos: Dict[int, List[Photo]], issue: int, out_d
             for i, page in enumerate(pages):
                 tab.goto(page.as_uri())
                 tab.evaluate("document.fonts.ready")
+                tab.evaluate(_GROW_NOTES_JS, NOTE_MAX_FONT_PX)
                 bad = tab.evaluate(_OVERFLOW_JS, FRAME_TOLERANCE)
                 if bad:
                     raise SlideOverflowError(i, bad)
