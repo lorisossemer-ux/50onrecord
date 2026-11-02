@@ -33,11 +33,20 @@ jobs:
           # Variabile del repository: "true" finché l'utente non dà il via libera alla messa in onda.
           DRY_RUN: ${{ vars.ONRECORD_DRY_RUN }}
         run: |
-          if [ "$DRY_RUN" = "true" ]; then
-            python -m onrecord publish --dry-run
-          else
-            python -m onrecord publish
+          # controllo.json (cambiato dal workflow "telecomando") ha la precedenza sulla variabile.
+          MODO=""
+          if [ -f controllo.json ]; then
+            MODO=$(python -c "import json; print(json.load(open('controllo.json'))['modo'])")
           fi
+          if [ -z "$MODO" ]; then
+            if [ "$DRY_RUN" = "true" ]; then MODO=prova; else MODO=live; fi
+          fi
+          case "$MODO" in
+            pausa) echo "Modalità pausa: nessuna pubblicazione." ;;
+            prova) python -m onrecord publish --dry-run ;;
+            live) python -m onrecord publish ;;
+            *) echo "Modalità non valida in controllo.json: $MODO"; exit 1 ;;
+          esac
       - name: Salva archivio e stato
         if: always()
         run: |

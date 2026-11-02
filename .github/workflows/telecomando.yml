@@ -1,0 +1,84 @@
+# Telecomando: si avvia a mano dall'app GitHub su iPhone (Actions → telecomando → Run workflow).
+# Cambia la modalità di pubblicazione scrivendo controllo.json su main, oppure mostra lo stato
+# con l'anteprima delle slide in coda. Può avviarlo solo chi ha accesso in scrittura al repository.
+name: telecomando
+
+on:
+  workflow_dispatch:
+    inputs:
+      azione:
+        description: "Che cosa vuoi fare?"
+        type: choice
+        default: stato
+        options:
+          - stato
+          - prova
+          - pausa
+          - live
+
+concurrency:
+  group: telecomando
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  telecomando:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Cambia modalità
+        if: inputs.azione != 'stato'
+        env:
+          AZIONE: ${{ inputs.azione }}
+        run: |
+          git config user.name "50onrecord-bot"
+          git config user.email "50onrecord-bot@users.noreply.github.com"
+          printf '{\n  "modo": "%s"\n}\n' "$AZIONE" > controllo.json
+          if ! git diff --quiet controllo.json; then
+            git add controllo.json
+            git commit -m "telecomando: modalità $AZIONE"
+            for attempt in 1 2 3 4 5; do
+              git pull --rebase origin main && git push origin HEAD:main && exit 0
+              sleep $((attempt * 10))
+            done
+            exit 1
+          fi
+      - name: Mostra lo stato
+        run: |
+          modo=$(python3 -c "import json;print(json.load(open('controllo.json'))['modo'])")
+          {
+            echo "## Stato di 50onrecord"
+            case "$modo" in
+              live) echo "**Modalità: LIVE** — i caroselli vengono pubblicati su Instagram agli orari previsti." ;;
+              prova) echo "**Modalità: PROVA** — il sistema simula tutto ma non pubblica nulla." ;;
+              pausa) echo "**Modalità: PAUSA** — non succede nulla finché non cambi modalità." ;;
+              *) echo "**Modalità non riconosciuta: $modo**" ;;
+            esac
+            echo
+            echo "Pubblicati finora: $(ls -d archive/*/ 2>/dev/null | wc -l)"
+            echo
+            echo "### In coda"
+            if ls -d queue/*/ >/dev/null 2>&1; then
+              for dir in queue/*/; do
+                id=$(basename "$dir")
+                echo "#### $id"
+                echo
+                if [ -f "$dir/caption.txt" ]; then
+                  echo '```'
+                  head -c 600 "$dir/caption.txt"
+                  echo
+                  echo '```'
+                fi
+                for img in "$dir"slides/*.jpg; do
+                  [ -f "$img" ] && echo "![${img}](https://raw.githubusercontent.com/${{ github.repository }}/main/${img})"
+                done
+                echo
+              done
+            else
+              echo "Nessun carosello in coda."
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
