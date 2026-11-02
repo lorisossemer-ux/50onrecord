@@ -1,0 +1,199 @@
+{
+  "id": "1970-janis-joplin-mercedes-benz",
+  "artist": "Janis Joplin",
+  "song": "Mercedes Benz",
+  "year": 1970,
+  "decade": "70",
+  "strand": "studio",
+  "italian": false,
+  "facts": [
+    {
+      "claim": "Mercedes Benz è una canzone a cappella, scritta da Janis Joplin insieme a Bob Neuwirth e al poeta Michael McClure.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Mercedes_Benz_(song)",
+          "title": "Mercedes Benz (song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/janis-joplin/mercedes-benz",
+          "title": "Mercedes Benz by Janis Joplin",
+          "publisher": "Songfacts"
+        }
+      ]
+    },
+    {
+      "claim": "Il testo parte da un verso del poeta Michael McClure.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Mercedes_Benz_(song)",
+          "title": "Mercedes Benz (song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/janis-joplin/mercedes-benz",
+          "title": "Mercedes Benz by Janis Joplin",
+          "publisher": "Songfacts"
+        }
+      ]
+    },
+    {
+      "claim": "L'8 agosto 1970, a Port Chester, nello stato di New York, Joplin trasformò quel verso nella sua canzone.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Mercedes_Benz_(song)",
+          "title": "Mercedes Benz (song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/janis-joplin/mercedes-benz",
+          "title": "Mercedes Benz by Janis Joplin",
+          "publisher": "Songfacts"
+        }
+      ]
+    },
+    {
+      "claim": "Joplin registrò Mercedes Benz il 1° ottobre 1970.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Mercedes_Benz_(song)",
+          "title": "Mercedes Benz (song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/janis-joplin/mercedes-benz",
+          "title": "Mercedes Benz by Janis Joplin",
+          "publisher": "Songfacts"
+        }
+      ]
+    },
+    {
+      "claim": "Fu l'ultima registrazione di Joplin: lei morì tre giorni dopo, il 4 ottobre 1970.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Mercedes_Benz_(song)",
+          "title": "Mercedes Benz (song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/janis-joplin/mercedes-benz",
+          "title": "Mercedes Benz by Janis Joplin",
+          "publisher": "Songfacts"
+        }
+      ]
+    },
+    {
+      "claim": "La canzone uscì nell'album Pearl, nel 1971.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Mercedes_Benz_(song)",
+          "title": "Mercedes Benz (song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/janis-joplin/mercedes-benz",
+          "title": "Mercedes Benz by Janis Joplin",
+          "publisher": "Songfacts"
+        }
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "heading_cuts": [
+        "L'ULTIMA",
+        "REGISTRAZIONE",
+        "DI JANIS"
+      ],
+      "body": null,
+      "marker": "solo voce ↓",
+      "photos": [
+        {
+          "query": "Janis Joplin",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Janis Joplin"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "NEW YORK",
+        "8 AGOSTO",
+        "1970"
+      ],
+      "body": "A Port Chester, nello stato di New York, Janis Joplin trasforma un verso del poeta Michael McClure in una canzone sua.",
+      "marker": "un verso, una canzone →",
+      "photos": [],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "TRE",
+        "AUTORI"
+      ],
+      "body": "La canzone è scritta da Janis Joplin insieme a Bob Neuwirth e al poeta Michael McClure.",
+      "marker": "il testo parte da McClure.",
+      "photos": [],
+      "source_note": null
+    },
+    {
+      "kind": "emotion",
+      "heading_cuts": [
+        "SOLO",
+        "LA VOCE"
+      ],
+      "body": "Mercedes Benz è una canzone a cappella: non ci sono strumenti, c'è solo la voce di Janis.",
+      "marker": "a cappella.",
+      "photos": [],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "1° OTTOBRE",
+        "1970"
+      ],
+      "body": "Joplin registra Mercedes Benz il 1° ottobre 1970.",
+      "marker": null,
+      "photos": [],
+      "source_note": null
+    },
+    {
+      "kind": "result",
+      "heading_cuts": [
+        "TRE GIORNI",
+        "DOPO"
+      ],
+      "body": "È l'ultima registrazione di Joplin. Muore tre giorni dopo, il 4 ottobre 1970. La canzone esce nell'album Pearl, nel 1971.",
+      "marker": null,
+      "photos": [],
+      "source_note": null
+    },
+    {
+      "kind": "final",
+      "heading_cuts": [
+        "E TU?"
+      ],
+      "body": null,
+      "marker": "scrivila nei commenti ↓",
+      "photos": [],
+      "source_note": null
+    }
+  ],
+  "caption_body": "A Port Chester, nello stato di New York, l'8 agosto 1970 Janis Joplin trasforma un verso del poeta Michael McClure in Mercedes Benz. Il 1° ottobre 1970 la registra a cappella: è la sua ultima registrazione, tre giorni prima di morire. La canzone esce nell'album Pearl, nel 1971.",
+  "question": "Tutti associamo un pezzo a un ricordo... cosa ti fa venire in mente la voce di Janis?",
+  "listen_track": "Janis Joplin – Mercedes Benz",
+  "lyric_quote": null,
+  "hashtags": [
+    "#janisjoplin",
+    "#mercedesbenz",
+    "#pearl",
+    "#musica70",
+    "#50onrecord"
+  ]
+}
