@@ -1,0 +1,220 @@
+{
+  "id": "1976-fleetwood-mac-go-your-own-way",
+  "artist": "Fleetwood Mac",
+  "song": "Go Your Own Way",
+  "year": 1976,
+  "decade": "70",
+  "strand": "privata",
+  "italian": false,
+  "facts": [
+    {
+      "claim": "Lindsey Buckingham scrisse Go Your Own Way come reazione alla fine della sua storia con Stevie Nicks, mentre i due facevano ancora parte della stessa band.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Go_Your_Own_Way",
+          "title": "Go Your Own Way",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://faroutmagazine.co.uk/rolling-stones-inspire-fleetwood-mac/",
+          "title": "How did The Rolling Stones inspire Fleetwood Mac's 'Go Your Own Way'?",
+          "publisher": "Far Out Magazine"
+        }
+      ]
+    },
+    {
+      "claim": "Buckingham disse di essere rimasto completamente devastato quando Nicks se n'è andata.",
+      "sources": [
+        {
+          "url": "https://faroutmagazine.co.uk/rolling-stones-inspire-fleetwood-mac/",
+          "title": "How did The Rolling Stones inspire Fleetwood Mac's 'Go Your Own Way'?",
+          "publisher": "Far Out Magazine"
+        },
+        {
+          "url": "https://thisisdig.com/?p=7059",
+          "title": "Go Your Own Way",
+          "publisher": "This Is Dig"
+        }
+      ]
+    },
+    {
+      "claim": "Nel testo compare il verso \"Packing up, shacking up\"; Nicks non lo gradì, chiese a Buckingham di toglierlo, ma lui si rifiutò.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Go_Your_Own_Way",
+          "title": "Go Your Own Way",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/fleetwood-mac/go-your-own-way",
+          "title": "Go Your Own Way",
+          "publisher": "Songfacts"
+        },
+        {
+          "url": "https://americansongwriter.com/this-fleetwood-mac-song-was-a-direct-response-to-go-your-own-way/",
+          "title": "This Fleetwood Mac song was a direct response to Go Your Own Way",
+          "publisher": "American Songwriter"
+        }
+      ]
+    },
+    {
+      "claim": "Nicks sostenne che quel verso la faceva sembrare una donna che voleva stare con molti uomini e che lui sapeva che non era vero: era una cosa detta per rabbia.",
+      "sources": [
+        {
+          "url": "https://faroutmagazine.co.uk/rolling-stones-inspire-fleetwood-mac/",
+          "title": "How did The Rolling Stones inspire Fleetwood Mac's 'Go Your Own Way'?",
+          "publisher": "Far Out Magazine"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Go_Your_Own_Way",
+          "title": "Go Your Own Way",
+          "publisher": "Wikipedia"
+        }
+      ]
+    },
+    {
+      "claim": "Go Your Own Way fu il primo singolo estratto da Rumours, album uscito nel 1977.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Go_Your_Own_Way",
+          "title": "Go Your Own Way",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/fleetwood-mac/go-your-own-way",
+          "title": "Go Your Own Way",
+          "publisher": "Songfacts"
+        }
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "heading_cuts": [
+        "UNA CANZONE",
+        "per dirle",
+        "ADDIO"
+      ],
+      "body": null,
+      "marker": "e lei non l'ha mai dimenticato ↓",
+      "photos": [
+        {
+          "query": "Lindsey Buckingham Fleetwood Mac 1977",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Lindsey Buckingham"
+        },
+        {
+          "query": "Stevie Nicks Fleetwood Mac 1977",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Stevie Nicks"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "LA BAND",
+        "DOPO LA",
+        "ROTTURA"
+      ],
+      "body": "Lindsey Buckingham e Stevie Nicks suonano insieme nei Fleetwood Mac, ma la loro storia d'amore è finita. Lui scrive Go Your Own Way come risposta a quella rottura, mentre sono ancora nella stessa band.",
+      "marker": "lavorare insieme dopo → ",
+      "photos": [
+        {
+          "query": "Lindsey Buckingham Fleetwood Mac",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Lindsey Buckingham"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "UN SOLO",
+        "VERSO"
+      ],
+      "body": "Nel testo c'è un verso su lei: \"Packing up, shacking up\". Nicks non lo sopporta e chiede a Buckingham di toglierlo. Lui si rifiuta e lo lascia nel brano.",
+      "marker": "lui l'ha tenuto",
+      "photos": [
+        {
+          "query": "Stevie Nicks Fleetwood Mac",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Stevie Nicks"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "emotion",
+      "heading_cuts": [
+        "LEI",
+        "risponde"
+      ],
+      "body": "Per Nicks quel verso la faceva passare per una che voleva stare con molti uomini. Secondo lei Buckingham sapeva che non era vero: era solo una cosa detta per rabbia.",
+      "marker": "\"he knew it wasn't true\"",
+      "photos": [
+        {
+          "query": "Stevie Nicks live",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Stevie Nicks"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "result",
+      "heading_cuts": [
+        "IL PRIMO",
+        "SINGOLO",
+        "DI RUMOURS"
+      ],
+      "body": "Go Your Own Way apre Rumours: è il primo singolo estratto dall'album, che esce nel 1977. Lui e lei continuano a suonare insieme.",
+      "marker": null,
+      "photos": [
+        {
+          "query": "Fleetwood Mac 1977",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Fleetwood Mac"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "final",
+      "heading_cuts": [
+        "E TU?"
+      ],
+      "body": null,
+      "marker": "scrivila nei commenti ↓",
+      "photos": [
+        {
+          "query": "Fleetwood Mac concert",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Fleetwood Mac"
+        }
+      ],
+      "source_note": null
+    }
+  ],
+  "caption_body": "Lindsey Buckingham scrisse Go Your Own Way dopo la fine della storia con Stevie Nicks, mentre erano ancora nella stessa band. Nel testo c'era un verso che Nicks chiese di togliere: lui rifiutò, e lei ha raccontato di non averlo mai considerato vero. La canzone aprì Rumours, uscito nel 1977.",
+  "question": "Quale canzone d'addio dei Fleetwood Mac preferisci?",
+  "listen_track": "Fleetwood Mac – Go Your Own Way",
+  "lyric_quote": "Packing up, shacking up",
+  "hashtags": [
+    "#fleetwoodmac",
+    "#stevienicks",
+    "#musica70",
+    "#storiedellamusica",
+    "#50onrecord"
+  ]
+}
