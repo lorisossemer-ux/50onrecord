@@ -1,0 +1,195 @@
+{
+  "id": "1988-guns-n-roses-sweet-child-o-mine",
+  "artist": "Guns N' Roses",
+  "song": "Sweet Child o' Mine",
+  "year": 1988,
+  "decade": "80",
+  "strand": "studio",
+  "italian": false,
+  "facts": [
+    {
+      "claim": "Il riff nacque quando Slash suonò una melodia quasi per gioco, e Izzy Stradlin ci costruì sopra gli accordi.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Sweet_Child_o%27_Mine",
+          "title": "Sweet Child o' Mine",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/guns-n-roses/sweet-child-o-mine",
+          "title": "Sweet Child O' Mine by Guns N' Roses",
+          "publisher": "Songfacts"
+        }
+      ]
+    },
+    {
+      "claim": "Axl Rose scrisse il testo pensando alla sua fidanzata Erin Everly, figlia di Don Everly degli Everly Brothers.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Sweet_Child_o%27_Mine",
+          "title": "Sweet Child o' Mine",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/guns-n-roses/sweet-child-o-mine",
+          "title": "Sweet Child O' Mine by Guns N' Roses",
+          "publisher": "Songfacts"
+        }
+      ]
+    },
+    {
+      "claim": "Il brano è nell'album Appetite for Destruction, del 1987.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Sweet_Child_o%27_Mine",
+          "title": "Sweet Child o' Mine",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/guns-n-roses/sweet-child-o-mine",
+          "title": "Sweet Child O' Mine by Guns N' Roses",
+          "publisher": "Songfacts"
+        }
+      ]
+    },
+    {
+      "claim": "Uscì come singolo nel giugno 1988.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Sweet_Child_o%27_Mine",
+          "title": "Sweet Child o' Mine",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/guns-n-roses/sweet-child-o-mine",
+          "title": "Sweet Child O' Mine by Guns N' Roses",
+          "publisher": "Songfacts"
+        }
+      ]
+    },
+    {
+      "claim": "Arrivò al primo posto della classifica Billboard Hot 100.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Sweet_Child_o%27_Mine",
+          "title": "Sweet Child o' Mine",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/guns-n-roses/sweet-child-o-mine",
+          "title": "Sweet Child O' Mine by Guns N' Roses",
+          "publisher": "Songfacts"
+        }
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "heading_cuts": [
+        "UN RIFF",
+        "NATO",
+        "PER GIOCO"
+      ],
+      "body": null,
+      "marker": "la storia del riff ↓",
+      "photos": [
+        {
+          "query": "Slash guitarist",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Slash"
+        },
+        {
+          "query": "Guns N' Roses band",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Guns N' Roses"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "UNA PROVA",
+        "DEL GRUPPO"
+      ],
+      "body": "Slash suona una melodia quasi per gioco. È l'inizio del riff di Sweet Child o' Mine.",
+      "marker": "quasi per gioco →",
+      "photos": [],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "GLI ACCORDI",
+        "DI IZZY"
+      ],
+      "body": "Izzy Stradlin costruisce gli accordi attorno a quella melodia.",
+      "marker": "e il riff diventa una canzone.",
+      "photos": [],
+      "source_note": null
+    },
+    {
+      "kind": "emotion",
+      "heading_cuts": [
+        "PER ERIN"
+      ],
+      "body": "Axl Rose scrive il testo pensando alla sua fidanzata Erin Everly, figlia di Don Everly degli Everly Brothers.",
+      "marker": "pensando a lei.",
+      "photos": [
+        {
+          "query": "Axl Rose",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Axl Rose"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "IL DISCO",
+        "1987"
+      ],
+      "body": "La canzone è nell'album Appetite for Destruction, del 1987. Esce come singolo nel giugno 1988.",
+      "marker": null,
+      "photos": [],
+      "source_note": null
+    },
+    {
+      "kind": "result",
+      "heading_cuts": [
+        "PRIMO",
+        "POSTO"
+      ],
+      "body": "Sweet Child o' Mine arriva al primo posto della classifica Billboard Hot 100.",
+      "marker": null,
+      "photos": [],
+      "source_note": null
+    },
+    {
+      "kind": "final",
+      "heading_cuts": [
+        "E TU?"
+      ],
+      "body": null,
+      "marker": "scrivila nei commenti ↓",
+      "photos": [],
+      "source_note": null
+    }
+  ],
+  "caption_body": "Slash suona una melodia quasi per gioco e Izzy Stradlin ci costruisce sopra gli accordi: nasce il riff di Sweet Child o' Mine. Axl Rose scrive il testo pensando a Erin Everly. La canzone è nell'album Appetite for Destruction, del 1987, esce come singolo nel giugno 1988 e arriva al primo posto della Billboard Hot 100.",
+  "question": "Tutti associamo un pezzo a un ricordo... cosa ti fa venire in mente Sweet Child o' Mine?",
+  "listen_track": "Guns N' Roses – Sweet Child o' Mine",
+  "lyric_quote": null,
+  "hashtags": [
+    "#gunsnroses",
+    "#sweetchildomine",
+    "#slash",
+    "#musica80",
+    "#50onrecord"
+  ]
+}

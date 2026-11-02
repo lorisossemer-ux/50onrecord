@@ -1,0 +1,24 @@
+{
+  "id": "1988-guns-n-roses-sweet-child-o-mine",
+  "artist": "Guns N' Roses",
+  "song": "Sweet Child o' Mine",
+  "decade": "80",
+  "strand": "studio",
+  "italian": false,
+  "key": "guns n roses|sweet child o mine|studio",
+  "issue": 12,
+  "status": "ready",
+  "created_at": "2026-11-02T19:45:45.791820+00:00",
+  "photos": [
+    {
+      "author": "Raph_PH",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Slash,_Guitarist_of_Guns_N%27_Roses_in_2017.jpg"
+    },
+    {
+      "author": "Raph_PH",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:GunsNRoses160617-61_(35271773841).jpg"
+    }
+  ]
+}
