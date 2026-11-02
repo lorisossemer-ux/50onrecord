@@ -17,9 +17,11 @@ def _utc(s):
 
 @pytest.mark.parametrize("now,expected", [
     ("2026-07-02T10:35", "2026-07-02T12:30"),   # 12:35 ora legale (CEST)
-    ("2026-07-02T11:35", None),                 # 13:35: fuori finestra (oltre 60 minuti)
-    ("2026-07-02T19:29", "2026-07-02T20:30"),   # 21:29 ultimo minuto della finestra (cron in ritardo)
-    ("2026-07-02T19:30", None),                 # 21:30: finestra chiusa
+    ("2026-07-02T11:35", "2026-07-02T12:30"),   # 13:35: il cron di GitHub ha ritardato, lo slot si recupera
+    ("2026-07-02T14:29", "2026-07-02T12:30"),   # 16:29: ultimo minuto prima dello slot delle 20:30
+    ("2026-07-02T18:30", "2026-07-02T20:30"),   # 20:30: lo slot serale prende il posto di quello di mezzogiorno
+    ("2026-07-02T21:59", "2026-07-02T20:30"),   # 23:59: lo slot serale si recupera fino a fine giornata
+    ("2026-07-02T22:00", None),                 # 00:00 del giorno dopo: finito, il 12:30 non è ancora iniziato
 ])
 def test_phase1_slots_in_summer_time(now, expected):
     assert due_slot(_utc(now), _cfg(), queue_ready=5, last_published_utc=None) == expected
@@ -34,12 +36,19 @@ def test_winter_time_slot():
 def test_dst_change_day_publishes_once():
     cfg = _cfg(start=date(2027, 3, 1))
     assert due_slot(_utc("2027-03-28T10:31"), cfg, 5, None) == "2027-03-28T12:30"
-    assert due_slot(_utc("2027-03-28T11:31"), cfg, 5, None) is None
+    published = _utc("2027-03-28T10:31")
+    assert due_slot(_utc("2027-03-28T11:31"), cfg, 5, published) is None
 
 
 def test_already_published_slot_not_due_again():
     published = _utc("2026-07-02T10:31")
     assert due_slot(_utc("2026-07-02T10:45"), _cfg(), 5, published) is None
+
+
+def test_late_noon_post_does_not_block_evening_slot():
+    published_late = _utc("2026-07-02T15:00")  # 17:00: slot di mezzogiorno recuperato in ritardo
+    assert due_slot(_utc("2026-07-02T15:30"), _cfg(), 5, published_late) is None
+    assert due_slot(_utc("2026-07-02T18:35"), _cfg(), 5, published_late) == "2026-07-02T20:30"
 
 
 def test_phase2_only_evening():

@@ -7,7 +7,6 @@ from zoneinfo import ZoneInfo
 
 from .config import Config
 
-SLOT_WINDOW = timedelta(minutes=60)  # il workflow gira ogni 15 minuti; il cron di GitHub può ritardare
 MIN_QUEUE_FOR_ALL_SLOTS = 2
 MAX_CONSECUTIVE_SKIPS = 2
 TOKEN_WARNING = timedelta(days=7)
@@ -27,10 +26,18 @@ def due_slot(now_utc: datetime, cfg: Config, queue_ready: int,
     tz = ZoneInfo(cfg.timezone)
     local = now_utc.astimezone(tz)
     slots = _slots_for(local, cfg)
-    for slot in slots:
+    midnight = datetime(local.year, local.month, local.day, tzinfo=tz) + timedelta(days=1)
+    for index, slot in enumerate(slots):
         hour, minute = (int(x) for x in slot.split(":"))
         start = datetime(local.year, local.month, local.day, hour, minute, tzinfo=tz)
-        if not (start <= local < start + SLOT_WINDOW):
+        # Il cron di GitHub può ritardare di ore o saltare run: lo slot resta recuperabile
+        # fino all'inizio di quello successivo (l'ultimo fino a fine giornata).
+        if index + 1 < len(slots):
+            nh, nm = (int(x) for x in slots[index + 1].split(":"))
+            end = datetime(local.year, local.month, local.day, nh, nm, tzinfo=tz)
+        else:
+            end = midnight
+        if not (start <= local < end):
             continue
         # Con poca coda si tiene solo l'ultimo slot della giornata (spec §10).
         if slot != slots[-1] and queue_ready < MIN_QUEUE_FOR_ALL_SLOTS:
