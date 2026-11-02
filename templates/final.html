@@ -1,10 +1,11 @@
 {% extends "base.html" %}
 {% block content %}
+{% if story.lyric_quote %}{{ m.marker("“" ~ story.lyric_quote ~ "”", "left:70px; top:90px; width:940px; max-height:240px; font-size:66px; color:#1a1a1a; transform: rotate(-2deg);", "frase del brano") }}{% else %}
 {{ m.cuts(slide.heading_cuts or ["E TU?"], "top:80px; height:220px;", "huge") }}
+{% endif %}
 {{ m.note(story.question, "left:70px; right:70px; top:340px; max-height:280px; font-size:44px; transform: rotate(-1deg);", "domanda") }}
 <div class="tape" style="left:440px; top:318px; transform: rotate(3deg);"></div>
 {{ m.marker(slide.marker, "left:80px; top:660px; width:560px; max-height:160px; font-size:50px; transform: rotate(-3deg);") }}
-{% if story.lyric_quote %}{% set quote = "“" ~ story.lyric_quote ~ "”" %}{% if (slide.heading_cuts or ["E TU?"]) | join("") | length <= 8 %}{{ m.marker(quote, "left:440px; top:90px; width:580px; max-height:200px; font-size:58px; color:#1a1a1a; transform: rotate(3deg);", "frase del brano") }}{% else %}{{ m.marker(quote, "left:80px; top:835px; width:600px; max-height:110px; font-size:42px; color:#1a1a1a; transform: rotate(-2deg);", "frase del brano") }}{% endif %}{% endif %}
 {{ m.photo(photos[0], "left:700px; top:630px; width:300px; height:300px;", 5, "left:780px; top:620px; transform: rotate(-6deg); width:140px;") }}
 {{ m.cuts(["SALVA", "e mandalo a chi", "ama " ~ story.artist], "top:950px; height:175px;", "tiny", "invito") }}
 <div class="typed fit" data-name="ascolta" style="left:70px; right:70px; top:1132px; height:76px; font-size:28px; line-height:1.2; white-space:normal;">ascolta: {{ story.listen_track }}</div>

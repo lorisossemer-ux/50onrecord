@@ -1,0 +1,254 @@
+{
+  "id": "1984-queen-radio-ga-ga-titolo",
+  "artist": "Queen",
+  "song": "Radio Ga Ga",
+  "year": 1984,
+  "decade": "80",
+  "strand": "studio",
+  "italian": false,
+  "facts": [
+    {
+      "claim": "Roger Taylor, batterista dei Queen, scrisse Radio Ga Ga.",
+      "sources": [
+        {
+          "url": "https://ultimateclassicrock.com/queen-radio-ga-ga/",
+          "title": "Queen, 'Radio Ga Ga'",
+          "publisher": "Ultimate Classic Rock"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/queen/radio-ga-ga",
+          "title": "Radio Ga Ga by Queen",
+          "publisher": "Songfacts"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Radio_Ga_Ga",
+          "title": "Radio Ga Ga",
+          "publisher": "Wikipedia"
+        }
+      ]
+    },
+    {
+      "claim": "Il titolo nasce da \"Radio Ca-Ca\", un'esclamazione del figlio piccolo di Taylor, Felix.",
+      "sources": [
+        {
+          "url": "https://ultimateclassicrock.com/queen-radio-ga-ga/",
+          "title": "Queen, 'Radio Ga Ga'",
+          "publisher": "Ultimate Classic Rock"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/queen/radio-ga-ga",
+          "title": "Radio Ga Ga by Queen",
+          "publisher": "Songfacts"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Radio_Ga_Ga",
+          "title": "Radio Ga Ga",
+          "publisher": "Wikipedia"
+        }
+      ]
+    },
+    {
+      "claim": "Taylor scrisse la canzone come difesa della radio, preoccupato che i video contassero più della musica.",
+      "sources": [
+        {
+          "url": "https://ultimateclassicrock.com/queen-radio-ga-ga/",
+          "title": "Queen, 'Radio Ga Ga'",
+          "publisher": "Ultimate Classic Rock"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Radio_Ga_Ga",
+          "title": "Radio Ga Ga",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://americansongwriter.com/the-queen-lyric-that-took-an-anti-mtv-stance",
+          "title": "The Queen Lyric That Took an Anti-MTV Stance",
+          "publisher": "American Songwriter"
+        }
+      ]
+    },
+    {
+      "claim": "Fu registrata ai Record Plant Studios di Los Angeles nell'agosto 1983.",
+      "sources": [
+        {
+          "url": "https://ultimateclassicrock.com/queen-radio-ga-ga/",
+          "title": "Queen, 'Radio Ga Ga'",
+          "publisher": "Ultimate Classic Rock"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Radio_Ga_Ga",
+          "title": "Radio Ga Ga",
+          "publisher": "Wikipedia"
+        }
+      ]
+    },
+    {
+      "claim": "Uscì come singolo nel gennaio 1984 e arrivò al secondo posto in classifica nel Regno Unito.",
+      "sources": [
+        {
+          "url": "https://ultimateclassicrock.com/queen-radio-ga-ga/",
+          "title": "Queen, 'Radio Ga Ga'",
+          "publisher": "Ultimate Classic Rock"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Radio_Ga_Ga",
+          "title": "Radio Ga Ga",
+          "publisher": "Wikipedia"
+        }
+      ]
+    },
+    {
+      "claim": "Il videoclip usa scene del film Metropolis di Fritz Lang.",
+      "sources": [
+        {
+          "url": "https://ultimateclassicrock.com/queen-radio-ga-ga/",
+          "title": "Queen, 'Radio Ga Ga'",
+          "publisher": "Ultimate Classic Rock"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/queen/radio-ga-ga",
+          "title": "Radio Ga Ga by Queen",
+          "publisher": "Songfacts"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Radio_Ga_Ga",
+          "title": "Radio Ga Ga",
+          "publisher": "Wikipedia"
+        }
+      ]
+    },
+    {
+      "claim": "Un verso del brano recita \"Radio, someone still loves you\".",
+      "sources": [
+        {
+          "url": "https://www.songfacts.com/lyrics/queen/radio-ga-ga",
+          "title": "Radio Ga Ga lyrics",
+          "publisher": "Songfacts"
+        },
+        {
+          "url": "https://americansongwriter.com/behind-the-meaning-of-the-1984-queen-classic-radio-ga-ga",
+          "title": "Behind the Meaning of the 1984 Queen Classic Radio Ga Ga",
+          "publisher": "American Songwriter"
+        }
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "heading_cuts": [
+        "UNA PAROLA",
+        "DI BIMBO",
+        "DIVENTA",
+        "RADIO GA GA"
+      ],
+      "body": null,
+      "marker": "come nasce un titolo ↓",
+      "photos": [
+        {
+          "query": "Roger Taylor Queen drummer",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Roger Taylor"
+        },
+        {
+          "query": "Queen band 1984",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Queen"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "LOS ANGELES",
+        "AGOSTO",
+        "1983"
+      ],
+      "body": "Ai Record Plant Studios di Los Angeles i Queen incidono una nuova canzone. L'ha scritta il batterista, Roger Taylor.",
+      "marker": null,
+      "photos": [],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "IL TITOLO"
+      ],
+      "body": "Tutto parte da un'esclamazione del figlio piccolo di Taylor, Felix: «Radio Ca-Ca». Il titolo nasce da lì.",
+      "marker": "da Ca-Ca a Ga Ga.",
+      "photos": [],
+      "source_note": null
+    },
+    {
+      "kind": "emotion",
+      "heading_cuts": [
+        "PERCHÉ",
+        "LA RADIO?"
+      ],
+      "body": "Taylor teme che i video contino più della musica. Scrive una canzone per difendere la radio.",
+      "marker": "una difesa della radio.",
+      "photos": [],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "UN FILM",
+        "NEL VIDEO"
+      ],
+      "body": "Nel videoclip compaiono scene di Metropolis, il film di fantascienza di Fritz Lang.",
+      "marker": null,
+      "photos": [
+        {
+          "query": "Metropolis Fritz Lang film",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Metropolis"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "result",
+      "heading_cuts": [
+        "GENNAIO",
+        "1984"
+      ],
+      "body": "Esce come singolo e arriva al secondo posto in classifica nel Regno Unito.",
+      "marker": null,
+      "photos": [],
+      "source_note": null
+    },
+    {
+      "kind": "final",
+      "heading_cuts": [
+        "E TU?"
+      ],
+      "body": null,
+      "marker": "scrivila nei commenti ↓",
+      "photos": [
+        {
+          "query": "Queen Freddie Mercury live",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Freddie Mercury"
+        }
+      ],
+      "source_note": null
+    }
+  ],
+  "caption_body": "A Los Angeles, nell'agosto 1983, i Queen incidono Radio Ga Ga, scritta dal batterista Roger Taylor. Il titolo parte da un'esclamazione di suo figlio Felix. È una difesa della radio contro i video: esce nel gennaio 1984 e arriva seconda nel Regno Unito.",
+  "question": "Tutti associamo un pezzo a un ricordo... cosa ti fa venire in mente Radio Ga Ga?",
+  "listen_track": "Queen – Radio Ga Ga",
+  "lyric_quote": "Radio, someone still loves you",
+  "hashtags": [
+    "#queen",
+    "#radiogaga",
+    "#rogertaylor",
+    "#musica80",
+    "#50onrecord"
+  ]
+}

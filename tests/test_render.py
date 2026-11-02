@@ -213,3 +213,19 @@ def test_final_slide_without_lyric_quote_has_no_quote_box(tmp_path, story_dict):
     render_story(story, _photos_for(story), issue=1, out_dir=tmp_path)
     final = (tmp_path / "html" / f"{len(story.slides):02d}.html").read_text(encoding="utf-8")
     assert 'data-name="frase del brano"' not in final
+
+
+def test_final_slide_with_lyric_quote_drops_the_e_tu_heading(tmp_path, story_dict):
+    story_dict["lyric_quote"] = "Message in a bottle"
+    story = Story(**story_dict)
+    render_story(story, _photos_for(story), issue=1, out_dir=tmp_path)
+    final = (tmp_path / "html" / f"{len(story.slides):02d}.html").read_text(encoding="utf-8")
+    assert "E TU?" not in final
+    assert 'data-name="frase del brano"' in final
+
+
+def test_final_slide_without_lyric_quote_keeps_the_e_tu_heading(tmp_path, story_dict):
+    story = Story(**story_dict)
+    render_story(story, _photos_for(story), issue=1, out_dir=tmp_path)
+    final = (tmp_path / "html" / f"{len(story.slides):02d}.html").read_text(encoding="utf-8")
+    assert "E TU?" in final

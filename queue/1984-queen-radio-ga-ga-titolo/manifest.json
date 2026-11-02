@@ -1,0 +1,29 @@
+{
+  "id": "1984-queen-radio-ga-ga-titolo",
+  "artist": "Queen",
+  "song": "Radio Ga Ga",
+  "decade": "80",
+  "strand": "studio",
+  "italian": false,
+  "key": "queen|radio ga ga|studio",
+  "issue": 3,
+  "status": "ready",
+  "created_at": "2026-11-02T17:09:45.785483+00:00",
+  "photos": [
+    {
+      "author": "Kudlata.anka",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Roger_Taylor_Vienna_1.11.2008.jpg"
+    },
+    {
+      "author": "Horst von Harbou",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Brigitte_Helm_Fritz_Lang_Probe_Metropolis_(1926).jpg"
+    },
+    {
+      "author": "Carl Lender",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Freddie_Mercury_performing_in_New_Haven,_CT,_November_1977.jpg"
+    }
+  ]
+}

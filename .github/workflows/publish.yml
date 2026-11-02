@@ -6,6 +6,15 @@ on:
   schedule:
     - cron: "*/15 * * * *"
   workflow_dispatch:
+    inputs:
+      subito:
+        description: "Pubblica subito, anche fuori dagli orari (solo avvio manuale)"
+        type: boolean
+        default: false
+      carosello:
+        description: "Id del carosello in coda da pubblicare (vuoto = il più vecchio)"
+        type: string
+        default: ""
 
 concurrency:
   group: pubblica
@@ -32,6 +41,8 @@ jobs:
           ONRECORD_RAW_BASE: https://raw.githubusercontent.com/${{ github.repository }}/main
           # Variabile del repository: "true" finché l'utente non dà il via libera alla messa in onda.
           DRY_RUN: ${{ vars.ONRECORD_DRY_RUN }}
+          SUBITO: ${{ inputs.subito }}
+          CAROSELLO: ${{ inputs.carosello }}
         run: |
           # controllo.json (cambiato dal workflow "telecomando") ha la precedenza sulla variabile.
           MODO=""
@@ -41,10 +52,13 @@ jobs:
           if [ -z "$MODO" ]; then
             if [ "$DRY_RUN" = "true" ]; then MODO=prova; else MODO=live; fi
           fi
+          ARGS=()
+          if [ "$SUBITO" = "true" ]; then ARGS+=(--now); fi
+          if [ -n "$CAROSELLO" ]; then ARGS+=(--item "$CAROSELLO"); fi
           case "$MODO" in
             pausa) echo "Modalità pausa: nessuna pubblicazione." ;;
-            prova) python -m onrecord publish --dry-run ;;
-            live) python -m onrecord publish ;;
+            prova) python -m onrecord publish --dry-run "${ARGS[@]}" ;;
+            live) python -m onrecord publish "${ARGS[@]}" ;;
             *) echo "Modalità non valida in controllo.json: $MODO"; exit 1 ;;
           esac
       - name: Salva archivio e stato

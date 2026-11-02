@@ -10,6 +10,7 @@ import tempfile
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, List, Optional
+from zoneinfo import ZoneInfo
 
 from pydantic import ValidationError
 
@@ -189,7 +190,12 @@ def _resolve_pending(root: Path, state: Dict, now: datetime) -> Optional[int]:
     return 0
 
 
-def publish(root: Path, now: Optional[datetime] = None, dry_run: bool = False) -> int:
+def publish(root: Path, now: Optional[datetime] = None, dry_run: bool = False,
+            immediate: bool = False, item: Optional[str] = None) -> int:
+    """Pubblica il prossimo carosello se c'è uno slot da coprire.
+
+    `immediate` salta il controllo dello slot (avvio manuale); `item` sceglie un carosello della coda per id
+    invece del più vecchio."""
     root = Path(root)
     now = now or datetime.now(timezone.utc)
     cfg = load_config(root)
@@ -197,7 +203,10 @@ def publish(root: Path, now: Optional[datetime] = None, dry_run: bool = False) -
     last = state.get("last_published_utc")
     last_dt = datetime.fromisoformat(last) if last else None
     ready = [m for m in archive.queue_index(root) if m.get("status") == "ready"]
-    slot = due_slot(now, cfg, len(ready), last_dt)
+    if immediate:
+        slot = "manuale-" + now.astimezone(ZoneInfo(cfg.timezone)).strftime("%Y-%m-%dT%H:%M")
+    else:
+        slot = due_slot(now, cfg, len(ready), last_dt)
     if slot is None:
         print("Nessuna pubblicazione prevista in questo momento.")
         return 0
@@ -209,7 +218,14 @@ def publish(root: Path, now: Optional[datetime] = None, dry_run: bool = False) -
         resolved = _resolve_pending(root, state, now)
         if resolved is not None:
             return resolved
-    item = archive.dequeue_oldest(root)
+    if item:
+        chosen = archive.queue_item(root, item)
+        if chosen is None:
+            print(f"Carosello non trovato tra quelli pronti in coda: {item}")
+            return 1
+        item = chosen
+    else:
+        item = archive.dequeue_oldest(root)
     if item is None:
         _count_skip(state, slot)
         _save_state(root, state)
@@ -287,6 +303,8 @@ def main(argv: Optional[List[str]] = None) -> int:
     p_pub = sub.add_parser("publish")
     p_pub.add_argument("--root", default=".")
     p_pub.add_argument("--dry-run", action="store_true")
+    p_pub.add_argument("--now", action="store_true", help="pubblica subito, anche fuori dagli slot")
+    p_pub.add_argument("--item", default=None, help="id del carosello in coda da pubblicare (default: il più vecchio)")
     p_prep = sub.add_parser("prepare-instagram", help="prova: Meta elabora il prossimo carosello senza pubblicarlo")
     p_prep.add_argument("--root", default=".")
     sub.add_parser("check-instagram", help="prova di sola lettura del collegamento a Instagram")
@@ -300,7 +318,7 @@ def main(argv: Optional[List[str]] = None) -> int:
             return 1
         return 0
     if args.command == "publish":
-        return publish(Path(args.root), dry_run=args.dry_run)
+        return publish(Path(args.root), dry_run=args.dry_run, immediate=args.now, item=args.item)
     if args.command == "prepare-instagram":
         return prepare_instagram(Path(args.root))
     if args.command == "check-instagram":

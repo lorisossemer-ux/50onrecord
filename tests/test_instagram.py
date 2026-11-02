@@ -355,3 +355,53 @@ def test_prepare_instagram_command_uses_oldest_queued_item(tmp_path, monkeypatch
     assert cli.main(["prepare-instagram", "--root", str(tmp_path)]) == 0
     assert "pronto" in capsys.readouterr().out
     assert not any(c.request.url.endswith("/media_publish") for c in responses.calls)
+
+
+# --- pubblicazione immediata (fuori slot) e scelta del carosello ---------------------
+
+AFTERNOON = datetime(2026, 12, 2, 15, 0, tzinfo=timezone.utc)  # 16:00 a Roma: nessuno slot
+
+
+def _add_item(repo, name, created_at):
+    item = repo / "queue" / name
+    (item / "slides").mkdir(parents=True)
+    for i in range(1, 7):
+        (item / "slides" / f"{i:02d}.jpg").write_bytes(b"\xff\xd8")
+    (item / "caption.txt").write_text(f"didascalia {name}")
+    (item / "manifest.json").write_text(json.dumps({
+        "id": name, "artist": "Queen", "song": "y", "decade": "80", "strand": "studio", "italian": False,
+        "key": name, "status": "ready", "created_at": created_at, "issue": 2}))
+
+
+def test_publish_immediately_ignores_the_slot(repo, monkeypatch):
+    monkeypatch.setattr(instagram, "publish_carousel", lambda urls, caption, ig, token, on_container=None: "NOW1")
+    assert cli.publish(repo, now=AFTERNOON, immediate=True) == 0
+    published = json.loads((repo / "archive" / "item-1" / "published.json").read_text())
+    assert published["media_id"] == "NOW1"
+    assert published["slot"] == "manuale-2026-12-02T16:00"
+
+
+def test_publish_immediately_does_not_block_the_next_slot(repo, monkeypatch):
+    _add_item(repo, "item-2", "2026-12-01T03:00:00+00:00")
+    monkeypatch.setattr(instagram, "publish_carousel", lambda urls, caption, ig, token, on_container=None: "M")
+    assert cli.publish(repo, now=AFTERNOON, immediate=True) == 0
+    assert cli.publish(repo, now=EVENING) == 0  # lo slot delle 20:30 pubblica comunque il successivo
+    assert (repo / "archive" / "item-2").exists()
+
+
+def test_publish_a_chosen_item_instead_of_the_oldest(repo, monkeypatch):
+    _add_item(repo, "item-2", "2026-12-02T03:00:00+00:00")
+    captions = []
+    monkeypatch.setattr(instagram, "publish_carousel",
+                        lambda urls, caption, ig, token, on_container=None: captions.append(caption) or "M2")
+    assert cli.publish(repo, now=AFTERNOON, immediate=True, item="item-2") == 0
+    assert captions == ["didascalia item-2"]
+    assert (repo / "archive" / "item-2").exists() and (repo / "queue" / "item-1").exists()
+
+
+def test_publish_unknown_item_fails_without_posting(repo, capsys):
+    with responses.RequestsMock() as rsps:
+        assert cli.publish(repo, now=AFTERNOON, immediate=True, item="non-esiste") == 1
+        assert len(rsps.calls) == 0
+    assert "non-esiste" in capsys.readouterr().out
+    assert (repo / "queue" / "item-1").exists()

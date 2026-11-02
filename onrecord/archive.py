@@ -81,6 +81,14 @@ def dequeue_oldest(root: Path) -> Optional[Path]:
     return Path(ready[0]["_path"]) if ready else None
 
 
+def queue_item(root: Path, item_id: str) -> Optional[Path]:
+    """Un carosello pronto della coda, scelto per id (cartella)."""
+    for meta in queue_index(root):
+        if meta.get("status") == "ready" and Path(meta["_path"]).name == item_id:
+            return Path(meta["_path"])
+    return None
+
+
 def archive_item(item: Path, media_id: str, root: Path, slot: Optional[str] = None) -> Path:
     meta = json.loads((Path(item) / "manifest.json").read_text(encoding="utf-8"))
     dest = Path(root) / "archive" / Path(item).name
