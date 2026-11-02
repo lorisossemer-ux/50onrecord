@@ -11,6 +11,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, List, Optional
 
+from pydantic import ValidationError
+
 from . import archive, instagram
 from .caption import CaptionTooLongError, build_caption
 from .config import load_config
@@ -56,7 +58,11 @@ def build(story_dir: Path, root: Path, render: bool = True) -> int:
 
 
 def _build(story_dir: Path, root: Path, render: bool) -> int:
-    story = load_story(story_dir / "story.json")
+    try:
+        story = load_story(story_dir / "story.json")
+    except (ValidationError, ValueError) as exc:  # file non conforme: va scartato, non riprovato
+        print(f"Carosello scartato:\n- story.json non valido: {exc}")
+        return 1
     errors = validate_story(story)
     for folder in ("queue", "archive"):
         if (root / folder / story_dir.name).exists():

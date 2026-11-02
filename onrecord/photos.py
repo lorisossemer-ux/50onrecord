@@ -1,6 +1,7 @@
 """Foto da Wikimedia Commons con licenza verificata (spec §7)."""
 from __future__ import annotations
 
+import hashlib
 import re
 from dataclasses import dataclass
 from pathlib import Path
@@ -93,7 +94,8 @@ def resolve_photo(req: PhotoRequest, dest: Path, subject: str) -> Optional[Photo
             continue
         dest = Path(dest)
         dest.mkdir(parents=True, exist_ok=True)
-        target = dest / url.rsplit("/", 1)[-1]
+        # Nome corto e sicuro: i titoli su Commons possono superare il limite dei nomi di file.
+        target = dest / (hashlib.sha1(url.encode("utf-8")).hexdigest()[:16] + "." + url.split("?")[0].rsplit(".", 1)[-1].lower())
         response = session.get(url, timeout=TIMEOUT)
         response.raise_for_status()
         target.write_bytes(response.content)

@@ -155,3 +155,11 @@ def test_two_line_listen_track_fits(tmp_path, story_dict):
     story_dict["listen_track"] = "The Rolling Stones \u2013 (I Can't Get No) Satisfaction e le sue molte versioni dal vivo"
     story = Story(**story_dict)
     render_story(story, _photos_for(story), issue=1, out_dir=tmp_path)
+
+
+def test_relative_output_dir_renders(tmp_path, story_dict, monkeypatch):
+    monkeypatch.chdir(tmp_path)
+    story = Story(**story_dict)
+    paths = render_story(story, _photos_for(story), issue=1, out_dir=Path("incoming/x/slides"))
+    assert len(paths) == len(story.slides)
+    assert all(p.exists() for p in paths)

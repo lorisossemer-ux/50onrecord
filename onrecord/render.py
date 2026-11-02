@@ -66,7 +66,7 @@ def _env() -> Environment:
 
 def render_story(story: Story, photos: Dict[int, List[Photo]], issue: int, out_dir: Path,
                  handle: str = "@50onrecord") -> List[Path]:
-    out_dir = Path(out_dir)
+    out_dir = Path(out_dir).resolve()  # as_uri() vuole percorsi assoluti
     html_dir = out_dir / "html"
     html_dir.mkdir(parents=True, exist_ok=True)
     env = _env()

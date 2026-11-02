@@ -106,3 +106,16 @@ def test_photo_without_author_rejected(tmp_path):
         page["imageinfo"][0]["extmetadata"].pop("Artist", None)
     responses.add(responses.GET, API_URL, json=data)
     assert resolve_photo(PhotoRequest(query="Sting", role="main"), tmp_path, subject="Sting") is None
+
+
+@responses.activate
+def test_very_long_commons_filename_is_saved(tmp_path):
+    long_url = "https://upload.wikimedia.org/wikipedia/commons/3/31/" + "Kurt_Cobain%27s_tool_" * 20 + ".jpg"
+    body = (FIXTURES / "commons_sting.json").read_text().replace(IMG_URL, long_url)
+    responses.add(responses.GET, API_URL, body=body, content_type="application/json")
+    responses.add(responses.GET, long_url, body=b"\xff\xd8jpegdata", content_type="image/jpeg")
+    photo = resolve_photo(PhotoRequest(query="Sting Police 1979", role="main"), tmp_path, subject="Sting")
+    assert photo is not None
+    assert photo.path.read_bytes() == b"\xff\xd8jpegdata"
+    assert photo.path.suffix == ".jpg"
+    assert len(photo.path.name) < 100

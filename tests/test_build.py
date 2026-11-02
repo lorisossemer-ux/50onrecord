@@ -144,3 +144,12 @@ def test_queue_item_is_lightweight(repo, story_dict):
     item = repo / "queue" / story_dict["id"]
     assert not (item / "photos").exists()
     assert not (item / "slides" / "html").exists()
+
+
+def test_build_rejects_story_not_matching_schema(repo, story_dict, capsys):
+    del story_dict["listen_track"]
+    d = _incoming(repo, story_dict)
+    assert cli.main(["build", str(d), "--root", str(repo)]) == 1
+    out = capsys.readouterr().out
+    assert "scartato" in out.lower()
+    assert "listen_track" in out
