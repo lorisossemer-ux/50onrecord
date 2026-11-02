@@ -1,4 +1,10 @@
 {
-  "consecutive_skips": 0,
-  "last_published_utc": "2026-11-02T19:50:00+00:00"
+  "consecutive_skips": 1,
+  "last_published_utc": "2026-11-02T19:50:00+00:00",
+  "pending": {
+    "item": "1988-guns-n-roses-sweet-child-o-mine",
+    "container": "18199334647387786",
+    "slot": "manuale-2026-11-02T20:51"
+  },
+  "last_skipped_slot": "manuale-2026-11-02T20:51"
 }
