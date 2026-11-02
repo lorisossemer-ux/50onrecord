@@ -24,7 +24,8 @@ _OVERFLOW_JS = """
   const bad = [];
   document.querySelectorAll('.fit').forEach(el => {
     const name = el.dataset.name || el.className;
-    if (el.scrollHeight > el.clientHeight + 12 || el.scrollWidth > el.clientWidth + 12) bad.push(name);
+    const slack = Number(el.dataset.slack || 12);  // i corpi enormi (testata) escono dalla riga: tolleranza propria
+    if (el.scrollHeight > el.clientHeight + slack || el.scrollWidth > el.clientWidth + slack) bad.push(name);
     const r = el.getBoundingClientRect();
     if (r.left < -tol || r.top < -tol || r.right > 1080 + tol || r.bottom > 1350 + tol) bad.push(name + ' (fuori slide)');
   });

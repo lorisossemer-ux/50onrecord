@@ -304,3 +304,10 @@ def test_cover_shows_the_artist_name_prominently(tmp_path, story_dict):
     cover = (tmp_path / "html" / "01.html").read_text(encoding="utf-8")
     assert 'data-name="nome artista"' in cover
     assert story.artist in cover
+
+
+def test_artist_with_a_descending_letter_is_not_flagged(tmp_path, story_dict):
+    # "Bon Jovi": la J scende sotto la riga a corpo grande, ma la testata resta valida.
+    story_dict["artist"] = "Bon Jovi"
+    story = Story(**story_dict)
+    render_story(story, _photos_for(story), issue=1, out_dir=tmp_path)
