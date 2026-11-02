@@ -153,3 +153,27 @@ def test_build_rejects_story_not_matching_schema(repo, story_dict, capsys):
     out = capsys.readouterr().out
     assert "scartato" in out.lower()
     assert "listen_track" in out
+
+
+def test_same_photo_is_not_repeated_across_slides(story_dict, tmp_path, monkeypatch):
+    from onrecord import cli
+    from onrecord.models import Story
+    from onrecord.photos import Photo
+
+    def fake_resolve(req, dest, subject=None):
+        name = {"a": "Stessa.jpg", "b": "Altra.jpg"}[req.query]
+        return Photo(path=tmp_path / name, author="X", license="CC BY 2.0",
+                     source_url=f"https://commons.wikimedia.org/wiki/File:{name}", sharealike=False)
+
+    monkeypatch.setattr(cli, "resolve_photo", fake_resolve)
+    for slide in story_dict["slides"]:
+        slide["photos"] = []
+    story_dict["slides"][0]["photos"] = [{"query": "a", "role": "main"}, {"query": "a", "role": "side"}]
+    story_dict["slides"][1]["photos"] = [{"query": "a", "role": "main"}]
+    story_dict["slides"][2]["photos"] = [{"query": "b", "role": "main"}]
+    story_dict["slides"][3]["photos"] = [{"query": "b", "role": "main"}]
+    photos = cli._resolve_photos(Story(**story_dict), tmp_path)
+    assert [p.source_url.rsplit(":", 1)[-1] for p in photos[0]] == ["Stessa.jpg"]   # il doppione in copertina cade
+    assert photos[1] == []                                                         # già usata nella copertina
+    assert [p.source_url.rsplit(":", 1)[-1] for p in photos[2]] == ["Altra.jpg"]
+    assert photos[3] == []                                                         # già usata nella slide 3

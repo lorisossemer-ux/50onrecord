@@ -41,9 +41,14 @@ def _consecutive_errors(story: Story, root: Path) -> List[str]:
 
 def _resolve_photos(story: Story, dest: Path) -> Dict[int, List[Photo]]:
     photos: Dict[int, List[Photo]] = {}
+    used = set()  # una foto compare una volta sola nel carosello: le ripetizioni cadono (la slide resta di testo)
     for i, slide in enumerate(story.slides):
         found = [resolve_photo(req, dest, subject=req.subject or story.artist) for req in slide.photos]
-        photos[i] = [p for p in found if p is not None]
+        photos[i] = []
+        for p in found:
+            if p is not None and p.source_url not in used:
+                used.add(p.source_url)
+                photos[i].append(p)
     if not photos.get(0) and story.slides[0].kind == "cover":
         story.slides[0].kind = "nophoto_cover"
     return photos
@@ -161,6 +166,8 @@ def _mark_published(root: Path, state: Dict, item: Path, media_id: str, slot: st
     archive.archive_item(item, media_id, root, slot=slot)
     state.pop("pending", None)
     state.update({"consecutive_skips": 0, "last_published_utc": now.isoformat()})
+    if not slot.startswith("manuale-"):  # un post manuale non consuma gli slot del giorno
+        state["published_slots"] = (state.get("published_slots", []) + [slot])[-12:]
     _save_state(root, state)
     print(f"Pubblicato {item.name} come {media_id} (slot {slot})")
 
@@ -200,13 +207,11 @@ def publish(root: Path, now: Optional[datetime] = None, dry_run: bool = False,
     now = now or datetime.now(timezone.utc)
     cfg = load_config(root)
     state = _load_state(root)
-    last = state.get("last_published_utc")
-    last_dt = datetime.fromisoformat(last) if last else None
     ready = [m for m in archive.queue_index(root) if m.get("status") == "ready"]
     if immediate:
         slot = "manuale-" + now.astimezone(ZoneInfo(cfg.timezone)).strftime("%Y-%m-%dT%H:%M")
     else:
-        slot = due_slot(now, cfg, len(ready), last_dt)
+        slot = due_slot(now, cfg, len(ready), state.get("published_slots", []))
     if slot is None:
         print("Nessuna pubblicazione prevista in questo momento.")
         return 0
@@ -227,6 +232,9 @@ def publish(root: Path, now: Optional[datetime] = None, dry_run: bool = False,
     else:
         item = archive.dequeue_oldest(root)
     if item is None:
+        if state.get("last_skipped_slot") == slot:  # già segnalato: niente altra mail a ogni controllo
+            print(f"Coda vuota allo slot {slot}: già segnalato.")
+            return 0
         _count_skip(state, slot)
         _save_state(root, state)
         return _fail_with_alerts(alerts({**state, "queue_ready": 0}, now, token_expires))

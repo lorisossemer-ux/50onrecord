@@ -465,3 +465,33 @@ def test_error_without_a_published_post_still_fails(repo, monkeypatch):
     monkeypatch.setattr(instagram, "publish_carousel", publish_error)
     assert cli.publish(repo, now=EVENING) == 1
     assert (repo / "queue" / "item-1").exists()
+
+
+# --- slot registrati per nome ---------------------------------------------------------------
+
+def test_published_slot_is_recorded_and_not_repeated(repo, monkeypatch):
+    _add_item(repo, "item-2", "2026-12-02T03:00:00+00:00")
+    monkeypatch.setattr(instagram, "publish_carousel", lambda urls, caption, ig, token, on_container=None: "M")
+    # A 20:35 sono iniziati entrambi gli slot: ogni controllo ne copre uno, nell'ordine.
+    assert cli.publish(repo, now=EVENING) == 0
+    assert json.loads((repo / "state.json").read_text())["published_slots"] == ["2026-12-02T12:30"]
+    assert cli.publish(repo, now=EVENING + timedelta(minutes=15)) == 0
+    assert json.loads((repo / "state.json").read_text())["published_slots"] == ["2026-12-02T12:30", "2026-12-02T20:30"]
+    assert not list((repo / "queue").iterdir())
+    # Slot coperti: nessun altro post, anche se in coda arrivasse qualcosa.
+    _add_item(repo, "item-3", "2026-12-02T04:00:00+00:00")
+    assert cli.publish(repo, now=EVENING + timedelta(minutes=30)) == 0
+    assert (repo / "queue" / "item-3").exists()
+
+
+def test_manual_publication_does_not_use_up_a_slot(repo, monkeypatch):
+    monkeypatch.setattr(instagram, "publish_carousel", lambda urls, caption, ig, token, on_container=None: "M")
+    assert cli.publish(repo, now=AFTERNOON, immediate=True) == 0
+    assert json.loads((repo / "state.json").read_text()).get("published_slots", []) == []
+
+
+def test_empty_queue_warns_once_per_slot(repo):
+    (repo / "queue" / "item-1" / "manifest.json").unlink()
+    (repo / "queue" / "item-1").rename(repo / "item-1-parked")
+    assert cli.publish(repo, now=EVENING) == 1                                  # primo controllo: avviso
+    assert cli.publish(repo, now=EVENING + timedelta(minutes=15)) == 0          # stesso slot: niente altra mail

@@ -2,7 +2,7 @@
 from __future__ import annotations
 
 from datetime import datetime, timedelta
-from typing import Dict, List, Optional
+from typing import Collection, Dict, List, Optional
 from zoneinfo import ZoneInfo
 
 from .config import Config
@@ -21,30 +21,27 @@ def _slots_for(local: datetime, cfg: Config) -> List[str]:
     return cfg.phase2_slots
 
 
-def due_slot(now_utc: datetime, cfg: Config, queue_ready: int,
-             last_published_utc: Optional[datetime]) -> Optional[str]:
+def due_slot(now_utc: datetime, cfg: Config, queue_ready: int, published_slots: Collection[str] = ()) -> Optional[str]:
+    """Il primo slot di oggi già iniziato e non ancora coperto, con l'etichetta "AAAA-MM-GGTHH:MM".
+
+    Il cron di GitHub può ritardare di ore o saltare run: uno slot resta recuperabile fino a fine giornata, e
+    ogni run ne copre uno solo, così anche con un grosso ritardo escono tutti, uno per controllo.
+    Con poca coda si tengono gli ultimi slot: lo slot in posizione i (su n) richiede almeno n - i caroselli
+    pronti, l'ultimo è sempre dovuto (a coda vuota scatta l'avviso, spec §10)."""
     tz = ZoneInfo(cfg.timezone)
     local = now_utc.astimezone(tz)
     slots = _slots_for(local, cfg)
-    midnight = datetime(local.year, local.month, local.day, tzinfo=tz) + timedelta(days=1)
+    published = set(published_slots)
     for index, slot in enumerate(slots):
         hour, minute = (int(x) for x in slot.split(":"))
-        start = datetime(local.year, local.month, local.day, hour, minute, tzinfo=tz)
-        # Il cron di GitHub può ritardare di ore o saltare run: lo slot resta recuperabile
-        # fino all'inizio di quello successivo (l'ultimo fino a fine giornata).
-        if index + 1 < len(slots):
-            nh, nm = (int(x) for x in slots[index + 1].split(":"))
-            end = datetime(local.year, local.month, local.day, nh, nm, tzinfo=tz)
-        else:
-            end = midnight
-        if not (start <= local < end):
+        if local < datetime(local.year, local.month, local.day, hour, minute, tzinfo=tz):
+            break
+        label = f"{local.date().isoformat()}T{slot}"
+        if label in published:
             continue
-        # Con poca coda si tiene solo l'ultimo slot della giornata (spec §10).
-        if slot != slots[-1] and queue_ready < MIN_QUEUE_FOR_ALL_SLOTS:
-            return None
-        if last_published_utc is not None and last_published_utc >= start:
-            return None
-        return f"{local.date().isoformat()}T{slot}"
+        if index < len(slots) - 1 and queue_ready < len(slots) - index:
+            continue
+        return label
     return None
 
 
