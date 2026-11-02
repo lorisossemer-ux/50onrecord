@@ -1,0 +1,54 @@
+{
+  "id": "1969-jimi-hendrix-star-spangled-banner",
+  "artist": "Jimi Hendrix",
+  "song": "The Star-Spangled Banner",
+  "decade": "60",
+  "strand": "palco",
+  "italian": false,
+  "key": "jimi hendrix|star spangled banner|palco",
+  "issue": 5,
+  "status": "ready",
+  "created_at": "2026-11-02T17:49:37.145338+00:00",
+  "photos": [
+    {
+      "author": "James Shearin",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Jimi_Hendrix_-_The_Commercial_Appeal_(1969).jpg"
+    },
+    {
+      "author": "Derral Chen",
+      "license": "CC BY-SA 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Jimi_Hendrix_%27s_guitar_with_autograph.jpg"
+    },
+    {
+      "author": "Derek Redmond and Paul Campbell",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Woodstock_redmond_crowd.JPG"
+    },
+    {
+      "author": "Mark Tyra from Albuquerque, NM, USA",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Jimi_hendrix_woodstock.jpg"
+    },
+    {
+      "author": "Mark Tyra from Albuquerque, NM, USA",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Jimi_hendrix_woodstock.jpg"
+    },
+    {
+      "author": "Tomtall",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Jimi_hendrix_tallstig_saachi.jpg"
+    },
+    {
+      "author": "James Shearin",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Jimi_Hendrix_-_The_Commercial_Appeal_(1969).jpg"
+    },
+    {
+      "author": "Marjut Valakivi",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Jimi-Hendrix-1967-Helsinki-d.jpg"
+    }
+  ]
+}

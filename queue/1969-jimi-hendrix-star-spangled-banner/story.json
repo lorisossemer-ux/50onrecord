@@ -1,0 +1,231 @@
+{
+  "id": "1969-jimi-hendrix-star-spangled-banner",
+  "artist": "Jimi Hendrix",
+  "song": "The Star-Spangled Banner",
+  "year": 1969,
+  "decade": "60",
+  "strand": "palco",
+  "italian": false,
+  "facts": [
+    {
+      "claim": "Jimi Hendrix doveva chiudere il festival di Woodstock del 1969, ma i ritardi lo fecero salire sul palco lunedì mattina.",
+      "sources": [
+        {
+          "url": "https://bethelwoodscenter.org/blog/jimi-hendrix",
+          "title": "Jimi Hendrix",
+          "publisher": "Bethel Woods Center for the Arts"
+        },
+        {
+          "url": "https://faroutmagazine.co.uk/jimi-hendrix-woodstock/",
+          "title": "Why did Jimi Hendrix perform 'Star Spangled Banner' at Woodstock?",
+          "publisher": "Far Out Magazine"
+        }
+      ]
+    },
+    {
+      "claim": "A Woodstock Hendrix suonava con la sua nuova band, i Gypsy Sun and Rainbows.",
+      "sources": [
+        {
+          "url": "https://bethelwoodscenter.org/blog/jimi-hendrix",
+          "title": "Jimi Hendrix",
+          "publisher": "Bethel Woods Center for the Arts"
+        },
+        {
+          "url": "https://faroutmagazine.co.uk/jimi-hendrix-woodstock/",
+          "title": "Why did Jimi Hendrix perform 'Star Spangled Banner' at Woodstock?",
+          "publisher": "Far Out Magazine"
+        }
+      ]
+    },
+    {
+      "claim": "Quando Hendrix suonò, era rimasto solo circa un decimo del pubblico presente due notti prima.",
+      "sources": [
+        {
+          "url": "https://bethelwoodscenter.org/blog/jimi-hendrix",
+          "title": "Jimi Hendrix",
+          "publisher": "Bethel Woods Center for the Arts"
+        },
+        {
+          "url": "https://faroutmagazine.co.uk/jimi-hendrix-woodstock/",
+          "title": "Why did Jimi Hendrix perform 'Star Spangled Banner' at Woodstock?",
+          "publisher": "Far Out Magazine"
+        }
+      ]
+    },
+    {
+      "claim": "Hendrix attaccò l'inno americano all'improvviso, come strumentale, e la band lo seguì per un momento.",
+      "sources": [
+        {
+          "url": "https://bethelwoodscenter.org/blog/jimi-hendrix",
+          "title": "Jimi Hendrix",
+          "publisher": "Bethel Woods Center for the Arts"
+        },
+        {
+          "url": "https://liveforlivemusic.com/features/watch-jimi-hendrixs-iconic-star-spangled-banner-performance-from-woodstock-1969/",
+          "title": "Watch Jimi Hendrix's iconic Star-Spangled Banner performance from Woodstock 1969",
+          "publisher": "Live for Live Music"
+        }
+      ]
+    },
+    {
+      "claim": "Il 9 settembre 1969, al Dick Cavett Show, Hendrix spiegò la sua versione dell'inno e disse: \"I thought it was beautiful\".",
+      "sources": [
+        {
+          "url": "https://openculture.com/2021/01/jimi-hendrix-revisits-his-searing-performance-of-the-star-spangled-banner-the-dick-cavett-show-september-9-1969.html",
+          "title": "Jimi Hendrix Revisits His Searing Performance of The Star-Spangled Banner: The Dick Cavett Show (September 9, 1969)",
+          "publisher": "Open Culture"
+        },
+        {
+          "url": "https://faroutmagazine.co.uk/jimi-hendrix-national-anthem-woodstock-explanation-dick-cavett/",
+          "title": "Jimi Hendrix explained why he played 'Star-Spangled Banner' at Woodstock, 1969",
+          "publisher": "Far Out Magazine"
+        }
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "heading_cuts": [
+        "L'INNO",
+        "A SORPRESA",
+        "di JIMI"
+      ],
+      "body": null,
+      "marker": "lunedì mattina, Woodstock ↓",
+      "photos": [
+        {
+          "query": "Jimi Hendrix 1969",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Jimi Hendrix"
+        },
+        {
+          "query": "Jimi Hendrix guitar",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Jimi Hendrix"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "WOODSTOCK",
+        "1969"
+      ],
+      "body": "Hendrix doveva chiudere il festival, ma i ritardi lo spostano a lunedì mattina. Sul palco arriva con la sua nuova band, i Gypsy Sun and Rainbows.",
+      "marker": "chiude lui",
+      "photos": [
+        {
+          "query": "Woodstock 1969 festival",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Woodstock"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "IL PUBBLICO",
+        "era sparito"
+      ],
+      "body": "Quando Hendrix inizia a suonare, è rimasto solo circa un decimo del pubblico presente due notti prima.",
+      "marker": "un decimo",
+      "photos": [
+        {
+          "query": "Jimi Hendrix Woodstock",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Jimi Hendrix"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "ALL'IMPROVVISO"
+      ],
+      "body": "A un certo punto Hendrix attacca l'inno americano, all'improvviso e solo strumentale. La band lo segue per un momento.",
+      "marker": "senza avvisare",
+      "photos": [
+        {
+          "query": "Jimi Hendrix live guitar",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Jimi Hendrix"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "emotion",
+      "heading_cuts": [
+        "PER LUI",
+        "era bellissimo"
+      ],
+      "body": "Per Hendrix quella versione dell'inno era semplice: la trovava bellissima.",
+      "marker": "\"I thought it was beautiful\"",
+      "photos": [
+        {
+          "query": "Jimi Hendrix portrait",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Jimi Hendrix"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "result",
+      "heading_cuts": [
+        "IL 9",
+        "SETTEMBRE",
+        "1969"
+      ],
+      "body": "Lo racconta in tv il 9 settembre 1969, al Dick Cavett Show, dove spiega la sua versione dell'inno.",
+      "marker": null,
+      "photos": [
+        {
+          "query": "Jimi Hendrix 1969",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Jimi Hendrix"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "final",
+      "heading_cuts": [
+        "E TU?"
+      ],
+      "body": null,
+      "marker": "scrivila nei commenti ↓",
+      "photos": [
+        {
+          "query": "Jimi Hendrix concert",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Jimi Hendrix"
+        }
+      ],
+      "source_note": null
+    }
+  ],
+  "caption_body": "Lunedì mattina, alla chiusura di Woodstock 1969, era rimasto circa un decimo del pubblico. Jimi Hendrix attaccò l'inno americano all'improvviso. Qualche settimana dopo, al Dick Cavett Show, spiegò come la vedeva lui: bellissima.",
+  "question": "Qual è l'esibizione dal vivo che ti ha lasciato senza parole?",
+  "listen_track": "Jimi Hendrix – The Star-Spangled Banner",
+  "lyric_quote": null,
+  "hashtags": [
+    "#jimihendrix",
+    "#woodstock",
+    "#musica60",
+    "#storiedellamusica",
+    "#50onrecord"
+  ]
+}
