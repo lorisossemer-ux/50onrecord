@@ -48,16 +48,30 @@ jobs:
               continue
             fi
             keep_branch=0
-            for story in $changed; do
+            # Una storia scartata per l'equilibrio (stesso decennio o artista dell'ultima) si riprova dopo che le
+            # altre sono entrate: si ripassa finché c'è almeno una storia accettata nel giro.
+            pending="$changed"
+            progress=1
+            while [ "$progress" = "1" ] && [ -n "$pending" ]; do
+              progress=0
+              still=""
+              for story in $pending; do
+                dir=$(dirname "$story")
+                mkdir -p "$dir"
+                git show "FETCH_HEAD:$story" > "$story"
+                python -m onrecord build "$dir" && code=0 || code=$?
+                case $code in
+                  0) accepted=$((accepted + 1)); progress=1 ;;
+                  1) still="$still $story" ;;
+                  *) echo "::error::Errore tecnico su $dir: riprovo al prossimo giro"; rm -rf "$dir"; keep_branch=1; problems=1 ;;
+                esac
+              done
+              pending="$still"
+            done
+            for story in $pending; do
               dir=$(dirname "$story")
-              mkdir -p "$dir"
-              git show "FETCH_HEAD:$story" > "$story"
-              python -m onrecord build "$dir" && code=0 || code=$?
-              case $code in
-                0) accepted=$((accepted + 1)) ;;
-                1) echo "::warning::Scartato: $dir"; rm -rf "$dir" ;;
-                *) echo "::error::Errore tecnico su $dir: riprovo al prossimo giro"; rm -rf "$dir"; keep_branch=1; problems=1 ;;
-              esac
+              echo "::warning::Scartato: $dir"
+              rm -rf "$dir"
             done
             if [ "$keep_branch" = "0" ]; then
               git push origin --delete "$branch"
