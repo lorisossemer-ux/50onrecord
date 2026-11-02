@@ -107,7 +107,7 @@
         "e chitarra"
       ],
       "body": null,
-      "marker": "l'ultima canzone ↓",
+      "marker": "chiude l'album ↓",
       "photos": [
         {
           "query": "Bob Marley",
@@ -127,7 +127,7 @@
     {
       "kind": "note",
       "heading_cuts": [
-        "JAMAICA",
+        "L'ALBUM",
         "1980"
       ],
       "body": "Redemption Song chiude l'album Uprising, uscito nel 1980. È una registrazione solo voce e chitarra acustica, senza accompagnamento.",
