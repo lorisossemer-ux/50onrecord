@@ -90,6 +90,7 @@ def repo(tmp_path, monkeypatch):
     monkeypatch.setenv("IG_TOKEN", "TOKEN")
     monkeypatch.setenv("IG_TOKEN_EXPIRES", "2027-01-30T00:00:00+00:00")
     monkeypatch.setenv("ONRECORD_RAW_BASE", "https://raw.githubusercontent.com/o/50onrecord/main")
+    monkeypatch.setattr(instagram, "recent_captions", lambda ig_user_id, token, limit=10: [])
     return tmp_path
 
 
@@ -405,3 +406,34 @@ def test_publish_unknown_item_fails_without_posting(repo, capsys):
         assert len(rsps.calls) == 0
     assert "non-esiste" in capsys.readouterr().out
     assert (repo / "queue" / "item-1").exists()
+
+
+# --- protezione dai duplicati: controllo delle ultime didascalie ------------------------
+
+@responses.activate
+def test_recent_captions_reads_the_latest_posts():
+    responses.add(responses.GET, f"{GRAPH}/{IG}/media", json={"data": [{"caption": "uno"}, {"id": "2"}, {"caption": "tre"}]})
+    assert instagram.recent_captions(IG, "TOKEN", limit=3) == ["uno", "tre"]
+    assert "fields=caption" in responses.calls[0].request.url and "limit=3" in responses.calls[0].request.url
+
+
+def test_caption_already_online_is_archived_without_posting_again(repo, monkeypatch):
+    # Meta a volte pubblica ma risponde con un errore: il sistema non deve ripubblicare lo stesso carosello.
+    monkeypatch.setattr(instagram, "recent_captions", lambda ig_user_id, token, limit=10: ["altro", " didascalia  "])
+    posted = []
+    monkeypatch.setattr(instagram, "publish_carousel",
+                        lambda urls, caption, ig, token, on_container=None: posted.append(caption) or "NEW")
+    assert cli.publish(repo, now=EVENING) == 0
+    assert posted == []
+    assert (repo / "archive" / "item-1").exists() and not (repo / "queue" / "item-1").exists()
+
+
+def test_publish_stops_when_recent_posts_cannot_be_checked(repo, monkeypatch):
+    def fails(ig_user_id, token, limit=10):
+        raise PublishError("Meta ha rifiutato la richiesta: Application request limit reached")
+    monkeypatch.setattr(instagram, "recent_captions", fails)
+    posted = []
+    monkeypatch.setattr(instagram, "publish_carousel",
+                        lambda urls, caption, ig, token, on_container=None: posted.append(caption) or "NEW")
+    assert cli.publish(repo, now=EVENING) == 1
+    assert posted == [] and (repo / "queue" / "item-1").exists()

@@ -239,6 +239,17 @@ def publish(root: Path, now: Optional[datetime] = None, dry_run: bool = False,
         print(f"[prova] slot {slot}\n" + "\n".join(urls) + "\n\n" + caption)
         return 0
 
+    # Meta a volte pubblica ma risponde con un errore (es. "limite di richieste"): prima di creare un nuovo
+    # carosello si controlla che la didascalia non sia già tra gli ultimi post del profilo.
+    try:
+        online = {" ".join(c.split()) for c in instagram.recent_captions(_secret("IG_USER_ID"), _secret("IG_TOKEN"))}
+    except instagram.PublishError as exc:
+        return _fail_with_alerts([f"impossibile verificare i post già pubblicati: {exc}"])
+    if " ".join(caption.split()) in online:
+        print(f"{item.name} risulta già pubblicato su Instagram: lo registro senza ripubblicarlo.")
+        _mark_published(root, state, item, "gia-presente-su-instagram", slot, now)
+        return 0
+
     def remember_container(container_id: str) -> None:
         state["pending"] = {"item": item.name, "container": container_id, "slot": slot}
         _save_state(root, state)

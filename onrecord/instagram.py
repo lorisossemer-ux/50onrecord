@@ -44,6 +44,12 @@ def container_status(container_id: str, token: str) -> str:
     return _call("GET", f"{GRAPH}/{container_id}?fields=status_code", token).get("status_code", "")
 
 
+def recent_captions(ig_user_id: str, token: str, limit: int = 10) -> List[str]:
+    """Didascalie degli ultimi post del profilo: serve a non ripubblicare un carosello già online."""
+    payload = _call("GET", f"{GRAPH}/{ig_user_id}/media?fields=caption&limit={limit}", token)
+    return [post["caption"] for post in payload.get("data", []) if post.get("caption")]
+
+
 def publish_container(ig_user_id: str, container_id: str, token: str) -> str:
     return _call("POST", f"{GRAPH}/{ig_user_id}/media_publish", token, creation_id=container_id)["id"]
 
