@@ -255,6 +255,26 @@ def check_instagram() -> int:
     return 0
 
 
+def prepare_instagram(root: Path) -> int:
+    """Prova senza pubblicare: Meta scarica le slide del prossimo carosello e le elabora; nulla va online."""
+    root = Path(root)
+    item = archive.dequeue_oldest(root)
+    if item is None:
+        print("Nessun carosello in coda da provare.")
+        return 1
+    base = os.environ["ONRECORD_RAW_BASE"].rstrip("/")
+    rel = item.relative_to(root).as_posix()
+    urls = [f"{base}/{rel}/slides/{p.name}" for p in sorted((item / "slides").glob("*.jpg"))]
+    caption = (item / "caption.txt").read_text(encoding="utf-8")
+    try:
+        container = instagram.prepare_carousel(urls, caption, _secret("IG_USER_ID"), _secret("IG_TOKEN"))
+    except instagram.PublishError as exc:
+        print(f"Prova non riuscita per {item.name}: {exc}")
+        return 1
+    print(f"Prova riuscita: {item.name} è pronto su Meta ({len(urls)} slide, contenitore {container}). Non pubblicato.")
+    return 0
+
+
 def main(argv: Optional[List[str]] = None) -> int:
     parser = argparse.ArgumentParser(prog="onrecord")
     sub = parser.add_subparsers(dest="command", required=True)
@@ -267,6 +287,8 @@ def main(argv: Optional[List[str]] = None) -> int:
     p_pub = sub.add_parser("publish")
     p_pub.add_argument("--root", default=".")
     p_pub.add_argument("--dry-run", action="store_true")
+    p_prep = sub.add_parser("prepare-instagram", help="prova: Meta elabora il prossimo carosello senza pubblicarlo")
+    p_prep.add_argument("--root", default=".")
     sub.add_parser("check-instagram", help="prova di sola lettura del collegamento a Instagram")
     sub.add_parser("gate-check", help="legge da stdin i file modificati dal branch della routine")
     args = parser.parse_args(argv)
@@ -279,6 +301,8 @@ def main(argv: Optional[List[str]] = None) -> int:
         return 0
     if args.command == "publish":
         return publish(Path(args.root), dry_run=args.dry_run)
+    if args.command == "prepare-instagram":
+        return prepare_instagram(Path(args.root))
     if args.command == "check-instagram":
         return check_instagram()
 

@@ -1,0 +1,24 @@
+# Prova senza pubblicare: Meta scarica ed elabora le slide del prossimo carosello in coda (formato,
+# didascalia, indirizzi raggiungibili) e ci si ferma prima di "pubblica". Si avvia a mano da Actions.
+name: prova-instagram
+
+on:
+  workflow_dispatch:
+
+jobs:
+  prova:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -e .
+      - name: Fai elaborare il carosello a Meta (senza pubblicare)
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          ONRECORD_RAW_BASE: https://raw.githubusercontent.com/${{ github.repository }}/main
+        run: python -m onrecord prepare-instagram

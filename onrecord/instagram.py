@@ -48,14 +48,9 @@ def publish_container(ig_user_id: str, container_id: str, token: str) -> str:
     return _call("POST", f"{GRAPH}/{ig_user_id}/media_publish", token, creation_id=container_id)["id"]
 
 
-def publish_carousel(image_urls: List[str], caption: str, ig_user_id: str, token: str,
-                     poll_interval: float = 30, max_polls: int = 10,
-                     on_container: Optional[Callable[[str], None]] = None) -> str:
-    """Restituisce l'id del post pubblicato. La documentazione Meta consiglia controlli entro 5 minuti.
-
-    on_container riceve l'id del carosello pronto PRIMA di media_publish: se la risposta di Meta si perde,
-    al giro successivo si controlla quel contenitore invece di ripubblicare.
-    """
+def prepare_carousel(image_urls: List[str], caption: str, ig_user_id: str, token: str,
+                     poll_interval: float = 30, max_polls: int = 10) -> str:
+    """Crea e fa elaborare il carosello a Meta senza pubblicarlo: restituisce l'id del contenitore pronto."""
     if not 2 <= len(image_urls) <= MAX_CAROUSEL_ITEMS:
         raise ValueError(f"un carosello richiede da 2 a {MAX_CAROUSEL_ITEMS} immagini, ricevute {len(image_urls)}")
     children = [
@@ -67,6 +62,18 @@ def publish_carousel(image_urls: List[str], caption: str, ig_user_id: str, token
     carousel = _call("POST", f"{GRAPH}/{ig_user_id}/media", token,
                      media_type="CAROUSEL", children=",".join(children), caption=caption)["id"]
     _wait_finished(carousel, token, poll_interval, max_polls)
+    return carousel
+
+
+def publish_carousel(image_urls: List[str], caption: str, ig_user_id: str, token: str,
+                     poll_interval: float = 30, max_polls: int = 10,
+                     on_container: Optional[Callable[[str], None]] = None) -> str:
+    """Restituisce l'id del post pubblicato. La documentazione Meta consiglia controlli entro 5 minuti.
+
+    on_container riceve l'id del carosello pronto PRIMA di media_publish: se la risposta di Meta si perde,
+    al giro successivo si controlla quel contenitore invece di ripubblicare.
+    """
+    carousel = prepare_carousel(image_urls, caption, ig_user_id, token, poll_interval, max_polls)
     if on_container:
         on_container(carousel)
     return publish_container(ig_user_id, carousel, token)

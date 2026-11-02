@@ -326,3 +326,32 @@ def test_publish_uses_clean_secrets(repo, monkeypatch):
     monkeypatch.setattr(instagram, "publish_carousel", fake)
     assert cli.publish(repo, now=EVENING) == 0
     assert seen == {"ig": IG, "token": "TOKEN"}
+
+
+@responses.activate
+def test_prepare_carousel_never_publishes():
+    _happy_path_mocks()
+    carousel = instagram.prepare_carousel(URLS, "didascalia", IG, "TOKEN", poll_interval=0)
+    assert carousel == "carousel"
+    assert not any(c.request.url.endswith("/media_publish") for c in responses.calls)
+
+
+@responses.activate
+def test_prepare_instagram_command_uses_oldest_queued_item(tmp_path, monkeypatch, capsys):
+    item = tmp_path / "queue" / "item-1"
+    (item / "slides").mkdir(parents=True)
+    for i in (1, 2):
+        (item / "slides" / f"{i:02d}.jpg").write_bytes(b"x")
+    (item / "caption.txt").write_text("didascalia", encoding="utf-8")
+    (item / "manifest.json").write_text(json.dumps({"id": "item-1", "status": "ready", "created_at": "2026-11-02T00:00:00+00:00"}))
+    monkeypatch.setenv("IG_USER_ID", IG)
+    monkeypatch.setenv("IG_TOKEN", "TOKEN")
+    monkeypatch.setenv("ONRECORD_RAW_BASE", "https://raw.githubusercontent.com/o/50onrecord/main")
+    for i in range(2):
+        responses.add(responses.POST, f"{GRAPH}/{IG}/media", json={"id": f"c{i}"})
+        _status(f"c{i}", "FINISHED")
+    responses.add(responses.POST, f"{GRAPH}/{IG}/media", json={"id": "carousel"})
+    _status("carousel", "FINISHED")
+    assert cli.main(["prepare-instagram", "--root", str(tmp_path)]) == 0
+    assert "pronto" in capsys.readouterr().out
+    assert not any(c.request.url.endswith("/media_publish") for c in responses.calls)
