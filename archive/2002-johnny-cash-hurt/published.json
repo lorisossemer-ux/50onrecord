@@ -1,0 +1,36 @@
+{
+  "id": "2002-johnny-cash-hurt",
+  "artist": "Johnny Cash",
+  "song": "Hurt",
+  "decade": "00",
+  "strand": "emozione",
+  "italian": false,
+  "key": "johnny cash|hurt|emozione",
+  "issue": 8,
+  "created_at": "2026-11-02T18:10:57.673255+00:00",
+  "photos": [
+    {
+      "author": "CBS Television",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Johnny_Cash_1977.jpg"
+    },
+    {
+      "author": "Sun Records",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Johnny_Cash_Promotional_Photo_2.jpg"
+    },
+    {
+      "author": "Columbia Records",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Jackson_by_Johnny_Cash_and_June_Carter_US_single.png"
+    },
+    {
+      "author": "Self Scanned",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:1971_-_Johnny_Cash_-_Allentown_fair_-_Allentown_PA.jpg"
+    }
+  ],
+  "media_id": "18212826673323211",
+  "slot": "manuale-2026-11-02T19:36",
+  "published_at": "2026-11-02T18:37:54.663532+00:00"
+}
