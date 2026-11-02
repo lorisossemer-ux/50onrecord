@@ -1,9 +1,10 @@
 # Configurazione di 50onrecord
 handle = "@50onrecord"
 timezone = "Europe/Rome"
-# Primo giorno di pubblicazione (se la coda è corta pubblica solo lo slot delle 20:30)
+# Primo giorno di pubblicazione. Con coda corta si tengono gli ultimi slot della sera.
 start_date = "2026-11-02"
 phase1_days = 56
-phase1_slots = ["12:30", "20:30"]
-phase2_slots = ["20:30"]
+# Primo periodo (phase1_days giorni): tre pubblicazioni ogni sera, verso le 20.
+phase1_slots = ["19:40", "20:10", "20:40"]
+phase2_slots = ["20:10"]
 first_issue = 1

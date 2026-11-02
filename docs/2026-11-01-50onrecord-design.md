@@ -116,7 +116,7 @@ Elementi fissi, presenti in ogni carosello:
 
 - **Fase iniziale:** 2 caroselli al giorno.
 - **Fase successiva:** 1 carosello al giorno.
-- **[scelta di Claude]** Passaggio automatico dopo 8 settimane. Orari 12:30 e 20:30 (ora italiana), poi solo 20:30. Gli orari andranno poi rivisti con le statistiche della pagina.
+- **[scelta di Claude]** Passaggio automatico dopo 8 settimane. Orari: **[decisione dell'utente, 2 novembre 2026]** tre pubblicazioni ogni sera, alle 19:40, 20:10 e 20:40 (ora italiana), per il primo periodo; poi una sola alle 20:10. Prima erano 12:30 e 20:30. Gli orari andranno poi rivisti con le statistiche della pagina.
 
 ## 9. Automazione
 

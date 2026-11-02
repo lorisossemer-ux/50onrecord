@@ -18,7 +18,7 @@ qui evita scarti, ma il cancello resta l'arbitro.
 ## Quanti
 
 - Esegui `python -m onrecord constraints` e conta i caroselli pronti in `queue/` (`manifest.json` con `"status": "ready"`).
-- Se in coda ce ne sono **meno di 6**, prepara **3** caroselli; altrimenti **2**.
+- Se in coda ce ne sono **meno di 9**, prepara **3** caroselli; altrimenti **2** (la pagina pubblica 3 caroselli ogni sera).
 
 ## Per ogni carosello
 
