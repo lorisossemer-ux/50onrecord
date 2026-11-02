@@ -114,12 +114,6 @@
           "commons_file": null,
           "role": "main",
           "subject": "Bob Marley"
-        },
-        {
-          "query": "Bob Marley live",
-          "commons_file": null,
-          "role": "side",
-          "subject": "Bob Marley"
         }
       ],
       "source_note": null
@@ -132,14 +126,7 @@
       ],
       "body": "Redemption Song chiude l'album Uprising, uscito nel 1980. È una registrazione solo voce e chitarra acustica, senza accompagnamento.",
       "marker": "niente band →",
-      "photos": [
-        {
-          "query": "Bob Marley",
-          "commons_file": null,
-          "role": "main",
-          "subject": "Bob Marley"
-        }
-      ],
+      "photos": [],
       "source_note": null
     },
     {
@@ -150,14 +137,7 @@
       ],
       "body": "Alcuni versi di Redemption Song vengono da un discorso di Marcus Garvey del 1937.",
       "marker": "un discorso diventa canzone",
-      "photos": [
-        {
-          "query": "Bob Marley",
-          "commons_file": null,
-          "role": "main",
-          "subject": "Bob Marley"
-        }
-      ],
+      "photos": [],
       "source_note": null
     },
     {
@@ -168,14 +148,7 @@
       ],
       "body": "A Bob Marley viene diagnosticato un cancro a un dito del piede.",
       "marker": "mandala a chi ascolta davvero.",
-      "photos": [
-        {
-          "query": "Bob Marley live",
-          "commons_file": null,
-          "role": "side",
-          "subject": "Bob Marley"
-        }
-      ],
+      "photos": [],
       "source_note": null
     },
     {
@@ -186,14 +159,7 @@
       ],
       "body": "Uprising è l'ultimo album pubblicato in vita da Bob Marley. Bob Marley muore nel 1981.",
       "marker": null,
-      "photos": [
-        {
-          "query": "Bob Marley",
-          "commons_file": null,
-          "role": "main",
-          "subject": "Bob Marley"
-        }
-      ],
+      "photos": [],
       "source_note": null
     },
     {
@@ -203,14 +169,7 @@
       ],
       "body": null,
       "marker": "scrivila nei commenti ↓",
-      "photos": [
-        {
-          "query": "Bob Marley",
-          "commons_file": null,
-          "role": "side",
-          "subject": "Bob Marley"
-        }
-      ],
+      "photos": [],
       "source_note": null
     }
   ],

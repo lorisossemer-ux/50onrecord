@@ -160,12 +160,6 @@
           "commons_file": null,
           "role": "main",
           "subject": "Johnny Cash"
-        },
-        {
-          "query": "Johnny Cash and June Carter",
-          "commons_file": null,
-          "role": "side",
-          "subject": "Johnny Cash"
         }
       ],
       "source_note": null
@@ -178,14 +172,7 @@
       ],
       "body": "Trent Reznor scrive Hurt per i Nine Inch Nails. La canzone sta nell'album The Downward Spiral, del 1994.",
       "marker": "poi arriva Rubin →",
-      "photos": [
-        {
-          "query": "Johnny Cash 1977",
-          "commons_file": null,
-          "role": "main",
-          "subject": "Johnny Cash"
-        }
-      ],
+      "photos": [],
       "source_note": null
     },
     {
@@ -195,15 +182,8 @@
         "RUBIN"
       ],
       "body": "Il produttore Rick Rubin propone a Johnny Cash di incidere Hurt. Cash la incide per l'album American IV: The Man Comes Around, del 2002.",
-      "marker": "un brano rock in mano a Cash",
-      "photos": [
-        {
-          "query": "Johnny Cash 1977",
-          "commons_file": null,
-          "role": "main",
-          "subject": "Johnny Cash"
-        }
-      ],
+      "marker": "da Reznor a Cash",
+      "photos": [],
       "source_note": null
     },
     {
@@ -267,14 +247,7 @@
       ],
       "body": null,
       "marker": "scrivila nei commenti ↓",
-      "photos": [
-        {
-          "query": "Johnny Cash",
-          "commons_file": null,
-          "role": "side",
-          "subject": "Johnny Cash"
-        }
-      ],
+      "photos": [],
       "source_note": null
     }
   ],
