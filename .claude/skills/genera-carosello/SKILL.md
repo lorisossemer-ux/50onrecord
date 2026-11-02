@@ -25,6 +25,10 @@ qui evita scarti, ma il cancello resta l'arbitro.
 ### 1. Scegli la storia
 - Rispetta l'output di `constraints`: niente artisti in `avoid_artists`, decennio diverso da `avoid_decade`,
   preferisci `preferred_strand`.
+- **Artisti suggeriti dall'utente**: leggi `suggerimenti.md`. Quando puoi, scegli un artista di quell'elenco che non
+  compare ancora in `used_keys` e che rispetta i vincoli di `constraints` (non l'artista in `avoid_artists`, decennio
+  diverso da `avoid_decade`). Un brano singolo per carosello, scelto tu tra quelli con una storia verificabile
+  (per ogni artista, brani diversi nelle esecuzioni successive). Se nessun suggerito è possibile, scegli liberamente.
 - **Solo artisti e canzoni straniere** (decisione dell'utente): mai artisti italiani né canzoni in italiano. Imposta
   sempre `"italian": false` nello `story.json`: una storia con `italian: true` viene rifiutata dal cancello.
 - Tra un carosello e il successivo che prepari in questa stessa esecuzione: artista e decennio diversi.
