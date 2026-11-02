@@ -1,0 +1,228 @@
+{
+  "id": "1980-bob-marley-redemption-song",
+  "artist": "Bob Marley",
+  "song": "Redemption Song",
+  "year": 1980,
+  "decade": "80",
+  "strand": "emozione",
+  "italian": false,
+  "facts": [
+    {
+      "claim": "Redemption Song è una registrazione solo voce e chitarra acustica, senza accompagnamento.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Redemption_Song",
+          "title": "Redemption Song",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.udiscovermusic.com/stories/bob-marley-redemption-song-story/",
+          "title": "'Redemption Song': The Story Behind Bob Marley's Timeless Anthem",
+          "publisher": "uDiscover Music"
+        }
+      ]
+    },
+    {
+      "claim": "Alcuni versi di Redemption Song vengono da un discorso di Marcus Garvey del 1937.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Redemption_Song",
+          "title": "Redemption Song",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.udiscovermusic.com/stories/bob-marley-redemption-song-story/",
+          "title": "'Redemption Song': The Story Behind Bob Marley's Timeless Anthem",
+          "publisher": "uDiscover Music"
+        }
+      ]
+    },
+    {
+      "claim": "Redemption Song chiude l'album Uprising, uscito nel 1980.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Redemption_Song",
+          "title": "Redemption Song",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.udiscovermusic.com/stories/bob-marley-redemption-song-story/",
+          "title": "'Redemption Song': The Story Behind Bob Marley's Timeless Anthem",
+          "publisher": "uDiscover Music"
+        }
+      ]
+    },
+    {
+      "claim": "Uprising fu l'ultimo album pubblicato in vita da Bob Marley.",
+      "sources": [
+        {
+          "url": "https://www.udiscovermusic.com/stories/bob-marley-redemption-song-story/",
+          "title": "'Redemption Song': The Story Behind Bob Marley's Timeless Anthem",
+          "publisher": "uDiscover Music"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Uprising_(Bob_Marley_and_the_Wailers_album)",
+          "title": "Uprising (Bob Marley and the Wailers album)",
+          "publisher": "Wikipedia"
+        }
+      ]
+    },
+    {
+      "claim": "A Bob Marley fu diagnosticato un cancro a un dito del piede.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Redemption_Song",
+          "title": "Redemption Song",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.udiscovermusic.com/stories/bob-marley-redemption-song-story/",
+          "title": "'Redemption Song': The Story Behind Bob Marley's Timeless Anthem",
+          "publisher": "uDiscover Music"
+        }
+      ]
+    },
+    {
+      "claim": "Bob Marley morì nel 1981.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Redemption_Song",
+          "title": "Redemption Song",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.udiscovermusic.com/stories/bob-marley-redemption-song-story/",
+          "title": "'Redemption Song': The Story Behind Bob Marley's Timeless Anthem",
+          "publisher": "uDiscover Music"
+        }
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "heading_cuts": [
+        "SOLO",
+        "VOCE",
+        "e chitarra"
+      ],
+      "body": null,
+      "marker": "l'ultima canzone ↓",
+      "photos": [
+        {
+          "query": "Bob Marley",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Bob Marley"
+        },
+        {
+          "query": "Bob Marley live",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Bob Marley"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "JAMAICA",
+        "1980"
+      ],
+      "body": "Redemption Song chiude l'album Uprising, uscito nel 1980. È una registrazione solo voce e chitarra acustica, senza accompagnamento.",
+      "marker": "niente band →",
+      "photos": [
+        {
+          "query": "Bob Marley",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Bob Marley"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "LE PAROLE",
+        "DI GARVEY"
+      ],
+      "body": "Alcuni versi di Redemption Song vengono da un discorso di Marcus Garvey del 1937.",
+      "marker": "un discorso diventa canzone",
+      "photos": [
+        {
+          "query": "Bob Marley",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Bob Marley"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "emotion",
+      "heading_cuts": [
+        "IL DITO",
+        "del piede"
+      ],
+      "body": "A Bob Marley viene diagnosticato un cancro a un dito del piede.",
+      "marker": "mandala a chi ascolta davvero.",
+      "photos": [
+        {
+          "query": "Bob Marley live",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Bob Marley"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "result",
+      "heading_cuts": [
+        "ULTIMO",
+        "ALBUM"
+      ],
+      "body": "Uprising è l'ultimo album pubblicato in vita da Bob Marley. Bob Marley muore nel 1981.",
+      "marker": null,
+      "photos": [
+        {
+          "query": "Bob Marley",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Bob Marley"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "final",
+      "heading_cuts": [
+        "E TU?"
+      ],
+      "body": null,
+      "marker": "scrivila nei commenti ↓",
+      "photos": [
+        {
+          "query": "Bob Marley",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Bob Marley"
+        }
+      ],
+      "source_note": null
+    }
+  ],
+  "caption_body": "Redemption Song chiude l'album Uprising, uscito nel 1980: una registrazione solo voce e chitarra acustica, senza accompagnamento. Alcuni versi vengono da un discorso di Marcus Garvey del 1937. Uprising è l'ultimo album pubblicato in vita da Bob Marley, che muore nel 1981.",
+  "question": "Quale canzone ti suona diversa ora che conosci la sua storia?",
+  "listen_track": "Bob Marley & The Wailers – Redemption Song",
+  "lyric_quote": null,
+  "hashtags": [
+    "#bobmarley",
+    "#redemptionsong",
+    "#musica80",
+    "#storiedellamusica",
+    "#50onrecord"
+  ]
+}

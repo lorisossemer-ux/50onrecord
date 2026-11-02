@@ -1,0 +1,232 @@
+{
+  "id": "1990-u2-one",
+  "artist": "U2",
+  "song": "One",
+  "year": 1990,
+  "decade": "90",
+  "strand": "studio",
+  "italian": false,
+  "facts": [
+    {
+      "claim": "Gli U2 iniziarono a registrare Achtung Baby agli Hansa Studios di Berlino nell'ottobre 1990.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/One_(U2_song)",
+          "title": "One (U2 song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.beyond-the-grooves.co.uk/song-stories/song-stories-u2-one",
+          "title": "Song Stories: U2 – One",
+          "publisher": "Beyond The Grooves"
+        }
+      ]
+    },
+    {
+      "claim": "A Berlino le tensioni tra i membri quasi portarono gli U2 allo scioglimento.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/One_(U2_song)",
+          "title": "One (U2 song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.beyond-the-grooves.co.uk/song-stories/song-stories-u2-one",
+          "title": "Song Stories: U2 – One",
+          "publisher": "Beyond The Grooves"
+        }
+      ]
+    },
+    {
+      "claim": "One nacque da una jam improvvisata e da una progressione di accordi di The Edge.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/One_(U2_song)",
+          "title": "One (U2 song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.beyond-the-grooves.co.uk/song-stories/song-stories-u2-one",
+          "title": "Song Stories: U2 – One",
+          "publisher": "Beyond The Grooves"
+        }
+      ]
+    },
+    {
+      "claim": "I testi di Bono furono ispirati dai rapporti incrinati tra i membri della band e dalla riunificazione tedesca.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/One_(U2_song)",
+          "title": "One (U2 song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.beyond-the-grooves.co.uk/song-stories/song-stories-u2-one",
+          "title": "Song Stories: U2 – One",
+          "publisher": "Beyond The Grooves"
+        }
+      ]
+    },
+    {
+      "claim": "One uscì come singolo a favore della ricerca sull'AIDS.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/One_(U2_song)",
+          "title": "One (U2 song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.beyond-the-grooves.co.uk/song-stories/song-stories-u2-one",
+          "title": "Song Stories: U2 – One",
+          "publisher": "Beyond The Grooves"
+        }
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "heading_cuts": [
+        "UNA JAM",
+        "a Berlino",
+        "SALVÒ",
+        "gli U2"
+      ],
+      "body": null,
+      "marker": "la storia di One ↓",
+      "photos": [
+        {
+          "query": "U2 band",
+          "commons_file": null,
+          "role": "main",
+          "subject": "U2"
+        },
+        {
+          "query": "Bono and Edge of U2",
+          "commons_file": null,
+          "role": "side",
+          "subject": "U2"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "BERLINO",
+        "OTTOBRE 1990"
+      ],
+      "body": "Gli U2 iniziano a registrare Achtung Baby agli Hansa Studios di Berlino, nell'ottobre 1990.",
+      "marker": "tensione →",
+      "photos": [
+        {
+          "query": "U2 band",
+          "commons_file": null,
+          "role": "main",
+          "subject": "U2"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "QUASI",
+        "LA FINE"
+      ],
+      "body": "A Berlino le tensioni tra i membri quasi portano gli U2 allo scioglimento.",
+      "marker": "poi, una jam →",
+      "photos": [
+        {
+          "query": "U2 band",
+          "commons_file": null,
+          "role": "main",
+          "subject": "U2"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "LA JAM",
+        "di The Edge"
+      ],
+      "body": "One nasce da una jam improvvisata e da una progressione di accordi di The Edge.",
+      "marker": "tutto qui?",
+      "photos": [
+        {
+          "query": "Bono and Edge of U2",
+          "commons_file": null,
+          "role": "main",
+          "subject": "U2"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "emotion",
+      "heading_cuts": [
+        "BONO",
+        "e i testi"
+      ],
+      "body": "I testi di Bono sono ispirati dai rapporti incrinati tra i membri della band e dalla riunificazione tedesca.",
+      "marker": "mandala a chi hai perso di vista.",
+      "photos": [
+        {
+          "query": "Bono U2",
+          "commons_file": null,
+          "role": "side",
+          "subject": "U2"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "result",
+      "heading_cuts": [
+        "UN SINGOLO",
+        "per l'AIDS"
+      ],
+      "body": "One esce come singolo a favore della ricerca sull'AIDS.",
+      "marker": null,
+      "photos": [
+        {
+          "query": "U2 band",
+          "commons_file": null,
+          "role": "main",
+          "subject": "U2"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "final",
+      "heading_cuts": [
+        "E TU?"
+      ],
+      "body": null,
+      "marker": "scrivila nei commenti ↓",
+      "photos": [
+        {
+          "query": "Bono and Edge of U2",
+          "commons_file": null,
+          "role": "side",
+          "subject": "U2"
+        }
+      ],
+      "source_note": null
+    }
+  ],
+  "caption_body": "Gli U2 iniziano a registrare Achtung Baby agli Hansa Studios di Berlino, nell'ottobre 1990, e le tensioni quasi portano allo scioglimento. One nasce da una jam improvvisata e da una progressione di accordi di The Edge. I testi di Bono sono ispirati dai rapporti incrinati tra i membri della band e dalla riunificazione tedesca. One esce come singolo a favore della ricerca sull'AIDS.",
+  "question": "Qual è la canzone che ti ha riavvicinato a qualcuno?",
+  "listen_track": "U2 – One",
+  "lyric_quote": null,
+  "hashtags": [
+    "#u2",
+    "#one",
+    "#musica90",
+    "#storiedellamusica",
+    "#50onrecord"
+  ]
+}

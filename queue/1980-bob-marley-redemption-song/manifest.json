@@ -1,0 +1,49 @@
+{
+  "id": "1980-bob-marley-redemption-song",
+  "artist": "Bob Marley",
+  "song": "Redemption Song",
+  "decade": "80",
+  "strand": "emozione",
+  "italian": false,
+  "key": "bob marley|redemption song|emozione",
+  "issue": 6,
+  "status": "ready",
+  "created_at": "2026-11-02T18:10:40.581323+00:00",
+  "photos": [
+    {
+      "author": "Eddie Mallin",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bob-Marley.jpg"
+    },
+    {
+      "author": "Eddie Mallin",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bob-Marley.jpg"
+    },
+    {
+      "author": "Eddie Mallin",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bob-Marley.jpg"
+    },
+    {
+      "author": "Eddie Mallin",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bob-Marley.jpg"
+    },
+    {
+      "author": "Eddie Mallin",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bob-Marley.jpg"
+    },
+    {
+      "author": "Eddie Mallin",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bob-Marley.jpg"
+    },
+    {
+      "author": "Eddie Mallin",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bob-Marley.jpg"
+    }
+  ]
+}
