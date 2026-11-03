@@ -1,0 +1,271 @@
+{
+  "id": "1983-kiss-lick-it-up",
+  "artist": "Kiss",
+  "song": "Lick It Up",
+  "year": 1983,
+  "decade": "80",
+  "strand": "palco",
+  "italian": false,
+  "facts": [
+    {
+      "claim": "Il 18 settembre 1983 i Kiss si mostrarono in pubblico senza trucco per la prima volta, su MTV.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Lick_It_Up_(song)",
+          "title": "Lick It Up (song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.udiscovermusic.com/stories/kiss-lose-make",
+          "title": "Kiss Lose The Make-Up",
+          "publisher": "uDiscover Music"
+        },
+        {
+          "url": "https://ultimateclassicrock.com/kiss-removes-their-makeup-sept-18-1983/",
+          "title": "Kiss Remove Their Makeup",
+          "publisher": "Ultimate Classic Rock"
+        },
+        {
+          "url": "https://www.biography.com/musicians/kiss-band-makeup-reveal",
+          "title": "Kiss Band Makeup Reveal",
+          "publisher": "Biography"
+        },
+        {
+          "url": "https://blabbermouth.net/news/paul-stanley-says-kiss-had-no-other-choice-than-to-go-unmasked",
+          "title": "Paul Stanley Says KISS Had No Other Choice Than To Go Unmasked",
+          "publisher": "Blabbermouth"
+        }
+      ]
+    },
+    {
+      "claim": "Su MTV andò in onda anche il video di Lick It Up, il primo brano del nuovo album.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Lick_It_Up_(song)",
+          "title": "Lick It Up (song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.biography.com/musicians/kiss-band-makeup-reveal",
+          "title": "Kiss Band Makeup Reveal",
+          "publisher": "Biography"
+        }
+      ]
+    },
+    {
+      "claim": "Nello studio di MTV c'erano Gene Simmons e Paul Stanley, insieme al batterista Eric Carr e al chitarrista Vinnie Vincent.",
+      "sources": [
+        {
+          "url": "https://houstonseagle.com/1618801/kisstory-the-band-appeared-without-makeup-on-mtv",
+          "title": "KISStory – The Band Appeared Without Makeup On MTV",
+          "publisher": "Houston's Eagle"
+        },
+        {
+          "url": "https://blabbermouth.net/news/paul-stanley-says-kiss-had-no-other-choice-than-to-go-unmasked",
+          "title": "Paul Stanley Says KISS Had No Other Choice Than To Go Unmasked",
+          "publisher": "Blabbermouth"
+        }
+      ]
+    },
+    {
+      "claim": "Peter Criss e Ace Frehley avevano lasciato i Kiss prima di Lick It Up, e Frehley non suonò nell'album.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Lick_It_Up",
+          "title": "Lick It Up",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.udiscovermusic.com/stories/kiss-lose-make",
+          "title": "Kiss Lose The Make-Up",
+          "publisher": "uDiscover Music"
+        },
+        {
+          "url": "https://ultimateclassicrock.com/kiss-removes-their-makeup-sept-18-1983/",
+          "title": "Kiss Remove Their Makeup",
+          "publisher": "Ultimate Classic Rock"
+        }
+      ]
+    },
+    {
+      "claim": "Lick It Up ottenne il disco d'oro negli Stati Uniti.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Lick_It_Up",
+          "title": "Lick It Up",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.udiscovermusic.com/stories/kiss-lose-make",
+          "title": "Kiss Lose The Make-Up",
+          "publisher": "uDiscover Music"
+        },
+        {
+          "url": "https://houstonseagle.com/1618801/kisstory-the-band-appeared-without-makeup-on-mtv",
+          "title": "KISStory – The Band Appeared Without Makeup On MTV",
+          "publisher": "Houston's Eagle"
+        }
+      ]
+    },
+    {
+      "claim": "Lick It Up è rimasta un punto fermo dei concerti dei Kiss.",
+      "sources": [
+        {
+          "url": "https://www.udiscovermusic.com/stories/kiss-lose-make",
+          "title": "Kiss Lose The Make-Up",
+          "publisher": "uDiscover Music"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Lick_It_Up_(song)",
+          "title": "Lick It Up (song)",
+          "publisher": "Wikipedia"
+        }
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "heading_cuts": [
+        "PRIMA VOLTA",
+        "SENZA",
+        "TRUCCO",
+        "su MTV"
+      ],
+      "body": null,
+      "marker": "18 settembre 1983 ↓",
+      "photos": [
+        {
+          "query": "Kiss band 1983 Paul Stanley",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Paul Stanley"
+        },
+        {
+          "query": "Gene Simmons Kiss",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Gene Simmons"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "MTV",
+        "1983"
+      ],
+      "body": "Il 18 settembre 1983 i Kiss si mostrano in pubblico senza trucco per la prima volta. Succede su MTV.",
+      "marker": "la prima volta senza trucco",
+      "photos": [
+        {
+          "query": "Paul Stanley Kiss",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Paul Stanley"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "NELLO STUDIO",
+        "di MTV"
+      ],
+      "body": "Nello studio di MTV ci sono Gene Simmons e Paul Stanley. Con loro, il batterista Eric Carr e il chitarrista Vinnie Vincent.",
+      "marker": "quattro Kiss, nessun trucco",
+      "photos": [
+        {
+          "query": "Gene Simmons Kiss",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Gene Simmons"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "IL VIDEO"
+      ],
+      "body": "Su MTV va in onda anche il video di Lick It Up, il primo brano del nuovo album.",
+      "marker": "video + nuovo album",
+      "photos": [
+        {
+          "query": "Kiss Lick It Up",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Kiss"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "emotion",
+      "heading_cuts": [
+        "MANCA",
+        "QUALCUNO"
+      ],
+      "body": "Peter Criss e Ace Frehley hanno lasciato i Kiss. Frehley non suona nell'album.",
+      "marker": "Frehley non suona nell'album.",
+      "photos": [
+        {
+          "query": "Ace Frehley",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Ace Frehley"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "result",
+      "heading_cuts": [
+        "DISCO",
+        "D'ORO"
+      ],
+      "body": "Lick It Up ottiene il disco d'oro negli Stati Uniti. Il brano è rimasto un punto fermo dei concerti dei Kiss.",
+      "marker": null,
+      "photos": [
+        {
+          "query": "Kiss live",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Kiss"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "final",
+      "heading_cuts": [
+        "E TU?"
+      ],
+      "body": null,
+      "marker": "scrivila nei commenti ↓",
+      "photos": [
+        {
+          "query": "Gene Simmons",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Gene Simmons"
+        }
+      ],
+      "source_note": null
+    }
+  ],
+  "caption_body": "Il 18 settembre 1983 i Kiss si mostrano senza trucco per la prima volta, su MTV. Nello studio ci sono Gene Simmons, Paul Stanley, Eric Carr e Vinnie Vincent. Va in onda anche il video di Lick It Up. L'album ottiene il disco d'oro negli Stati Uniti.",
+  "question": "Preferivi i Kiss con il trucco o senza?",
+  "listen_track": "Kiss – Lick It Up",
+  "lyric_quote": null,
+  "hashtags": [
+    "#kiss",
+    "#lickitup",
+    "#musica80",
+    "#storiedellamusica",
+    "#50onrecord"
+  ]
+}

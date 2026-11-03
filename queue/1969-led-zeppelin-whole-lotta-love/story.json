@@ -1,0 +1,267 @@
+{
+  "id": "1969-led-zeppelin-whole-lotta-love",
+  "artist": "Led Zeppelin",
+  "song": "Whole Lotta Love",
+  "year": 1969,
+  "decade": "60",
+  "strand": "studio",
+  "italian": false,
+  "facts": [
+    {
+      "claim": "Jimmy Page scrisse il riff di Whole Lotta Love nell'estate del 1968, quando viveva su una houseboat sul Tamigi.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Whole_Lotta_Love",
+          "title": "Whole Lotta Love",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://faroutmagazine.co.uk/led-zeppelin-whole-lotta-love-story/",
+          "title": "The Story Behind The Song: Led Zeppelin's career-defining song 'Whole Lotta Love'",
+          "publisher": "Far Out Magazine"
+        }
+      ]
+    },
+    {
+      "claim": "Whole Lotta Love è un brano dei Led Zeppelin del 1969.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Whole_Lotta_Love",
+          "title": "Whole Lotta Love",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.briffa.com/classic-copyright-cases-whole-lotta-love/",
+          "title": "Classic Copyright Cases – Whole Lotta Love",
+          "publisher": "Briffa"
+        }
+      ]
+    },
+    {
+      "claim": "Whole Lotta Love fu registrata agli Olympic Studios di Londra e prodotta da Jimmy Page.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Whole_Lotta_Love",
+          "title": "Whole Lotta Love",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://faroutmagazine.co.uk/led-zeppelin-whole-lotta-love-story/",
+          "title": "The Story Behind The Song: Led Zeppelin's career-defining song 'Whole Lotta Love'",
+          "publisher": "Far Out Magazine"
+        }
+      ]
+    },
+    {
+      "claim": "Il testo di Robert Plant assomiglia molto a You Need Love, canzone scritta da Willie Dixon e incisa da Muddy Waters.",
+      "sources": [
+        {
+          "url": "https://faroutmagazine.co.uk/led-zeppelin-whole-lotta-love-story/",
+          "title": "The Story Behind The Song: Led Zeppelin's career-defining song 'Whole Lotta Love'",
+          "publisher": "Far Out Magazine"
+        },
+        {
+          "url": "https://www.briffa.com/classic-copyright-cases-whole-lotta-love/",
+          "title": "Classic Copyright Cases – Whole Lotta Love",
+          "publisher": "Briffa"
+        }
+      ]
+    },
+    {
+      "claim": "Nel 1985 Willie Dixon fece causa ai Led Zeppelin per Whole Lotta Love e la causa si chiuse con un accordo fuori dal tribunale.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Whole_Lotta_Love",
+          "title": "Whole Lotta Love",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://faroutmagazine.co.uk/led-zeppelin-whole-lotta-love-story/",
+          "title": "The Story Behind The Song: Led Zeppelin's career-defining song 'Whole Lotta Love'",
+          "publisher": "Far Out Magazine"
+        },
+        {
+          "url": "https://www.briffa.com/classic-copyright-cases-whole-lotta-love/",
+          "title": "Classic Copyright Cases – Whole Lotta Love",
+          "publisher": "Briffa"
+        }
+      ]
+    },
+    {
+      "claim": "Dopo l'accordo Willie Dixon fu riconosciuto tra gli autori di Whole Lotta Love.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Whole_Lotta_Love",
+          "title": "Whole Lotta Love",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.briffa.com/classic-copyright-cases-whole-lotta-love/",
+          "title": "Classic Copyright Cases – Whole Lotta Love",
+          "publisher": "Briffa"
+        }
+      ]
+    },
+    {
+      "claim": "Negli Stati Uniti il singolo di Whole Lotta Love raggiunse il numero 4, mentre nel Regno Unito all'epoca non uscì nessun singolo.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Whole_Lotta_Love",
+          "title": "Whole Lotta Love",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://faroutmagazine.co.uk/led-zeppelin-whole-lotta-love-story/",
+          "title": "The Story Behind The Song: Led Zeppelin's career-defining song 'Whole Lotta Love'",
+          "publisher": "Far Out Magazine"
+        }
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "heading_cuts": [
+        "IL RIFF",
+        "nato su una",
+        "HOUSEBOAT",
+        "sul Tamigi"
+      ],
+      "body": null,
+      "marker": "la storia vera di un riff ↓",
+      "photos": [
+        {
+          "query": "Jimmy Page Led Zeppelin 1977",
+          "commons_file": "Led Zeppelin - Jimmy Page (1977).jpg",
+          "role": "main",
+          "subject": "Jimmy Page"
+        },
+        {
+          "query": "Robert Plant Led Zeppelin 1977",
+          "commons_file": "Jimmy Page with Robert Plant 2 - Led Zeppelin - 1977.jpg",
+          "role": "side",
+          "subject": "Robert Plant"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "TAMIGI",
+        "ESTATE 1968"
+      ],
+      "body": "Nell'estate del 1968 Jimmy Page vive su una houseboat sul Tamigi. È lì che scrive il riff di Whole Lotta Love.",
+      "marker": "un riff, una houseboat",
+      "photos": [
+        {
+          "query": "Jimmy Page Led Zeppelin",
+          "commons_file": "Led Zeppelin - Jimmy Page (1977).jpg",
+          "role": "main",
+          "subject": "Jimmy Page"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "OLYMPIC",
+        "STUDIOS",
+        "LONDRA"
+      ],
+      "body": "Whole Lotta Love viene registrata agli Olympic Studios di Londra. La produce Jimmy Page.",
+      "marker": "Jimmy produce",
+      "photos": [
+        {
+          "query": "Led Zeppelin Jimmy Page live",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Jimmy Page"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "IL TESTO"
+      ],
+      "body": "Il testo di Robert Plant assomiglia molto a You Need Love, una canzone scritta da Willie Dixon e incisa da Muddy Waters.",
+      "marker": "Willie Dixon → Muddy Waters",
+      "photos": [
+        {
+          "query": "Willie Dixon blues",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Willie Dixon"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "emotion",
+      "heading_cuts": [
+        "NEL 1985",
+        "la causa"
+      ],
+      "body": "Nel 1985 Willie Dixon fa causa ai Led Zeppelin per Whole Lotta Love. La causa si chiude con un accordo fuori dal tribunale. Dixon viene riconosciuto tra gli autori del brano.",
+      "marker": "Dixon è tra gli autori.",
+      "photos": [
+        {
+          "query": "Willie Dixon",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Willie Dixon"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "result",
+      "heading_cuts": [
+        "N°4",
+        "negli USA"
+      ],
+      "body": "Negli Stati Uniti il singolo raggiunge il numero 4. Nel Regno Unito, all'epoca, non esce nessun singolo.",
+      "marker": null,
+      "photos": [
+        {
+          "query": "Led Zeppelin Robert Plant 1977",
+          "commons_file": "Jimmy Page with Robert Plant 2 - Led Zeppelin - 1977.jpg",
+          "role": "main",
+          "subject": "Robert Plant"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "final",
+      "heading_cuts": [
+        "E TU?"
+      ],
+      "body": null,
+      "marker": "scrivila nei commenti ↓",
+      "photos": [
+        {
+          "query": "Led Zeppelin Jimmy Page",
+          "commons_file": "Led Zeppelin - Jimmy Page (1977).jpg",
+          "role": "side",
+          "subject": "Jimmy Page"
+        }
+      ],
+      "source_note": null
+    }
+  ],
+  "caption_body": "Nell'estate del 1968 Jimmy Page vive su una houseboat sul Tamigi e scrive il riff di Whole Lotta Love. Il brano viene registrato agli Olympic Studios di Londra. Il testo di Robert Plant assomiglia molto a You Need Love, scritta da Willie Dixon. Nel 1985 Dixon fa causa ai Led Zeppelin e viene riconosciuto tra gli autori.",
+  "question": "Qual è il riff che ti fa alzare il volume ogni volta?",
+  "listen_track": "Led Zeppelin – Whole Lotta Love",
+  "lyric_quote": null,
+  "hashtags": [
+    "#ledzeppelin",
+    "#jimmypage",
+    "#musica60",
+    "#storiedellamusica",
+    "#50onrecord"
+  ]
+}
