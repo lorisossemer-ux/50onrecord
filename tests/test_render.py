@@ -311,3 +311,9 @@ def test_artist_with_a_descending_letter_is_not_flagged(tmp_path, story_dict):
     story_dict["artist"] = "Bon Jovi"
     story = Story(**story_dict)
     render_story(story, _photos_for(story), issue=1, out_dir=tmp_path)
+
+
+def test_artist_masthead_leaves_room_for_the_instagram_grid_icon():
+    from onrecord.render import ARTIST_MAX_WIDTH
+    # La testata parte a 50px dal bordo: l'icona del carosello nella griglia copre da circa 960px in poi.
+    assert 50 + ARTIST_MAX_WIDTH <= 940

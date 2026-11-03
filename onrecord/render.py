@@ -74,7 +74,7 @@ _GROW_CUTS_JS = """
 
 
 # Il nome dell'artista è la testata della copertina: la più grande possibile su una riga sola.
-ARTIST_MAX_WIDTH, ARTIST_MAX_FONT_PX, ARTIST_MIN_FONT_PX = 980, 250, 90
+ARTIST_MAX_WIDTH, ARTIST_MAX_FONT_PX, ARTIST_MIN_FONT_PX = 880, 250, 90
 _FIT_ARTIST_JS = """
 ([maxWidth, maxPx, minPx]) => {
   document.querySelectorAll('.artist').forEach(el => {
