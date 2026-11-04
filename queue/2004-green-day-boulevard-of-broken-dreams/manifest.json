@@ -1,0 +1,44 @@
+{
+  "id": "2004-green-day-boulevard-of-broken-dreams",
+  "artist": "Green Day",
+  "song": "Boulevard of Broken Dreams",
+  "decade": "00",
+  "strand": "emozione",
+  "italian": false,
+  "key": "green day|boulevard of broken dreams|emozione",
+  "issue": 21,
+  "status": "ready",
+  "created_at": "2026-11-04T03:18:29.289503+00:00",
+  "photos": [
+    {
+      "author": "photo taken by flickr user Sister72",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Billie_Joe_Armstrong_-_Green_Day_2.jpg"
+    },
+    {
+      "author": "Jackie from Monmouth County, NJ, USA",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Green_Day_September_1,_2005_Giants_Stadium,_NJ.jpg"
+    },
+    {
+      "author": "kimm613",
+      "license": "CC BY-SA 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Billie_Joe_Armstrong_Hartford.jpg"
+    },
+    {
+      "author": "Sven-Sebastian Sajak (Sven0705)",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:RiP2013_GreenDay_Billie_Joe_Armstrong_0003.JPG"
+    },
+    {
+      "author": "Lloyd Morgan from Cardiff, UK",
+      "license": "CC BY-SA 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Billie_Joe_Armstrong_of_Green_Day_(199862242).jpg"
+    },
+    {
+      "author": "Alvaranstrong",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Green_Day_Live_Polska.jpg"
+    }
+  ]
+}

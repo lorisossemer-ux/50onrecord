@@ -1,0 +1,39 @@
+{
+  "id": "1971-led-zeppelin-stairway-to-heaven",
+  "artist": "Led Zeppelin",
+  "song": "Stairway to Heaven",
+  "decade": "70",
+  "strand": "studio",
+  "italian": false,
+  "key": "led zeppelin|stairway to heaven|studio",
+  "issue": 20,
+  "status": "ready",
+  "created_at": "2026-11-04T03:18:11.517901+00:00",
+  "photos": [
+    {
+      "author": "Dina Regine",
+      "license": "CC BY-SA 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Jimmy_Page_early.jpg"
+    },
+    {
+      "author": "Paul Hudson",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Jimmy_Page_interview.jpg"
+    },
+    {
+      "author": "Robert Ashworth from Bellingham, WA., USA",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:WSU_steam_plant_looking_north,_1970s_(7422361112).jpg"
+    },
+    {
+      "author": "Heinrich Klaffs",
+      "license": "CC BY-SA 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Led_Zeppelin_acoustic_1973.jpg"
+    },
+    {
+      "author": "Andrew Smith",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Jimmy_Page_-_A.R.M.S._Concert,_Oakland,_Ca._1983.jpg"
+    }
+  ]
+}

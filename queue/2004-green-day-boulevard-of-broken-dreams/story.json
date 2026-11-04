@@ -1,0 +1,259 @@
+{
+  "id": "2004-green-day-boulevard-of-broken-dreams",
+  "artist": "Green Day",
+  "song": "Boulevard of Broken Dreams",
+  "year": 2004,
+  "decade": "00",
+  "strand": "emozione",
+  "italian": false,
+  "facts": [
+    {
+      "claim": "Billie Joe Armstrong scrisse Boulevard of Broken Dreams mentre viveva da solo a New York.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Boulevard_of_Broken_Dreams_(Green_Day_song)",
+          "title": "Boulevard of Broken Dreams (Green Day song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/green-day/boulevard-of-broken-dreams",
+          "title": "Boulevard Of Broken Dreams",
+          "publisher": "Songfacts"
+        }
+      ]
+    },
+    {
+      "claim": "Armstrong disse che la canzone racconta la sua sensazione di isolamento a New York.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Boulevard_of_Broken_Dreams_(Green_Day_song)",
+          "title": "Boulevard of Broken Dreams (Green Day song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://americansongwriter.com/the-meaning-behind-boulevard-of-broken-dreams-by-green-day-and-walking-alone-with-james-dean",
+          "title": "The Meaning Behind Boulevard of Broken Dreams",
+          "publisher": "American Songwriter"
+        }
+      ]
+    },
+    {
+      "claim": "Il titolo di Boulevard of Broken Dreams viene da un dipinto di Gottfried Helnwein.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Boulevard_of_Broken_Dreams_(Green_Day_song)",
+          "title": "Boulevard of Broken Dreams (Green Day song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/green-day/boulevard-of-broken-dreams",
+          "title": "Boulevard Of Broken Dreams",
+          "publisher": "Songfacts"
+        }
+      ]
+    },
+    {
+      "claim": "In un episodio di VH1 Storytellers Armstrong spiegò di aver preso il titolo da un dipinto di Helnwein su James Dean.",
+      "sources": [
+        {
+          "url": "https://www.songfacts.com/facts/green-day/boulevard-of-broken-dreams",
+          "title": "Boulevard Of Broken Dreams",
+          "publisher": "Songfacts"
+        },
+        {
+          "url": "https://americansongwriter.com/the-meaning-behind-boulevard-of-broken-dreams-by-green-day-and-walking-alone-with-james-dean",
+          "title": "The Meaning Behind Boulevard of Broken Dreams",
+          "publisher": "American Songwriter"
+        }
+      ]
+    },
+    {
+      "claim": "Boulevard of Broken Dreams è nell'album American Idiot, del 2004.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Boulevard_of_Broken_Dreams_(Green_Day_song)",
+          "title": "Boulevard of Broken Dreams (Green Day song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.britannica.com/topic/Green-Day",
+          "title": "Green Day",
+          "publisher": "Encyclopaedia Britannica"
+        }
+      ]
+    },
+    {
+      "claim": "Boulevard of Broken Dreams raggiunse il numero 2 della Billboard Hot 100, il miglior piazzamento dei Green Day in quella classifica.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Boulevard_of_Broken_Dreams_(Green_Day_song)",
+          "title": "Boulevard of Broken Dreams (Green Day song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://americansongwriter.com/the-meaning-behind-boulevard-of-broken-dreams-by-green-day-and-walking-alone-with-james-dean",
+          "title": "The Meaning Behind Boulevard of Broken Dreams",
+          "publisher": "American Songwriter"
+        }
+      ]
+    },
+    {
+      "claim": "Boulevard of Broken Dreams vinse il Grammy come Record of the Year nel 2006.",
+      "sources": [
+        {
+          "url": "https://www.britannica.com/topic/Green-Day",
+          "title": "Green Day",
+          "publisher": "Encyclopaedia Britannica"
+        },
+        {
+          "url": "https://www.grammy.com/artists/green-day/7433/",
+          "title": "Green Day",
+          "publisher": "Grammy.com"
+        }
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "heading_cuts": [
+        "SOLO",
+        "a NEW YORK",
+        "e poi il",
+        "GRAMMY"
+      ],
+      "body": null,
+      "marker": "da un dipinto a un Grammy ↓",
+      "photos": [
+        {
+          "query": "Billie Joe Armstrong Green Day 2005",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Billie Joe Armstrong"
+        },
+        {
+          "query": "Green Day live 2005",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Green Day"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "NEW YORK"
+      ],
+      "body": "Billie Joe Armstrong scrisse Boulevard of Broken Dreams mentre viveva da solo a New York.",
+      "marker": "da solo →",
+      "photos": [
+        {
+          "query": "Billie Joe Armstrong live",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Billie Joe Armstrong"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "IL TITOLO"
+      ],
+      "body": "Il titolo viene da un dipinto di Gottfried Helnwein. In un episodio di VH1 Storytellers Armstrong spiegò di aver preso il titolo da un dipinto di Helnwein su James Dean.",
+      "marker": "un dipinto di Helnwein →",
+      "photos": [
+        {
+          "query": "Billie Joe Armstrong Green Day",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Billie Joe Armstrong"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "emotion",
+      "heading_cuts": [
+        "ISOLAMENTO"
+      ],
+      "body": "Armstrong disse che la canzone racconta la sua sensazione di isolamento a New York.",
+      "marker": "la sua sensazione di isolamento a New York",
+      "photos": [
+        {
+          "query": "Billie Joe Armstrong 2004",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Billie Joe Armstrong"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "N°2",
+        "2004"
+      ],
+      "body": "Boulevard of Broken Dreams è nell'album American Idiot, del 2004. Raggiunse il numero 2 della Billboard Hot 100, il miglior piazzamento dei Green Day in quella classifica.",
+      "marker": null,
+      "photos": [
+        {
+          "query": "Green Day American Idiot tour",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Green Day"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "result",
+      "heading_cuts": [
+        "GRAMMY",
+        "2006"
+      ],
+      "body": "Boulevard of Broken Dreams vinse il Grammy come Record of the Year nel 2006.",
+      "marker": null,
+      "photos": [
+        {
+          "query": "Green Day Grammy 2006",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Green Day"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "final",
+      "heading_cuts": [
+        "E TU?"
+      ],
+      "body": null,
+      "marker": "scrivila nei commenti ↓",
+      "photos": [
+        {
+          "query": "Green Day live",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Green Day"
+        }
+      ],
+      "source_note": null
+    }
+  ],
+  "caption_body": "Billie Joe Armstrong scrisse Boulevard of Broken Dreams mentre viveva da solo a New York, e disse che la canzone racconta la sua sensazione di isolamento. Il titolo viene da un dipinto di Gottfried Helnwein. Il brano è nell'album American Idiot, del 2004, raggiunse il numero 2 della Billboard Hot 100 e vinse il Grammy come Record of the Year nel 2006.",
+  "question": "Quando ti sei sentito solo come in questa canzone?",
+  "listen_track": "Green Day – Boulevard of Broken Dreams",
+  "lyric_quote": null,
+  "hashtags": [
+    "#greenday",
+    "#americanidiot",
+    "#musica2000",
+    "#storiedellamusica",
+    "#50onrecord"
+  ]
+}

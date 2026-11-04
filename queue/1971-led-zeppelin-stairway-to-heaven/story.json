@@ -1,0 +1,242 @@
+{
+  "id": "1971-led-zeppelin-stairway-to-heaven",
+  "artist": "Led Zeppelin",
+  "song": "Stairway to Heaven",
+  "year": 1971,
+  "decade": "70",
+  "strand": "studio",
+  "italian": false,
+  "facts": [
+    {
+      "claim": "Jimmy Page scrisse la musica di Stairway to Heaven e Robert Plant scrisse il testo.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Stairway_to_Heaven",
+          "title": "Stairway to Heaven",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/led-zeppelin/stairway-to-heaven",
+          "title": "Stairway to Heaven",
+          "publisher": "Songfacts"
+        }
+      ]
+    },
+    {
+      "claim": "La prima parte della musica nacque nel 1970 a Bron-Yr-Aur, un cottage in Galles.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Stairway_to_Heaven",
+          "title": "Stairway to Heaven",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://americansongwriter.com/what-do-led-zeppelins-stairway-to-heaven-lyrics-mean",
+          "title": "What Do Led Zeppelin's Stairway to Heaven Lyrics Mean?",
+          "publisher": "American Songwriter"
+        }
+      ]
+    },
+    {
+      "claim": "Plant scrisse i primi versi accanto al fuoco a Headley Grange.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Stairway_to_Heaven",
+          "title": "Stairway to Heaven",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://americansongwriter.com/what-do-led-zeppelins-stairway-to-heaven-lyrics-mean",
+          "title": "What Do Led Zeppelin's Stairway to Heaven Lyrics Mean?",
+          "publisher": "American Songwriter"
+        }
+      ]
+    },
+    {
+      "claim": "Page raccontò che gran parte del testo fu scritta a Headley Grange, sul momento.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Stairway_to_Heaven",
+          "title": "Stairway to Heaven",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://americansongwriter.com/what-do-led-zeppelins-stairway-to-heaven-lyrics-mean",
+          "title": "What Do Led Zeppelin's Stairway to Heaven Lyrics Mean?",
+          "publisher": "American Songwriter"
+        }
+      ]
+    },
+    {
+      "claim": "Stairway to Heaven è nell'album Led Zeppelin IV, del 1971.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Stairway_to_Heaven",
+          "title": "Stairway to Heaven",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://americansongwriter.com/what-do-led-zeppelins-stairway-to-heaven-lyrics-mean",
+          "title": "What Do Led Zeppelin's Stairway to Heaven Lyrics Mean?",
+          "publisher": "American Songwriter"
+        }
+      ]
+    },
+    {
+      "claim": "I Led Zeppelin non pubblicarono mai Stairway to Heaven come singolo.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Stairway_to_Heaven",
+          "title": "Stairway to Heaven",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/led-zeppelin/stairway-to-heaven",
+          "title": "Stairway to Heaven",
+          "publisher": "Songfacts"
+        }
+      ]
+    },
+    {
+      "claim": "Stairway to Heaven fu la canzone più richiesta dalle radio FM.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Stairway_to_Heaven",
+          "title": "Stairway to Heaven",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://americansongwriter.com/what-do-led-zeppelins-stairway-to-heaven-lyrics-mean",
+          "title": "What Do Led Zeppelin's Stairway to Heaven Lyrics Mean?",
+          "publisher": "American Songwriter"
+        }
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "heading_cuts": [
+        "MAI USCITA",
+        "come",
+        "SINGOLO"
+      ],
+      "body": null,
+      "marker": "Led Zeppelin, 1971 ↓",
+      "photos": [
+        {
+          "query": "Jimmy Page Led Zeppelin 1970s",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Jimmy Page"
+        },
+        {
+          "query": "Robert Plant Led Zeppelin 1970s",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Robert Plant"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "GALLES",
+        "1970"
+      ],
+      "body": "La prima parte della musica nacque nel 1970 a Bron-Yr-Aur, un cottage in Galles. Jimmy Page scrisse la musica, Robert Plant il testo.",
+      "marker": "musica e testo →",
+      "photos": [
+        {
+          "query": "Jimmy Page live",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Jimmy Page"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "HEADLEY GRANGE"
+      ],
+      "body": "Plant scrisse i primi versi accanto al fuoco a Headley Grange. Page raccontò che gran parte del testo fu scritta lì, sul momento.",
+      "marker": "il testo, sul momento →",
+      "photos": [
+        {
+          "query": "Robert Plant live 1970s",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Robert Plant"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "emotion",
+      "heading_cuts": [
+        "NESSUN",
+        "SINGOLO"
+      ],
+      "body": "I Led Zeppelin non pubblicarono mai Stairway to Heaven come singolo.",
+      "marker": "mai come singolo",
+      "photos": [
+        {
+          "query": "Led Zeppelin 1973",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Led Zeppelin"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "result",
+      "heading_cuts": [
+        "IV",
+        "1971"
+      ],
+      "body": "Stairway to Heaven è nell'album Led Zeppelin IV, del 1971. Fu la canzone più richiesta dalle radio FM.",
+      "marker": null,
+      "photos": [
+        {
+          "query": "Led Zeppelin live 1970s",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Led Zeppelin"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "final",
+      "heading_cuts": [
+        "E TU?"
+      ],
+      "body": null,
+      "marker": "scrivila nei commenti ↓",
+      "photos": [
+        {
+          "query": "Jimmy Page concert",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Jimmy Page"
+        }
+      ],
+      "source_note": null
+    }
+  ],
+  "caption_body": "Jimmy Page scrisse la musica di Stairway to Heaven e Robert Plant il testo: i primi versi nacquero accanto al fuoco a Headley Grange. I Led Zeppelin non la pubblicarono mai come singolo. È nell'album Led Zeppelin IV, del 1971, e fu la canzone più richiesta dalle radio FM.",
+  "question": "Qual è il tuo ricordo legato a Stairway to Heaven?",
+  "listen_track": "Led Zeppelin – Stairway to Heaven",
+  "lyric_quote": null,
+  "hashtags": [
+    "#ledzeppelin",
+    "#stairwaytoheaven",
+    "#musica70",
+    "#storiedellamusica",
+    "#50onrecord"
+  ]
+}
