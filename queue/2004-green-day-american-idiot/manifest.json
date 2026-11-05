@@ -1,0 +1,39 @@
+{
+  "id": "2004-green-day-american-idiot",
+  "artist": "Green Day",
+  "song": "American Idiot",
+  "decade": "00",
+  "strand": "emozione",
+  "italian": false,
+  "key": "green day|american idiot|emozione",
+  "issue": 23,
+  "status": "ready",
+  "created_at": "2026-11-05T07:22:04.535389+00:00",
+  "photos": [
+    {
+      "author": "Sven-Sebastian Sajak (Sven0705)",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:RiP2013_GreenDay_Mike_Dirnt_0002.JPG"
+    },
+    {
+      "author": "kimm613",
+      "license": "CC BY-SA 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Billie_Joe_Armstrong_Hartford.jpg"
+    },
+    {
+      "author": "Sven-Sebastian Sajak (Sven0705)",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:RiP2013_GreenDay_Billie_Joe_Armstrong_0003.JPG"
+    },
+    {
+      "author": "Jorge Royan",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:India_-_Varanasi_green_peas_-_2714.jpg"
+    },
+    {
+      "author": "Sven-Sebastian Sajak (Sven0705)",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:RiP2013_GreenDay_Tre_Cool_0001_(cropped).jpg"
+    }
+  ]
+}

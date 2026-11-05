@@ -1,0 +1,233 @@
+{
+  "id": "2004-green-day-american-idiot",
+  "artist": "Green Day",
+  "song": "American Idiot",
+  "year": 2004,
+  "decade": "00",
+  "strand": "emozione",
+  "italian": false,
+  "facts": [
+    {
+      "claim": "Billie Joe Armstrong scrisse American Idiot dopo aver sentito alla radio dell'auto una canzone dei Lynyrd Skynyrd.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/American_Idiot_(song)",
+          "title": "American Idiot (song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/green-day/american-idiot",
+          "title": "American Idiot",
+          "publisher": "Songfacts"
+        }
+      ]
+    },
+    {
+      "claim": "Armstrong reagì a un verso sull'essere orgogliosi di essere redneck.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/American_Idiot_(song)",
+          "title": "American Idiot (song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/green-day/american-idiot",
+          "title": "American Idiot",
+          "publisher": "Songfacts"
+        }
+      ]
+    },
+    {
+      "claim": "American Idiot arrivò al numero 3 della classifica britannica dei singoli.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/American_Idiot_(song)",
+          "title": "American Idiot (song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.officialcharts.com/songs/green-day-american-idiot/",
+          "title": "Green Day - American Idiot",
+          "publisher": "Official Charts"
+        }
+      ]
+    },
+    {
+      "claim": "Nel 2005 American Idiot fu candidata ai Grammy come Record of the Year.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/American_Idiot_(song)",
+          "title": "American Idiot (song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/green-day/american-idiot",
+          "title": "American Idiot",
+          "publisher": "Songfacts"
+        }
+      ]
+    },
+    {
+      "claim": "Nel 2018 American Idiot rientrò nella classifica britannica al numero 25.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/American_Idiot_(song)",
+          "title": "American Idiot (song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/green-day/american-idiot",
+          "title": "American Idiot",
+          "publisher": "Songfacts"
+        }
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "heading_cuts": [
+        "UNA RADIO",
+        "UN VERSO",
+        "UNA CANZONE"
+      ],
+      "body": null,
+      "marker": "come nasce American Idiot ↓",
+      "photos": [
+        {
+          "query": "Billie Joe Armstrong Green Day 2004",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Billie Joe Armstrong"
+        },
+        {
+          "query": "Mike Dirnt Green Day",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Mike Dirnt"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "LA RADIO",
+        "DELL'AUTO"
+      ],
+      "body": "Billie Joe Armstrong sente alla radio dell'auto una canzone dei Lynyrd Skynyrd. Poi scrive American Idiot.",
+      "marker": "da una radio a un singolo",
+      "photos": [
+        {
+          "query": "Billie Joe Armstrong live",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Billie Joe Armstrong"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "IL VERSO",
+        "REDNECK"
+      ],
+      "body": "Armstrong reagisce a un verso sull'essere orgogliosi di essere redneck.",
+      "marker": "la scintilla",
+      "photos": [
+        {
+          "query": "Billie Joe Armstrong",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Billie Joe Armstrong"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "emotion",
+      "heading_cuts": [
+        "UNA REAZIONE",
+        "DIVENTA",
+        "CANZONE"
+      ],
+      "body": "Da un verso sentito alla radio dell'auto nasce American Idiot, scritta da Billie Joe Armstrong.",
+      "marker": "una reazione fatta canzone",
+      "photos": [
+        {
+          "query": "Green Day live",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Billie Joe Armstrong"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "result",
+      "heading_cuts": [
+        "N°3",
+        "nel Regno Unito"
+      ],
+      "body": "American Idiot arriva al numero 3 della classifica britannica dei singoli. Nel 2005 è candidata ai Grammy come Record of the Year.",
+      "marker": null,
+      "photos": [
+        {
+          "query": "Green Day 2005",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Green Day"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "result",
+      "heading_cuts": [
+        "DI NUOVO",
+        "IN CLASSIFICA",
+        "2018"
+      ],
+      "body": "Nel 2018 American Idiot rientra nella classifica britannica al numero 25.",
+      "marker": null,
+      "photos": [
+        {
+          "query": "Tré Cool Green Day",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Tré Cool"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "final",
+      "heading_cuts": [
+        "E TU?"
+      ],
+      "body": null,
+      "marker": "scrivila nei commenti ↓",
+      "photos": [
+        {
+          "query": "Billie Joe Armstrong Green Day",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Billie Joe Armstrong"
+        }
+      ],
+      "source_note": null
+    }
+  ],
+  "caption_body": "Billie Joe Armstrong scrive American Idiot dopo aver sentito alla radio dell'auto una canzone dei Lynyrd Skynyrd e aver reagito a un verso sull'essere orgogliosi di essere redneck. Il brano arriva al numero 3 della classifica britannica dei singoli, nel 2005 è candidato ai Grammy come Record of the Year e nel 2018 rientra in classifica al numero 25.",
+  "question": "Quale canzone dei Green Day ti ha accompagnato da ragazzo?",
+  "listen_track": "Green Day – American Idiot",
+  "lyric_quote": null,
+  "hashtags": [
+    "#greenday",
+    "#americanidiot",
+    "#musica2000",
+    "#storiedellamusica",
+    "#50onrecord"
+  ]
+}
