@@ -495,3 +495,37 @@ def test_empty_queue_warns_once_per_slot(repo):
     (repo / "queue" / "item-1").rename(repo / "item-1-parked")
     assert cli.publish(repo, now=EVENING) == 1                                  # primo controllo: avviso
     assert cli.publish(repo, now=EVENING + timedelta(minutes=15)) == 0          # stesso slot: niente altra mail
+
+
+@responses.activate
+def test_list_media_returns_type_date_link_and_caption():
+    responses.add(responses.GET, f"{GRAPH}/{IG}/media", json={"data": [
+        {"id": "1", "caption": "🎧 Ascolta: Queen – Radio Ga Ga", "media_type": "CAROUSEL_ALBUM", "media_product_type": "FEED",
+         "timestamp": "2026-11-02T16:00:00+0000", "permalink": "https://www.instagram.com/p/AAA/"},
+        {"id": "2", "media_type": "VIDEO", "media_product_type": "REELS", "timestamp": "2026-11-04T20:00:00+0000",
+         "permalink": "https://www.instagram.com/reel/BBB/"}]})
+    media = instagram.list_media(IG, "TOKEN", limit=2)
+    assert [m["product_type"] for m in media] == ["FEED", "REELS"]
+    assert media[0]["caption"].startswith("🎧 Ascolta: Queen") and media[1]["caption"] == ""
+    assert media[1]["permalink"].endswith("/reel/BBB/") and media[1]["timestamp"].startswith("2026-11-04")
+    assert "limit=2" in responses.calls[0].request.url and "permalink" in responses.calls[0].request.url
+
+
+def test_list_instagram_saves_the_posts_without_touching_the_token(tmp_path, monkeypatch, capsys):
+    monkeypatch.setenv("IG_USER_ID", IG)
+    monkeypatch.setenv("IG_TOKEN", "SEGRETO")
+    monkeypatch.setattr(instagram, "list_media", lambda ig, token, limit=50: [{"id": "1", "timestamp": "t", "media_type": "VIDEO",
+                                                                                "product_type": "REELS", "permalink": "p", "caption": "c"}])
+    assert cli.list_instagram(tmp_path) == 0
+    saved = json.loads((tmp_path / "instagram_media.json").read_text(encoding="utf-8"))
+    assert saved[0]["product_type"] == "REELS"
+    assert "SEGRETO" not in capsys.readouterr().out
+
+
+def test_list_instagram_fails_cleanly_when_meta_refuses(tmp_path, monkeypatch, capsys):
+    monkeypatch.setenv("IG_USER_ID", IG)
+    monkeypatch.setenv("IG_TOKEN", "SEGRETO")
+    def refuse(ig, token, limit=50): raise instagram.PublishError("no")
+    monkeypatch.setattr(instagram, "list_media", refuse)
+    assert cli.list_instagram(tmp_path) == 1
+    assert not (tmp_path / "instagram_media.json").exists()

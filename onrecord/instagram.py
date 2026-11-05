@@ -50,6 +50,15 @@ def recent_captions(ig_user_id: str, token: str, limit: int = 10) -> List[str]:
     return [post["caption"] for post in payload.get("data", []) if post.get("caption")]
 
 
+def list_media(ig_user_id: str, token: str, limit: int = 50) -> List[dict]:
+    """Elenco dei post del profilo (sola lettura): tipo, data, link e didascalia. Serve a tenere il registro delle uscite."""
+    fields = "id,caption,media_type,media_product_type,timestamp,permalink"
+    payload = _call("GET", f"{GRAPH}/{ig_user_id}/media?fields={fields}&limit={limit}", token)
+    return [{"id": post.get("id", ""), "timestamp": post.get("timestamp", ""), "media_type": post.get("media_type", ""),
+             "product_type": post.get("media_product_type", ""), "permalink": post.get("permalink", ""),
+             "caption": post.get("caption") or ""} for post in payload.get("data", [])]
+
+
 def publish_container(ig_user_id: str, container_id: str, token: str) -> str:
     return _call("POST", f"{GRAPH}/{ig_user_id}/media_publish", token, creation_id=container_id)["id"]
 

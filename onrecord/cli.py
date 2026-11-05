@@ -299,6 +299,18 @@ def check_instagram() -> int:
     return 0
 
 
+def list_instagram(root: Path) -> int:
+    """Sola lettura: salva in instagram_media.json i post del profilo (tipo, data, link, didascalia). Non stampa il token."""
+    try:
+        media = instagram.list_media(_secret("IG_USER_ID"), _secret("IG_TOKEN"), limit=50)
+    except instagram.PublishError as exc:
+        print(f"Lettura dei post non riuscita: {exc}")
+        return 1
+    (Path(root) / "instagram_media.json").write_text(json.dumps(media, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"{len(media)} post letti da Instagram, salvati in instagram_media.json")
+    return 0
+
+
 def prepare_instagram(root: Path) -> int:
     """Prova senza pubblicare: Meta scarica le slide del prossimo carosello e le elabora; nulla va online."""
     root = Path(root)
@@ -336,6 +348,8 @@ def main(argv: Optional[List[str]] = None) -> int:
     p_prep = sub.add_parser("prepare-instagram", help="prova: Meta elabora il prossimo carosello senza pubblicarlo")
     p_prep.add_argument("--root", default=".")
     sub.add_parser("check-instagram", help="prova di sola lettura del collegamento a Instagram")
+    p_list = sub.add_parser("list-instagram", help="sola lettura: salva l'elenco dei post del profilo")
+    p_list.add_argument("--root", default=".")
     sub.add_parser("gate-check", help="legge da stdin i file modificati dal branch della routine")
     args = parser.parse_args(argv)
 
@@ -351,6 +365,8 @@ def main(argv: Optional[List[str]] = None) -> int:
         return prepare_instagram(Path(args.root))
     if args.command == "check-instagram":
         return check_instagram()
+    if args.command == "list-instagram":
+        return list_instagram(Path(args.root))
 
     if args.command == "build":
         return build(Path(args.story_dir), Path(args.root), render=not args.no_render)
