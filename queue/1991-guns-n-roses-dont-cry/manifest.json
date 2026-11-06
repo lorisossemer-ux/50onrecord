@@ -1,0 +1,29 @@
+{
+  "id": "1991-guns-n-roses-dont-cry",
+  "artist": "Guns N' Roses",
+  "song": "Don't Cry",
+  "decade": "90",
+  "strand": "studio",
+  "italian": false,
+  "key": "guns n roses|don t cry|studio",
+  "issue": 24,
+  "status": "ready",
+  "created_at": "2026-11-06T03:58:32.062777+00:00",
+  "photos": [
+    {
+      "author": "I Do Shows(Scott Penner)",
+      "license": "CC BY-SA 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Slash_in_2008.jpg"
+    },
+    {
+      "author": "Raph_PH",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:GunsNRoses160617-61_(35271773841).jpg"
+    },
+    {
+      "author": "Kreepin Deth",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Slash_live_in_London_2022.jpg"
+    }
+  ]
+}
