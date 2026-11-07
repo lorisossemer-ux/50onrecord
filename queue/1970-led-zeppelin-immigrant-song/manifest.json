@@ -1,0 +1,29 @@
+{
+  "id": "1970-led-zeppelin-immigrant-song",
+  "artist": "Led Zeppelin",
+  "song": "Immigrant Song",
+  "decade": "70",
+  "strand": "palco",
+  "italian": false,
+  "key": "led zeppelin|immigrant song|palco",
+  "issue": 25,
+  "status": "ready",
+  "created_at": "2026-11-07T02:21:19.981250+00:00",
+  "photos": [
+    {
+      "author": "Jim Summaria, http://www.jimsummariaphoto.com/",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Jimmy_Page_with_Robert_Plant_2_-_Led_Zeppelin_-_1977.jpg"
+    },
+    {
+      "author": "Heinrich Klaffs",
+      "license": "CC BY-SA 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Led_Zeppelin_acoustic_1973.jpg"
+    },
+    {
+      "author": "APA-Agency for the Performing Arts-management",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Led_Zeppelin_-_Jimmy_Page_(1977).jpg"
+    }
+  ]
+}

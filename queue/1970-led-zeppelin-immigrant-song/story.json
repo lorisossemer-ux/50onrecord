@@ -1,0 +1,246 @@
+{
+  "id": "1970-led-zeppelin-immigrant-song",
+  "artist": "Led Zeppelin",
+  "song": "Immigrant Song",
+  "year": 1970,
+  "decade": "70",
+  "strand": "palco",
+  "italian": false,
+  "facts": [
+    {
+      "claim": "Il 22 giugno 1970 i Led Zeppelin suonarono a Reykjavík, al Laugardalshöll, nel primo concerto del tour dell'estate 1970.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Led_Zeppelin_Tour_of_Iceland,_Bath_and_Germany,_Summer_1970",
+          "title": "Led Zeppelin Tour of Iceland, Bath and Germany, Summer 1970",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://ultimateclassicrock.com/led-zeppelin-iceland-immigrant-song/",
+          "title": "Led Zeppelin's Iceland trip and Immigrant Song",
+          "publisher": "Ultimate Classic Rock"
+        }
+      ]
+    },
+    {
+      "claim": "Robert Plant raccontò che il giorno prima del loro arrivo gli impiegati statali erano entrati in sciopero e il concerto stava per essere annullato.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Immigrant_Song",
+          "title": "Immigrant Song",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://ultimateclassicrock.com/led-zeppelin-iceland-immigrant-song/",
+          "title": "Led Zeppelin's Iceland trip and Immigrant Song",
+          "publisher": "Ultimate Classic Rock"
+        }
+      ]
+    },
+    {
+      "claim": "L'università preparò una sala per il concerto.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Immigrant_Song",
+          "title": "Immigrant Song",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://ultimateclassicrock.com/led-zeppelin-iceland-immigrant-song/",
+          "title": "Led Zeppelin's Iceland trip and Immigrant Song",
+          "publisher": "Ultimate Classic Rock"
+        }
+      ]
+    },
+    {
+      "claim": "Immigrant Song fu scritta durante il tour dell'estate 1970 in Islanda, Bath e Germania, e il viaggio a Reykjavík ispirò il testo di Plant.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Immigrant_Song",
+          "title": "Immigrant Song",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://faroutmagazine.co.uk/which-country-immigrant-song-led-zeppelin/",
+          "title": "Which country is Immigrant Song by Led Zeppelin about?",
+          "publisher": "Far Out Magazine"
+        }
+      ]
+    },
+    {
+      "claim": "Il brano fu suonato per la prima volta dal vivo al Bath Festival, poco dopo il concerto di Reykjavík.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Immigrant_Song",
+          "title": "Immigrant Song",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://faroutmagazine.co.uk/which-country-immigrant-song-led-zeppelin/",
+          "title": "Which country is Immigrant Song by Led Zeppelin about?",
+          "publisher": "Far Out Magazine"
+        }
+      ]
+    },
+    {
+      "claim": "Immigrant Song è la prima traccia di Led Zeppelin III e raggiunse il numero 16 della Billboard Hot 100 negli Stati Uniti.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Immigrant_Song",
+          "title": "Immigrant Song",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://ultimateclassicrock.com/led-zeppelin-iceland-immigrant-song/",
+          "title": "Led Zeppelin's Iceland trip and Immigrant Song",
+          "publisher": "Ultimate Classic Rock"
+        }
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "heading_cuts": [
+        "UNO SCIOPERO",
+        "e un concerto",
+        "SALVATO"
+      ],
+      "body": null,
+      "marker": "la storia vera di Immigrant Song ↓",
+      "photos": [
+        {
+          "query": "Led Zeppelin Jimmy Page Robert Plant 1977",
+          "commons_file": "Jimmy Page with Robert Plant 2 - Led Zeppelin - 1977.jpg",
+          "role": "main",
+          "subject": "Robert Plant"
+        },
+        {
+          "query": "Led Zeppelin acoustic 1973",
+          "commons_file": "Led Zeppelin acoustic 1973.jpg",
+          "role": "side",
+          "subject": "Led Zeppelin"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "REYKJAVÍK",
+        "1970"
+      ],
+      "body": "Il 22 giugno 1970 i Led Zeppelin suonano a Reykjavík, al Laugardalshöll. È il primo concerto del tour dell'estate 1970.",
+      "marker": "tutto parte da qui",
+      "photos": [
+        {
+          "query": "Led Zeppelin 1973",
+          "commons_file": "Led Zeppelin acoustic 1973.jpg",
+          "role": "main",
+          "subject": "Led Zeppelin"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "IL GIORNO",
+        "PRIMA"
+      ],
+      "body": "Robert Plant racconta che il giorno prima del loro arrivo gli impiegati statali erano entrati in sciopero. Il concerto stava per essere annullato.",
+      "marker": "quasi niente show",
+      "photos": [
+        {
+          "query": "Robert Plant Led Zeppelin 1977",
+          "commons_file": "Jimmy Page with Robert Plant 2 - Led Zeppelin - 1977.jpg",
+          "role": "main",
+          "subject": "Robert Plant"
+        }
+      ],
+      "source_note": "fonte: Robert Plant, intervista"
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "UNA SALA",
+        "dall'UNIVERSITÀ"
+      ],
+      "body": "L'università prepara una sala per il concerto.",
+      "marker": "salvato così",
+      "photos": [
+        {
+          "query": "Jimmy Page Led Zeppelin 1977",
+          "commons_file": "Led Zeppelin - Jimmy Page (1977).jpg",
+          "role": "main",
+          "subject": "Jimmy Page"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "emotion",
+      "heading_cuts": [
+        "UN VIAGGIO",
+        "una canzone"
+      ],
+      "body": "Immigrant Song nasce durante il tour dell'estate 1970 in Islanda, Bath e Germania. Il viaggio a Reykjavík ispira il testo di Plant.",
+      "marker": "a volte basta un viaggio.",
+      "photos": [
+        {
+          "query": "Robert Plant 1977",
+          "commons_file": "Jimmy Page with Robert Plant 2 - Led Zeppelin - 1977.jpg",
+          "role": "side",
+          "subject": "Robert Plant"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "result",
+      "heading_cuts": [
+        "DAL VIVO",
+        "e in classifica"
+      ],
+      "body": "Il brano debutta dal vivo al Bath Festival, poco dopo Reykjavík. È la prima traccia di Led Zeppelin III e arriva al numero 16 della Billboard Hot 100.",
+      "marker": null,
+      "photos": [
+        {
+          "query": "Led Zeppelin 1970s",
+          "commons_file": "Led Zeppelin acoustic 1973.jpg",
+          "role": "main",
+          "subject": "Led Zeppelin"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "final",
+      "heading_cuts": [
+        "E TU?"
+      ],
+      "body": null,
+      "marker": "scrivila nei commenti ↓",
+      "photos": [
+        {
+          "query": "Jimmy Page Led Zeppelin",
+          "commons_file": "Led Zeppelin - Jimmy Page (1977).jpg",
+          "role": "side",
+          "subject": "Jimmy Page"
+        }
+      ],
+      "source_note": null
+    }
+  ],
+  "caption_body": "Il 22 giugno 1970 i Led Zeppelin suonano a Reykjavík: il giorno prima del loro arrivo gli impiegati statali erano in sciopero e il concerto stava per saltare, ma l'università preparò una sala. Quel viaggio ispirò il testo di Immigrant Song, che aprì Led Zeppelin III.",
+  "question": "Qual è il brano dei Led Zeppelin che ti fa subito alzare il volume?",
+  "listen_track": "Led Zeppelin – Immigrant Song",
+  "lyric_quote": null,
+  "hashtags": [
+    "#ledzeppelin",
+    "#robertplant",
+    "#musica70",
+    "#storiedellamusica",
+    "#50onrecord"
+  ]
+}
