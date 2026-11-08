@@ -1,0 +1,39 @@
+{
+  "id": "1983-michael-jackson-billie-jean",
+  "artist": "Michael Jackson",
+  "song": "Billie Jean",
+  "decade": "80",
+  "strand": "palco",
+  "italian": false,
+  "key": "michael jackson|billie jean|palco",
+  "issue": 26,
+  "status": "ready",
+  "created_at": "2026-11-08T05:54:04.492702+00:00",
+  "photos": [
+    {
+      "author": "Matthew Rolston; Distributed by Epic Records",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Michael_Jackson_1983_(3x4_cropped)_(contrast).jpg"
+    },
+    {
+      "author": "Goldin",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Michael_Jackson_with_the_Jacksons_at_Victory_Tour,_July_1984.jpg"
+    },
+    {
+      "author": "The Jackson 5",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Jackson_5_1974_(Michael).jpg"
+    },
+    {
+      "author": "White House Photo Office",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Michael_Jackson_1984_(enhanced).jpg"
+    },
+    {
+      "author": "Salabasev",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Michael_Jackson_Live_in_Bucharest_1992_Toni_Salabasev.jpg"
+    }
+  ]
+}

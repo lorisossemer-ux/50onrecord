@@ -1,0 +1,262 @@
+{
+  "id": "1983-michael-jackson-billie-jean",
+  "artist": "Michael Jackson",
+  "song": "Billie Jean",
+  "year": 1983,
+  "decade": "80",
+  "strand": "palco",
+  "italian": false,
+  "facts": [
+    {
+      "claim": "Lo speciale Motown 25 fu registrato il 25 marzo 1983 al Pasadena Civic Auditorium, in California.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Motown_25:_Yesterday,_Today,_Forever",
+          "title": "Motown 25: Yesterday, Today, Forever",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.mentalfloss.com/article/542266/michael-jackson-moonwalk-turns-35-motown",
+          "title": "Michael Jackson's Moonwalk Turns 35",
+          "publisher": "Mental Floss"
+        }
+      ]
+    },
+    {
+      "claim": "Dopo l'esibizione dei Jackson 5, Michael Jackson disse al pubblico che quelli erano i bei vecchi tempi.",
+      "sources": [
+        {
+          "url": "https://www.mentalfloss.com/article/542266/michael-jackson-moonwalk-turns-35-motown",
+          "title": "Michael Jackson's Moonwalk Turns 35",
+          "publisher": "Mental Floss"
+        },
+        {
+          "url": "https://www.thriller40.com/articles/motown-25-the-performance-that-changed-everything/",
+          "title": "Motown 25: the performance that changed everything",
+          "publisher": "Thriller 40"
+        }
+      ]
+    },
+    {
+      "claim": "Billie Jean fu l'unico brano non Motown dello show.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Motown_25:_Yesterday,_Today,_Forever",
+          "title": "Motown 25: Yesterday, Today, Forever",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.mentalfloss.com/article/542266/michael-jackson-moonwalk-turns-35-motown",
+          "title": "Michael Jackson's Moonwalk Turns 35",
+          "publisher": "Mental Floss"
+        }
+      ]
+    },
+    {
+      "claim": "Michael Jackson cantò Billie Jean da solo.",
+      "sources": [
+        {
+          "url": "https://www.aol.com/lifestyle/michael-jacksons-iconic-moonwalk-debut-055351857.html",
+          "title": "Michael Jackson's Iconic Moonwalk Debut on Motown 25",
+          "publisher": "AOL"
+        },
+        {
+          "url": "https://www.mentalfloss.com/article/542266/michael-jackson-moonwalk-turns-35-motown",
+          "title": "Michael Jackson's Moonwalk Turns 35",
+          "publisher": "Mental Floss"
+        },
+        {
+          "url": "https://www.thriller40.com/articles/motown-25-the-performance-that-changed-everything/",
+          "title": "Motown 25: the performance that changed everything",
+          "publisher": "Thriller 40"
+        }
+      ]
+    },
+    {
+      "claim": "Michael Jackson debuttò il moonwalk durante l'esibizione di Billie Jean a Motown 25.",
+      "sources": [
+        {
+          "url": "https://www.aol.com/lifestyle/michael-jacksons-iconic-moonwalk-debut-055351857.html",
+          "title": "Michael Jackson's Iconic Moonwalk Debut on Motown 25",
+          "publisher": "AOL"
+        },
+        {
+          "url": "https://www.mentalfloss.com/article/542266/michael-jackson-moonwalk-turns-35-motown",
+          "title": "Michael Jackson's Moonwalk Turns 35",
+          "publisher": "Mental Floss"
+        },
+        {
+          "url": "https://www.thriller40.com/articles/motown-25-the-performance-that-changed-everything/",
+          "title": "Motown 25: the performance that changed everything",
+          "publisher": "Thriller 40"
+        }
+      ]
+    },
+    {
+      "claim": "Dopo la messa in onda dello speciale, Fred Astaire telefonò a Michael Jackson per fargli i complimenti.",
+      "sources": [
+        {
+          "url": "https://www.aol.com/lifestyle/michael-jacksons-iconic-moonwalk-debut-055351857.html",
+          "title": "Michael Jackson's Iconic Moonwalk Debut on Motown 25",
+          "publisher": "AOL"
+        },
+        {
+          "url": "https://www.mentalfloss.com/article/542266/michael-jackson-moonwalk-turns-35-motown",
+          "title": "Michael Jackson's Moonwalk Turns 35",
+          "publisher": "Mental Floss"
+        },
+        {
+          "url": "https://www.thriller40.com/articles/motown-25-the-performance-that-changed-everything/",
+          "title": "Motown 25: the performance that changed everything",
+          "publisher": "Thriller 40"
+        }
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "heading_cuts": [
+        "IL PRIMO",
+        "MOONWALK",
+        "DELLA",
+        "STORIA"
+      ],
+      "body": null,
+      "marker": "25 marzo 1983 ↓",
+      "photos": [
+        {
+          "query": "Michael Jackson 1983",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Michael Jackson"
+        },
+        {
+          "query": "Michael Jackson Victory Tour",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Michael Jackson"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "PASADENA",
+        "25 MARZO 1983"
+      ],
+      "body": "Il 25 marzo 1983, al Pasadena Civic Auditorium, in California, si registra lo speciale Motown 25.",
+      "marker": "tutti aspettano i Motown",
+      "photos": [
+        {
+          "query": "Michael Jackson 1983",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Michael Jackson"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "PRIMA",
+        "I FRATELLI"
+      ],
+      "body": "Prima c'è l'esibizione dei Jackson 5. Poi Michael Jackson dice al pubblico che quelli erano i bei vecchi tempi.",
+      "marker": "quelli erano i bei vecchi tempi",
+      "photos": [
+        {
+          "query": "Michael Jackson Jackson 5",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Michael Jackson"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "UN BRANO",
+        "NON MOTOWN"
+      ],
+      "body": "Poi tocca a Billie Jean, l'unico brano non Motown dello show. Michael Jackson la canta da solo.",
+      "marker": null,
+      "photos": [
+        {
+          "query": "Michael Jackson 1984",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Michael Jackson"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "emotion",
+      "heading_cuts": [
+        "IL DEBUTTO",
+        "DEL MOONWALK"
+      ],
+      "body": "Durante l'esibizione di Billie Jean a Motown 25, Michael Jackson debutta con il moonwalk.",
+      "marker": "il moonwalk debutta qui.",
+      "photos": [
+        {
+          "query": "Michael Jackson moonwalk",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Michael Jackson"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "result",
+      "heading_cuts": [
+        "LA TELEFONATA",
+        "DI ASTAIRE"
+      ],
+      "body": "Dopo la messa in onda dello speciale, Fred Astaire telefona a Michael Jackson per fargli i complimenti.",
+      "marker": null,
+      "photos": [
+        {
+          "query": "Michael Jackson 1984",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Michael Jackson"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "final",
+      "heading_cuts": [
+        "E TU?"
+      ],
+      "body": null,
+      "marker": "scrivila nei commenti ↓",
+      "photos": [
+        {
+          "query": "Michael Jackson live",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Michael Jackson"
+        }
+      ],
+      "source_note": null
+    }
+  ],
+  "caption_body": "Il 25 marzo 1983, al Pasadena Civic Auditorium, si registra lo speciale Motown 25. Dopo i Jackson 5, Michael Jackson canta da solo Billie Jean, l'unico brano non Motown dello show, e debutta con il moonwalk. Dopo la messa in onda Fred Astaire gli telefona per fargli i complimenti.",
+  "question": "Ricordi dove eri la prima volta che hai visto il moonwalk?",
+  "listen_track": "Michael Jackson – Billie Jean",
+  "lyric_quote": null,
+  "hashtags": [
+    "#michaeljackson",
+    "#billiejean",
+    "#musica80",
+    "#storiedellamusica",
+    "#50onrecord"
+  ]
+}

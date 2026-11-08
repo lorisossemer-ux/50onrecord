@@ -1,0 +1,34 @@
+{
+  "id": "1990-sinead-oconnor-nothing-compares-2-u",
+  "artist": "Sinéad O'Connor",
+  "song": "Nothing Compares 2 U",
+  "decade": "90",
+  "strand": "privata",
+  "italian": false,
+  "key": "sin ad o connor|nothing compares 2 u|privata",
+  "issue": 27,
+  "status": "ready",
+  "created_at": "2026-11-08T05:54:15.267438+00:00",
+  "photos": [
+    {
+      "author": "Warner Bros. Pictures",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Prince_(1984_Purple_Rain_promotional_photo).jpg"
+    },
+    {
+      "author": "Gordon Leggett",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2021-08-23_Montague_Harbor,_Prince_Edwards_Island,_Canada.jpg"
+    },
+    {
+      "author": "Jeff Katz",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Prince_in_1988,_with_Shelia_E._and_Cat_Glover_outside_Paisley_Park.png"
+    },
+    {
+      "author": "Man Alive!",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sin%C3%A9ad_O%27Connor_(9781720722).jpg"
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "id": "2003-white-stripes-seven-nation-army",
+  "artist": "The White Stripes",
+  "song": "Seven Nation Army",
+  "year": 2003,
+  "decade": "00",
+  "strand": "studio",
+  "italian": false,
+  "facts": [
+    {
+      "claim": "Alla fine di gennaio 2002, durante un soundcheck al Corner Hotel di Melbourne, in Australia, Jack White inventò il riff di Seven Nation Army.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Seven_Nation_Army",
+          "title": "Seven Nation Army",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://beat.com.au/?p=429866",
+          "title": "How The White Stripes' Seven Nation Army started at the Corner Hotel",
+          "publisher": "Beat Magazine"
+        }
+      ]
+    },
+    {
+      "claim": "Jack White suonava il riff a Meg White quando passò Ben Swank, dirigente della Third Man; Swank gli disse che poteva fare di meglio.",
+      "sources": [
+        {
+          "url": "https://faroutmagazine.co.uk/the-white-stripes-song-written-soundcheck/",
+          "title": "The classic White Stripes song written during a soundcheck",
+          "publisher": "Far Out Magazine"
+        },
+        {
+          "url": "https://beat.com.au/?p=429866",
+          "title": "How The White Stripes' Seven Nation Army started at the Corner Hotel",
+          "publisher": "Beat Magazine"
+        }
+      ]
+    },
+    {
+      "claim": "Jack White tenne da parte il riff pensando a un possibile tema di James Bond.",
+      "sources": [
+        {
+          "url": "https://faroutmagazine.co.uk/the-white-stripes-song-written-soundcheck/",
+          "title": "The classic White Stripes song written during a soundcheck",
+          "publisher": "Far Out Magazine"
+        },
+        {
+          "url": "https://beat.com.au/?p=429866",
+          "title": "How The White Stripes' Seven Nation Army started at the Corner Hotel",
+          "publisher": "Beat Magazine"
+        },
+        {
+          "url": "https://www.guitarplayer.com/news/jack-white-seven-nation-army-origins",
+          "title": "Jack White: Seven Nation Army origins",
+          "publisher": "Guitar Player"
+        }
+      ]
+    },
+    {
+      "claim": "Più tardi Jack White scrisse con Alicia Keys Another Way to Die, il tema di Quantum of Solace.",
+      "sources": [
+        {
+          "url": "https://faroutmagazine.co.uk/the-white-stripes-song-written-soundcheck/",
+          "title": "The classic White Stripes song written during a soundcheck",
+          "publisher": "Far Out Magazine"
+        },
+        {
+          "url": "https://beat.com.au/?p=429866",
+          "title": "How The White Stripes' Seven Nation Army started at the Corner Hotel",
+          "publisher": "Beat Magazine"
+        }
+      ]
+    },
+    {
+      "claim": "Seven Nation Army è nell'album Elephant, uscito nel 2003.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Seven_Nation_Army",
+          "title": "Seven Nation Army",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://faroutmagazine.co.uk/the-white-stripes-song-written-soundcheck/",
+          "title": "The classic White Stripes song written during a soundcheck",
+          "publisher": "Far Out Magazine"
+        }
+      ]
+    },
+    {
+      "claim": "Seven Nation Army vinse il Grammy come Best Rock Song alla 46ª edizione dei Grammy.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Seven_Nation_Army",
+          "title": "Seven Nation Army",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.grammy.com/awards/categories/best-rock-song/2004/",
+          "title": "Best Rock Song 2004",
+          "publisher": "Grammy.com"
+        }
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "heading_cuts": [
+        "UN RIFF",
+        "NATO AL",
+        "SOUNDCHECK",
+        "a MELBOURNE"
+      ],
+      "body": null,
+      "marker": "gli dissero: puoi fare di meglio",
+      "photos": [
+        {
+          "query": "Jack White White Stripes live",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Jack White"
+        },
+        {
+          "query": "Meg White White Stripes live",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Meg White"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "MELBOURNE",
+        "GENNAIO 2002"
+      ],
+      "body": "Fine gennaio 2002. Durante un soundcheck al Corner Hotel di Melbourne, in Australia, Jack White inventa un riff.",
+      "marker": "è il riff di Seven Nation Army",
+      "photos": [
+        {
+          "query": "Jack White Melbourne",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Jack White"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "SWANK",
+        "PASSA DI LÌ"
+      ],
+      "body": "Jack White suona il riff a Meg White. Passa Ben Swank, dirigente della Third Man. Swank gli dice che può fare di meglio.",
+      "marker": "può fare di meglio",
+      "photos": [
+        {
+          "query": "Meg White drums",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Meg White"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "IL RIFF",
+        "TENUTO DA PARTE"
+      ],
+      "body": "Jack White non lo butta. Tiene da parte il riff pensando a un possibile tema di James Bond.",
+      "marker": "un tema per Bond?",
+      "photos": [
+        {
+          "query": "Jack White guitar",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Jack White"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "emotion",
+      "heading_cuts": [
+        "BOND",
+        "ARRIVA DOPO"
+      ],
+      "body": "Più tardi Jack White scrive con Alicia Keys Another Way to Die, il tema di Quantum of Solace.",
+      "marker": "Bond arrivò dopo.",
+      "photos": [
+        {
+          "query": "Jack White Alicia Keys",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Jack White"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "result",
+      "heading_cuts": [
+        "ELEPHANT",
+        "2003"
+      ],
+      "body": "Seven Nation Army è nell'album Elephant, uscito nel 2003. Vince il Grammy come Best Rock Song.",
+      "marker": null,
+      "photos": [
+        {
+          "query": "The White Stripes Elephant 2003",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Jack White"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "final",
+      "heading_cuts": [
+        "E TU?"
+      ],
+      "body": null,
+      "marker": "scrivila nei commenti ↓",
+      "photos": [
+        {
+          "query": "Jack White live",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Jack White"
+        }
+      ],
+      "source_note": null
+    }
+  ],
+  "caption_body": "Fine gennaio 2002, soundcheck al Corner Hotel di Melbourne: Jack White inventa il riff di Seven Nation Army e lo suona a Meg White. Ben Swank gli dice che può fare di meglio, ma lui lo tiene da parte pensando a un possibile tema di James Bond. Il brano è nell'album Elephant del 2003 e vince il Grammy come Best Rock Song.",
+  "question": "Quando hai sentito per la prima volta questo riff?",
+  "listen_track": "The White Stripes – Seven Nation Army",
+  "lyric_quote": null,
+  "hashtags": [
+    "#thewhitestripes",
+    "#jackwhite",
+    "#musica2000",
+    "#storiedellamusica",
+    "#50onrecord"
+  ]
+}
