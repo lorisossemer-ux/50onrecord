@@ -1,0 +1,29 @@
+{
+  "id": "1976-kiss-beth",
+  "artist": "Kiss",
+  "song": "Beth",
+  "decade": "70",
+  "strand": "studio",
+  "italian": false,
+  "key": "kiss|beth|studio",
+  "issue": 29,
+  "status": "ready",
+  "created_at": "2026-11-09T09:41:16.723011+00:00",
+  "photos": [
+    {
+      "author": "Steven Hoffmaster",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Peter_Criss_1995.jpg"
+    },
+    {
+      "author": "Casablanca Records",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kiss_original_lineup_(1976).jpg"
+    },
+    {
+      "author": "NESR",
+      "license": "CC BY-SA 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kiss_-_Paul_Stanley_-_Destroyer_Tour.jpg"
+    }
+  ]
+}

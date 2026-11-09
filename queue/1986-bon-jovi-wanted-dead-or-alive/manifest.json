@@ -1,0 +1,39 @@
+{
+  "id": "1986-bon-jovi-wanted-dead-or-alive",
+  "artist": "Bon Jovi",
+  "song": "Wanted Dead or Alive",
+  "decade": "80",
+  "strand": "emozione",
+  "italian": false,
+  "key": "bon jovi|wanted dead or alive|emozione",
+  "issue": 30,
+  "status": "ready",
+  "created_at": "2026-11-09T09:41:24.176552+00:00",
+  "photos": [
+    {
+      "author": "Laurent Fox--HUD",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Jon_Bon_Jovi_at_Health_Datapalooza_Event.jpg"
+    },
+    {
+      "author": "James Anderson",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Richie_Sambora_Dublin_2006.jpg"
+    },
+    {
+      "author": "Christian Benseler",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Richie_Sambora_guitar_@_Hard_Rock_Muenchen_(10410932915).jpg"
+    },
+    {
+      "author": "Mercury Records",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bon_Jovi_1986.jpg"
+    },
+    {
+      "author": "Rosenborg BK Fan",
+      "license": "CC0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Jon_Bon_Jovi_with_Bon_Jovi_live_in_Bucharest,_Romania_(2011).jpg"
+    }
+  ]
+}

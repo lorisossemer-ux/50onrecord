@@ -1,0 +1,283 @@
+{
+  "id": "1986-bon-jovi-wanted-dead-or-alive",
+  "artist": "Bon Jovi",
+  "song": "Wanted Dead or Alive",
+  "year": 1986,
+  "decade": "80",
+  "strand": "emozione",
+  "italian": false,
+  "facts": [
+    {
+      "claim": "Wanted Dead or Alive fu scritta da Jon Bon Jovi e Richie Sambora nel seminterrato della casa della madre di Sambora.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Wanted_Dead_or_Alive_(Bon_Jovi_song)",
+          "title": "Wanted Dead or Alive (Bon Jovi song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/bon-jovi/wanted-dead-or-alive",
+          "title": "Wanted Dead Or Alive",
+          "publisher": "Songfacts"
+        },
+        {
+          "url": "https://americansongwriter.com/the-meaning-behind-the-road-dog-lament-wanted-dead-or-alive-by-bon-jovi",
+          "title": "The Meaning Behind Wanted Dead or Alive",
+          "publisher": "American Songwriter"
+        }
+      ]
+    },
+    {
+      "claim": "Richie Sambora aveva già il riff di chitarra acustica da cui nacque la melodia.",
+      "sources": [
+        {
+          "url": "https://www.songfacts.com/facts/bon-jovi/wanted-dead-or-alive",
+          "title": "Wanted Dead Or Alive",
+          "publisher": "Songfacts"
+        },
+        {
+          "url": "https://americansongwriter.com/the-meaning-behind-the-road-dog-lament-wanted-dead-or-alive-by-bon-jovi",
+          "title": "The Meaning Behind Wanted Dead or Alive",
+          "publisher": "American Songwriter"
+        }
+      ]
+    },
+    {
+      "claim": "Wanted Dead or Alive fu incisa nel 1986 e prodotta da Bruce Fairbairn.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Wanted_Dead_or_Alive_(Bon_Jovi_song)",
+          "title": "Wanted Dead or Alive (Bon Jovi song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://americansongwriter.com/the-meaning-behind-the-road-dog-lament-wanted-dead-or-alive-by-bon-jovi",
+          "title": "The Meaning Behind Wanted Dead or Alive",
+          "publisher": "American Songwriter"
+        }
+      ]
+    },
+    {
+      "claim": "Il brano è su Slippery When Wet, album del 1986.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Wanted_Dead_or_Alive_(Bon_Jovi_song)",
+          "title": "Wanted Dead or Alive (Bon Jovi song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/bon-jovi/wanted-dead-or-alive",
+          "title": "Wanted Dead Or Alive",
+          "publisher": "Songfacts"
+        },
+        {
+          "url": "https://americansongwriter.com/the-meaning-behind-the-road-dog-lament-wanted-dead-or-alive-by-bon-jovi",
+          "title": "The Meaning Behind Wanted Dead or Alive",
+          "publisher": "American Songwriter"
+        }
+      ]
+    },
+    {
+      "claim": "Jon Bon Jovi paragonò le rock band a una giovane banda di ladri che arriva a cavallo in città.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Wanted_Dead_or_Alive_(Bon_Jovi_song)",
+          "title": "Wanted Dead or Alive (Bon Jovi song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://americansongwriter.com/the-meaning-behind-the-road-dog-lament-wanted-dead-or-alive-by-bon-jovi",
+          "title": "The Meaning Behind Wanted Dead or Alive",
+          "publisher": "American Songwriter"
+        }
+      ]
+    },
+    {
+      "claim": "Il testo usa l'immaginario del Vecchio West per raccontare la vita da rockstar in tour.",
+      "sources": [
+        {
+          "url": "https://www.songfacts.com/facts/bon-jovi/wanted-dead-or-alive",
+          "title": "Wanted Dead Or Alive",
+          "publisher": "Songfacts"
+        },
+        {
+          "url": "https://americansongwriter.com/the-meaning-behind-the-road-dog-lament-wanted-dead-or-alive-by-bon-jovi",
+          "title": "The Meaning Behind Wanted Dead or Alive",
+          "publisher": "American Songwriter"
+        }
+      ]
+    },
+    {
+      "claim": "Wanted Dead or Alive raggiunse il numero 7 della Billboard Hot 100.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Wanted_Dead_or_Alive_(Bon_Jovi_song)",
+          "title": "Wanted Dead or Alive (Bon Jovi song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://americansongwriter.com/the-meaning-behind-the-road-dog-lament-wanted-dead-or-alive-by-bon-jovi",
+          "title": "The Meaning Behind Wanted Dead or Alive",
+          "publisher": "American Songwriter"
+        }
+      ]
+    },
+    {
+      "claim": "Fu il terzo brano di Slippery When Wet a entrare nella top 10 della Billboard Hot 100.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Wanted_Dead_or_Alive_(Bon_Jovi_song)",
+          "title": "Wanted Dead or Alive (Bon Jovi song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://americansongwriter.com/the-meaning-behind-the-road-dog-lament-wanted-dead-or-alive-by-bon-jovi",
+          "title": "The Meaning Behind Wanted Dead or Alive",
+          "publisher": "American Songwriter"
+        }
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "heading_cuts": [
+        "UN COWBOY",
+        "con la",
+        "CHITARRA"
+      ],
+      "body": null,
+      "marker": "la vita in tour come il Far West",
+      "photos": [
+        {
+          "query": "Jon Bon Jovi",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Jon Bon Jovi"
+        },
+        {
+          "query": "Richie Sambora",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Richie Sambora"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "NEW JERSEY",
+        "1986"
+      ],
+      "body": "Jon Bon Jovi e Richie Sambora scrivono Wanted Dead or Alive nel seminterrato della casa della madre di Sambora.",
+      "marker": "nel seminterrato di mamma Sambora",
+      "photos": [
+        {
+          "query": "Richie Sambora",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Richie Sambora"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "IL RIFF"
+      ],
+      "body": "Sambora ha già il riff di chitarra acustica da cui nasce la melodia.",
+      "marker": "il riff c'era già",
+      "photos": [
+        {
+          "query": "Richie Sambora guitar",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Richie Sambora"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "IN STUDIO"
+      ],
+      "body": "Il brano viene inciso nel 1986 ed è prodotto da Bruce Fairbairn. Finisce su Slippery When Wet.",
+      "marker": "produttore: Bruce Fairbairn",
+      "photos": [
+        {
+          "query": "Bon Jovi band 1986",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Bon Jovi"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "emotion",
+      "heading_cuts": [
+        "BANDA DI",
+        "LADRI"
+      ],
+      "body": "Jon Bon Jovi paragona le rock band a una giovane banda di ladri che arriva a cavallo in città. Il testo usa il Vecchio West per raccontare la vita da rockstar in tour.",
+      "marker": "rockstar o fuorilegge?",
+      "photos": [
+        {
+          "query": "Jon Bon Jovi",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Jon Bon Jovi"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "result",
+      "heading_cuts": [
+        "NUMERO 7"
+      ],
+      "body": "Wanted Dead or Alive raggiunge il numero 7 della Billboard Hot 100. È il terzo brano di Slippery When Wet nella top 10.",
+      "marker": "tre top 10 da un solo album",
+      "photos": [
+        {
+          "query": "Bon Jovi live",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Bon Jovi"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "final",
+      "heading_cuts": [
+        "E TU?"
+      ],
+      "body": null,
+      "marker": "scrivila nei commenti ↓",
+      "photos": [
+        {
+          "query": "Jon Bon Jovi",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Jon Bon Jovi"
+        }
+      ],
+      "source_note": null
+    }
+  ],
+  "caption_body": "Jon Bon Jovi e Richie Sambora scrivono Wanted Dead or Alive nel seminterrato della casa della madre di Sambora. Il riff di chitarra acustica c'era già. Il testo usa il Vecchio West per raccontare la vita da rockstar in tour, e Jon paragona le rock band a una giovane banda di ladri che arriva a cavallo in città. Arriva al numero 7 della Billboard Hot 100.",
+  "question": "Sei più cowboy o rockstar?",
+  "listen_track": "Bon Jovi – Wanted Dead or Alive",
+  "lyric_quote": null,
+  "hashtags": [
+    "#bonjovi",
+    "#wanteddeadoralive",
+    "#musica80",
+    "#storiedellamusica",
+    "#50onrecord"
+  ]
+}
