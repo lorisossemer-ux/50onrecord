@@ -1,0 +1,257 @@
+{
+  "id": "1994-green-day-basket-case",
+  "artist": "Green Day",
+  "song": "Basket Case",
+  "year": 1994,
+  "decade": "90",
+  "strand": "privata",
+  "italian": false,
+  "facts": [
+    {
+      "claim": "Billie Joe Armstrong scrisse una prima versione di Basket Case come canzone d'amore.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Basket_Case_(song)",
+          "title": "Basket Case (song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://faroutmagazine.co.uk/billie-joe-armstrong-says-original-basket-case-lyrics-were-embarrassingly-bad/",
+          "title": "Billie Joe Armstrong says original 'Basket Case' lyrics were embarrassingly bad",
+          "publisher": "Far Out Magazine"
+        }
+      ]
+    },
+    {
+      "claim": "Billie Joe Armstrong giudicò quei testi originali imbarazzanti.",
+      "sources": [
+        {
+          "url": "https://faroutmagazine.co.uk/billie-joe-armstrong-says-original-basket-case-lyrics-were-embarrassingly-bad/",
+          "title": "Billie Joe Armstrong says original 'Basket Case' lyrics were embarrassingly bad",
+          "publisher": "Far Out Magazine"
+        },
+        {
+          "url": "https://www.audacy.com/947/news/billie-joe-traces-origins-of-green-days-basket-case",
+          "title": "Billie Joe traces origins of Green Day's Basket Case",
+          "publisher": "Audacy"
+        }
+      ]
+    },
+    {
+      "claim": "Billie Joe Armstrong riscrisse i testi di Basket Case partendo dai suoi attacchi di panico.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Basket_Case_(song)",
+          "title": "Basket Case (song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://faroutmagazine.co.uk/billie-joe-armstrong-says-original-basket-case-lyrics-were-embarrassingly-bad/",
+          "title": "Billie Joe Armstrong says original 'Basket Case' lyrics were embarrassingly bad",
+          "publisher": "Far Out Magazine"
+        },
+        {
+          "url": "https://www.audacy.com/947/news/billie-joe-traces-origins-of-green-days-basket-case",
+          "title": "Billie Joe traces origins of Green Day's Basket Case",
+          "publisher": "Audacy"
+        }
+      ]
+    },
+    {
+      "claim": "Billie Joe Armstrong aveva attacchi di panico fin da bambino.",
+      "sources": [
+        {
+          "url": "https://faroutmagazine.co.uk/billie-joe-armstrong-says-original-basket-case-lyrics-were-embarrassingly-bad/",
+          "title": "Billie Joe Armstrong says original 'Basket Case' lyrics were embarrassingly bad",
+          "publisher": "Far Out Magazine"
+        },
+        {
+          "url": "https://www.audacy.com/947/news/billie-joe-traces-origins-of-green-days-basket-case",
+          "title": "Billie Joe traces origins of Green Day's Basket Case",
+          "publisher": "Audacy"
+        }
+      ]
+    },
+    {
+      "claim": "Billie Joe Armstrong definì la riscrittura la decisione migliore della sua carriera di autore.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Basket_Case_(song)",
+          "title": "Basket Case (song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.audacy.com/947/news/billie-joe-traces-origins-of-green-days-basket-case",
+          "title": "Billie Joe traces origins of Green Day's Basket Case",
+          "publisher": "Audacy"
+        },
+        {
+          "url": "https://faroutmagazine.co.uk/billie-joe-armstrong-says-original-basket-case-lyrics-were-embarrassingly-bad/",
+          "title": "Billie Joe Armstrong says original 'Basket Case' lyrics were embarrassingly bad",
+          "publisher": "Far Out Magazine"
+        }
+      ]
+    },
+    {
+      "claim": "Nell'agosto 1994 Basket Case arrivò al numero 1 della classifica Modern Rock di Billboard, dove restò cinque settimane.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Basket_Case_(song)",
+          "title": "Basket Case (song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://stereogum.com/2311698/the-alternative-number-ones-green-days-basket-case/columns",
+          "title": "The Alternative Number Ones: Green Day's Basket Case",
+          "publisher": "Stereogum"
+        }
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "heading_cuts": [
+        "UNA CANZONE",
+        "d'amore",
+        "DIVENTA",
+        "PANICO"
+      ],
+      "body": null,
+      "marker": "come nasce Basket Case ↓",
+      "photos": [
+        {
+          "query": "Billie Joe Armstrong Green Day",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Billie Joe Armstrong"
+        },
+        {
+          "query": "Green Day live",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Billie Joe Armstrong"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "LA PRIMA",
+        "VERSIONE"
+      ],
+      "body": "Billie Joe Armstrong scrisse una prima versione di Basket Case come canzone d'amore.",
+      "marker": "una canzone d'amore?",
+      "photos": [
+        {
+          "query": "Billie Joe Armstrong 1994",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Billie Joe Armstrong"
+        }
+      ],
+      "source_note": "fonte: Billie Joe Armstrong, intervista a Song Exploder"
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "TESTI",
+        "IMBARAZZANTI"
+      ],
+      "body": "Billie Joe Armstrong giudicò quei testi originali imbarazzanti.",
+      "marker": "non gli piaceva",
+      "photos": [
+        {
+          "query": "Billie Joe Armstrong guitar",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Billie Joe Armstrong"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "ATTACCHI",
+        "DI PANICO"
+      ],
+      "body": "Billie Joe Armstrong aveva attacchi di panico fin da bambino. Riscrisse i testi di Basket Case partendo da quelli.",
+      "marker": "dal panico alla canzone",
+      "photos": [
+        {
+          "query": "Billie Joe Armstrong live",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Billie Joe Armstrong"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "emotion",
+      "heading_cuts": [
+        "LA DECISIONE",
+        "migliore"
+      ],
+      "body": "Billie Joe Armstrong definì la riscrittura la decisione migliore della sua carriera di autore.",
+      "marker": "la paura può diventare una canzone.",
+      "photos": [
+        {
+          "query": "Green Day concert",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Billie Joe Armstrong"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "result",
+      "heading_cuts": [
+        "N°1",
+        "AGOSTO 1994"
+      ],
+      "body": "Nell'agosto 1994 Basket Case arrivò al numero 1 della classifica Modern Rock di Billboard, dove restò cinque settimane.",
+      "marker": null,
+      "photos": [
+        {
+          "query": "Green Day 1994",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Billie Joe Armstrong"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "final",
+      "heading_cuts": [
+        "E TU?"
+      ],
+      "body": null,
+      "marker": "scrivila nei commenti ↓",
+      "photos": [
+        {
+          "query": "Green Day Armstrong",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Billie Joe Armstrong"
+        }
+      ],
+      "source_note": null
+    }
+  ],
+  "caption_body": "Billie Joe Armstrong scrisse una prima versione di Basket Case come canzone d'amore, poi riscrisse i testi partendo dai suoi attacchi di panico, che aveva fin da bambino. Nell'agosto 1994 la canzone arrivò al numero 1 della classifica Modern Rock di Billboard, dove restò cinque settimane.",
+  "question": "Quale canzone ti ha aiutato nei momenti difficili?",
+  "listen_track": "Green Day – Basket Case",
+  "lyric_quote": null,
+  "hashtags": [
+    "#greenday",
+    "#basketcase",
+    "#musica90",
+    "#storiedellamusica",
+    "#50onrecord"
+  ]
+}
