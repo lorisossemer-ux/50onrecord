@@ -1,0 +1,247 @@
+{
+  "id": "1976-kiss-detroit-rock-city",
+  "artist": "Kiss",
+  "song": "Detroit Rock City",
+  "year": 1976,
+  "decade": "70",
+  "strand": "emozione",
+  "italian": false,
+  "facts": [
+    {
+      "claim": "Detroit Rock City fu scritta da Paul Stanley e dal produttore Bob Ezrin.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Detroit_Rock_City_(song)",
+          "title": "Detroit Rock City (song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/kiss/detroit-rock-city",
+          "title": "Detroit Rock City",
+          "publisher": "Songfacts"
+        }
+      ]
+    },
+    {
+      "claim": "Il brano nacque come tributo a Detroit.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Detroit_Rock_City_(song)",
+          "title": "Detroit Rock City (song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/kiss/detroit-rock-city",
+          "title": "Detroit Rock City",
+          "publisher": "Songfacts"
+        }
+      ]
+    },
+    {
+      "claim": "Il testo si basa sulla storia di un fan dei Kiss morto in un incidente stradale mentre andava a un concerto.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Detroit_Rock_City_(song)",
+          "title": "Detroit Rock City (song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/kiss/detroit-rock-city",
+          "title": "Detroit Rock City",
+          "publisher": "Songfacts"
+        }
+      ]
+    },
+    {
+      "claim": "L'incidente avvenne fuori da un'arena a Charlotte.",
+      "sources": [
+        {
+          "url": "https://kissasylum.com/news/?p=9983",
+          "title": "Paul Stanley of Kiss talks writing 'Detroit Rock City' and the song's history",
+          "publisher": "Kiss Asylum"
+        },
+        {
+          "url": "https://faroutmagazine.co.uk/detroit-rock-city-tragedy-behind-kiss-classic/",
+          "title": "'Detroit Rock City': the tragedy behind a Kiss classic",
+          "publisher": "Far Out Magazine"
+        }
+      ]
+    },
+    {
+      "claim": "Il brano si apre con un notiziario radiofonico e con un'auto che parte.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Detroit_Rock_City_(song)",
+          "title": "Detroit Rock City (song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/kiss/detroit-rock-city",
+          "title": "Detroit Rock City",
+          "publisher": "Songfacts"
+        }
+      ]
+    },
+    {
+      "claim": "Detroit Rock City è la prima traccia dell'album Destroyer (1976), prodotto da Bob Ezrin.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Detroit_Rock_City_(song)",
+          "title": "Detroit Rock City (song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/kiss/detroit-rock-city",
+          "title": "Detroit Rock City",
+          "publisher": "Songfacts"
+        }
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "heading_cuts": [
+        "UN TRIBUTO",
+        "a Detroit",
+        "DIVENTATO",
+        "UN FUNERALE"
+      ],
+      "body": null,
+      "marker": "la storia vera dietro Detroit Rock City ↓",
+      "photos": [
+        {
+          "query": "Paul Stanley Kiss 1976",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Paul Stanley"
+        },
+        {
+          "query": "Kiss band 1976",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Kiss"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "1976",
+        "DESTROYER"
+      ],
+      "body": "Detroit Rock City è la prima traccia di Destroyer (1976), l'album prodotto da Bob Ezrin. La scrivono Paul Stanley e Ezrin.",
+      "marker": "Stanley + Ezrin",
+      "photos": [
+        {
+          "query": "Bob Ezrin",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Bob Ezrin"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "NASCE",
+        "per Detroit"
+      ],
+      "body": "Il brano nasce come tributo a Detroit.",
+      "marker": "prima: solo un omaggio",
+      "photos": [
+        {
+          "query": "Kiss live Detroit",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Kiss"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "POI",
+        "L'INCIDENTE"
+      ],
+      "body": "Il testo si basa sulla storia di un fan dei Kiss morto in un incidente stradale mentre andava a un concerto. L'incidente avvenne fuori da un'arena a Charlotte.",
+      "marker": "Charlotte, non Detroit",
+      "photos": [
+        {
+          "query": "Paul Stanley live",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Paul Stanley"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "emotion",
+      "heading_cuts": [
+        "UN NOTIZIARIO",
+        "e un'auto"
+      ],
+      "body": "Il brano si apre con un notiziario radiofonico e con un'auto che parte.",
+      "marker": "un fan, un concerto, una strada",
+      "photos": [
+        {
+          "query": "Kiss 1976",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Kiss"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "result",
+      "heading_cuts": [
+        "DESTROYER",
+        "1976"
+      ],
+      "body": "Detroit Rock City apre Destroyer (1976), prodotto da Bob Ezrin.",
+      "marker": null,
+      "photos": [
+        {
+          "query": "Kiss Destroyer",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Kiss"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "final",
+      "heading_cuts": [
+        "E TU?"
+      ],
+      "body": null,
+      "marker": "scrivila nei commenti ↓",
+      "photos": [
+        {
+          "query": "Kiss live",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Kiss"
+        }
+      ],
+      "source_note": null
+    }
+  ],
+  "caption_body": "Detroit Rock City, scritta da Paul Stanley e dal produttore Bob Ezrin, nasce come tributo a Detroit. Il testo si basa però sulla storia di un fan dei Kiss morto in un incidente stradale mentre andava a un concerto, fuori da un'arena a Charlotte. Il brano si apre con un notiziario radiofonico e con un'auto che parte, ed è la prima traccia di Destroyer (1976).",
+  "question": "Qual è la canzone dei Kiss che ti fa alzare il volume?",
+  "listen_track": "Kiss – Detroit Rock City",
+  "lyric_quote": null,
+  "hashtags": [
+    "#kiss",
+    "#destroyer",
+    "#musica70",
+    "#storiedellamusica",
+    "#50onrecord"
+  ]
+}
