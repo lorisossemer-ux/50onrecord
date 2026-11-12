@@ -1,0 +1,39 @@
+{
+  "id": "1994-green-day-basket-case-palco",
+  "artist": "Green Day",
+  "song": "Basket Case",
+  "decade": "90",
+  "strand": "palco",
+  "italian": false,
+  "key": "green day|basket case|palco",
+  "issue": 33,
+  "status": "ready",
+  "created_at": "2026-11-12T02:30:08.367668+00:00",
+  "photos": [
+    {
+      "author": "photo taken by flickr user Sister72",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Billie_Joe_Armstrong_-_Green_Day_2.jpg"
+    },
+    {
+      "author": "Sven-Sebastian Sajak (Sven0705)",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:RiP2013_GreenDay_Mike_Dirnt_0002.JPG"
+    },
+    {
+      "author": "Sven-Sebastian Sajak (Sven0705)",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:RiP2013_GreenDay_Tre_Cool_0001_(cropped).jpg"
+    },
+    {
+      "author": "Alvaranstrong",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:GreenDay_Dookie.png"
+    },
+    {
+      "author": "Alvaranstrong",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Green_Day_Live_Polska.jpg"
+    }
+  ]
+}
