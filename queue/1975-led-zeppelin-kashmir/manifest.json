@@ -1,0 +1,49 @@
+{
+  "id": "1975-led-zeppelin-kashmir",
+  "artist": "Led Zeppelin",
+  "song": "Kashmir",
+  "decade": "70",
+  "strand": "studio",
+  "italian": false,
+  "key": "led zeppelin|kashmir|studio",
+  "issue": 34,
+  "status": "ready",
+  "created_at": "2026-11-13T06:31:41.697828+00:00",
+  "photos": [
+    {
+      "author": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Led_zeppelin_live_pelo_1975.jpg"
+    },
+    {
+      "author": "Dina Regine",
+      "license": "CC BY-SA 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Jimmy_Page_early.jpg"
+    },
+    {
+      "author": "Heinrich Klaffs",
+      "license": "CC BY-SA 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Led_Zeppelin_acoustic_1973.jpg"
+    },
+    {
+      "author": "Avda",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Jimmy_Page_at_the_Echo_music_award_2013.jpg"
+    },
+    {
+      "author": "Dina Regine",
+      "license": "CC BY-SA 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:John_Bonham_1975.jpg"
+    },
+    {
+      "author": "https://www.flickr.com/photos/laraclifford/ Lara Clifford]",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:John_Paul_Jones_-_2010.jpg"
+    },
+    {
+      "author": "Eden, Janine and Jim from New York City",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Jimmy_Page%27s_Gibson_EDS-1275_Double_neck_(1971),_Dragon_suit_(1975)_by_CoCo_-_Play_It_Loud._MET_(2019-05-13_19.29.36_by_Eden,_Janine_and_Jim).jpg"
+    }
+  ]
+}

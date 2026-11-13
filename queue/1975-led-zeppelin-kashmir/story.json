@@ -1,0 +1,269 @@
+{
+  "id": "1975-led-zeppelin-kashmir",
+  "artist": "Led Zeppelin",
+  "song": "Kashmir",
+  "year": 1975,
+  "decade": "70",
+  "strand": "studio",
+  "italian": false,
+  "facts": [
+    {
+      "claim": "Nel 1973 Robert Plant scrisse il testo di Kashmir mentre attraversava in auto il deserto del Marocco meridionale.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Kashmir_(song)",
+          "title": "Kashmir (song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://americansongwriter.com/what-do-the-lyrics-of-the-led-zeppelin-song-kashmir-mean/",
+          "title": "What do the lyrics of the Led Zeppelin song Kashmir mean",
+          "publisher": "American Songwriter"
+        },
+        {
+          "url": "https://faroutmagazine.co.uk/kashmir-jimmy-page-explains-led-zeppelin/",
+          "title": "Kashmir: Jimmy Page explains how Led Zeppelin wrote the amazing piece of music",
+          "publisher": "Far Out Magazine"
+        }
+      ]
+    },
+    {
+      "claim": "Kashmir non ha a che fare con il Kashmir, la regione dell'India settentrionale.",
+      "sources": [
+        {
+          "url": "https://americansongwriter.com/what-do-the-lyrics-of-the-led-zeppelin-song-kashmir-mean/",
+          "title": "What do the lyrics of the Led Zeppelin song Kashmir mean",
+          "publisher": "American Songwriter"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Kashmir_(song)",
+          "title": "Kashmir (song)",
+          "publisher": "Wikipedia"
+        }
+      ]
+    },
+    {
+      "claim": "Jimmy Page usò l'accordatura DADGAD per Kashmir.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Kashmir_(song)",
+          "title": "Kashmir (song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://faroutmagazine.co.uk/kashmir-jimmy-page-explains-led-zeppelin/",
+          "title": "Kashmir: Jimmy Page explains how Led Zeppelin wrote the amazing piece of music",
+          "publisher": "Far Out Magazine"
+        }
+      ]
+    },
+    {
+      "claim": "Robert Plant disse che a far funzionare la batteria di John Bonham era ciò che Bonham non suonava.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Kashmir_(song)",
+          "title": "Kashmir (song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://davesmusicdatabase.blogspot.com/1975/02/led-zeppelins-kashmir-released-on.html",
+          "title": "Led Zeppelin's Kashmir released on Feb 24, 1975",
+          "publisher": "Dave's Music Database"
+        }
+      ]
+    },
+    {
+      "claim": "John Paul Jones aggiunse gli arrangiamenti orchestrali nel 1974.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Kashmir_(song)",
+          "title": "Kashmir (song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://faroutmagazine.co.uk/kashmir-jimmy-page-explains-led-zeppelin/",
+          "title": "Kashmir: Jimmy Page explains how Led Zeppelin wrote the amazing piece of music",
+          "publisher": "Far Out Magazine"
+        }
+      ]
+    },
+    {
+      "claim": "Kashmir uscì il 24 febbraio 1975 nell'album Physical Graffiti.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Kashmir_(song)",
+          "title": "Kashmir (song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://davesmusicdatabase.blogspot.com/1975/02/led-zeppelins-kashmir-released-on.html",
+          "title": "Led Zeppelin's Kashmir released on Feb 24, 1975",
+          "publisher": "Dave's Music Database"
+        }
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "heading_cuts": [
+        "KASHMIR",
+        "senza",
+        "il KASHMIR"
+      ],
+      "body": null,
+      "marker": "il deserto era un altro ↓",
+      "photos": [
+        {
+          "query": "Robert Plant Led Zeppelin 1975",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Robert Plant"
+        },
+        {
+          "query": "Jimmy Page Led Zeppelin",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Jimmy Page"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "MAROCCO",
+        "1973"
+      ],
+      "body": "Nel 1973 Robert Plant scrive il testo di Kashmir mentre attraversa in auto il deserto del Marocco meridionale.",
+      "marker": "il testo nasce in auto",
+      "photos": [
+        {
+          "query": "Robert Plant 1973",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Robert Plant"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "IL TITOLO",
+        "e la regione"
+      ],
+      "body": "Kashmir non ha a che fare con il Kashmir, la regione dell'India settentrionale.",
+      "marker": "Kashmir? no, Marocco",
+      "photos": [
+        {
+          "query": "Led Zeppelin 1975",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Robert Plant"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "ACCORDATURA",
+        "DADGAD"
+      ],
+      "body": "Jimmy Page usa l'accordatura DADGAD per Kashmir.",
+      "marker": "Jimmy: DADGAD",
+      "photos": [
+        {
+          "query": "Jimmy Page guitar",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Jimmy Page"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "emotion",
+      "heading_cuts": [
+        "LA BATTERIA",
+        "di Bonham"
+      ],
+      "body": "Per Robert Plant, a far funzionare la batteria di John Bonham è ciò che Bonham non suona.",
+      "marker": "meno è meglio",
+      "photos": [
+        {
+          "query": "John Bonham drums",
+          "commons_file": null,
+          "role": "side",
+          "subject": "John Bonham"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "NEL 1974",
+        "arriva Jones"
+      ],
+      "body": "John Paul Jones aggiunge gli arrangiamenti orchestrali nel 1974.",
+      "marker": "John Paul: orchestra",
+      "photos": [
+        {
+          "query": "John Paul Jones Led Zeppelin",
+          "commons_file": null,
+          "role": "main",
+          "subject": "John Paul Jones"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "result",
+      "heading_cuts": [
+        "24 FEBBRAIO",
+        "1975"
+      ],
+      "body": "Kashmir esce il 24 febbraio 1975 nell'album Physical Graffiti.",
+      "marker": null,
+      "photos": [
+        {
+          "query": "Led Zeppelin 1975 concert",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Jimmy Page"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "final",
+      "heading_cuts": [
+        "E TU?"
+      ],
+      "body": null,
+      "marker": "scrivila nei commenti ↓",
+      "photos": [
+        {
+          "query": "Led Zeppelin live",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Robert Plant"
+        }
+      ],
+      "source_note": null
+    }
+  ],
+  "caption_body": "Nel 1973 Robert Plant scrive il testo di Kashmir mentre attraversa in auto il deserto del Marocco meridionale: il brano non ha a che fare con la regione dell'India settentrionale. Jimmy Page usa l'accordatura DADGAD e John Paul Jones aggiunge gli arrangiamenti orchestrali nel 1974. Esce il 24 febbraio 1975 in Physical Graffiti.",
+  "question": "Qual è la tua canzone preferita dei Led Zeppelin?",
+  "listen_track": "Led Zeppelin – Kashmir",
+  "lyric_quote": null,
+  "hashtags": [
+    "#ledzeppelin",
+    "#kashmir",
+    "#musica70",
+    "#storiedellamusica",
+    "#50onrecord"
+  ]
+}
