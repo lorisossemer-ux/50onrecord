@@ -1,0 +1,288 @@
+{
+  "id": "1987-guns-n-roses-welcome-to-the-jungle",
+  "artist": "Guns N' Roses",
+  "song": "Welcome to the Jungle",
+  "year": 1987,
+  "decade": "80",
+  "strand": "studio",
+  "italian": false,
+  "facts": [
+    {
+      "claim": "Il riff di Welcome to the Jungle è di Slash.",
+      "sources": [
+        {
+          "url": "https://ultimateclassicrock.com/guns-n-roses-welcome-to-the-jungle/",
+          "title": "Guns N' Roses, Welcome to the Jungle",
+          "publisher": "Ultimate Classic Rock"
+        },
+        {
+          "url": "https://faroutmagazine.co.uk/how-guns-n-roses-made-welcome-to-the-jungle-in-one-day/",
+          "title": "How Guns N' Roses made 'Welcome to the Jungle' in one day",
+          "publisher": "Far Out Magazine"
+        }
+      ]
+    },
+    {
+      "claim": "Axl Rose disse di aver scritto il testo durante una visita a un amico a Seattle.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Welcome_to_the_Jungle_(song)",
+          "title": "Welcome to the Jungle (song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://ultimateclassicrock.com/guns-n-roses-welcome-to-the-jungle/",
+          "title": "Guns N' Roses, Welcome to the Jungle",
+          "publisher": "Ultimate Classic Rock"
+        }
+      ]
+    },
+    {
+      "claim": "Rose disse che Seattle gli appariva molto più rurale di Los Angeles.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Welcome_to_the_Jungle_(song)",
+          "title": "Welcome to the Jungle (song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://ultimateclassicrock.com/guns-n-roses-welcome-to-the-jungle/",
+          "title": "Guns N' Roses, Welcome to the Jungle",
+          "publisher": "Ultimate Classic Rock"
+        }
+      ]
+    },
+    {
+      "claim": "Slash confermò che la parte centrale della canzone (il breakdown) viene da Duff McKagan, che nel 1978 aveva scritto The Fake con la sua band punk, i Vains.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Welcome_to_the_Jungle_(song)",
+          "title": "Welcome to the Jungle (song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://ultimateclassicrock.com/guns-n-roses-welcome-to-the-jungle/",
+          "title": "Guns N' Roses, Welcome to the Jungle",
+          "publisher": "Ultimate Classic Rock"
+        }
+      ]
+    },
+    {
+      "claim": "Welcome to the Jungle fa parte di Appetite for Destruction, del 1987, prodotto da Mike Clink.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Welcome_to_the_Jungle_(song)",
+          "title": "Welcome to the Jungle (song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://ultimateclassicrock.com/guns-n-roses-welcome-to-the-jungle/",
+          "title": "Guns N' Roses, Welcome to the Jungle",
+          "publisher": "Ultimate Classic Rock"
+        }
+      ]
+    },
+    {
+      "claim": "Welcome to the Jungle uscì come secondo singolo nel settembre 1987, ma non fu subito un successo.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Welcome_to_the_Jungle_(song)",
+          "title": "Welcome to the Jungle (song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://ultimateclassicrock.com/guns-n-roses-welcome-to-the-jungle/",
+          "title": "Guns N' Roses, Welcome to the Jungle",
+          "publisher": "Ultimate Classic Rock"
+        }
+      ]
+    },
+    {
+      "claim": "Fu ripubblicata nell'ottobre 1988 e arrivò al numero 7 negli Stati Uniti.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Welcome_to_the_Jungle_(song)",
+          "title": "Welcome to the Jungle (song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://ultimateclassicrock.com/guns-n-roses-welcome-to-the-jungle/",
+          "title": "Guns N' Roses, Welcome to the Jungle",
+          "publisher": "Ultimate Classic Rock"
+        }
+      ]
+    },
+    {
+      "claim": "Il video faticò a entrare su MTV; dopo l'intervento del capo dell'etichetta David Geffen la rete lo trasmise a tarda notte.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Welcome_to_the_Jungle_(song)",
+          "title": "Welcome to the Jungle (song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://ultimateclassicrock.com/guns-n-roses-welcome-to-the-jungle/",
+          "title": "Guns N' Roses, Welcome to the Jungle",
+          "publisher": "Ultimate Classic Rock"
+        }
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "heading_cuts": [
+        "MTV",
+        "lo manda",
+        "di NOTTE"
+      ],
+      "body": null,
+      "marker": "il singolo non decollò subito ↓",
+      "photos": [
+        {
+          "query": "Axl Rose Guns N' Roses",
+          "commons_file": "Axl Rose live in London 2022.jpg",
+          "role": "main",
+          "subject": "Axl Rose"
+        },
+        {
+          "query": "Slash Guns N' Roses",
+          "commons_file": "Slash live in London 2022.jpg",
+          "role": "side",
+          "subject": "Slash"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "APPETITE",
+        "1987"
+      ],
+      "body": "Welcome to the Jungle fa parte di Appetite for Destruction, del 1987. Il produttore dell'album è Mike Clink.",
+      "marker": "Mike Clink: produttore",
+      "photos": [
+        {
+          "query": "Axl Rose Guns N' Roses",
+          "commons_file": "Axl Rose live in London 2022.jpg",
+          "role": "main",
+          "subject": "Axl Rose"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "trio",
+      "heading_cuts": [
+        "TRE",
+        "CONTRIBUTI"
+      ],
+      "body": "Il riff è di Slash. Il testo è di Axl Rose. La parte centrale viene da Duff McKagan, che nel 1978 aveva scritto The Fake con i Vains.",
+      "marker": "Slash: il riff | Axl: il testo | Duff: la parte centrale",
+      "photos": [
+        {
+          "query": "Slash Guns N' Roses",
+          "commons_file": "Slash live in London 2022.jpg",
+          "role": "trio",
+          "subject": "Slash"
+        },
+        {
+          "query": "Axl Rose Guns N' Roses",
+          "commons_file": "Axl Rose live in London 2022.jpg",
+          "role": "trio",
+          "subject": "Axl Rose"
+        },
+        {
+          "query": "Duff McKagan",
+          "commons_file": "Duff McKagan 2012.JPG",
+          "role": "trio",
+          "subject": "Duff McKagan"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "emotion",
+      "heading_cuts": [
+        "SEATTLE"
+      ],
+      "body": "Axl Rose dice di aver scritto il testo durante una visita a un amico a Seattle. Lo trovava molto più rurale di Los Angeles.",
+      "marker": "Seattle: più rurale di Los Angeles",
+      "photos": [
+        {
+          "query": "Axl Rose Guns N' Roses",
+          "commons_file": "Axl Rose live in London 2022.jpg",
+          "role": "side",
+          "subject": "Axl Rose"
+        }
+      ],
+      "source_note": "fonte: Axl Rose, citato da Ultimate Classic Rock"
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "IL VIDEO",
+        "di NOTTE"
+      ],
+      "body": "Il video fa fatica a entrare su MTV. Dopo l'intervento del capo dell'etichetta David Geffen, la rete lo trasmette a tarda notte.",
+      "marker": "MTV: solo di notte",
+      "photos": [
+        {
+          "query": "Slash Guns N' Roses",
+          "commons_file": "Slash live in London 2022.jpg",
+          "role": "main",
+          "subject": "Slash"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "result",
+      "heading_cuts": [
+        "SETTEMBRE 1987",
+        "poi OTTOBRE",
+        "1988"
+      ],
+      "body": "Esce come secondo singolo nel settembre 1987, ma non è subito un successo. Ripubblicata nell'ottobre 1988, arriva al numero 7 negli Stati Uniti.",
+      "marker": null,
+      "photos": [
+        {
+          "query": "Duff McKagan",
+          "commons_file": "Duff McKagan 2012.JPG",
+          "role": "main",
+          "subject": "Duff McKagan"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "final",
+      "heading_cuts": [
+        "E TU?"
+      ],
+      "body": null,
+      "marker": "scrivila nei commenti ↓",
+      "photos": [
+        {
+          "query": "Slash Guns N' Roses",
+          "commons_file": "Slash live in London 2022.jpg",
+          "role": "side",
+          "subject": "Slash"
+        }
+      ],
+      "source_note": null
+    }
+  ],
+  "caption_body": "Il riff di Welcome to the Jungle è di Slash, il testo di Axl Rose, che dice di averlo scritto durante una visita a un amico a Seattle. La parte centrale viene da Duff McKagan, che nel 1978 aveva scritto The Fake con i Vains. Uscita come secondo singolo nel settembre 1987, non è subito un successo: ripubblicata nell'ottobre 1988, arriva al numero 7 negli Stati Uniti.",
+  "question": "Qual è il primo riff che hai imparato a riconoscere?",
+  "listen_track": "Guns N' Roses – Welcome to the Jungle",
+  "lyric_quote": null,
+  "hashtags": [
+    "#gunsnroses",
+    "#slash",
+    "#musica80",
+    "#storiedellamusica",
+    "#50onrecord"
+  ]
+}
