@@ -1,0 +1,49 @@
+{
+  "id": "1971-led-zeppelin-black-dog",
+  "artist": "Led Zeppelin",
+  "song": "Black Dog",
+  "decade": "70",
+  "strand": "studio",
+  "italian": false,
+  "key": "led zeppelin|black dog|studio",
+  "issue": 37,
+  "status": "ready",
+  "created_at": "2026-11-15T07:08:47.358332+00:00",
+  "photos": [
+    {
+      "author": "Robert Ashworth from Bellingham, WA., USA",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:WSU_steam_plant_looking_north,_1970s_(7422361112).jpg"
+    },
+    {
+      "author": "Atlantic Records",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Led_Zeppelin_-_promotional_image_(1971).jpg"
+    },
+    {
+      "author": "Avda",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Jimmy_Page_at_the_Echo_music_award_2013.jpg"
+    },
+    {
+      "author": "https://www.flickr.com/photos/laraclifford/ Lara Clifford]",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:John_Paul_Jones_-_2010.jpg"
+    },
+    {
+      "author": "Raph_PH",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Robert_Plant_%26_The_Sensational_Shape_Shifters_-_Royal_Albert_Hall_-_Friday_8th_December_2017_RobertPlantRAH081217_(39331278371).jpg"
+    },
+    {
+      "author": "Vintage Fan 5678",
+      "license": "CC0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Led_Zeppelin_%27The_Object%27_Promo_Statue_%27Hard_Rock_Cafe_Lisbon%27_2019.jpg"
+    },
+    {
+      "author": "Dina Regine",
+      "license": "CC BY-SA 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Jimmy_Page_early.jpg"
+    }
+  ]
+}

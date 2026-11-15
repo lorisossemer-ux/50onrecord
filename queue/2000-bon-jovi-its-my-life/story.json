@@ -1,0 +1,262 @@
+{
+  "id": "2000-bon-jovi-its-my-life",
+  "artist": "Bon Jovi",
+  "song": "It's My Life",
+  "year": 2000,
+  "decade": "00",
+  "strand": "studio",
+  "italian": false,
+  "facts": [
+    {
+      "claim": "It's My Life è stata scritta da Jon Bon Jovi, Richie Sambora e Max Martin.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/It%27s_My_Life_(Bon_Jovi_song)",
+          "title": "It's My Life (Bon Jovi song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://secondhandsongs.com/work/32044/versions",
+          "title": "It's My Life",
+          "publisher": "SecondHandSongs"
+        }
+      ]
+    },
+    {
+      "claim": "It's My Life è il primo singolo dell'album Crush, del 2000.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/It%27s_My_Life_(Bon_Jovi_song)",
+          "title": "It's My Life (Bon Jovi song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/bon-jovi/its-my-life",
+          "title": "It's My Life",
+          "publisher": "Songfacts"
+        }
+      ]
+    },
+    {
+      "claim": "Jon Bon Jovi scrisse i versi su Frank Sinatra e su My Way nonostante l'obiezione di Sambora, che pensava che a nessuno interessasse più Sinatra.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/It%27s_My_Life_(Bon_Jovi_song)",
+          "title": "It's My Life (Bon Jovi song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://americansongwriter.com/a-comeback-anthem-for-a-band-that-never-really-went-away-the-meaning-behind-its-my-life-by-bon-jovi",
+          "title": "The Meaning Behind \"It's My Life\" by Bon Jovi",
+          "publisher": "American Songwriter"
+        }
+      ]
+    },
+    {
+      "claim": "Il testo cita Tommy e Gina, i personaggi di Livin' on a Prayer.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/It%27s_My_Life_(Bon_Jovi_song)",
+          "title": "It's My Life (Bon Jovi song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/bon-jovi/its-my-life",
+          "title": "It's My Life",
+          "publisher": "Songfacts"
+        }
+      ]
+    },
+    {
+      "claim": "Richie Sambora usò il talk box nella canzone.",
+      "sources": [
+        {
+          "url": "https://americansongwriter.com/a-comeback-anthem-for-a-band-that-never-really-went-away-the-meaning-behind-its-my-life-by-bon-jovi",
+          "title": "The Meaning Behind \"It's My Life\" by Bon Jovi",
+          "publisher": "American Songwriter"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/bon-jovi/its-my-life",
+          "title": "It's My Life",
+          "publisher": "Songfacts"
+        }
+      ]
+    },
+    {
+      "claim": "Nel Regno Unito It's My Life arrivò al numero 3 nel 2000.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/It%27s_My_Life_(Bon_Jovi_song)",
+          "title": "It's My Life (Bon Jovi song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://officialcharts.com/songs/bon-jovi-its-my-life",
+          "title": "It's My Life",
+          "publisher": "Official Charts Company"
+        }
+      ]
+    },
+    {
+      "claim": "It's My Life arrivò al primo posto in Austria, Italia e Svizzera.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/It%27s_My_Life_(Bon_Jovi_song)",
+          "title": "It's My Life (Bon Jovi song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/bon-jovi/its-my-life",
+          "title": "It's My Life",
+          "publisher": "Songfacts"
+        }
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "heading_cuts": [
+        "UNA RIGA",
+        "su SINATRA",
+        "e il parere",
+        "di SAMBORA"
+      ],
+      "body": null,
+      "marker": "Jon la volle lo stesso ↓",
+      "photos": [
+        {
+          "query": "Jon Bon Jovi 2000 concert",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Jon Bon Jovi"
+        },
+        {
+          "query": "Richie Sambora",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Richie Sambora"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "BON JOVI",
+        "2000"
+      ],
+      "body": "It's My Life è il primo singolo dell'album Crush, del 2000. La scrissero Jon Bon Jovi, Richie Sambora e Max Martin.",
+      "marker": "tre autori, una canzone",
+      "photos": [
+        {
+          "query": "Jon Bon Jovi",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Jon Bon Jovi"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "IL TALK BOX",
+        "di RICHIE"
+      ],
+      "body": "Richie Sambora usò il talk box nella canzone.",
+      "marker": "quel suono è suo",
+      "photos": [
+        {
+          "query": "Richie Sambora guitar",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Richie Sambora"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "E SINATRA?",
+        "no, grazie"
+      ],
+      "body": "Jon Bon Jovi scrisse i versi su Frank Sinatra e su My Way nonostante l'obiezione di Sambora, che pensava che a nessuno interessasse più Sinatra.",
+      "marker": "Jon non ha mollato",
+      "photos": [
+        {
+          "query": "Jon Bon Jovi live",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Jon Bon Jovi"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "emotion",
+      "heading_cuts": [
+        "TOMMY",
+        "e GINA",
+        "ritornano"
+      ],
+      "body": "Il testo cita Tommy e Gina, i personaggi di Livin' on a Prayer.",
+      "marker": "mandala a chi li ricorda ♥",
+      "photos": [
+        {
+          "query": "Bon Jovi live",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Jon Bon Jovi"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "result",
+      "heading_cuts": [
+        "N°3",
+        "nel Regno Unito"
+      ],
+      "body": "Nel Regno Unito It's My Life arrivò al numero 3 nel 2000. Arrivò al primo posto in Austria, Italia e Svizzera.",
+      "marker": null,
+      "photos": [
+        {
+          "query": "Bon Jovi 2000",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Jon Bon Jovi"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "final",
+      "heading_cuts": [
+        "E TU?"
+      ],
+      "body": null,
+      "marker": "scrivila nei commenti ↓",
+      "photos": [
+        {
+          "query": "Richie Sambora Bon Jovi",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Richie Sambora"
+        }
+      ],
+      "source_note": null
+    }
+  ],
+  "caption_body": "It's My Life è il primo singolo dell'album Crush, del 2000. Jon Bon Jovi scrisse i versi su Frank Sinatra e su My Way nonostante l'obiezione di Sambora, che pensava che a nessuno interessasse più Sinatra. Nel Regno Unito arrivò al numero 3 nel 2000.",
+  "question": "Qual è la tua canzone dei Bon Jovi?",
+  "listen_track": "Bon Jovi – It's My Life",
+  "lyric_quote": null,
+  "hashtags": [
+    "#bonjovi",
+    "#musica2000",
+    "#storiedellamusica",
+    "#50onrecord"
+  ]
+}

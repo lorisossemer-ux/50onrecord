@@ -1,0 +1,231 @@
+{
+  "id": "1971-led-zeppelin-black-dog",
+  "artist": "Led Zeppelin",
+  "song": "Black Dog",
+  "year": 1971,
+  "decade": "70",
+  "strand": "studio",
+  "italian": false,
+  "facts": [
+    {
+      "claim": "Il titolo di Black Dog viene da un labrador nero senza nome che girava nel parco di Headley Grange.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Black_Dog_(Led_Zeppelin_song)",
+          "title": "Black Dog (Led Zeppelin song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/led-zeppelin/black-dog",
+          "title": "Black Dog",
+          "publisher": "Songfacts"
+        }
+      ]
+    },
+    {
+      "claim": "Il riff principale di Black Dog è attribuito a John Paul Jones.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Black_Dog_(Led_Zeppelin_song)",
+          "title": "Black Dog (Led Zeppelin song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/led-zeppelin/black-dog",
+          "title": "Black Dog",
+          "publisher": "Songfacts"
+        }
+      ]
+    },
+    {
+      "claim": "I versi di Robert Plant sono cantati a cappella e si alternano alla band; il fermarsi e ripartire fu ispirato da Oh Well dei Fleetwood Mac, del 1969.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Black_Dog_(Led_Zeppelin_song)",
+          "title": "Black Dog (Led Zeppelin song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/led-zeppelin/black-dog",
+          "title": "Black Dog",
+          "publisher": "Songfacts"
+        }
+      ]
+    },
+    {
+      "claim": "Black Dog fu registrata a Headley Grange con lo studio mobile dei Rolling Stones.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Black_Dog_(Led_Zeppelin_song)",
+          "title": "Black Dog (Led Zeppelin song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/led-zeppelin/black-dog",
+          "title": "Black Dog",
+          "publisher": "Songfacts"
+        }
+      ]
+    },
+    {
+      "claim": "Black Dog del 1971 arrivò al numero 15 negli Stati Uniti.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Black_Dog_(Led_Zeppelin_song)",
+          "title": "Black Dog (Led Zeppelin song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/led-zeppelin/black-dog",
+          "title": "Black Dog",
+          "publisher": "Songfacts"
+        }
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "heading_cuts": [
+        "UN CANE",
+        "NERO",
+        "senza nome",
+        "e un TITOLO"
+      ],
+      "body": null,
+      "marker": "da qui il titolo ↓",
+      "photos": [
+        {
+          "query": "Led Zeppelin 1970s concert",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Led Zeppelin"
+        },
+        {
+          "query": "Robert Plant 1970s",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Robert Plant"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "HEADLEY",
+        "GRANGE",
+        "1971"
+      ],
+      "body": "Black Dog fu registrata a Headley Grange con lo studio mobile dei Rolling Stones.",
+      "marker": "uno studio su ruote",
+      "photos": [
+        {
+          "query": "Led Zeppelin",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Led Zeppelin"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "IL TITOLO"
+      ],
+      "body": "Il titolo di Black Dog viene da un labrador nero senza nome che girava nel parco di Headley Grange.",
+      "marker": "nessuno sa il suo nome",
+      "photos": [
+        {
+          "query": "Jimmy Page",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Jimmy Page"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "JOHN PAUL",
+        "JONES"
+      ],
+      "body": "Il riff principale di Black Dog è attribuito a John Paul Jones.",
+      "marker": "il riff è suo",
+      "photos": [
+        {
+          "query": "John Paul Jones Led Zeppelin",
+          "commons_file": null,
+          "role": "main",
+          "subject": "John Paul Jones"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "emotion",
+      "heading_cuts": [
+        "VOCE",
+        "e BAND"
+      ],
+      "body": "I versi di Robert Plant sono cantati a cappella e si alternano alla band; il fermarsi e ripartire fu ispirato da Oh Well dei Fleetwood Mac, del 1969.",
+      "marker": "manda questo riff a chi lo sa suonare",
+      "photos": [
+        {
+          "query": "Robert Plant live",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Robert Plant"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "result",
+      "heading_cuts": [
+        "N°15",
+        "negli USA"
+      ],
+      "body": "Black Dog del 1971 arrivò al numero 15 negli Stati Uniti.",
+      "marker": null,
+      "photos": [
+        {
+          "query": "Led Zeppelin 1970s",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Led Zeppelin"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "final",
+      "heading_cuts": [
+        "E TU?"
+      ],
+      "body": null,
+      "marker": "scrivila nei commenti ↓",
+      "photos": [
+        {
+          "query": "Jimmy Page Led Zeppelin",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Jimmy Page"
+        }
+      ],
+      "source_note": null
+    }
+  ],
+  "caption_body": "Il titolo di Black Dog viene da un labrador nero senza nome che girava nel parco di Headley Grange. La canzone fu registrata lì con lo studio mobile dei Rolling Stones, e il riff principale è attribuito a John Paul Jones. Nel 1971 arrivò al numero 15 negli Stati Uniti.",
+  "question": "Qual è il tuo riff preferito dei Led Zeppelin?",
+  "listen_track": "Led Zeppelin – Black Dog",
+  "lyric_quote": null,
+  "hashtags": [
+    "#ledzeppelin",
+    "#musica70",
+    "#storiedellamusica",
+    "#50onrecord"
+  ]
+}
