@@ -1,10 +1,9 @@
-# Pubblicazione: ogni 15 minuti controlla se c'è uno slot (12:30 / 20:30 ora di Roma) da coprire.
-# Se fallisce, GitHub manda un'email al proprietario del repository (spec §9, avvisi).
+# REGOLA DELL'UTENTE (16/11/2026): i contenuti NON si pubblicano mai da soli.
+# La musica la aggiunge lui a mano al momento della pubblicazione. Per questo l'avvio automatico
+# ogni 15 minuti è stato tolto: questo workflow parte solo se lo avvia l'utente a mano.
 name: pubblica
 
 on:
-  schedule:
-    - cron: "*/15 * * * *"
   workflow_dispatch:
     inputs:
       subito:
