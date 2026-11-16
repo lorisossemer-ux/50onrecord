@@ -1,0 +1,221 @@
+{
+  "id": "1975-kiss-rock-and-roll-all-nite",
+  "artist": "Kiss",
+  "song": "Rock and Roll All Nite",
+  "year": 1975,
+  "decade": "70",
+  "strand": "studio",
+  "italian": false,
+  "facts": [
+    {
+      "claim": "Neil Bogart, capo della Casablanca Records, chiese ai Kiss di scrivere un inno.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Rock_and_Roll_All_Nite",
+          "title": "Rock and Roll All Nite",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/kiss/rock-and-roll-all-nite",
+          "title": "Rock and Roll All Nite",
+          "publisher": "Songfacts"
+        }
+      ]
+    },
+    {
+      "claim": "Paul Stanley scrisse il ritornello e Gene Simmons scrisse le strofe di Rock and Roll All Nite.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Rock_and_Roll_All_Nite",
+          "title": "Rock and Roll All Nite",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/kiss/rock-and-roll-all-nite",
+          "title": "Rock and Roll All Nite",
+          "publisher": "Songfacts"
+        }
+      ]
+    },
+    {
+      "claim": "Rock and Roll All Nite uscì negli Stati Uniti il 2 aprile 1975, nell'album Dressed to Kill.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Rock_and_Roll_All_Nite",
+          "title": "Rock and Roll All Nite",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/kiss/rock-and-roll-all-nite",
+          "title": "Rock and Roll All Nite",
+          "publisher": "Songfacts"
+        }
+      ]
+    },
+    {
+      "claim": "La versione in studio arrivò al numero 68 della Billboard Hot 100.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Rock_and_Roll_All_Nite",
+          "title": "Rock and Roll All Nite",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/kiss/rock-and-roll-all-nite",
+          "title": "Rock and Roll All Nite",
+          "publisher": "Songfacts"
+        }
+      ]
+    },
+    {
+      "claim": "La versione dal vivo, registrata il 16 maggio 1975 e inclusa in Alive!, arrivò al numero 12 della Billboard Hot 100 all'inizio del 1976.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Rock_and_Roll_All_Nite",
+          "title": "Rock and Roll All Nite",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/kiss/rock-and-roll-all-nite",
+          "title": "Rock and Roll All Nite",
+          "publisher": "Songfacts"
+        }
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "heading_cuts": [
+        "UN INNO",
+        "ordinato",
+        "dal capo",
+        "dell'etichetta"
+      ],
+      "body": null,
+      "marker": "la storia vera di un classico ↓",
+      "photos": [
+        {
+          "query": "Kiss 1975 concert",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Kiss"
+        },
+        {
+          "query": "Paul Stanley Kiss",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Paul Stanley"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "CASABLANCA",
+        "1975"
+      ],
+      "body": "Neil Bogart, capo della Casablanca Records, chiese ai Kiss di scrivere un inno.",
+      "marker": "la richiesta →",
+      "photos": [
+        {
+          "query": "Kiss band 1975",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Kiss"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "trio",
+      "heading_cuts": [
+        "DUE AUTORI",
+        "un solo inno"
+      ],
+      "body": "Paul Stanley scrisse il ritornello e Gene Simmons scrisse le strofe di Rock and Roll All Nite.",
+      "marker": "Paul: ritornello | Gene: strofe",
+      "photos": [
+        {
+          "query": "Paul Stanley 1975",
+          "commons_file": null,
+          "role": "trio",
+          "subject": "Paul Stanley"
+        },
+        {
+          "query": "Gene Simmons 1975",
+          "commons_file": null,
+          "role": "trio",
+          "subject": "Gene Simmons"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "emotion",
+      "heading_cuts": [
+        "IL RITORNELLO",
+        "di Paul Stanley"
+      ],
+      "body": "Il ritornello l'ha scritto Paul Stanley: l'inno che Bogart aveva chiesto ai Kiss.",
+      "marker": "l'inno che Bogart voleva.",
+      "photos": [
+        {
+          "query": "Paul Stanley live",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Paul Stanley"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "result",
+      "heading_cuts": [
+        "N°68",
+        "poi N°12",
+        "1975-1976"
+      ],
+      "body": "La versione in studio, uscita il 2 aprile 1975 in Dressed to Kill, arriva al numero 68 della Billboard Hot 100. La versione dal vivo, registrata il 16 maggio 1975 e inclusa in Alive!, arriva al numero 12 all'inizio del 1976.",
+      "marker": null,
+      "photos": [
+        {
+          "query": "Kiss Alive 1975",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Kiss"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "final",
+      "heading_cuts": [
+        "E TU?"
+      ],
+      "body": null,
+      "marker": "scrivila nei commenti ↓",
+      "photos": [
+        {
+          "query": "Gene Simmons Kiss",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Gene Simmons"
+        }
+      ],
+      "source_note": null
+    }
+  ],
+  "caption_body": "Neil Bogart, capo della Casablanca Records, chiese ai Kiss di scrivere un inno. Paul Stanley scrisse il ritornello e Gene Simmons le strofe. La versione in studio, uscita il 2 aprile 1975, arrivò al numero 68 della Hot 100; quella dal vivo, registrata il 16 maggio 1975, al numero 12 all'inizio del 1976.",
+  "question": "Qual è il tuo inno rock preferito dei Kiss?",
+  "listen_track": "Kiss – Rock and Roll All Nite",
+  "lyric_quote": null,
+  "hashtags": [
+    "#kiss",
+    "#rockandroll",
+    "#musica70",
+    "#storiedellamusica",
+    "#50onrecord"
+  ]
+}

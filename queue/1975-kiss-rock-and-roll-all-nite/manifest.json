@@ -1,0 +1,44 @@
+{
+  "id": "1975-kiss-rock-and-roll-all-nite",
+  "artist": "Kiss",
+  "song": "Rock and Roll All Nite",
+  "decade": "70",
+  "strand": "studio",
+  "italian": false,
+  "key": "kiss|rock and roll all nite|studio",
+  "issue": 39,
+  "status": "ready",
+  "created_at": "2026-11-16T07:13:59.501391+00:00",
+  "photos": [
+    {
+      "author": "Casablanca Records",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kiss_(Kenosha_Arena_1975_show_advert).JPG"
+    },
+    {
+      "author": "Philkon Phil Konstantin",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:PaulStanleyOfKissWithPhilKonstantin_(cropped).jpg"
+    },
+    {
+      "author": "Casablanca Records",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kiss_at_backstage_(1975)_(Paul_Stanley).jpg"
+    },
+    {
+      "author": "Casablanca Records",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kiss_at_backstage_(1975).jpg"
+    },
+    {
+      "author": "NESR",
+      "license": "CC BY-SA 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kiss_-_Paul_Stanley_-_Destroyer_Tour.jpg"
+    },
+    {
+      "author": "Toglenn",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Gene_Simmons_2012.jpg"
+    }
+  ]
+}
