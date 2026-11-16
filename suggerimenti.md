@@ -10,3 +10,13 @@ Solo artisti e canzoni straniere. Gli artisti già trattati si riconoscono da `u
 - Guns N' Roses
 - Led Zeppelin
 - Green Day
+- Queen (Under Pressure)
+- System of a Down (Toxicity)
+- Coldplay (Yellow)
+- The Who (una delle canzoni usate in CSI: Who Are You, Baba O'Riley o Won't Get Fooled Again)
+- The Doors (Riders on the Storm)
+- AC/DC (Back in Black)
+- Black Sabbath (Iron Man)
+- Muse (Starlight)
+- Foo Fighters (Everlong)
+- Evanescence (Bring Me to Life)
