@@ -1,0 +1,44 @@
+{
+  "id": "1997-foo-fighters-everlong",
+  "artist": "Foo Fighters",
+  "song": "Everlong",
+  "decade": "90",
+  "strand": "studio",
+  "italian": false,
+  "key": "foo fighters|everlong|studio",
+  "issue": 40,
+  "status": "ready",
+  "created_at": "2026-11-17T09:08:51.834933+00:00",
+  "photos": [
+    {
+      "author": "Thomson200",
+      "license": "CC0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2021_Shaky_Knees_-_Foo_Fighters_(23).jpg"
+    },
+    {
+      "author": "Andreas Lawen, Fotandi",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pat_Smear_-_Foo_Fighters_-_Rock_am_Ring_2018_(cropped).jpg"
+    },
+    {
+      "author": "Roger Woolman",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Dave_Grohl_(55208416).jpeg"
+    },
+    {
+      "author": "Craig Carper",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Dave-Grohl_drums.jpg"
+    },
+    {
+      "author": "Thomson200",
+      "license": "CC0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2021_Shaky_Knees_-_Foo_Fighters_(19).jpg"
+    },
+    {
+      "author": "Thomson200",
+      "license": "CC0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2021_Shaky_Knees_-_Foo_Fighters_(21).jpg"
+    }
+  ]
+}

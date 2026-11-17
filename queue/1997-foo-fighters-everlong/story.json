@@ -1,0 +1,292 @@
+{
+  "id": "1997-foo-fighters-everlong",
+  "artist": "Foo Fighters",
+  "song": "Everlong",
+  "year": 1997,
+  "decade": "90",
+  "strand": "studio",
+  "italian": false,
+  "facts": [
+    {
+      "claim": "Alla fine del 1996 Dave Grohl, ospite a casa di un amico in Virginia e con un sacco a pelo sul pavimento, scrisse Everlong in meno di un'ora.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Everlong",
+          "title": "Everlong",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://americansongwriter.com/behind-the-song-everlong-by-dave-grohl-foo-fighters",
+          "title": "Behind The Song: Everlong",
+          "publisher": "American Songwriter"
+        }
+      ]
+    },
+    {
+      "claim": "Grohl registrò un demo suonando da solo tutti gli strumenti.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Everlong",
+          "title": "Everlong",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://americansongwriter.com/behind-the-song-everlong-by-dave-grohl-foo-fighters",
+          "title": "Behind The Song: Everlong",
+          "publisher": "American Songwriter"
+        }
+      ]
+    },
+    {
+      "claim": "Everlong fu ispirata dalla storia d'amore di Grohl con Louise Post dei Veruca Salt.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Everlong",
+          "title": "Everlong",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://stereogum.com/2153963/veruca-salt-louise-post-foo-fighters-everlong/music",
+          "title": "Louise Post on Everlong",
+          "publisher": "Stereogum"
+        }
+      ]
+    },
+    {
+      "claim": "Il brano fu registrato a Hollywood con il produttore Gil Norton.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Everlong",
+          "title": "Everlong",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://americansongwriter.com/behind-the-song-everlong-by-dave-grohl-foo-fighters",
+          "title": "Behind The Song: Everlong",
+          "publisher": "American Songwriter"
+        }
+      ]
+    },
+    {
+      "claim": "Louise Post era a Chicago e registrò le sue parti vocali a distanza, per telefono.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Everlong",
+          "title": "Everlong",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://americansongwriter.com/behind-the-song-everlong-by-dave-grohl-foo-fighters",
+          "title": "Behind The Song: Everlong",
+          "publisher": "American Songwriter"
+        },
+        {
+          "url": "https://stereogum.com/2153963/veruca-salt-louise-post-foo-fighters-everlong/music",
+          "title": "Louise Post on Everlong",
+          "publisher": "Stereogum"
+        }
+      ]
+    },
+    {
+      "claim": "David Letterman ha definito Everlong la sua canzone preferita.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Everlong",
+          "title": "Everlong",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://americansongwriter.com/behind-lettermans-favorite-song-everlong/",
+          "title": "Behind Letterman's Favorite Song, Everlong",
+          "publisher": "American Songwriter"
+        },
+        {
+          "url": "https://salon.com/2015/05/21/watch_the_foo_fighters_send_david_letterman_off_with_a_glorious_career_spanning_montage/",
+          "title": "Foo Fighters send David Letterman off",
+          "publisher": "Salon"
+        }
+      ]
+    },
+    {
+      "claim": "Il 21 febbraio 2000 i Foo Fighters suonarono Everlong nel programma di Letterman, nella prima serata dopo la sua operazione al cuore.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Everlong",
+          "title": "Everlong",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://americansongwriter.com/behind-lettermans-favorite-song-everlong/",
+          "title": "Behind Letterman's Favorite Song, Everlong",
+          "publisher": "American Songwriter"
+        }
+      ]
+    },
+    {
+      "claim": "I Foo Fighters cancellarono parte del tour sudamericano per partecipare.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Everlong",
+          "title": "Everlong",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://americansongwriter.com/behind-lettermans-favorite-song-everlong/",
+          "title": "Behind Letterman's Favorite Song, Everlong",
+          "publisher": "American Songwriter"
+        },
+        {
+          "url": "https://salon.com/2015/05/21/watch_the_foo_fighters_send_david_letterman_off_with_a_glorious_career_spanning_montage/",
+          "title": "Foo Fighters send David Letterman off",
+          "publisher": "Salon"
+        }
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "heading_cuts": [
+        "MENO DI",
+        "UN'ORA",
+        "SUL PAVIMENTO",
+        "DI UN AMICO"
+      ],
+      "body": null,
+      "marker": "così nacque Everlong ↓",
+      "photos": [
+        {
+          "query": "Dave Grohl Foo Fighters",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Dave Grohl"
+        },
+        {
+          "query": "Pat Smear Foo Fighters",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Pat Smear"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "VIRGINIA",
+        "1996"
+      ],
+      "body": "Alla fine del 1996 Dave Grohl è ospite a casa di un amico in Virginia, con un sacco a pelo sul pavimento. Scrive Everlong in meno di un'ora.",
+      "marker": "meno di un'ora",
+      "photos": [
+        {
+          "query": "Dave Grohl guitar",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Dave Grohl"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "TUTTO",
+        "DA SOLO"
+      ],
+      "body": "Grohl registra un demo suonando da solo tutti gli strumenti.",
+      "marker": "tutti gli strumenti: lui",
+      "photos": [
+        {
+          "query": "Dave Grohl drums",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Dave Grohl"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "emotion",
+      "heading_cuts": [
+        "UNA STORIA",
+        "D'AMORE"
+      ],
+      "body": "Everlong è ispirata alla storia d'amore di Grohl con Louise Post dei Veruca Salt.",
+      "marker": "ispirata a una storia d'amore.",
+      "photos": [
+        {
+          "query": "Dave Grohl live",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Dave Grohl"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "PER",
+        "TELEFONO"
+      ],
+      "body": "Il brano viene registrato a Hollywood con il produttore Gil Norton. Louise Post è a Chicago e registra le sue parti vocali a distanza, per telefono.",
+      "marker": null,
+      "photos": [
+        {
+          "query": "Nate Mendel Foo Fighters",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Nate Mendel"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "result",
+      "heading_cuts": [
+        "LA PREFERITA",
+        "DI LETTERMAN"
+      ],
+      "body": "David Letterman la definisce la sua canzone preferita. Il 21 febbraio 2000 i Foo Fighters la suonano nel suo programma, nella prima serata dopo la sua operazione al cuore. Cancellano parte del tour sudamericano per partecipare.",
+      "marker": null,
+      "photos": [
+        {
+          "query": "Foo Fighters live 2000s",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Foo Fighters"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "final",
+      "heading_cuts": [
+        "E TU?"
+      ],
+      "body": null,
+      "marker": "scrivila nei commenti ↓",
+      "photos": [
+        {
+          "query": "Taylor Hawkins Foo Fighters",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Taylor Hawkins"
+        }
+      ],
+      "source_note": null
+    }
+  ],
+  "caption_body": "Fine 1996, Virginia: Dave Grohl, ospite a casa di un amico, scrive Everlong in meno di un'ora. Il brano è ispirato alla sua storia d'amore con Louise Post, che registra le sue parti a distanza, per telefono. David Letterman la definisce la sua canzone preferita.",
+  "question": "Qual è la canzone che ti ha accompagnato in un momento difficile?",
+  "listen_track": "Foo Fighters – Everlong",
+  "lyric_quote": null,
+  "hashtags": [
+    "#foofighters",
+    "#davegrohl",
+    "#musica90",
+    "#storiedellamusica",
+    "#50onrecord"
+  ]
+}
