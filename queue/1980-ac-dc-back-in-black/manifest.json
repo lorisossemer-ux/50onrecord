@@ -1,0 +1,39 @@
+{
+  "id": "1980-ac-dc-back-in-black",
+  "artist": "AC/DC",
+  "song": "Back in Black",
+  "decade": "80",
+  "strand": "emozione",
+  "italian": false,
+  "key": "ac dc|back in black|emozione",
+  "issue": 42,
+  "status": "ready",
+  "created_at": "2026-11-18T09:04:50.211418+00:00",
+  "photos": [
+    {
+      "author": "Egghead06",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Angus_Young_of_AC_DC_at_London%27s_Olympic_Stadium.jpg"
+    },
+    {
+      "author": "MATT BECKER",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Brian_Johnson.jpg"
+    },
+    {
+      "author": "Lost Parables from Ballymena, Northern Ireland. ©jameshughes",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bon_Scott_(cropped).jpg"
+    },
+    {
+      "author": "Joan Sorolla from La Roca del Vallès, Catalonia",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Angus_Young_(AC_DC)_(5257559786).jpg"
+    },
+    {
+      "author": "Harry (Howard) Potts",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:1982_Malcolm_Young.jpg"
+    }
+  ]
+}

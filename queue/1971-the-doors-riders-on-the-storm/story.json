@@ -1,0 +1,283 @@
+{
+  "id": "1971-the-doors-riders-on-the-storm",
+  "artist": "The Doors",
+  "song": "Riders on the Storm",
+  "year": 1971,
+  "decade": "70",
+  "strand": "studio",
+  "italian": false,
+  "facts": [
+    {
+      "claim": "Riders on the Storm fu l'ultima canzone registrata da tutti e quattro i Doors e l'ultima registrata da Jim Morrison che uscì mentre era in vita.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Riders_on_the_Storm",
+          "title": "Riders on the Storm",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/the-doors/riders-on-the-storm",
+          "title": "Riders On The Storm",
+          "publisher": "Songfacts"
+        }
+      ]
+    },
+    {
+      "claim": "Il brano nacque da (Ghost) Riders in the Sky, una canzone di Stan Jones.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Riders_on_the_Storm",
+          "title": "Riders on the Storm",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/the-doors/riders-on-the-storm",
+          "title": "Riders On The Storm",
+          "publisher": "Songfacts"
+        }
+      ]
+    },
+    {
+      "claim": "Al basso c'era Jerry Scheff, chiamato a suonare con i Doors.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Riders_on_the_Storm",
+          "title": "Riders on the Storm",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.mixonline.com/recording/classic-tracks/classic-tracks-doors-riders-storm-365596",
+          "title": "Classic Tracks: The Doors' Riders on the Storm",
+          "publisher": "Mix"
+        }
+      ]
+    },
+    {
+      "claim": "La pioggia e il tuono che si sentono nel brano sono effetti sonori già registrati.",
+      "sources": [
+        {
+          "url": "https://www.mixonline.com/recording/classic-tracks/classic-tracks-doors-riders-storm-365596",
+          "title": "Classic Tracks: The Doors' Riders on the Storm",
+          "publisher": "Mix"
+        },
+        {
+          "url": "https://www.songfacts.com/articles/how-the-doors-played-god-on-one-of-their-best-known-tracks/",
+          "title": "How The Doors Played God",
+          "publisher": "Songfacts"
+        }
+      ]
+    },
+    {
+      "claim": "Oltre alla voce cantata, Jim Morrison registrò il testo anche sussurrato.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Riders_on_the_Storm",
+          "title": "Riders on the Storm",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/the-doors/riders-on-the-storm",
+          "title": "Riders On The Storm",
+          "publisher": "Songfacts"
+        },
+        {
+          "url": "https://www.mixonline.com/recording/classic-tracks/classic-tracks-doors-riders-storm-365596",
+          "title": "Classic Tracks: The Doors' Riders on the Storm",
+          "publisher": "Mix"
+        }
+      ]
+    },
+    {
+      "claim": "Il brano uscì come singolo nel giugno 1971, secondo singolo dell'album L.A. Woman, e arrivò al numero 14 della Billboard Hot 100.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Riders_on_the_Storm",
+          "title": "Riders on the Storm",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/the-doors/riders-on-the-storm",
+          "title": "Riders On The Storm",
+          "publisher": "Songfacts"
+        }
+      ]
+    },
+    {
+      "claim": "Jim Morrison morì a Parigi il 3 luglio 1971.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Riders_on_the_Storm",
+          "title": "Riders on the Storm",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/the-doors/riders-on-the-storm",
+          "title": "Riders On The Storm",
+          "publisher": "Songfacts"
+        }
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "heading_cuts": [
+        "L'ULTIMA",
+        "canzone",
+        "di MORRISON"
+      ],
+      "body": null,
+      "marker": "registrata da tutti e quattro ↓",
+      "photos": [
+        {
+          "query": "Jim Morrison The Doors",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Jim Morrison"
+        },
+        {
+          "query": "Ray Manzarek The Doors",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Ray Manzarek"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "L'ULTIMA",
+        "1971"
+      ],
+      "body": "Riders on the Storm fu l'ultima canzone registrata da tutti e quattro i Doors. Fu anche l'ultima registrata da Jim Morrison che uscì mentre era in vita.",
+      "marker": "l'ultima volta in quattro",
+      "photos": [
+        {
+          "query": "The Doors band",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Jim Morrison"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "GHOST",
+        "RIDERS"
+      ],
+      "body": "Il brano nacque da (Ghost) Riders in the Sky, una canzone di Stan Jones.",
+      "marker": "da una canzone di Stan Jones",
+      "photos": [
+        {
+          "query": "Robby Krieger The Doors",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Robby Krieger"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "IL BASSO"
+      ],
+      "body": "Al basso c'era Jerry Scheff, chiamato a suonare con i Doors.",
+      "marker": "Jerry Scheff: basso",
+      "photos": [
+        {
+          "query": "Ray Manzarek keyboard",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Ray Manzarek"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "PIOGGIA",
+        "e TUONO"
+      ],
+      "body": "La pioggia e il tuono che si sentono nel brano sono effetti sonori già registrati.",
+      "marker": "effetti già registrati",
+      "photos": [
+        {
+          "query": "John Densmore The Doors",
+          "commons_file": null,
+          "role": "main",
+          "subject": "John Densmore"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "emotion",
+      "heading_cuts": [
+        "UN SUSSURRO"
+      ],
+      "body": "Oltre alla voce cantata, Jim Morrison registrò il testo anche sussurrato.",
+      "marker": "il testo sussurrato da Jim Morrison",
+      "photos": [
+        {
+          "query": "Jim Morrison live",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Jim Morrison"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "result",
+      "heading_cuts": [
+        "N°14",
+        "USA",
+        "1971"
+      ],
+      "body": "Il brano uscì come singolo nel giugno 1971 e arrivò al numero 14 della Billboard Hot 100. Jim Morrison morì a Parigi il 3 luglio 1971.",
+      "marker": null,
+      "photos": [
+        {
+          "query": "Jim Morrison 1970",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Jim Morrison"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "final",
+      "heading_cuts": [
+        "E TU?"
+      ],
+      "body": null,
+      "marker": "scrivila nei commenti ↓",
+      "photos": [
+        {
+          "query": "Robby Krieger Doors",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Robby Krieger"
+        }
+      ],
+      "source_note": null
+    }
+  ],
+  "caption_body": "Riders on the Storm fu l'ultima canzone registrata da tutti e quattro i Doors e l'ultima di Jim Morrison uscita mentre era in vita. Nacque da (Ghost) Riders in the Sky, ha la pioggia e il tuono già registrati e un testo sussurrato da Morrison. Uscì come singolo nel giugno 1971 e arrivò al numero 14 della Billboard Hot 100.",
+  "question": "Qual è la canzone dei Doors che ti accompagna di più?",
+  "listen_track": "The Doors – Riders on the Storm",
+  "lyric_quote": null,
+  "hashtags": [
+    "#thedoors",
+    "#jimmorrison",
+    "#musica70",
+    "#storiedellamusica",
+    "#50onrecord"
+  ]
+}

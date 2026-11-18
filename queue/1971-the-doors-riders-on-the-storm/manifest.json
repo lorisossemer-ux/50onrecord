@@ -1,0 +1,59 @@
+{
+  "id": "1971-the-doors-riders-on-the-storm",
+  "artist": "The Doors",
+  "song": "Riders on the Storm",
+  "decade": "70",
+  "strand": "studio",
+  "italian": false,
+  "key": "doors|riders on the storm|studio",
+  "issue": 41,
+  "status": "ready",
+  "created_at": "2026-11-18T09:04:41.760233+00:00",
+  "photos": [
+    {
+      "author": "Joel Brodsky; Distributed by Agency for the Performing Arts (APA)",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Jim_Morrison_1967,_from_a_promotion_picture_with_The_Doors.jpg"
+    },
+    {
+      "author": "Joel Brodsky; Distributed by Agency for the Performing Arts (APA)",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ray_Manzarek_in_1968_(cropped).JPG"
+    },
+    {
+      "author": "Joel Brodsky; Distributed by Elektra Records",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Doors_electra_publicity_photo.JPG"
+    },
+    {
+      "author": "Elektra Records",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:The_Doors_(1971)_(Robby_Krieger).png"
+    },
+    {
+      "author": "Polfoto/Jan Persson",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ray_Manzarek_1968.jpg"
+    },
+    {
+      "author": "Elektra Records",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:John_Densmore_1971.png"
+    },
+    {
+      "author": "https://www.flickr.com/photos/ky_olsen/",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Jim_Morrison_graffiti.jpg"
+    },
+    {
+      "author": "Dade County Public Safety Department (Miami), Florida",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Jim_Morrison_1970.jpg"
+    },
+    {
+      "author": "Franccesco velasquez",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Robby_III.jpg"
+    }
+  ]
+}
