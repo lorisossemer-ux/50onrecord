@@ -1,0 +1,273 @@
+{
+  "id": "1970-black-sabbath-iron-man",
+  "artist": "Black Sabbath",
+  "song": "Iron Man",
+  "year": 1970,
+  "decade": "70",
+  "strand": "studio",
+  "italian": false,
+  "facts": [
+    {
+      "claim": "Tony Iommi inventò il riff di Iron Man sul momento, mentre il batterista Bill Ward suonava un ritmo ripetuto.",
+      "sources": [
+        {
+          "url": "https://blabbermouth.net/news/black-sabbaths-tony-iommi-how-i-came-up-with-iron-man-guitar-riff",
+          "title": "Tony Iommi: how I came up with Iron Man guitar riff",
+          "publisher": "Blabbermouth"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/black-sabbath/iron-man",
+          "title": "Iron Man",
+          "publisher": "Songfacts"
+        },
+        {
+          "url": "https://faroutmagazine.co.uk/how-tony-iommi-created-black-sabbaths-iron-man-riff/",
+          "title": "How Tony Iommi created the iconic riff for Black Sabbath's Iron Man",
+          "publisher": "Far Out Magazine"
+        }
+      ]
+    },
+    {
+      "claim": "Iommi immaginò qualcuno che si avvicina di soppiatto e sentì il riff come un mostro.",
+      "sources": [
+        {
+          "url": "https://blabbermouth.net/news/black-sabbaths-tony-iommi-how-i-came-up-with-iron-man-guitar-riff",
+          "title": "Tony Iommi: how I came up with Iron Man guitar riff",
+          "publisher": "Blabbermouth"
+        },
+        {
+          "url": "https://faroutmagazine.co.uk/how-tony-iommi-created-black-sabbaths-iron-man-riff/",
+          "title": "How Tony Iommi created the iconic riff for Black Sabbath's Iron Man",
+          "publisher": "Far Out Magazine"
+        }
+      ]
+    },
+    {
+      "claim": "Il riff fece pensare a Ozzy Osbourne a un grosso uomo di ferro che cammina in giro, e il bassista Geezer Butler scrisse il testo a partire da quell'idea.",
+      "sources": [
+        {
+          "url": "https://faroutmagazine.co.uk/how-tony-iommi-created-black-sabbaths-iron-man-riff/",
+          "title": "How Tony Iommi created the iconic riff for Black Sabbath's Iron Man",
+          "publisher": "Far Out Magazine"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/black-sabbath/iron-man",
+          "title": "Iron Man",
+          "publisher": "Songfacts"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Iron_Man_(song)",
+          "title": "Iron Man (song)",
+          "publisher": "Wikipedia"
+        }
+      ]
+    },
+    {
+      "claim": "Il testo di Geezer Butler è una storia di fantascienza.",
+      "sources": [
+        {
+          "url": "https://www.songfacts.com/facts/black-sabbath/iron-man",
+          "title": "Iron Man",
+          "publisher": "Songfacts"
+        },
+        {
+          "url": "https://americansongwriter.com/the-meaning-behind-iron-man-by-black-sabbath",
+          "title": "The meaning behind Iron Man by Black Sabbath",
+          "publisher": "American Songwriter"
+        }
+      ]
+    },
+    {
+      "claim": "Iron Man fu registrata nel giugno 1970 per l'album Paranoid.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Iron_Man_(song)",
+          "title": "Iron Man (song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://americansongwriter.com/the-meaning-behind-iron-man-by-black-sabbath",
+          "title": "The meaning behind Iron Man by Black Sabbath",
+          "publisher": "American Songwriter"
+        }
+      ]
+    },
+    {
+      "claim": "Iron Man uscì come singolo il 7 ottobre 1971, secondo singolo estratto da Paranoid, e nel 1972 raggiunse il numero 52 della Billboard Hot 100.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Iron_Man_(song)",
+          "title": "Iron Man (song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://faroutmagazine.co.uk/how-tony-iommi-created-black-sabbaths-iron-man-riff/",
+          "title": "How Tony Iommi created the iconic riff for Black Sabbath's Iron Man",
+          "publisher": "Far Out Magazine"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/black-sabbath/iron-man",
+          "title": "Iron Man",
+          "publisher": "Songfacts"
+        }
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "heading_cuts": [
+        "IL RIFF",
+        "come un",
+        "UOMO DI FERRO"
+      ],
+      "body": null,
+      "marker": "l'idea è di Ozzy ↓",
+      "photos": [
+        {
+          "query": "Black Sabbath Tony Iommi 1970s live",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Tony Iommi"
+        },
+        {
+          "query": "Black Sabbath Ozzy Osbourne 1970s",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Ozzy Osbourne"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "SABBATH",
+        "1970"
+      ],
+      "body": "Giugno 1970: i Black Sabbath registrano Iron Man per il loro album Paranoid.",
+      "marker": "tutto parte da un riff →",
+      "photos": [
+        {
+          "query": "Black Sabbath Geezer Butler 1970s",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Geezer Butler"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "IL RIFF",
+        "di IOMMI"
+      ],
+      "body": "Tony Iommi inventa il riff sul momento, mentre il batterista Bill Ward suona un ritmo ripetuto.",
+      "marker": "Tony: riff | Bill: ritmo",
+      "photos": [
+        {
+          "query": "Tony Iommi Black Sabbath live",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Tony Iommi"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "trio",
+      "heading_cuts": [
+        "TRE IDEE",
+        "un brano"
+      ],
+      "body": "A Ozzy Osbourne il riff fa pensare a un grosso uomo di ferro che cammina in giro. Il bassista Geezer Butler parte da quell'idea per scrivere il testo.",
+      "marker": "Ozzy: l'idea | Tony: il riff | Geezer: il testo",
+      "photos": [
+        {
+          "query": "Ozzy Osbourne Black Sabbath 1970s",
+          "commons_file": null,
+          "role": "trio",
+          "subject": "Ozzy Osbourne"
+        },
+        {
+          "query": "Tony Iommi Black Sabbath 1970s",
+          "commons_file": null,
+          "role": "trio",
+          "subject": "Tony Iommi"
+        },
+        {
+          "query": "Geezer Butler Black Sabbath 1970s",
+          "commons_file": null,
+          "role": "trio",
+          "subject": "Geezer Butler"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "emotion",
+      "heading_cuts": [
+        "UN MOSTRO",
+        "che cammina"
+      ],
+      "body": "Iommi immagina qualcuno che si avvicina di soppiatto e sente il riff come un mostro. Il testo di Geezer Butler è una storia di fantascienza.",
+      "marker": "il riff come un mostro.",
+      "photos": [
+        {
+          "query": "Black Sabbath live 1970s",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Black Sabbath"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "result",
+      "heading_cuts": [
+        "SINGOLO",
+        "OTTOBRE 1971"
+      ],
+      "body": "Esce il 7 ottobre 1971, secondo singolo estratto da Paranoid. Nel 1972 arriva al numero 52 della Billboard Hot 100.",
+      "marker": null,
+      "photos": [
+        {
+          "query": "Black Sabbath 1970s",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Black Sabbath"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "final",
+      "heading_cuts": [
+        "E TU?"
+      ],
+      "body": null,
+      "marker": "scrivila nei commenti ↓",
+      "photos": [
+        {
+          "query": "Ozzy Osbourne Black Sabbath live",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Ozzy Osbourne"
+        }
+      ],
+      "source_note": null
+    }
+  ],
+  "caption_body": "Nel giugno 1970 i Black Sabbath registrano Iron Man per Paranoid. Tony Iommi inventa il riff sul momento, Ozzy Osbourne pensa a un grosso uomo di ferro che cammina in giro e Geezer Butler scrive il testo a partire da quell'idea. Il singolo esce il 7 ottobre 1971.",
+  "question": "Qual è il riff dei Black Sabbath che non ti stanca mai?",
+  "listen_track": "Black Sabbath – Iron Man",
+  "lyric_quote": null,
+  "hashtags": [
+    "#blacksabbath",
+    "#ironman",
+    "#musica70",
+    "#storiedellamusica",
+    "#50onrecord"
+  ]
+}
