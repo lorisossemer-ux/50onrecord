@@ -1,0 +1,44 @@
+{
+  "id": "2000-coldplay-yellow",
+  "artist": "Coldplay",
+  "song": "Yellow",
+  "decade": "00",
+  "strand": "studio",
+  "italian": false,
+  "key": "coldplay|yellow|studio",
+  "issue": 45,
+  "status": "ready",
+  "created_at": "2026-11-20T07:04:26.592938+00:00",
+  "photos": [
+    {
+      "author": "Carlos Mario Ríos",
+      "license": "CC BY-SA 2.5",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Chris_Martin_Concierto_de_Coldplay_en_Bogot%C3%A1_2010_-_(CROPPED).jpg"
+    },
+    {
+      "author": "Raph_PH",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:ColdplayBBC071221_(cropped).jpg"
+    },
+    {
+      "author": "Stormygirl477 at en.wikipedia.",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Chris_Martin_of_Coldplay.jpg"
+    },
+    {
+      "author": "Roger Woolman",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Chris_Martin_(55208418).jpeg"
+    },
+    {
+      "author": "Roger Woolman",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Coldplay_(55208440).jpeg"
+    },
+    {
+      "author": "Shane Adams from Olathe, KS, USA",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Chris-Martin-05-In-My-Place.jpg"
+    }
+  ]
+}

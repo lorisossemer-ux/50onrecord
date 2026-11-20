@@ -1,0 +1,49 @@
+{
+  "id": "1992-queen-under-pressure-palco",
+  "artist": "Queen",
+  "song": "Under Pressure",
+  "decade": "90",
+  "strand": "palco",
+  "italian": false,
+  "key": "queen|under pressure|palco",
+  "issue": 44,
+  "status": "ready",
+  "created_at": "2026-11-20T07:04:18.918310+00:00",
+  "photos": [
+    {
+      "author": "LuisFer Dominguez Serra",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:David_Bowie_en_Madrid_1990.jpg"
+    },
+    {
+      "author": "Library of Congress Life",
+      "license": "CC0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Annie_Lennox_March_2023.jpg"
+    },
+    {
+      "author": "Carl Lender",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Freddie_Mercury_performing_in_New_Haven,_CT,_November_1977.jpg"
+    },
+    {
+      "author": "Carlos yo",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:The_FA_Cup_Trophy.jpg"
+    },
+    {
+      "author": "Deram / London Records",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:David_Bowie_(1967).png"
+    },
+    {
+      "author": "W.carter",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Matrix_number_on_the_1992_vinyl_LP_album_Diva_by_Annie_Lennox.jpg"
+    },
+    {
+      "author": "Eduard Uhlenhuth",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Queen_Victoria_surrounded_by_her_family_-_Coburg,_1894_(1_of_2).jpg"
+    }
+  ]
+}

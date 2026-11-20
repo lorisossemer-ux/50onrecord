@@ -1,0 +1,314 @@
+{
+  "id": "1992-queen-under-pressure-palco",
+  "artist": "Queen",
+  "song": "Under Pressure",
+  "year": 1992,
+  "decade": "90",
+  "strand": "palco",
+  "italian": false,
+  "facts": [
+    {
+      "claim": "Queen e David Bowie registrarono Under Pressure nel settembre 1981 ai Mountain Studios di Montreux, in Svizzera.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Under_Pressure",
+          "title": "Under Pressure",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://americansongwriter.com/behind-the-bassline-of-an-iconic-queen-collaboration-that-was-written-after-a-dinner-break",
+          "title": "Behind the bassline of an iconic Queen collaboration",
+          "publisher": "American Songwriter"
+        }
+      ]
+    },
+    {
+      "claim": "Under Pressure arrivò al numero uno della classifica britannica, il secondo numero uno dei Queen nel Regno Unito.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Under_Pressure",
+          "title": "Under Pressure",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.smoothradio.com/artists/david-bowie/queen-annie-lennox-under-pressure-freddie-mercury/",
+          "title": "Queen, David Bowie and Annie Lennox's powerful 'Under Pressure' performance",
+          "publisher": "Smooth Radio"
+        }
+      ]
+    },
+    {
+      "claim": "Freddie Mercury morì il 24 novembre 1991.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Freddie_Mercury_Tribute_Concert",
+          "title": "The Freddie Mercury Tribute Concert",
+          "publisher": "Wikipedia (concerto)"
+        },
+        {
+          "url": "https://www.smoothradio.com/artists/david-bowie/queen-annie-lennox-under-pressure-freddie-mercury/",
+          "title": "Queen, David Bowie and Annie Lennox's powerful 'Under Pressure' performance",
+          "publisher": "Smooth Radio"
+        }
+      ]
+    },
+    {
+      "claim": "Il Freddie Mercury Tribute Concert si tenne il 20 aprile 1992 allo stadio di Wembley, a Londra.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Freddie_Mercury_Tribute_Concert",
+          "title": "The Freddie Mercury Tribute Concert",
+          "publisher": "Wikipedia (concerto)"
+        },
+        {
+          "url": "https://www.smoothradio.com/artists/david-bowie/queen-annie-lennox-under-pressure-freddie-mercury/",
+          "title": "Queen, David Bowie and Annie Lennox's powerful 'Under Pressure' performance",
+          "publisher": "Smooth Radio"
+        },
+        {
+          "url": "https://ultimateclassicrock.com/freddie-mercury-tribute-concert-performances/",
+          "title": "Freddie Mercury Tribute Concert performances",
+          "publisher": "Ultimate Classic Rock"
+        }
+      ]
+    },
+    {
+      "claim": "Al Freddie Mercury Tribute Concert David Bowie e Annie Lennox cantarono Under Pressure insieme ai Queen.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Freddie_Mercury_Tribute_Concert",
+          "title": "The Freddie Mercury Tribute Concert",
+          "publisher": "Wikipedia (concerto)"
+        },
+        {
+          "url": "https://www.smoothradio.com/artists/david-bowie/queen-annie-lennox-under-pressure-freddie-mercury/",
+          "title": "Queen, David Bowie and Annie Lennox's powerful 'Under Pressure' performance",
+          "publisher": "Smooth Radio"
+        },
+        {
+          "url": "https://ultimateclassicrock.com/freddie-mercury-tribute-concert-performances/",
+          "title": "Freddie Mercury Tribute Concert performances",
+          "publisher": "Ultimate Classic Rock"
+        }
+      ]
+    },
+    {
+      "claim": "Il Freddie Mercury Tribute Concert fu un omaggio a Freddie Mercury, e allo stadio c'erano circa 72.000 persone.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Freddie_Mercury_Tribute_Concert",
+          "title": "The Freddie Mercury Tribute Concert",
+          "publisher": "Wikipedia (concerto)"
+        },
+        {
+          "url": "https://www.smoothradio.com/artists/david-bowie/queen-annie-lennox-under-pressure-freddie-mercury/",
+          "title": "Queen, David Bowie and Annie Lennox's powerful 'Under Pressure' performance",
+          "publisher": "Smooth Radio"
+        }
+      ]
+    },
+    {
+      "claim": "I proventi del Freddie Mercury Tribute Concert finanziarono il Mercury Phoenix Trust, un'associazione contro l'AIDS.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Freddie_Mercury_Tribute_Concert",
+          "title": "The Freddie Mercury Tribute Concert",
+          "publisher": "Wikipedia (concerto)"
+        },
+        {
+          "url": "https://www.smoothradio.com/artists/david-bowie/queen-annie-lennox-under-pressure-freddie-mercury/",
+          "title": "Queen, David Bowie and Annie Lennox's powerful 'Under Pressure' performance",
+          "publisher": "Smooth Radio"
+        }
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "heading_cuts": [
+        "UNDER PRESSURE",
+        "a Wembley",
+        "1992"
+      ],
+      "body": null,
+      "marker": "Bowie e Annie Lennox ↓",
+      "photos": [
+        {
+          "query": "David Bowie 1990",
+          "commons_file": "David Bowie en Madrid 1990.jpg",
+          "role": "main",
+          "subject": "David Bowie"
+        },
+        {
+          "query": "Annie Lennox",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Annie Lennox"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "MONTREUX",
+        "1981"
+      ],
+      "body": "Nel settembre 1981 Queen e David Bowie registrano Under Pressure ai Mountain Studios di Montreux, in Svizzera.",
+      "marker": "la canzone nasce qui",
+      "photos": [
+        {
+          "query": "David Bowie 1980s",
+          "commons_file": null,
+          "role": "main",
+          "subject": "David Bowie"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "NUMERO",
+        "UNO"
+      ],
+      "body": "Under Pressure arriva al numero uno della classifica britannica: è il secondo numero uno dei Queen nel Regno Unito.",
+      "marker": "secondo numero uno",
+      "photos": [
+        {
+          "query": "Queen band live 1980s",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Queen"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "24 NOV",
+        "1991"
+      ],
+      "body": "Freddie Mercury muore il 24 novembre 1991.",
+      "marker": "24 novembre 1991",
+      "photos": [
+        {
+          "query": "Freddie Mercury",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Freddie Mercury"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "WEMBLEY",
+        "20 APRILE",
+        "1992"
+      ],
+      "body": "Il 20 aprile 1992, allo stadio di Wembley, a Londra, si tiene il Freddie Mercury Tribute Concert.",
+      "marker": "Londra, 20 aprile 1992",
+      "photos": [
+        {
+          "query": "Wembley Stadium",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Wembley"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "SUL PALCO",
+        "con i QUEEN"
+      ],
+      "body": "David Bowie e Annie Lennox cantano Under Pressure insieme ai Queen.",
+      "marker": "Bowie + Annie Lennox",
+      "photos": [
+        {
+          "query": "David Bowie 1992",
+          "commons_file": null,
+          "role": "main",
+          "subject": "David Bowie"
+        },
+        {
+          "query": "Annie Lennox 1992",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Annie Lennox"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "emotion",
+      "heading_cuts": [
+        "UN OMAGGIO",
+        "a FREDDIE"
+      ],
+      "body": "Il concerto è un omaggio a Freddie Mercury. Allo stadio ci sono circa 72.000 persone.",
+      "marker": "un omaggio a Freddie Mercury",
+      "photos": [
+        {
+          "query": "Freddie Mercury live",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Freddie Mercury"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "result",
+      "heading_cuts": [
+        "I PROVENTI",
+        "e l'AIDS"
+      ],
+      "body": "I proventi del concerto finanziano il Mercury Phoenix Trust, un'associazione contro l'AIDS.",
+      "marker": null,
+      "photos": [
+        {
+          "query": "Queen live",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Queen"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "final",
+      "heading_cuts": [
+        "E TU?"
+      ],
+      "body": null,
+      "marker": "scrivila nei commenti ↓",
+      "photos": [
+        {
+          "query": "Queen Freddie Mercury live",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Freddie Mercury"
+        }
+      ],
+      "source_note": null
+    }
+  ],
+  "caption_body": "Nel settembre 1981 Queen e David Bowie registrano Under Pressure a Montreux, e la canzone arriva al numero uno nel Regno Unito. Freddie Mercury muore il 24 novembre 1991. Il 20 aprile 1992, a Wembley, David Bowie e Annie Lennox cantano Under Pressure insieme ai Queen al Freddie Mercury Tribute Concert, davanti a circa 72.000 persone. I proventi finanziano il Mercury Phoenix Trust, un'associazione contro l'AIDS.",
+  "question": "Hai mai visto Under Pressure dal vivo, o ti ricordi la prima volta che l'hai ascoltata?",
+  "listen_track": "Queen & David Bowie – Under Pressure",
+  "lyric_quote": null,
+  "hashtags": [
+    "#queen",
+    "#davidbowie",
+    "#musica90",
+    "#storiedellamusica",
+    "#50onrecord"
+  ]
+}

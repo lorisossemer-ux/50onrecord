@@ -1,0 +1,297 @@
+{
+  "id": "2000-coldplay-yellow",
+  "artist": "Coldplay",
+  "song": "Yellow",
+  "year": 2000,
+  "decade": "00",
+  "strand": "studio",
+  "italian": false,
+  "facts": [
+    {
+      "claim": "Yellow fu scritta ai Rockfield Studios, nello studio Quadrangle vicino a Monmouth, in Galles, durante le sessioni di Parachutes, album di debutto dei Coldplay.",
+      "sources": [
+        {
+          "url": "https://www.musicradar.com/artists/the-fateful-circumstances-that-led-to-coldplays-biggest-hit",
+          "title": "The fateful circumstances that led to Coldplay's biggest ever song",
+          "publisher": "MusicRadar"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Yellow_(Coldplay_song)",
+          "title": "Yellow (Coldplay song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://americansongwriter.com/the-starry-meaning-behind-yellow-by-coldplay/",
+          "title": "The starry meaning behind Yellow by Coldplay",
+          "publisher": "American Songwriter"
+        }
+      ]
+    },
+    {
+      "claim": "Una sera fuori dallo studio c'erano poche luci e le stelle erano visibili, come raccontò il produttore Ken Nelson.",
+      "sources": [
+        {
+          "url": "https://www.musicradar.com/artists/the-fateful-circumstances-that-led-to-coldplays-biggest-hit",
+          "title": "The fateful circumstances that led to Coldplay's biggest ever song",
+          "publisher": "MusicRadar"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Yellow_(Coldplay_song)",
+          "title": "Yellow (Coldplay song)",
+          "publisher": "Wikipedia"
+        }
+      ]
+    },
+    {
+      "claim": "Chris Martin ricorda che Ken Nelson disse \"Look at the stars\", e quella frase diventò il primo verso della canzone.",
+      "sources": [
+        {
+          "url": "https://www.musicradar.com/artists/the-fateful-circumstances-that-led-to-coldplays-biggest-hit",
+          "title": "The fateful circumstances that led to Coldplay's biggest ever song",
+          "publisher": "MusicRadar"
+        },
+        {
+          "url": "https://americansongwriter.com/the-starry-meaning-behind-yellow-by-coldplay/",
+          "title": "The starry meaning behind Yellow by Coldplay",
+          "publisher": "American Songwriter"
+        },
+        {
+          "url": "https://www.guitarplayer.com/music/chris-martin-on-neil-young-and-coldplay-yellow",
+          "title": "Chris Martin on Neil Young and Coldplay Yellow",
+          "publisher": "Guitar Player"
+        }
+      ]
+    },
+    {
+      "claim": "Chris Martin pensava a Neil Young e canticchiò la melodia imitando la voce di Neil Young.",
+      "sources": [
+        {
+          "url": "https://www.musicradar.com/artists/the-fateful-circumstances-that-led-to-coldplays-biggest-hit",
+          "title": "The fateful circumstances that led to Coldplay's biggest ever song",
+          "publisher": "MusicRadar"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Yellow_(Coldplay_song)",
+          "title": "Yellow (Coldplay song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.guitarplayer.com/music/chris-martin-on-neil-young-and-coldplay-yellow",
+          "title": "Chris Martin on Neil Young and Coldplay Yellow",
+          "publisher": "Guitar Player"
+        }
+      ]
+    },
+    {
+      "claim": "Chris Martin ha detto di aver preso il titolo dalle Pagine Gialle, le Yellow Pages.",
+      "sources": [
+        {
+          "url": "https://www.musicradar.com/artists/the-fateful-circumstances-that-led-to-coldplays-biggest-hit",
+          "title": "The fateful circumstances that led to Coldplay's biggest ever song",
+          "publisher": "MusicRadar"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Yellow_(Coldplay_song)",
+          "title": "Yellow (Coldplay song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://americansongwriter.com/the-starry-meaning-behind-yellow-by-coldplay/",
+          "title": "The starry meaning behind Yellow by Coldplay",
+          "publisher": "American Songwriter"
+        },
+        {
+          "url": "https://www.guitarplayer.com/music/chris-martin-on-neil-young-and-coldplay-yellow",
+          "title": "Chris Martin on Neil Young and Coldplay Yellow",
+          "publisher": "Guitar Player"
+        }
+      ]
+    },
+    {
+      "claim": "Yellow uscì il 26 giugno 2000 come secondo singolo di Parachutes, e raggiunse il numero 4 nel Regno Unito e il numero 48 negli Stati Uniti.",
+      "sources": [
+        {
+          "url": "https://www.musicradar.com/artists/the-fateful-circumstances-that-led-to-coldplays-biggest-hit",
+          "title": "The fateful circumstances that led to Coldplay's biggest ever song",
+          "publisher": "MusicRadar"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Yellow_(Coldplay_song)",
+          "title": "Yellow (Coldplay song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://americansongwriter.com/the-starry-meaning-behind-yellow-by-coldplay/",
+          "title": "The starry meaning behind Yellow by Coldplay",
+          "publisher": "American Songwriter"
+        }
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "heading_cuts": [
+        "GUARDA LE",
+        "STELLE",
+        "disse il",
+        "PRODUTTORE"
+      ],
+      "body": null,
+      "marker": "e nacque Yellow ↓",
+      "photos": [
+        {
+          "query": "Chris Martin Coldplay live",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Chris Martin"
+        },
+        {
+          "query": "Coldplay band",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Coldplay"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "ROCKFIELD",
+        "GALLES"
+      ],
+      "body": "I Coldplay lavorano a Parachutes, il loro album di debutto, ai Rockfield Studios, vicino a Monmouth, in Galles. Yellow viene scritta lì, nello studio Quadrangle.",
+      "marker": "qui nasce Yellow",
+      "photos": [
+        {
+          "query": "Chris Martin Coldplay",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Chris Martin"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "UNA SERA",
+        "FUORI"
+      ],
+      "body": "Una sera, fuori dallo studio, ci sono poche luci e le stelle sono visibili. Lo racconta il produttore Ken Nelson.",
+      "marker": "poche luci, tante stelle",
+      "photos": [
+        {
+          "query": "Coldplay Chris Martin concert",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Chris Martin"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "QUATTRO",
+        "PAROLE"
+      ],
+      "body": "Chris Martin ricorda che Ken Nelson disse \"Look at the stars\". Quella frase diventa il primo verso della canzone.",
+      "marker": "il primo verso",
+      "photos": [
+        {
+          "query": "Coldplay live stage",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Coldplay"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "NEIL",
+        "YOUNG"
+      ],
+      "body": "Chris Martin pensa a Neil Young e canticchia la melodia imitando la voce di Neil Young.",
+      "marker": "pensando a Neil Young",
+      "photos": [
+        {
+          "query": "Chris Martin singing",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Chris Martin"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "emotion",
+      "heading_cuts": [
+        "YELLOW",
+        "dalle",
+        "PAGINE GIALLE"
+      ],
+      "body": "Il titolo? Chris Martin ha detto di averlo preso dalle Pagine Gialle, le Yellow Pages.",
+      "marker": "il titolo viene dalle Pagine Gialle",
+      "photos": [
+        {
+          "query": "Coldplay Chris Martin",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Chris Martin"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "result",
+      "heading_cuts": [
+        "N°4",
+        "in Inghilterra",
+        "GIUGNO 2000"
+      ],
+      "body": "Yellow esce il 26 giugno 2000 come secondo singolo di Parachutes. Arriva al numero 4 nel Regno Unito e al numero 48 negli Stati Uniti.",
+      "marker": null,
+      "photos": [
+        {
+          "query": "Coldplay 2000s concert",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Coldplay"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "final",
+      "heading_cuts": [
+        "E TU?"
+      ],
+      "body": null,
+      "marker": "scrivila nei commenti ↓",
+      "photos": [
+        {
+          "query": "Coldplay Chris Martin live",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Chris Martin"
+        }
+      ],
+      "source_note": null
+    }
+  ],
+  "caption_body": "Siamo ai Rockfield Studios, in Galles, durante le sessioni di Parachutes. Una sera il produttore Ken Nelson nota le stelle fuori dallo studio, e Chris Martin ricorda la sua frase, \"Look at the stars\", che diventa il primo verso di Yellow. Martin pensava a Neil Young, e il titolo, ha detto, viene dalle Pagine Gialle. Uscita il 26 giugno 2000, arriva al numero 4 nel Regno Unito.",
+  "question": "Qual è la canzone dei Coldplay che ti porta più lontano?",
+  "listen_track": "Coldplay – Yellow",
+  "lyric_quote": "Look at the stars",
+  "hashtags": [
+    "#coldplay",
+    "#yellow",
+    "#musica2000",
+    "#storiedellamusica",
+    "#50onrecord"
+  ]
+}
