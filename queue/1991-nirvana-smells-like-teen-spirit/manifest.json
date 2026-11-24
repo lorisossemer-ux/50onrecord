@@ -1,0 +1,39 @@
+{
+  "id": "1991-nirvana-smells-like-teen-spirit",
+  "artist": "Nirvana",
+  "song": "Smells Like Teen Spirit",
+  "decade": "90",
+  "strand": "privata",
+  "italian": false,
+  "key": "nirvana|smells like teen spirit|privata",
+  "issue": 46,
+  "status": "ready",
+  "created_at": "2026-11-24T06:03:07.020560+00:00",
+  "photos": [
+    {
+      "author": "P.B. Rage from USA",
+      "license": "CC BY-SA 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nirvana_around_1992_(cropped).jpg"
+    },
+    {
+      "author": "Craig Carper",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Dave-Grohl_drums.jpg"
+    },
+    {
+      "author": "jonathancharles",
+      "license": "CC BY-SA 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kathleen_Hanna_live_in_Bikini_Kill_in_1991.jpg"
+    },
+    {
+      "author": "Embassy of the United States, Bern",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Photo_of_Kurt_Cobain_from_US_Embassy_in_Bern.jpg"
+    },
+    {
+      "author": "Steven Friederich",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Krist_Novoselic_in_Aberdeen.jpg"
+    }
+  ]
+}

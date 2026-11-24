@@ -1,0 +1,277 @@
+{
+  "id": "1991-nirvana-smells-like-teen-spirit",
+  "artist": "Nirvana",
+  "song": "Smells Like Teen Spirit",
+  "year": 1991,
+  "decade": "90",
+  "strand": "privata",
+  "italian": false,
+  "facts": [
+    {
+      "claim": "Kathleen Hanna, cantante delle Bikini Kill, scrisse con un pennarello la frase \"Kurt smells like Teen Spirit\" sul muro della camera di Kurt Cobain.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Smells_Like_Teen_Spirit",
+          "title": "Smells Like Teen Spirit",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://mentalfloss.com/article/78603/making-smells-teen-spirit",
+          "title": "The Making of Nirvana's Smells Like Teen Spirit",
+          "publisher": "Mental Floss"
+        }
+      ]
+    },
+    {
+      "claim": "Tobi Vail, allora fidanzata di Cobain, usava il deodorante Teen Spirit.",
+      "sources": [
+        {
+          "url": "https://mentalfloss.com/article/78603/making-smells-teen-spirit",
+          "title": "The Making of Nirvana's Smells Like Teen Spirit",
+          "publisher": "Mental Floss"
+        },
+        {
+          "url": "https://www.radiox.co.uk/artists/nirvana/how-a-deodorant-made-smells-like-teen-spirit-biggest-song-of-the-90s/",
+          "title": "How a deodorant made Nirvana's Smells Like Teen Spirit the biggest song of the 90s",
+          "publisher": "Radio X"
+        }
+      ]
+    },
+    {
+      "claim": "Cobain non sapeva che Teen Spirit fosse un deodorante.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Smells_Like_Teen_Spirit",
+          "title": "Smells Like Teen Spirit",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://mentalfloss.com/article/78603/making-smells-teen-spirit",
+          "title": "The Making of Nirvana's Smells Like Teen Spirit",
+          "publisher": "Mental Floss"
+        },
+        {
+          "url": "https://www.radiox.co.uk/artists/nirvana/how-a-deodorant-made-smells-like-teen-spirit-biggest-song-of-the-90s/",
+          "title": "How a deodorant made Nirvana's Smells Like Teen Spirit the biggest song of the 90s",
+          "publisher": "Radio X"
+        }
+      ]
+    },
+    {
+      "claim": "Cobain disse di aver cercato di scrivere la canzone pop definitiva e di voler imitare i Pixies.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Smells_Like_Teen_Spirit",
+          "title": "Smells Like Teen Spirit",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://mentalfloss.com/article/78603/making-smells-teen-spirit",
+          "title": "The Making of Nirvana's Smells Like Teen Spirit",
+          "publisher": "Mental Floss"
+        }
+      ]
+    },
+    {
+      "claim": "Dave Grohl ideò il ritmo di batteria del brano.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Smells_Like_Teen_Spirit",
+          "title": "Smells Like Teen Spirit",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://mentalfloss.com/article/78603/making-smells-teen-spirit",
+          "title": "The Making of Nirvana's Smells Like Teen Spirit",
+          "publisher": "Mental Floss"
+        }
+      ]
+    },
+    {
+      "claim": "Il singolo uscì il 10 settembre 1991.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Smells_Like_Teen_Spirit",
+          "title": "Smells Like Teen Spirit",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://mentalfloss.com/article/78603/making-smells-teen-spirit",
+          "title": "The Making of Nirvana's Smells Like Teen Spirit",
+          "publisher": "Mental Floss"
+        },
+        {
+          "url": "https://www.radiox.co.uk/artists/nirvana/how-a-deodorant-made-smells-like-teen-spirit-biggest-song-of-the-90s/",
+          "title": "How a deodorant made Nirvana's Smells Like Teen Spirit the biggest song of the 90s",
+          "publisher": "Radio X"
+        }
+      ]
+    },
+    {
+      "claim": "Smells Like Teen Spirit arrivò al numero 6 della Billboard Hot 100 e l'album Nevermind arrivò al numero 1 della classifica degli album.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Smells_Like_Teen_Spirit",
+          "title": "Smells Like Teen Spirit",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.billboard.com/music/nirvana/chart-history/",
+          "title": "Nirvana chart history",
+          "publisher": "Billboard"
+        },
+        {
+          "url": "https://stereogum.com/2273740/the-alternative-number-ones-nirvanas-smells-like-teen-spirit/columns",
+          "title": "The Alternative Number Ones: Nirvana's Smells Like Teen Spirit",
+          "publisher": "Stereogum"
+        }
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "heading_cuts": [
+        "UN MURO",
+        "UN PENNARELLO",
+        "E UN",
+        "DEODORANTE"
+      ],
+      "body": null,
+      "marker": "da dove viene il titolo ↓",
+      "photos": [
+        {
+          "query": "Kurt Cobain Nirvana",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Kurt Cobain"
+        },
+        {
+          "query": "Dave Grohl Nirvana",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Dave Grohl"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "IL TITOLO"
+      ],
+      "body": "Kathleen Hanna, cantante delle Bikini Kill, scrive con un pennarello \"Kurt smells like Teen Spirit\" sul muro della camera di Kurt Cobain.",
+      "marker": "la frase sul muro",
+      "photos": [
+        {
+          "query": "Kathleen Hanna Bikini Kill",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Kathleen Hanna"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "TOBI VAIL",
+        "E IL",
+        "DEODORANTE"
+      ],
+      "body": "Tobi Vail, allora fidanzata di Cobain, usa il deodorante Teen Spirit.",
+      "marker": "il riferimento era lei",
+      "photos": [
+        {
+          "query": "Kurt Cobain 1991",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Kurt Cobain"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "emotion",
+      "heading_cuts": [
+        "COBAIN",
+        "NON SAPEVA"
+      ],
+      "body": "Cobain non sapeva che Teen Spirit fosse un deodorante.",
+      "marker": "mandalo a chi pensava fosse un inno",
+      "photos": [
+        {
+          "query": "Kurt Cobain portrait",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Kurt Cobain"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "POP",
+        "E PIXIES"
+      ],
+      "body": "Cobain dice di aver cercato di scrivere la canzone pop definitiva e di voler imitare i Pixies. Il ritmo di batteria lo ideò Dave Grohl.",
+      "marker": "la canzone pop definitiva",
+      "photos": [
+        {
+          "query": "Dave Grohl drums",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Dave Grohl"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "result",
+      "heading_cuts": [
+        "N°6",
+        "IN AMERICA"
+      ],
+      "body": "Il singolo esce il 10 settembre 1991. Arriva al numero 6 della Billboard Hot 100 e Nevermind arriva al numero 1 della classifica degli album.",
+      "marker": null,
+      "photos": [
+        {
+          "query": "Nirvana 1991",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Kurt Cobain"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "final",
+      "heading_cuts": [
+        "E TU?"
+      ],
+      "body": null,
+      "marker": "scrivila nei commenti ↓",
+      "photos": [
+        {
+          "query": "Krist Novoselic Nirvana",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Krist Novoselic"
+        }
+      ],
+      "source_note": null
+    }
+  ],
+  "caption_body": "Kathleen Hanna scrive con un pennarello \"Kurt smells like Teen Spirit\" sul muro della camera di Cobain. Tobi Vail, allora sua fidanzata, usava il deodorante Teen Spirit, ma Cobain non sapeva che fosse un deodorante. Il singolo esce il 10 settembre 1991 e arriva al numero 6 della Billboard Hot 100.",
+  "question": "Qual è la canzone dei Nirvana che ricordi di più?",
+  "listen_track": "Nirvana – Smells Like Teen Spirit",
+  "lyric_quote": null,
+  "hashtags": [
+    "#nirvana",
+    "#kurtcobain",
+    "#musica90",
+    "#storiedellamusica",
+    "#50onrecord"
+  ]
+}
