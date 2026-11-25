@@ -1,0 +1,39 @@
+{
+  "id": "2003-evanescence-bring-me-to-life",
+  "artist": "Evanescence",
+  "song": "Bring Me to Life",
+  "decade": "00",
+  "strand": "emozione",
+  "italian": false,
+  "key": "evanescence|bring me to life|emozione",
+  "issue": 47,
+  "status": "ready",
+  "created_at": "2026-11-25T10:26:51.803133+00:00",
+  "photos": [
+    {
+      "author": "pinguino k from North Hollywood, USA",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Lee,_Amy_(2007).jpg"
+    },
+    {
+      "author": "Jim Trottier",
+      "license": "CC BY-SA 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Evanescence_2003-2004_concert_picture.jpg"
+    },
+    {
+      "author": "Justin Allen Hundsnurscher",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Amy_Lee_of_Evanescence_performing_live_at_the_Laredo_Energy_Arena.JPG"
+    },
+    {
+      "author": "Daigo Oliva",
+      "license": "CC BY-SA 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Amy_Lee_in_S%C3%A3o_Paulo_1.jpg"
+    },
+    {
+      "author": "Kyle DZ",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Evanescence_2003_barcelona.jpg"
+    }
+  ]
+}

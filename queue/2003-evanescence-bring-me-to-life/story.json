@@ -1,0 +1,287 @@
+{
+  "id": "2003-evanescence-bring-me-to-life",
+  "artist": "Evanescence",
+  "song": "Bring Me to Life",
+  "year": 2003,
+  "decade": "00",
+  "strand": "emozione",
+  "italian": false,
+  "facts": [
+    {
+      "claim": "Amy Lee ha detto di aver scritto Bring Me to Life su Josh, l'uomo che è poi diventato suo marito.",
+      "sources": [
+        {
+          "url": "https://www.songfacts.com/facts/evanescence/bring-me-to-life",
+          "title": "Bring Me To Life",
+          "publisher": "Songfacts"
+        },
+        {
+          "url": "https://www.loudersound.com/features/evanescences-amy-lee-how-we-made-bring-me-to-life",
+          "title": "Evanescence's Amy Lee: how we made Bring Me To Life",
+          "publisher": "Louder"
+        }
+      ]
+    },
+    {
+      "claim": "Josh, che Lee conosceva poco, la guardò negli occhi e le chiese se fosse felice.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Bring_Me_to_Life",
+          "title": "Bring Me to Life",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.loudersound.com/features/evanescences-amy-lee-how-we-made-bring-me-to-life",
+          "title": "Evanescence's Amy Lee: how we made Bring Me To Life",
+          "publisher": "Louder"
+        }
+      ]
+    },
+    {
+      "claim": "Lee ha detto che a quella domanda sentì che lui poteva vedere dritto nella sua anima.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Bring_Me_to_Life",
+          "title": "Bring Me to Life",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/evanescence/bring-me-to-life",
+          "title": "Bring Me To Life",
+          "publisher": "Songfacts"
+        }
+      ]
+    },
+    {
+      "claim": "L'etichetta volle una voce maschile nel brano e Lee la definì una concessione fatta all'etichetta.",
+      "sources": [
+        {
+          "url": "https://www.loudersound.com/features/evanescences-amy-lee-how-we-made-bring-me-to-life",
+          "title": "Evanescence's Amy Lee: how we made Bring Me To Life",
+          "publisher": "Louder"
+        },
+        {
+          "url": "https://www.audacy.com/national/music/amy-lee-male-voice-forced-on-evanescences-first-hit",
+          "title": "Amy Lee: male voice forced on Evanescence's first hit",
+          "publisher": "Audacy"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/evanescence/bring-me-to-life",
+          "title": "Bring Me To Life",
+          "publisher": "Songfacts"
+        }
+      ]
+    },
+    {
+      "claim": "La parte maschile è di Paul McCoy dei 12 Stones, e Lee ha detto di averla scritta lei.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Bring_Me_to_Life",
+          "title": "Bring Me to Life",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.loudersound.com/features/evanescences-amy-lee-how-we-made-bring-me-to-life",
+          "title": "Evanescence's Amy Lee: how we made Bring Me To Life",
+          "publisher": "Louder"
+        }
+      ]
+    },
+    {
+      "claim": "Il brano apparve per la prima volta nel film Daredevil e nella sua colonna sonora, nel 2003.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Bring_Me_to_Life",
+          "title": "Bring Me to Life",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/evanescence/bring-me-to-life",
+          "title": "Bring Me To Life",
+          "publisher": "Songfacts"
+        },
+        {
+          "url": "https://www.loudersound.com/features/evanescences-amy-lee-how-we-made-bring-me-to-life",
+          "title": "Evanescence's Amy Lee: how we made Bring Me To Life",
+          "publisher": "Louder"
+        }
+      ]
+    },
+    {
+      "claim": "Bring Me to Life è stato il primo singolo di Evanescence, uscito nel 2003.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Bring_Me_to_Life",
+          "title": "Bring Me to Life",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.loudersound.com/features/evanescences-amy-lee-how-we-made-bring-me-to-life",
+          "title": "Evanescence's Amy Lee: how we made Bring Me To Life",
+          "publisher": "Louder"
+        }
+      ]
+    },
+    {
+      "claim": "Nel Regno Unito il brano arrivò al numero 1 e ci rimase per quattro settimane; negli Stati Uniti arrivò al numero 5.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Bring_Me_to_Life",
+          "title": "Bring Me to Life",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://www.songfacts.com/facts/evanescence/bring-me-to-life",
+          "title": "Bring Me To Life",
+          "publisher": "Songfacts"
+        }
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "heading_cuts": [
+        "UNA DOMANDA",
+        "SEMPLICE",
+        "ha fatto nascere",
+        "UN HIT"
+      ],
+      "body": null,
+      "marker": "Amy Lee e quel «sei felice?» ↓",
+      "photos": [
+        {
+          "query": "Amy Lee Evanescence",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Amy Lee"
+        },
+        {
+          "query": "Evanescence live 2003",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Evanescence"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "EVANESCENCE",
+        "2003"
+      ],
+      "body": "Bring Me to Life è il primo singolo di Evanescence, uscito nel 2003. Il brano apparve per la prima volta nel film Daredevil e nella sua colonna sonora.",
+      "marker": "il debutto",
+      "photos": [
+        {
+          "query": "Amy Lee Evanescence 2003",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Amy Lee"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "SEI FELICE?"
+      ],
+      "body": "Josh, che Amy Lee conosceva poco, la guardò negli occhi e le chiese se fosse felice. Lee ha detto di aver scritto Bring Me to Life su di lui, l'uomo che è poi diventato suo marito.",
+      "marker": "una domanda sola",
+      "photos": [
+        {
+          "query": "Amy Lee Evanescence live",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Amy Lee"
+        }
+      ],
+      "source_note": "fonte: Amy Lee, intervista a Louder"
+    },
+    {
+      "kind": "emotion",
+      "heading_cuts": [
+        "DRITTO",
+        "NELL'ANIMA"
+      ],
+      "body": "Lee ha detto che a quella domanda sentì che lui poteva vedere dritto nella sua anima.",
+      "marker": "mandala a chi ti ha visto davvero",
+      "photos": [
+        {
+          "query": "Amy Lee singing",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Amy Lee"
+        }
+      ],
+      "source_note": "fonte: Amy Lee, intervista a Louder"
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "UNA VOCE",
+        "IN PIÙ"
+      ],
+      "body": "L'etichetta volle una voce maschile nel brano. Lee la definì una concessione fatta all'etichetta. La parte è di Paul McCoy dei 12 Stones, e Lee ha detto di averla scritta lei.",
+      "marker": "concessione all'etichetta",
+      "photos": [
+        {
+          "query": "Paul McCoy 12 Stones",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Paul McCoy"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "result",
+      "heading_cuts": [
+        "N°1",
+        "UK",
+        "QUATTRO SETTIMANE"
+      ],
+      "body": "Nel Regno Unito il brano arrivò al numero 1 e ci rimase per quattro settimane. Negli Stati Uniti arrivò al numero 5.",
+      "marker": null,
+      "photos": [
+        {
+          "query": "Evanescence 2003 concert",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Evanescence"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "final",
+      "heading_cuts": [
+        "E TU?"
+      ],
+      "body": null,
+      "marker": "scrivila nei commenti ↓",
+      "photos": [
+        {
+          "query": "Amy Lee Evanescence 2003",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Amy Lee"
+        }
+      ],
+      "source_note": null
+    }
+  ],
+  "caption_body": "Bring Me to Life nasce da una domanda: Josh, che Amy Lee conosceva poco, la guardò negli occhi e le chiese se fosse felice. Lee ha detto di aver scritto il brano su di lui, l'uomo che è poi diventato suo marito. L'etichetta volle una voce maschile, quella di Paul McCoy dei 12 Stones. Nel Regno Unito arrivò al numero 1 per quattro settimane.",
+  "question": "A chi manderesti Bring Me to Life?",
+  "listen_track": "Evanescence – Bring Me to Life",
+  "lyric_quote": null,
+  "hashtags": [
+    "#evanescence",
+    "#amylee",
+    "#musica2000",
+    "#storiedellamusica",
+    "#50onrecord"
+  ]
+}
