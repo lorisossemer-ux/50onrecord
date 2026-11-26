@@ -1,0 +1,260 @@
+{
+  "id": "1967-the-doors-light-my-fire",
+  "artist": "The Doors",
+  "song": "Light My Fire",
+  "year": 1967,
+  "decade": "60",
+  "strand": "palco",
+  "italian": false,
+  "facts": [
+    {
+      "claim": "Il 17 settembre 1967 i Doors suonarono Light My Fire all'Ed Sullivan Show.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Light_My_Fire",
+          "title": "Light My Fire",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://ultimateclassicrock.com/the-doors-banned-from-the-ed-sullivan-show-september-17-1967/",
+          "title": "Why the Doors Got Banned From 'The Ed Sullivan Show'",
+          "publisher": "Ultimate Classic Rock"
+        },
+        {
+          "url": "https://thedoors.com/?p=1073",
+          "title": "The Doors on The Ed Sullivan Show",
+          "publisher": "thedoors.com"
+        }
+      ]
+    },
+    {
+      "claim": "Prima dell'esibizione un produttore chiese ai Doors di cambiare la parola \"higher\", perché poteva essere letta come un riferimento alla droga.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Light_My_Fire",
+          "title": "Light My Fire",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://ultimateclassicrock.com/the-doors-banned-from-the-ed-sullivan-show-september-17-1967/",
+          "title": "Why the Doors Got Banned From 'The Ed Sullivan Show'",
+          "publisher": "Ultimate Classic Rock"
+        }
+      ]
+    },
+    {
+      "claim": "Durante l'esibizione in diretta Jim Morrison cantò il testo originale, non la modifica richiesta.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Light_My_Fire",
+          "title": "Light My Fire",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://ultimateclassicrock.com/the-doors-banned-from-the-ed-sullivan-show-september-17-1967/",
+          "title": "Why the Doors Got Banned From 'The Ed Sullivan Show'",
+          "publisher": "Ultimate Classic Rock"
+        }
+      ]
+    },
+    {
+      "claim": "Dopo quella sera i Doors non suonarono mai più all'Ed Sullivan Show.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Light_My_Fire",
+          "title": "Light My Fire",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://ultimateclassicrock.com/the-doors-banned-from-the-ed-sullivan-show-september-17-1967/",
+          "title": "Why the Doors Got Banned From 'The Ed Sullivan Show'",
+          "publisher": "Ultimate Classic Rock"
+        },
+        {
+          "url": "https://thedoors.com/?p=1073",
+          "title": "The Doors on The Ed Sullivan Show",
+          "publisher": "thedoors.com"
+        }
+      ]
+    },
+    {
+      "claim": "Morrison rispose che i Doors avevano appena fatto lo show di Sullivan.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Light_My_Fire",
+          "title": "Light My Fire",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://ultimateclassicrock.com/the-doors-banned-from-the-ed-sullivan-show-september-17-1967/",
+          "title": "Why the Doors Got Banned From 'The Ed Sullivan Show'",
+          "publisher": "Ultimate Classic Rock"
+        }
+      ]
+    },
+    {
+      "claim": "Light My Fire arrivò al numero 1 in classifica.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Light_My_Fire",
+          "title": "Light My Fire",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://ultimateclassicrock.com/the-doors-banned-from-the-ed-sullivan-show-september-17-1967/",
+          "title": "Why the Doors Got Banned From 'The Ed Sullivan Show'",
+          "publisher": "Ultimate Classic Rock"
+        }
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "heading_cuts": [
+        "LA PAROLA",
+        "DA CAMBIARE",
+        "MORRISON",
+        "NON LA",
+        "CAMBIÒ"
+      ],
+      "body": null,
+      "marker": "la storia vera di una sera in TV ↓",
+      "photos": [
+        {
+          "query": "Jim Morrison The Doors 1967",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Jim Morrison"
+        },
+        {
+          "query": "Ray Manzarek The Doors",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Ray Manzarek"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "ED SULLIVAN SHOW",
+        "17 SETTEMBRE",
+        "1967"
+      ],
+      "body": "Il 17 settembre 1967 i Doors suonano Light My Fire all'Ed Sullivan Show.",
+      "marker": "una parola sola → higher",
+      "photos": [
+        {
+          "query": "The Doors 1967",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Jim Morrison"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "UNA RICHIESTA",
+        "PRIMA DEL",
+        "BRANO"
+      ],
+      "body": "Prima dell'esibizione un produttore chiede ai Doors di cambiare la parola higher: poteva essere letta come un riferimento alla droga.",
+      "marker": "cambiarla? →",
+      "photos": [
+        {
+          "query": "Robby Krieger The Doors",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Robby Krieger"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "IN DIRETTA",
+        "TV"
+      ],
+      "body": "Durante l'esibizione in diretta Jim Morrison canta il testo originale, non la modifica richiesta.",
+      "marker": "la parola resta: higher",
+      "photos": [
+        {
+          "query": "Jim Morrison 1967 concert",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Jim Morrison"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "emotion",
+      "heading_cuts": [
+        "LA RISPOSTA",
+        "DI MORRISON"
+      ],
+      "body": "Morrison risponde che i Doors hanno appena fatto lo show di Sullivan.",
+      "marker": "abbiamo appena fatto lo show di Sullivan",
+      "photos": [
+        {
+          "query": "John Densmore The Doors",
+          "commons_file": null,
+          "role": "side",
+          "subject": "John Densmore"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "result",
+      "heading_cuts": [
+        "MAI PIÙ",
+        "DA SULLIVAN"
+      ],
+      "body": "Dopo quella sera i Doors non suonano mai più all'Ed Sullivan Show. Light My Fire arriva al numero 1 in classifica.",
+      "marker": "numero 1 ↑",
+      "photos": [
+        {
+          "query": "The Doors Light My Fire",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Jim Morrison"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "final",
+      "heading_cuts": [
+        "E TU?"
+      ],
+      "body": null,
+      "marker": "scrivila nei commenti ↓",
+      "photos": [
+        {
+          "query": "Ray Manzarek The Doors",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Ray Manzarek"
+        }
+      ],
+      "source_note": null
+    }
+  ],
+  "caption_body": "Il 17 settembre 1967 i Doors suonano Light My Fire all'Ed Sullivan Show. Prima del brano un produttore chiede di cambiare la parola higher, perché poteva essere letta come un riferimento alla droga. In diretta Jim Morrison canta il testo originale. Dopo quella sera i Doors non suonano mai più nello show, e la canzone arriva al numero 1 in classifica.",
+  "question": "Tu avresti cambiato quella parola, o avresti fatto come Morrison?",
+  "listen_track": "The Doors – Light My Fire",
+  "lyric_quote": null,
+  "hashtags": [
+    "#thedoors",
+    "#jimmorrison",
+    "#musica60",
+    "#storiedellamusica",
+    "#50onrecord"
+  ]
+}

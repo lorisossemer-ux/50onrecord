@@ -1,0 +1,39 @@
+{
+  "id": "1967-the-doors-light-my-fire",
+  "artist": "The Doors",
+  "song": "Light My Fire",
+  "decade": "60",
+  "strand": "palco",
+  "italian": false,
+  "key": "doors|light my fire|palco",
+  "issue": 48,
+  "status": "ready",
+  "created_at": "2026-11-26T02:49:14.320577+00:00",
+  "photos": [
+    {
+      "author": "Joel Brodsky; Distributed by Agency for the Performing Arts (APA)",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Jim_Morrison_1967,_from_a_promotion_picture_with_The_Doors,_V2.jpg"
+    },
+    {
+      "author": "Joel Brodsky; Distributed by Agency for the Performing Arts (APA)",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ray_Manzarek_in_1968_(cropped).JPG"
+    },
+    {
+      "author": "Elektra Records",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:The_Doors_(1971)_(Robby_Krieger).png"
+    },
+    {
+      "author": "Elektra Records",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:John_Densmore_1971.png"
+    },
+    {
+      "author": "Joel Brodsky; Distributed by Agency for the Performing Arts (APA)",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:The_Doors_1968.JPG"
+    }
+  ]
+}
