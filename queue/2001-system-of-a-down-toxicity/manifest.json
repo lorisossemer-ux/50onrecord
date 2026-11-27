@@ -1,0 +1,39 @@
+{
+  "id": "2001-system-of-a-down-toxicity",
+  "artist": "System of a Down",
+  "song": "Toxicity",
+  "decade": "00",
+  "strand": "studio",
+  "italian": false,
+  "key": "system of a down|toxicity|studio",
+  "issue": 50,
+  "status": "ready",
+  "created_at": "2026-11-27T04:11:22.918685+00:00",
+  "photos": [
+    {
+      "author": "Joey O'Rourke",
+      "license": "CC BY-SA 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Daron_Malakian_-_System_of_a_Down.jpg"
+    },
+    {
+      "author": "Legendxo",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Shavo_Odadjian_Djian_en_concert_live_avec_son_groupe_The_RZA.png"
+    },
+    {
+      "author": "Carlos Varela",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Daron_Malakian_1.jpg"
+    },
+    {
+      "author": "bigdrumthump.com",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:JohnDolmayanSitting.jpg"
+    },
+    {
+      "author": "Safi-iren",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Serj_Tankian_in_Artsakh_(cropped).jpg"
+    }
+  ]
+}

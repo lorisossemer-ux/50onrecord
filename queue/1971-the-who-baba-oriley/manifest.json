@@ -1,0 +1,44 @@
+{
+  "id": "1971-the-who-baba-oriley",
+  "artist": "The Who",
+  "song": "Baba O'Riley",
+  "decade": "70",
+  "strand": "studio",
+  "italian": false,
+  "key": "who|baba o riley|studio",
+  "issue": 49,
+  "status": "ready",
+  "created_at": "2026-11-27T04:11:17.136385+00:00",
+  "photos": [
+    {
+      "author": "Eden, Janine and Jim from New York City",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:John_Entwistle_(The_Who)%27s_one_of_two_Gibson_Thunderbird_IV_(1964,_serial_no._160065),_Pete_Townshend%27s_Gibson_SG_Special_(1969,_serial_no._561569)_-_Play_It_Loud._MET_(2019-05-13_19.36.28_by_Eden,_Janine_and_Jim).jpg"
+    },
+    {
+      "author": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pete_Townshend_destroying_guitar_monterey_pop_festival_1967.jpg"
+    },
+    {
+      "author": "Kubackeck",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pete_Townshend_in_Philadelphia_with_the_Who.jpg"
+    },
+    {
+      "author": "Jim Summaria",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Keith_Moon_4_-_The_Who_-_1975.jpg"
+    },
+    {
+      "author": "Mufc13",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Roger_Daltrey_of_the_Who.jpg"
+    },
+    {
+      "author": "Center of the Universe",
+      "license": "CC BY-SA 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:John_Entwistle-2.jpg"
+    }
+  ]
+}

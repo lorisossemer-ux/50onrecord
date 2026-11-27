@@ -1,0 +1,266 @@
+{
+  "id": "2001-system-of-a-down-toxicity",
+  "artist": "System of a Down",
+  "song": "Toxicity",
+  "year": 2001,
+  "decade": "00",
+  "strand": "studio",
+  "italian": false,
+  "facts": [
+    {
+      "claim": "Shavo Odadjian portò la canzone alla band con il titolo provvisorio \"Version 7.0\".",
+      "sources": [
+        {
+          "url": "https://www.theringer.com/2021/09/02/music/system-of-a-down-oral-history-toxicity",
+          "title": "The Oral History of System of a Down's Toxicity",
+          "publisher": "The Ringer"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Toxicity_(song)",
+          "title": "Toxicity (song)",
+          "publisher": "Wikipedia"
+        }
+      ]
+    },
+    {
+      "claim": "Odadjian legò il titolo provvisorio al software AOL dell'epoca.",
+      "sources": [
+        {
+          "url": "https://www.theringer.com/2021/09/02/music/system-of-a-down-oral-history-toxicity",
+          "title": "The Oral History of System of a Down's Toxicity",
+          "publisher": "The Ringer"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Toxicity_(song)",
+          "title": "Toxicity (song)",
+          "publisher": "Wikipedia"
+        }
+      ]
+    },
+    {
+      "claim": "Daron Malakian riprese la canzone e la sviluppò.",
+      "sources": [
+        {
+          "url": "https://www.theringer.com/2021/09/02/music/system-of-a-down-oral-history-toxicity",
+          "title": "The Oral History of System of a Down's Toxicity",
+          "publisher": "The Ringer"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Toxicity_(song)",
+          "title": "Toxicity (song)",
+          "publisher": "Wikipedia"
+        }
+      ]
+    },
+    {
+      "claim": "Il brano fu registrato nel 2001 ai Cello Studios di Hollywood; l'album ebbe Rick Rubin come produttore.",
+      "sources": [
+        {
+          "url": "https://www.theringer.com/2021/09/02/music/system-of-a-down-oral-history-toxicity",
+          "title": "The Oral History of System of a Down's Toxicity",
+          "publisher": "The Ringer"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Toxicity_(song)",
+          "title": "Toxicity (song)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Toxicity_(album)",
+          "title": "Toxicity (album)",
+          "publisher": "Wikipedia"
+        }
+      ]
+    },
+    {
+      "claim": "In studio la band registrò più di 30 canzoni per l'album.",
+      "sources": [
+        {
+          "url": "https://www.theringer.com/2021/09/02/music/system-of-a-down-oral-history-toxicity",
+          "title": "The Oral History of System of a Down's Toxicity",
+          "publisher": "The Ringer"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Toxicity_(album)",
+          "title": "Toxicity (album)",
+          "publisher": "Wikipedia"
+        }
+      ]
+    },
+    {
+      "claim": "Dopo una lite fisica in studio tra Daron Malakian e il batterista John Dolmayan, Chop Suey! e Toxicity furono completate.",
+      "sources": [
+        {
+          "url": "https://www.theringer.com/2021/09/02/music/system-of-a-down-oral-history-toxicity",
+          "title": "The Oral History of System of a Down's Toxicity",
+          "publisher": "The Ringer"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Toxicity_(song)",
+          "title": "Toxicity (song)",
+          "publisher": "Wikipedia"
+        }
+      ]
+    },
+    {
+      "claim": "L'album Toxicity uscì il 4 settembre 2001 e arrivò al numero 1 della Billboard 200, con 220.000 copie nella prima settimana.",
+      "sources": [
+        {
+          "url": "https://www.theringer.com/2021/09/02/music/system-of-a-down-oral-history-toxicity",
+          "title": "The Oral History of System of a Down's Toxicity",
+          "publisher": "The Ringer"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Toxicity_(album)",
+          "title": "Toxicity (album)",
+          "publisher": "Wikipedia"
+        }
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "heading_cuts": [
+        "TOXICITY",
+        "si chiamava",
+        "VERSION 7.0"
+      ],
+      "body": null,
+      "marker": "il titolo provvisorio ↓",
+      "photos": [
+        {
+          "query": "System of a Down live",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Serj Tankian"
+        },
+        {
+          "query": "Daron Malakian System of a Down",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Daron Malakian"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "HOLLYWOOD",
+        "2001"
+      ],
+      "body": "Il brano fu registrato nel 2001 ai Cello Studios di Hollywood; l'album ebbe Rick Rubin come produttore. In studio la band registrò più di 30 canzoni per l'album.",
+      "marker": "più di 30 canzoni",
+      "photos": [
+        {
+          "query": "System of a Down 2001",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Serj Tankian"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "UN TITOLO",
+        "provvisorio"
+      ],
+      "body": "Shavo Odadjian portò la canzone alla band con il titolo provvisorio \"Version 7.0\". Legò il titolo al software AOL dell'epoca.",
+      "marker": "titolo: Version 7.0",
+      "photos": [
+        {
+          "query": "Shavo Odadjian",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Shavo Odadjian"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "note",
+      "heading_cuts": [
+        "DARON",
+        "la riprende"
+      ],
+      "body": "Daron Malakian riprese la canzone e la sviluppò.",
+      "marker": "Daron la sviluppa",
+      "photos": [
+        {
+          "query": "Daron Malakian",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Daron Malakian"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "emotion",
+      "heading_cuts": [
+        "LA LITE",
+        "in studio"
+      ],
+      "body": "Dopo una lite fisica in studio tra Daron Malakian e il batterista John Dolmayan, Chop Suey! e Toxicity furono completate.",
+      "marker": "dopo la lite, completata",
+      "photos": [
+        {
+          "query": "John Dolmayan",
+          "commons_file": null,
+          "role": "side",
+          "subject": "John Dolmayan"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "result",
+      "heading_cuts": [
+        "N°1",
+        "BILLBOARD 200"
+      ],
+      "body": "L'album Toxicity uscì il 4 settembre 2001 e arrivò al numero 1 della Billboard 200, con 220.000 copie nella prima settimana.",
+      "marker": null,
+      "photos": [
+        {
+          "query": "System of a Down live",
+          "commons_file": null,
+          "role": "main",
+          "subject": "Serj Tankian"
+        }
+      ],
+      "source_note": null
+    },
+    {
+      "kind": "final",
+      "heading_cuts": [
+        "E TU?"
+      ],
+      "body": null,
+      "marker": "scrivila nei commenti ↓",
+      "photos": [
+        {
+          "query": "Serj Tankian",
+          "commons_file": null,
+          "role": "side",
+          "subject": "Serj Tankian"
+        }
+      ],
+      "source_note": null
+    }
+  ],
+  "caption_body": "Shavo Odadjian portò la canzone alla band con il titolo provvisorio \"Version 7.0\" e lo legò al software AOL dell'epoca. Daron Malakian la riprese e la sviluppò. L'album Toxicity uscì il 4 settembre 2001 e arrivò al numero 1 della Billboard 200.",
+  "question": "Qual è la canzone dei System of a Down che ti ha fatto scoprire la band?",
+  "listen_track": "System of a Down – Toxicity",
+  "lyric_quote": null,
+  "hashtags": [
+    "#systemofadown",
+    "#toxicity",
+    "#musica2000",
+    "#storiedellamusica",
+    "#50onrecord"
+  ]
+}
